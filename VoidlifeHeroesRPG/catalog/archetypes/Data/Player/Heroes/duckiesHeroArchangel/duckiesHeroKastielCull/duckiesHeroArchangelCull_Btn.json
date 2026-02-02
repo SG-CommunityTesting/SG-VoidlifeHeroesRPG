@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CullTheUnworthy.UI_Icons_Abilities_CullTheUnworthy'",
+    "id": "duckiesHeroArchangelCull_Btn",
+    "name": "pegasus_heroes|Button_name_CullTheUnworthy_Button",
+    "tooltip": "Purge target enemy, inflicting <d ref=\"duckiesHeroKastielCull_Damage.amount\" style=\"Bold\"/> damage and restoring your own life based on damage dealt. Ability cooldown scales with target's life.\n\nEffect is diminished against resilient and boss enemies."
+  },
+  "meta": {}
+}

@@ -1,0 +1,40 @@
+﻿{
+  "data": {
+    "backswing": 0.9,
+    "backswing_locked": 0.4,
+    "based_on": "BaseWeapon",
+    "can_use": "Valid_duckiesHeroCarnivexWeaponAOE_UseCheckNOTCombine",
+    "display_effect_damage": "duckiesHeroCarnivexWeapon_Damage",
+    "flags": {
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "melee": true,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Kri_KriWeapon.UI_Icons_Weapons_Celestials_Kri_KriWeapon'",
+    "id": "duckiesHeroCarnivexWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Carnivex_Weapon",
+    "period": 1.3,
+    "range_maximum": 0.25,
+    "swing": 0.1,
+    "weapon_fire": "duckiesHeroCarnivexWeapon_Switch",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

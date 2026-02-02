@@ -1,0 +1,93 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "UnderConstructionData",
+      "rallyData",
+      "infernalTrainingIronVaultProductionQueue",
+      "FiendVault_Spawn"
+    ],
+    "alias_tech": [
+      "_Sell"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 30.0,
+    "commandList": [
+      {
+        "ability": "infernalTrainingIronVaultProductionQueue",
+        "button": "CancelProduction_Button",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "BruteVault_Spawn",
+        "button": "Brute_Button",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Brute"
+      }
+    ],
+    "flags": {
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "requires_cascade_field": true,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesHostileItemVault_Unit",
+    "name": "Vault",
+    "outer_radius": 2.2,
+    "subgroup_priority": 42,
+    "unit_button": "IronVault_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_IronVault.UI_Portrait_Demon_Default_IronVault'",
+    "unreal_actor": "BP_SD_IronVault_00",
+    "veterancy_given_on_death": 0,
+    "vital_health": {
+      "maximum": 1000.0,
+      "regen": 0.0,
+      "starting": 1000.0
+    }
+  },
+  "meta": {}
+}

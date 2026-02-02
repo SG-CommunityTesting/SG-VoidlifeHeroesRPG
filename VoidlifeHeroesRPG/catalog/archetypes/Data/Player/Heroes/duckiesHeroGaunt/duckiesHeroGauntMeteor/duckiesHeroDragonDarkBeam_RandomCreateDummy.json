@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectCreateUnit",
+    "id": "duckiesHeroDragonDarkBeam_RandomCreateDummy",
+    "impact_fx": "None",
+    "spawn_effect": "duckiesHeroDragonDarkBeam_RandomDummyImpactSet",
+    "spawn_unit": "duckiesHeroDragonDarkBeam_RandomTargetingDummyUnit"
+  },
+  "meta": {
+    "useAsBasedOn": true
+  }
+}

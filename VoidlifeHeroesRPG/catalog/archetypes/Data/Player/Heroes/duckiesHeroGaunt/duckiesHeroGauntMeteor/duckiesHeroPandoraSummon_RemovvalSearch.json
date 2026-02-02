@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "ServeTheFlame_SearchRadiusBurnedOneNum",
+    "game_effect": "duckiesHeroPandoraSummon_RemovvalKill",
+    "id": "duckiesHeroPandoraSummon_RemovvalSearch",
+    "max_targets": -1,
+    "target_sorts": [
+      "TS_HealthValueLowest"
+    ]
+  },
+  "meta": {}
+}

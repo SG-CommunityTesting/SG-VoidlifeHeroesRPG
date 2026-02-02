@@ -1,0 +1,22 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_EnergyTower_Restore",
+    "duration": 0.3,
+    "effect_periodic": "duckiesVoidheartShrineAura_ImpactSet",
+    "flags": {
+      "hidden": false,
+      "hide_timer": true,
+      "override_source": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Gear/UI_Icons_Gear_ManaCapacitors.UI_Icons_Gear_ManaCapacitors'",
+    "id": "duckiesVoidheartShrineAura_Buff",
+    "name": "Voidheart Restoration",
+    "periodic_duration": 0.25,
+    "tooltip": "This unit's health and energy is being restored by a Voidheart Shrine.",
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

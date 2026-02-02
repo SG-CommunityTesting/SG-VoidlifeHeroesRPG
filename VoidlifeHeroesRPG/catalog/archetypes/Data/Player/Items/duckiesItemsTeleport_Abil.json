@@ -1,0 +1,88 @@
+﻿{
+  "data": {
+    "arc": 180.0,
+    "based_on": "BaseStagedAbility",
+    "cast_game_effect": "duckiesItemsTeleport_StartPersistent",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "",
+          "recharge_duration": 0.0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 5.0,
+          "name": "AllyPortal",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "flags": {
+      "best_unit": true,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": true,
+      "channeling_breaks_on_facing": false,
+      "channeling_breaks_on_range": false,
+      "channeling_breaks_on_vision": false,
+      "channeling_resists_push": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "increment_worker_count": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": false,
+      "reapproach": false,
+      "requires_vision": false,
+      "show_progress": false,
+      "silenceable": false,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": true,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesItemsTeleport_Abil",
+    "range_maximum": 1000.0,
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "target_sort_best_unit": "TS_DistanceClosest",
+    "targeting_type": "Unit",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Staged_Portal.AC_Ability_Staged_Portal_C'"
+  },
+  "meta": {}
+}

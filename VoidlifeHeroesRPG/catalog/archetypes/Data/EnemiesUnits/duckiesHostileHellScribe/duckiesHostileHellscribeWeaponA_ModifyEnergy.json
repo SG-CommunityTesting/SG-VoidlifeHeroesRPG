@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectModifyVitals",
+    "based_on": "GameEffectModifyVitals",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "energy_mod_flat_amount": 10.0,
+    "id": "duckiesHostileHellScribeWeaponA_ModifyEnergy",
+    "shield_mod_percentage": 0.0
+  },
+  "meta": {}
+}

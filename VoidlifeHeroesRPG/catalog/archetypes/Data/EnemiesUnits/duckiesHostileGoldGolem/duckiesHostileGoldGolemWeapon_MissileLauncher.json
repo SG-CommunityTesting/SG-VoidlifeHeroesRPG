@@ -1,0 +1,7 @@
+﻿{
+  "__base_type": "GameEffectLaunchProjectile",
+  "based_on": "GameEffectLaunchProjectile",
+  "id": "duckiesHostileGoldGolemWeapon_MissileLauncher",
+  "impact_effect": "duckiesHostileGoldGolemWeapon_ImpactSet",
+  "projectile": "AntiAirReward_WeaponAir_Missile"
+}

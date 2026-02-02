@@ -1,0 +1,337 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Game_SetFogOfWar",
+      "guid": "289F15C74C55E05E7DDB95A99A790C09",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers",
+                "guid": "CC92FEB34E2E1F4EE9B6CCA145355C50"
+              },
+              "guid": "D2B9FC234C4BA58358740690E2564998",
+              "type": "Function"
+            }
+          ],
+          "guid": "CECAE01F47060B4878708CB53ECF5A72",
+          "id": "player_group"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "EF31CFA047DCB9ABD63B6F95A15793E7",
+              "preset": {
+                "guid": "1D4907334B7FC254C5DD249DAD327FDE",
+                "preset_id": "General_EnableDisable",
+                "value_id": "disable"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "343B7FF64E9536B3BEBC0685DB1D8AFB",
+          "id": "enabled"
+        }
+      ]
+    },
+    {
+      "function_id": "UI_SendChatMessage",
+      "guid": "5DC210584CA112390FD58F8F88B567AF",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "guid": "0C749F50456B7C3D42DCDEB07B8121F8",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "E699508E4BC44A8FC763A9B12E137CB4",
+                        "type": "Value",
+                        "value": {
+                          "guid": "56C4F44C45C400CB077CE5B2E7491BF1",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "tags": [
+                              "to_text"
+                            ],
+                            "type": "String"
+                          },
+                          "value": "CHEAT ENABLED: FOG OF WAR REMOVED"
+                        }
+                      }
+                    ],
+                    "guid": "F979A7114ED6DD9AF64BB1B85EAC943B",
+                    "id": "value"
+                  }
+                ]
+              },
+              "guid": "12F88C054B25AE3434E3ADAE9A5371DE",
+              "type": "Function"
+            }
+          ],
+          "guid": "30E003F248B7F57FE52EBAA7BBB83EC2",
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers",
+                "guid": "CE131DBD46347E7EAF3E9E8BAA81FF69"
+              },
+              "guid": "9211AA0A4D2EBAA0A96C3BBD65FDA98E",
+              "type": "Function"
+            }
+          ],
+          "guid": "46B24D5249ABDAE7D016A0A5CCA06F9E",
+          "id": "group"
+        }
+      ]
+    },
+    {
+      "function_id": "Map_SetPlayableBounds",
+      "guid": "DAF6A11347AE1615420EB2BA995D99A2",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "55A216FB4B6EBE520324CE8A2E84AAE5",
+              "type": "Value",
+              "value": {
+                "guid": "5A9FB0024F7A60FF72738DB3E3F0B3A0",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Vector"
+                },
+                "value": "X=-128.000 Y=-128.000"
+              }
+            }
+          ],
+          "guid": "DD4AC53547CE95D3EBBB43B01EFA495C",
+          "id": "min"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "CB77B3544B4F86F0158052966CA79CC9",
+              "type": "Value",
+              "value": {
+                "guid": "2D4DD599474C94EF75F4F6A4E83D7C5A",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Vector"
+                },
+                "value": "X=128.000 Y=128.000"
+              }
+            }
+          ],
+          "guid": "9AA7FFED4FC082C7078BBE9DB177009C",
+          "id": "max"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_SetCameraBounds",
+      "guid": "BCB147184DE678B2FE711EB86E9C2C54",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers",
+                "guid": "BCCE91D840EFD61EEF88968A0B1A7608"
+              },
+              "guid": "3055455C4EC2424CAA1D30A549E01BBB",
+              "type": "Function"
+            }
+          ],
+          "guid": "EF8873454C406D0D0D0C6D8B3D329182",
+          "id": "players"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "B14369CA47AB58539A5B3C9394A135B7",
+              "type": "Value",
+              "value": {
+                "guid": "CAA75D4B499F5B3A1984B6B731D9EA17",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Vector"
+                },
+                "value": "X=-128.000 Y=-128.000"
+              }
+            }
+          ],
+          "guid": "351C9B414BD2823FF36954B70B93F512",
+          "id": "lower_bound"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "3901AEEC4A470FA10B025D9B516808BA",
+              "type": "Value",
+              "value": {
+                "guid": "CBF951114EC1AD58217FD0B43C1F38A9",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Vector"
+                },
+                "value": "X=128.000 Y=128.000"
+              }
+            }
+          ],
+          "guid": "A436763745AEB59A7379C387EE381742",
+          "id": "upper_bound"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_Comparison",
+      "guid": "4038047C48C864A82BCFE09ED8586423",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_CountPlayers",
+                "guid": "53B6D71048C34DE8859A8A871288D75E",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "PlayerGroup_GetActivePlayers",
+                          "guid": "E6ECCF0A48F33ACDD2531F94FD147515"
+                        },
+                        "guid": "5CB3DC8A40DAF6B79758C4960A2A6596",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "72F5D049436DC83D1046F98A6B24F312",
+                    "id": "group"
+                  }
+                ]
+              },
+              "guid": "88FBF74C4CCD83765691FA9622265072",
+              "type": "Function"
+            }
+          ],
+          "guid": "950C74E3420E0AD9DAA56482F179ACCE",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "CBF60E074945858EE271228ED149D7A8",
+              "preset": {
+                "guid": "F65825F44BE22BE7226FDAA439D3FC8F",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "eq"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "A79DAADE42A5F71CA45A3EB805A5200E",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "BC93057440B787CB44389EBB8AADD28F",
+              "type": "Value",
+              "value": {
+                "guid": "44EC0ADC495825FBD3DE72A850C071AE",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Player"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "785313D84D6CA567C5E58998D00B824F",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
+  "enabled": false,
+  "events": [
+    {
+      "function_id": "Player_OnPlayerSendsChatMessage",
+      "guid": "8B461D224A3EAFD9D644D5B8C7D291C2",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "DAB4429541EA1AA3A1FE86B835E3C7D8",
+              "preset": {
+                "guid": "02C8A0CE4CE42CD82FD4B2B6A2BD4509",
+                "preset_id": "Player_AnyPlayer",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "C025762344112B3BAE47229C2EE58E97",
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "304BC0B440B3BA607AD9AABE1AF88B99",
+              "type": "Value",
+              "value": {
+                "guid": "A9BD33154CFB73285019DC895BA63AEE",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "String"
+                },
+                "value": "!showmap"
+              }
+            }
+          ],
+          "guid": "C85D58C14BBCDD4C277CBE8239034EB1",
+          "id": "message"
+        }
+      ]
+    }
+  ],
+  "id": "Debug_RevealEntireMap"
+}

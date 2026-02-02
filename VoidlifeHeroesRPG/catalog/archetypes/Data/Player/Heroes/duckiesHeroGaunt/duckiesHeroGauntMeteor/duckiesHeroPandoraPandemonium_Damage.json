@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "amount": 100.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroPandoraPandemonium_Damage",
+    "impact_fx": "BP_FX_Dominari_Pandemonium_Impact",
+    "tag_bonuses": [
+      "duckiesHeroPandoraPandemonium_DamageTagBonus"
+    ]
+  },
+  "meta": {}
+}

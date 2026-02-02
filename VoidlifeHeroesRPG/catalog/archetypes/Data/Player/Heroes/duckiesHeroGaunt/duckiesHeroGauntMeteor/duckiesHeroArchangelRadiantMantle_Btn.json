@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PulseShield.UI_Icons_Abilities_PulseShield'",
+    "id": "duckiesHeroArchangelRadiantMantle_Btn",
+    "name": "Radiant Mantle",
+    "tooltip": "Reduces damage done to the target unit by <d ref=\"(1-RadiantMantle_ResponseDamageShield.modify_fraction)*100\" style=\"Bold\"/><Bold>%</> for <d ref=\"RadiantMantle_BuffShield.duration\"/> seconds.\n\nWhen cast on self augments weapon attacks to send damaging shockwaves."
+  },
+  "meta": {}
+}

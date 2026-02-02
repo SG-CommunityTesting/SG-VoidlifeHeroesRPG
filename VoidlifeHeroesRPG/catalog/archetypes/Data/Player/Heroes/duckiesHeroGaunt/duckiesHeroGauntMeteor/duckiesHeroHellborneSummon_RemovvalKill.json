@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectKill",
+    "death_type": "Burning_DeathType",
+    "id": "duckiesHeroHellborneSummon_RemovvalKill",
+    "validator": "Valid_duckiesHeroHellborneSummon_RemovvalCheck"
+  },
+  "meta": {}
+}

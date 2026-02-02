@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroExoBlink_DebuffSearch",
+      "duckiesHeroExoBlink_Teleport"
+    ],
+    "id": "duckiesHeroExoBlink_StartSet"
+  },
+  "meta": {}
+}

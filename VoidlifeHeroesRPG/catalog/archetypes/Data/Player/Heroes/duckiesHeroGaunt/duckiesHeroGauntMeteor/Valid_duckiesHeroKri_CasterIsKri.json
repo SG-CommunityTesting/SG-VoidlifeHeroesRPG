@@ -1,0 +1,36 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::is_unit_archetype",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "name": "ExpressionApi::effect_caster",
+              "node": "FunctionCall",
+              "parameters": [],
+              "type": "Entity"
+            },
+            "name": "entity",
+            "type": "Entity"
+          },
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "UnitData",
+              "value": "duckiesHeroKri_Uni"
+            },
+            "name": "archetype",
+            "type": "UnitData"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroKri_CasterIsKri"
+  },
+  "meta": {}
+}

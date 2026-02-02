@@ -1,0 +1,81 @@
+﻿{
+  "data": {
+    "based_on": "StagedAbilityData",
+    "cast_duration": 0.3,
+    "cast_game_effect": "duckiesHeroPandoraPandemonium_StartPersistent",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 0.0,
+          "name": "Pandemonium",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 110.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "finish_duration": 1.6,
+    "flags": {
+      "best_unit": true,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": true,
+      "channeling_breaks_on_facing": true,
+      "channeling_breaks_on_range": false,
+      "channeling_breaks_on_vision": false,
+      "channeling_resists_push": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "increment_worker_count": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": false,
+      "reapproach": false,
+      "requires_vision": false,
+      "show_progress": false,
+      "silenceable": true,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": true,
+        "channel": true,
+        "finish": true,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroPandoraPandemonium_Abil",
+    "range_maximum": 17.0,
+    "range_to_visualize": "cast_game_effect_range",
+    "stage_buffs": {
+      "approach": "emptyRef",
+      "cast": "duckiesHeroGauntMeteor_Channel",
+      "channel": "emptyRef",
+      "finish": "emptyRef",
+      "prepare": "emptyRef"
+    },
+    "targeting_type": "Location",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

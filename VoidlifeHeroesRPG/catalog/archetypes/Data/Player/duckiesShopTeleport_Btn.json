@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Teleport.UI_Icons_Abilities_Teleport'",
+    "id": "duckiesShopTeleport_Btn",
+    "name": "Recall Stone",
+    "tooltip": "Purchase a recall stone to teleport your hero to the position of the target friendly unit."
+  },
+  "meta": {}
+}

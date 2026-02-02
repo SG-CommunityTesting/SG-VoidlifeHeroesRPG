@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHostileHellScribeWeaponA_ModifyEnergy",
+      "duckiesHostileHellScribeWeaponA_LaunchMissile"
+    ],
+    "id": "duckiesHostileHellScribeWeaponA_StartSet"
+  },
+  "meta": {}
+}

@@ -1,0 +1,326 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "923EBFFF41B227C91C6F91B5EB136C30",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "B34136034F8639BDEBCD9AB8C3117C70",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_CountUnits",
+                        "guid": "90E89E744A214C7B2BB19E889F4A7D73",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "1AEE58A94D3755335AF6C5BB40EADCF2",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "D4FD8EF044D9C77E0681009A111AF771",
+                                  "variable_id": "GV_SpawnersObjectives"
+                                }
+                              }
+                            ],
+                            "guid": "67A166C54CA156E72130C48AB544E0C0",
+                            "id": "group"
+                          }
+                        ]
+                      },
+                      "guid": "87FC5B374D16BD9BEF05FEAAF54C2DCF",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "51EAABF741F7B8184C23348E2945BF49",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "5A519F99435BE304709B588DDE0F3E53",
+                      "preset": {
+                        "guid": "16960A4846F802B12ACF668FA3651AC6",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "089C12FD4F66AFF369A68488B3F9390D",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "4F486DC44EDD0FEE59F791A0753F6DE9",
+                      "type": "Value",
+                      "value": {
+                        "guid": "CE755EFC40327363677244BB1727D5E8",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Player"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "guid": "1C6C8EBB41C6B33A73A4E0B83F3DE0EA",
+                  "id": "value2"
+                }
+              ]
+            }
+          ],
+          "guid": "33FD4ED44E974681B2827B8109C0884A",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Transmission_PlayTransmission",
+              "guid": "0305A18646F545C4526E29950C510126",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "C52F37994B87BDAAC5C803929742FEE3",
+                      "preset": {
+                        "guid": "18A416CF4AD454025FB608B28672B6E0",
+                        "preset_id": "Transmission_TransmissionPlayers",
+                        "value_id": "comms"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "0C91474349584EBE7F84F8AEB67CE963",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "92EAD1A54528D10FBBB625A9750031C0",
+                      "type": "Value",
+                      "value": {
+                        "guid": "D9E93E054EA13E92EE7F4CA761D6C707",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Transmission"
+                        },
+                        "value": "duckiesTransmissionWarz_WarzUnitKill_B"
+                      }
+                    }
+                  ],
+                  "guid": "39A8872F453F3AD462C9F5B3990A7976",
+                  "id": "transmission"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "700C33B64BFF40BEB9C2C8B33AFE95E8"
+                      },
+                      "guid": "305936C34BB7A9C598382B9C894B759F",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "E75BED0A4D5082EAAB3E7081EC9D946D",
+                  "id": "player_group"
+                }
+              ]
+            }
+          ],
+          "guid": "AD76A7954AB7218C65F8AEAC5E31F76C",
+          "id": "then"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Transmission_PlayTransmission",
+              "guid": "12E82A694FC47C01DE92EEBDFB2BB35C",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "EB99BA2747E60DDEDB8F0EB59383FE58",
+                      "preset": {
+                        "guid": "D18DE7EC404EAF08A22AA494046F4C21",
+                        "preset_id": "Transmission_TransmissionPlayers",
+                        "value_id": "comms"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "6F274AF941B1025A9D25AFA598C8B8CF",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "4DEB028B4E3C0930F5C611BBE94D1DA2",
+                      "type": "Value",
+                      "value": {
+                        "guid": "49B697E44FC68423D284FAAD75733759",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Transmission"
+                        },
+                        "value": "duckiesTransmissionWarz_WarzUnitKill_A"
+                      }
+                    }
+                  ],
+                  "guid": "B1621277402889FF2AA91B881C7CF507",
+                  "id": "transmission"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "77352BBE428F2CDED49260A60B1FA224"
+                      },
+                      "guid": "E1BD4AF54DA8A4079E9539B072EAA093",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "67F10B9F4FAA2224B9BF849D000005EE",
+                  "id": "player_group"
+                }
+              ]
+            }
+          ],
+          "guid": "B517208A48B2A0AD198349B36B404CE1",
+          "id": "else"
+        }
+      ]
+    },
+    {
+      "function_id": "Objectives_Objective_State",
+      "guid": "4F55C4514420D9072A3965A760763602",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "7B7BA0E8495E2024915DA5A8B574A3A4",
+              "type": "Variable",
+              "variable": {
+                "guid": "2BB72EAD45BD492773798E8D1D8460EE",
+                "variable_id": "GV_Objective_SecondaryTimer"
+              }
+            }
+          ],
+          "guid": "6ED4868D4157A19E2EA49F9F4270FDDC",
+          "id": "objective"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "EAC8A0534E8A26316DAE8F9170E9EF41",
+              "preset": {
+                "guid": "3299DA4B4FD5BEAED587FD832758ECE7",
+                "preset_id": "Objective_StatePreset",
+                "value_id": "complete"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "7273BE5D406F1CF9687E06A49F69D74D",
+          "id": "state"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_Comparison",
+      "guid": "BA0F036B4FB00ED7805273BB8814D4B0",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetTriggeringUnit",
+                "guid": "DA2DBAC94F43C0DBE90FBDA6C701BF97"
+              },
+              "guid": "4C1392A646B04BB41B44F286203F54A0",
+              "type": "Function"
+            }
+          ],
+          "guid": "95CA8BF340A8FF4AC563F784188A3B25",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "2DAC984648DDF67F6105498FB43A34EC",
+              "preset": {
+                "guid": "1491490C427D2DCC1DED1FADFAEBE210",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "eq"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "260778464BBD152B640E0DB34C8F05A2",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "F85A95E744546C2888EC6AA6C68B5A13",
+              "type": "Variable",
+              "variable": {
+                "guid": "190DB2104EFE408AE0A9D4981B277D30",
+                "variable_id": "GV_MainWarz"
+              }
+            }
+          ],
+          "guid": "76DDE8C042697FD979D96381DC85AE62",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "function_id": "Unit_OnKilled",
+      "guid": "4FE44E8243FCCA540D7608AC9E3819E3",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "C0BD5B254E658E3C0C09A498D50B5CF1",
+              "preset": {
+                "guid": "78B95D6A4D780BEFDA64CC8A3B461845",
+                "preset_id": "Unit_AnyUnit",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "F064F5F14531286D974CB4BC36AD1170",
+          "id": "unit"
+        }
+      ]
+    }
+  ],
+  "id": "Objective_WarzDeath"
+}

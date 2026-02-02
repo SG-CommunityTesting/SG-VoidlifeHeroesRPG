@@ -1,0 +1,201 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Trigger_Run",
+      "guid": "3CA56F6A48C634FEC121389E6B0EC354",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "A1E8B2204455031A9C41D7BC44B19A29",
+              "type": "Value",
+              "value": {
+                "guid": "4C43541D4BD3F21F514F918F898F2F39",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Trigger"
+                },
+                "value": "Mass_Attack_PrepareVariablesNEW2"
+              }
+            }
+          ],
+          "guid": "90D9781E4EFDB4FB271B3096429B7052",
+          "id": "trigger"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "F597B8F2435AF91184CD708A3FCC0DB1",
+              "preset": {
+                "guid": "7AB1A7824B1C952551773E8A286683C0",
+                "preset_id": "Trigger_CheckIgnoreConditions",
+                "value_id": "check"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "3ECCBC934A821BBDE68FBF94A07F55E8",
+          "id": "conditions"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "233D71D24B67AF5D7B440E98D3E6513E",
+              "preset": {
+                "guid": "ECBE3C80460EF8F20DFB8C948F578522",
+                "preset_id": "Trigger_WaitDontWait",
+                "value_id": "nowait"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "35667DCB43D85662ABDC2198CBC0DC1C",
+          "id": "wait"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "7FF6A43F435EF5C50BCC12A7A8F3DD63",
+              "preset": {
+                "guid": "5CC13E134E1453EE3E9530920307978B",
+                "preset_id": "Time_Forever",
+                "value_id": "forever"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "ECED603C434A2436EF4484ABA164A119",
+          "id": "timeout"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Unit_IsAlive",
+      "guid": "A36AA2F34ED3A70ABFCE399737EE6C61",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "4E23858547085695AD7B30B50F47B328",
+              "type": "Variable",
+              "variable": {
+                "guid": "A3B1199148F45380BC35A691380284AB",
+                "variable_id": "GV_MainEnemyStructure"
+              }
+            }
+          ],
+          "guid": "D63AE2884CB4536EFBBCE9B72BE74C5A",
+          "id": "unit"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_IsAlive",
+      "guid": "9587B58C4602C359D3953E9424E458D0",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "523997DB4116BA0326105081993AAFF0",
+              "type": "Variable",
+              "variable": {
+                "guid": "6B3090454B6061E3BA068BB6C75A5746",
+                "variable_id": "GV_MainHealer"
+              }
+            }
+          ],
+          "guid": "5F1AAE8E449F8B95AD56F08F25783C9F",
+          "id": "unit"
+        }
+      ]
+    },
+    {
+      "function_id": "Logic_Comparison",
+      "guid": "4C68E6F64DF05339E798D3AC441F7E7C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "33D5A79B404C75A2793F73AC687ECC72",
+              "type": "Variable",
+              "variable": {
+                "guid": "C3D6C60E4CEFC4F4B6E24CBFA779342F",
+                "variable_id": "GV_SYS_MODE"
+              }
+            }
+          ],
+          "guid": "9AE24C914538213F4401EEBAA4611C01",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "6041723C42DA37932168C19B907959F6",
+              "preset": {
+                "guid": "89A195C84FFFBCA9A80A73805A30B110",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "gr"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "F1F94C93474E1783478206918144FBCD",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "F1ECB5FD40ACD816BBBE64BB1582DAE2",
+              "type": "Value",
+              "value": {
+                "guid": "5A08472B46889877840D00B147206E78",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Player"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "E09A80B8401FF42F083B148A8952787D",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "function_id": "Timer_OnTimerExpired",
+      "guid": "D8172401436E70350BB2E9B10A1979A3",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "5F681EC945BC0A72A1482E92E9D6973B",
+              "preset": {
+                "guid": "7978FE454C1AFF87C432BA9A4E3C61EB",
+                "preset_id": "Timer_AnyTimer",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "631D7942434A0BA2146666AF4193D4E2",
+          "id": "timer"
+        }
+      ]
+    }
+  ],
+  "id": "Mass_Attack_Timer"
+}

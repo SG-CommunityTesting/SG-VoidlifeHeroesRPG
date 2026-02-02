@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "command": {
+      "ability": "duckiesItemsHealingPotionT3Use_AbilSelf",
+      "commandIndex": 0,
+      "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_JusticeJump.UI_Icons_Abilities_JusticeJump'",
+      "repeatable": false,
+      "targetSubmenu": -1
+    },
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": true,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_MarkOfLife.UI_Icons_Items_MarkOfLife'",
+    "id": "duckiesItemsHealingPotionT3_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 5,
+    "name": "Final Healing Potion",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "<UnitName>On use:</> restores <bold>all</> health and energy to the hero.",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

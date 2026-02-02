@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Consume.UI_Icons_Abilities_Consume'",
+    "id": "duckiesHeroMagmadonConsume_Btn",
+    "name": "Consume",
+    "tooltip": "Strikes target enemy for <d ref=\"duckiesHeroMagmadonConsume_Damage.amount\" style=\"Bold\"/> damage. Damage dealt is leeched as life."
+  },
+  "meta": {}
+}

@@ -1,0 +1,14 @@
+﻿{
+  "__base_type": "GameEffectHeal",
+  "amount": 15.0,
+  "based_on": "GameEffectHeal",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHostileGoldHealerHeal_TickHeal",
+  "percentage": 0.0,
+  "tag_bonuses": [],
+  "tracker": "",
+  "validator": "emptyRef"
+}

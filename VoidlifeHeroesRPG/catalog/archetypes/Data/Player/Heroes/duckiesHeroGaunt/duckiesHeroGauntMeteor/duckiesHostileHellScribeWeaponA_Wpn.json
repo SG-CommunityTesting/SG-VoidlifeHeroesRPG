@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "backswing": 0.3,
+    "based_on": "WeaponData",
+    "display_effect_damage": "duckiesHostileHellScribeWeaponA_Damage",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_DagonWeapon.UI_Icons_Abilities_DagonWeapon'",
+    "id": "duckiesHostileHellScribeWeaponA_Wpn",
+    "name": "pegasus_heroes|WeaponData_name_Maloch_Weapon",
+    "period": 1.3,
+    "range_acquire": 13.0,
+    "range_maximum": 11.0,
+    "swing": 0.416665,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_acquire_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_sleeping"
+        ],
+        "required": []
+      }
+    },
+    "weapon_fire": "duckiesHostileHellScribeWeaponA_StartSet",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHostileEliteImpWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileEliteImpWeapon_Damage",
+    "launch_fx": "BP_FXS_FlayedDragon_Launch",
+    "movement": {
+      "acceleration_time": 0.0,
+      "max_speed": 21.0
+    },
+    "projectile": "FlayedDragon_Weapon_Missile"
+  },
+  "meta": {}
+}

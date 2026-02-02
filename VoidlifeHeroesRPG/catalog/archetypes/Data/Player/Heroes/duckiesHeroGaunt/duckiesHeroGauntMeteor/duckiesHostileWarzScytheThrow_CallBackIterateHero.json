@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectRedirectHero",
+    "effect_target": {
+      "effect_parent": "origin",
+      "target": "Caster"
+    },
+    "hero_effect": "duckiesHostileWarzScytheThrow_CallBackLaunchMissile",
+    "id": "duckiesHostileWarzScytheThrow_CallBackIterateHero"
+  },
+  "meta": {}
+}

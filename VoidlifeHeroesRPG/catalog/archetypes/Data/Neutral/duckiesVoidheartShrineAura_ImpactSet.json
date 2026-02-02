@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesVoidheartShrineAura_ImpactHeal",
+      "duckiesVoidheartShrineAura_RestoreEnergy"
+    ],
+    "id": "duckiesVoidheartShrineAura_ImpactSet"
+  },
+  "meta": {}
+}

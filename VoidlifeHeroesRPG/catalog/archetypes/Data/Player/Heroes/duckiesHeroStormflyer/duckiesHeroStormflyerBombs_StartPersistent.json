@@ -1,0 +1,56 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectPersistent",
+    "based_on": "BaseGameEffectPersistent",
+    "flags": {
+      "channel_execute_event": false,
+      "channeling": true,
+      "mark_exclusive_target": false,
+      "use_attack_speed": false
+    },
+    "id": "duckiesHeroStormflyerBombs_StartPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [],
+      "periodic_method": "Loop",
+      "variance": {
+        "angle": 180.0,
+        "radius": 3.0
+      },
+      "vector_facing_end": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      }
+    },
+    "periodic": {
+      "count": 6,
+      "durations": [
+        0.25
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHeroStormflyerBombs_LaunchPersistent"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Infernals_Melee_0.UI_Icons_Weapons_Infernals_Melee_0'",
+    "id": "duckiesShopWeapon_Btn",
+    "name": "Weapon Grade",
+    "tooltip": "Purchase a Weapon Grade to increase hero's damage by <d ref=\"duckiesItemsWeapon_Buff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</>.\n\n<UnitName>On 20 stacks is converted into Weapon Grade Amplifier.</>"
+  },
+  "meta": {}
+}

@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSearchRadius",
+    "game_effect": "duckiesHeroArchangelAirDash_PeriodicImpactSet",
+    "id": "duckiesHeroArchangelAirDash_PeriodicSearch",
+    "radius": 2.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_air"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,63 @@
+﻿{
+  "__base_type": "WeaponData",
+  "ammo": "NoAmmo",
+  "arc": 0.0,
+  "arc_slop": 180.0,
+  "backswing": 0.0,
+  "based_on": "WeaponData",
+  "can_use": "Valid_duckiesHostileHarbingerLand_NoAttackDelay",
+  "cannot_fire_while_flocking": 0.0,
+  "flags": {
+    "always_visualize_range": false,
+    "can_attack_location": false,
+    "channeled": true,
+    "fires_passively": false,
+    "hide_weapon": true,
+    "melee": false,
+    "scan_for_new_targets": true
+  },
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Harbinger.UI_Icons_Units_Demon_Harbinger'",
+  "id": "duckiesHostileHarbingerDeployedWeapon",
+  "name": "",
+  "period": 10.0,
+  "random_delay_maximum": 0.09375,
+  "random_delay_minimum": -0.046875,
+  "range_acquire": 13.0,
+  "range_maximum": 7.0,
+  "range_slop": 2.0,
+  "swing": 0.0,
+  "turret": "emptyRef",
+  "unreal_component": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+  "weapon_acquire_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": false,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_sleeping"
+      ],
+      "required": []
+    }
+  },
+  "weapon_fire": "duckiesHostileHarbingerWeapon_HordeSpawnPersistent",
+  "weapon_target_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": true,
+      "neutral": true,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_invulnerable",
+        "entity_destructible_tree"
+      ],
+      "required": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "arc": 180.0,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHeroStormflyerWeapon_Damage",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Vanguard_Sentinel_PhaseDisruptor.UI_Icons_Weapons_Vanguard_Sentinel_PhaseDisruptor'",
+    "id": "duckiesHeroStormflyerWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_OrbitalPlatform_Weapon",
+    "period": 2.0,
+    "range_acquire": 9.0,
+    "range_maximum": 7.0,
+    "range_slop": 2.0,
+    "swing": 0.1,
+    "unreal_component": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_fire": "duckiesHeroStormflyerWeapon_LaunchMissile"
+  },
+  "meta": {}
+}

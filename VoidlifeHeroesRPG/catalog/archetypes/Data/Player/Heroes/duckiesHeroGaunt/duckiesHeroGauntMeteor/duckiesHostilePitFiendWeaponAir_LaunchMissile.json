@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHostilePitFiendWeaponAir_LaunchMissile",
+    "impact_effect": "duckiesHostilePitFiendWeaponAir_Damage",
+    "launch_fx": "BP_FXS_PitFiend_Launch",
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 33.0
+    },
+    "projectile": "PitFiend_Weapon_MissileV2"
+  },
+  "meta": {}
+}

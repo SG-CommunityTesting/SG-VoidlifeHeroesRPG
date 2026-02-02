@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroDragonWeapon_Damage",
+      "duckiesHeroDragonWeapon_AOESearchRadius",
+      "duckiesHeroDragonWeapon_DebuffSearch"
+    ],
+    "id": "duckiesHeroDragonWeapon_PrimaryImpactSet"
+  },
+  "meta": {}
+}

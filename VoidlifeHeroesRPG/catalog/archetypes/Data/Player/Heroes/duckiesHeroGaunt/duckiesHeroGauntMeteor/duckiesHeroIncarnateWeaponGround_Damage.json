@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "amount": 220.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroIncarnateWeaponGround_Damage",
+    "impact_fx": "BP_FXI_Bruiser_GroundImpact",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 0,
+      "launch_power": 0.05
+    }
+  },
+  "meta": {}
+}

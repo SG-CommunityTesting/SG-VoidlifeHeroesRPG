@@ -1,0 +1,129 @@
+﻿{
+  "data": {
+    "action_state": "StagedAbility",
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": false,
+          "neutral": false,
+          "player": true,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "dead"
+          ],
+          "required": []
+        }
+      },
+      "autocasts": false,
+      "exclusive_targeting": true,
+      "initially_on": true,
+      "range": 5.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [],
+      "validator": "emptyRef"
+    },
+    "based_on": "BaseStagedAbility",
+    "cast_ebfx": "BP_EBFX_BurningBlood_Cast",
+    "cast_ebfx_extra_lifespan": 1.0,
+    "cast_game_effect": "duckiesHeroPandoraMultishot_StartPersistent",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 16.0,
+          "name": "duckiesHeroPandoraMultishot",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 80.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "display_effect_area": "duckiesHeroPandoraMultishot_Search",
+    "finish_duration": 1.0,
+    "flags": {
+      "best_unit": true,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": true,
+      "channeling_breaks_on_facing": false,
+      "channeling_breaks_on_range": false,
+      "channeling_breaks_on_vision": false,
+      "channeling_resists_push": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "increment_worker_count": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": false,
+      "reapproach": false,
+      "requires_vision": true,
+      "show_progress": false,
+      "silenceable": true,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": true,
+        "channel": true,
+        "finish": true,
+        "prepare": true
+      }
+    },
+    "id": "duckiesHeroPandoraMultishot_Abil",
+    "name": "Death March",
+    "range_maximum": 12.0,
+    "range_to_visualize": "range_maximum",
+    "stage_buffs": {
+      "approach": "emptyRef",
+      "cast": "duckiesHeroGauntMeteor_Channel",
+      "channel": "duckiesHeroGauntMeteor_Channel",
+      "finish": "duckiesHeroGauntMeteor_Channel",
+      "prepare": "emptyRef"
+    },
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure",
+          "dead",
+          "capturable"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "targeting_type": "LocationOrUnit",
+    "transient": false,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

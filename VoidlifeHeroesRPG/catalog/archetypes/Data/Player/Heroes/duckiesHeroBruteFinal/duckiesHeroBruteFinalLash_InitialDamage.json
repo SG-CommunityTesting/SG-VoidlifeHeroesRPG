@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "amount": 90.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "flags": {
+      "alert": false,
+      "damage_response": true
+    },
+    "id": "duckiesHeroBruteFinalLash_InitialDamage",
+    "validator": "Valid_TargetIsEnemy"
+  },
+  "meta": {}
+}

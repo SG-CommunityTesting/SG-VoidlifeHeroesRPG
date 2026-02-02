@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroCarnivexWeaponPounce_PermitBuff",
+    "id": "duckiesHeroCarnivexWeaponPounce_PermitApply"
+  },
+  "meta": {}
+}

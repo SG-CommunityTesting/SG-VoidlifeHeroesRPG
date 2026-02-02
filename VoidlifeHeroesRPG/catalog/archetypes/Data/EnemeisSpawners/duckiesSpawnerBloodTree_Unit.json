@@ -1,0 +1,62 @@
+﻿{
+  "data": {
+    "alias_tech": [
+      "_ShadowCleft"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "duckiesGlobalEXPReward_RevengeSet"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Magmadon"
+      },
+      {
+        "unit": "Weaver"
+      },
+      {
+        "unit": "Spriggan"
+      },
+      {
+        "unit": "ElderShrine"
+      }
+    ],
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesSpawnerBloodTree_Unit",
+    "name": "pegasus_core|UnitData_Name_Shadowcleft",
+    "outer_radius": 2.2,
+    "shroud_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "duckiesTagSpawner",
+      "heightplane_ground",
+      "duckiesTagSpawnerObjective"
+    ],
+    "subgroup_priority": 30,
+    "unit_button": "ShadowCleft_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_ShadowCleftV2.UI_Portrait_Demon_ShadowCleftV2'",
+    "unreal_actor": "BP_SD_ShadowcleftV2_00",
+    "vision_radius": 30.0,
+    "vital_health": {
+      "maximum": 2500.0,
+      "regen": 0.0,
+      "starting": 2500.0
+    }
+  },
+  "meta": {}
+}

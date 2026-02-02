@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "amount": 224.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged",
+      "damage_splash"
+    ],
+    "id": "duckiesHeroArchangelWeaponAvatar_AvatarMissileDamage",
+    "impact_fx": "BP_FXI_ArchangelAvatar_Impact"
+  },
+  "meta": {}
+}

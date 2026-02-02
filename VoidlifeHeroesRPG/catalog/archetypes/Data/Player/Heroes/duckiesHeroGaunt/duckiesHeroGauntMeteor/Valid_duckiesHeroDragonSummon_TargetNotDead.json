@@ -1,0 +1,38 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::SnowTag::has_none",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "name": "ExpressionApi::self",
+              "node": "FunctionCall",
+              "parameters": [],
+              "type": "Entity"
+            },
+            "name": "who",
+            "type": "Entity"
+          },
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "Array<SnowTag>",
+              "value": [
+                "dead"
+              ]
+            },
+            "name": "tags",
+            "type": "Array<SnowTag>"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroDragonSummon_TargetNotDead"
+  },
+  "meta": {}
+}

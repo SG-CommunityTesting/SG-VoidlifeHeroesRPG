@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_SpawnersCurrentType",
+    "initial_values": [
+      {
+        "guid": "2FA19B4043F03A174E5462976D35F471",
+        "type": "Value",
+        "value": {
+          "guid": "BA2E244946F7D9FCE9C74A8D4BE7DD97",
+          "type": {
+            "directive": "TypeRef",
+            "implements": "",
+            "inner_type": "",
+            "param_id": "",
+            "sub_directive": "None",
+            "type": ""
+          },
+          "value": "duckiesHostilePhantom"
+        }
+      }
+    ],
+    "type": {
+      "directive": "TypeRef",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "UnitData"
+    }
+  },
+  "meta": {}
+}

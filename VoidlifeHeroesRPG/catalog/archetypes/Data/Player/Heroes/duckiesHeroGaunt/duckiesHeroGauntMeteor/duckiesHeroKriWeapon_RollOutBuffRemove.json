@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectRemoveBuff",
+    "buff": "duckiesHeroKri_RollOutPassiveBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHeroKriWeapon_RollOutBuffRemove"
+  },
+  "meta": {}
+}

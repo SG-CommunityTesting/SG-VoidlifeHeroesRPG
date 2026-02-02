@@ -1,0 +1,47 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "effect_no_target_found ": "duckiesHeroDragonDarkBeam_TargetRandomLocation",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "flags": {
+      "target_becomes_instigator": false,
+      "use_search_location_outer_radius": false
+    },
+    "game_effect": "duckiesHeroDragonDarkBeam_Damage",
+    "id": "duckiesHeroDragonDarkBeam_Search",
+    "max_targets": 2,
+    "radius": 5.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "dead",
+          "entity_unit_structure"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "target_sorts": [
+      "TS_Random"
+    ],
+    "tracker": ""
+  },
+  "meta": {}
+}

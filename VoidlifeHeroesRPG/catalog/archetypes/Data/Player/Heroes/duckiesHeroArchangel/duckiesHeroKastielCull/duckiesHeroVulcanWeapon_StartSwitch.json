@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroVulcanWeapon_AirPersistent",
+      "case_condition": "Valid_TargetIsAirUnit"
+    }
+  ],
+  "default_action": "duckiesHeroVulcanWeapon_StartPersistent",
+  "id": "duckiesHeroVulcanWeapon_StartSwitch"
+}

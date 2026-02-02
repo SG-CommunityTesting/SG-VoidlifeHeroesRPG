@@ -1,0 +1,44 @@
+﻿{
+  "data": {
+    "amount": 224.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 1.0
+      },
+      {
+        "damage_fraction": 0.5,
+        "radius": 1.75
+      },
+      {
+        "damage_fraction": 0.25,
+        "radius": 2.5
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_melee",
+      "damage_splash"
+    ],
+    "id": "duckiesHeroArchangelWeapon_DamageRadius",
+    "location_impact_fx": "BP_FXI_WarpNode_Impact",
+    "search_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

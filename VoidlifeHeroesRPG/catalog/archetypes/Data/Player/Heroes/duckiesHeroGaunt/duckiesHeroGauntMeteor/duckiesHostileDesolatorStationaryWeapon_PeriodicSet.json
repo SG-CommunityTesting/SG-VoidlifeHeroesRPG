@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHostileDesolatorStationaryWeapon_Damage",
+      "Desolator_BuffApplierSelfWeapon"
+    ],
+    "id": "duckiesHostileDesolatorStationaryWeapon_PeriodicSet"
+  },
+  "meta": {}
+}

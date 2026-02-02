@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Archangel_MazasMight.UI_Icons_Weapons_Celestials_Archangel_MazasMight'",
+    "id": "duckiesHeroArchangelWeapon_TraitBtn",
+    "name": "Maza's Might",
+    "tooltip": "Weapon attack deals splash damage."
+  },
+  "meta": {}
+}

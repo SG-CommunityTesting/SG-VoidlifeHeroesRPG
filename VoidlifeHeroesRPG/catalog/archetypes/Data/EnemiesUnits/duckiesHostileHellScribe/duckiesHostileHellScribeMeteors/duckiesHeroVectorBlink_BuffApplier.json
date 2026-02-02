@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroVectorBlink_BuffUIMarker",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroVectorBlink_BuffApplier"
+  },
+  "meta": {}
+}

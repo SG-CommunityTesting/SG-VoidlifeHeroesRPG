@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectLaunchProjectile",
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroHellborneWeapon_LaunchMissile",
+    "impact_effect": "duckiesHeroHellborneWeapon_ImpactSet",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_PitFiend_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 33.0,
+      "socket": "Auto"
+    },
+    "periodic": {
+      "duration": 0.0,
+      "effect": "emptyRef"
+    },
+    "projectile": "PitFiend_Weapon_MissileV2"
+  },
+  "meta": {}
+}

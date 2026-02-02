@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "backswing": 0.64,
+    "backswing_locked": 0.3,
+    "based_on": "BaseWeapon",
+    "can_use": "Valid_SelfHasNoneWeaponsThatAlternate",
+    "display_effect_damage": "duckiesHeroKriWeapon_Damage",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Kri_KriWeapon.UI_Icons_Weapons_Celestials_Kri_KriWeapon'",
+    "id": "duckiesHeroKriWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Kri_Weapon",
+    "period": 0.7,
+    "range_acquire": 7.0,
+    "range_maximum": 0.1,
+    "swing": 0.16,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_AttackBase.AC_Weapon_AttackBase_C'",
+    "weapon_fire": "duckiesHeroKriWeapon_StartSet",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

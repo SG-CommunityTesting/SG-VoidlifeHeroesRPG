@@ -1,0 +1,19 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileFireGiantWeaponAir_LaunchMissile",
+    "impact_effect": "duckiesHostileFireGiantWeaponAir_Damage",
+    "launch_fx": "BP_FXS_Maloc_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0.0,
+      "max_speed": 24.0
+    },
+    "projectile": "BloodScribe_Weapon_Missile"
+  },
+  "meta": {}
+}

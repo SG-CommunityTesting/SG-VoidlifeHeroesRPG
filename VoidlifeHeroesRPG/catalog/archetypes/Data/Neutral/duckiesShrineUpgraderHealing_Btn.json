@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "BaseButton",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Units/UI_Icons_Units_Stormgates_Darkthrone.UI_Icons_Units_Stormgates_Darkthrone'",
+    "id": "duckiesShrineUpgraderHealing_Btn",
+    "name": "Voidheart Shrine Upgrade",
+    "tooltip": "Increases Voidheart Shrine's healing rate by <Bold>50%</>."
+  },
+  "meta": {}
+}

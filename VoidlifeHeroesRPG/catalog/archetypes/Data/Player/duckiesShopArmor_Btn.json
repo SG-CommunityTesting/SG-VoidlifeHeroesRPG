@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_BastionArmor.UI_Icons_Items_BastionArmor'",
+    "id": "duckiesShopArmor_Btn",
+    "name": "Armor Plating",
+    "tooltip": "Purchase Armor Plating to increase hero's armor by <d ref=\"duckiesItemsArmor_Buff.modifiers[0].amount\" style=\"Bold\"/>.\n\n<UnitName>On 20 stacks is converted into Adaptive Armor Carapace.</>"
+  },
+  "meta": {}
+}

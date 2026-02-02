@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_FiendArmorShred.UI_Icons_Abilities_FiendArmorShred'",
+    "id": "duckiesHeroHellborneSummon_UnitWpnTraitBtn",
+    "name": "Soulbrand",
+    "tooltip": "Attacked units are slowed by <Bold>50%</> and take <d ref=\"duckiesHeroGauntWeapon_DebuffDamage.amount / duckiesHeroGauntWeapon_Debuff.periodic_duration\" style=\"Bold\"/> damage per second for <d ref=\"duckiesHeroGauntWeapon_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

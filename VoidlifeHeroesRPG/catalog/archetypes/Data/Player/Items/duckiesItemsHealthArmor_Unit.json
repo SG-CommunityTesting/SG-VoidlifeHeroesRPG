@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsHealthArmor_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_HunterArmor.UI_Icons_Items_HunterArmor'",
+    "id": "duckiesItemsHealthArmor_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 1,
+    "name": "Reinforced Armor",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "Increases Health by <d ref=\"duckiesItemsHealthArmor_Buff.modifiers[0].amount\" style=\"Bold\"/>.\n\n<UnitName>Stacks up to 1 time per item slot.</>",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

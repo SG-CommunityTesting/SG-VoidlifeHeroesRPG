@@ -1,0 +1,2164 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Variable_SetVariable",
+      "guid": "1742E77049D0E1B603E350B451460DB8",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "E095982740F1476CD9DCBBA0ABA62101",
+              "type": "Variable",
+              "variable": {
+                "guid": "6ABC39914F7CCAF2287380A37C5C9DFC",
+                "variable_id": "LV_Time"
+              }
+            }
+          ],
+          "guid": "8923328C453A9A843DFD628364462F84",
+          "id": "variable"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Math_Arithmetic_Time",
+                "guid": "AB53477745AD71ADF4D96CAEF7D729E4",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "B845FC824A23EAA757DBF8A22D0283F0",
+                        "type": "Value",
+                        "value": {
+                          "guid": "940CEEF743078A9F7A2C2FA6A869E48F",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "45.0"
+                        }
+                      }
+                    ],
+                    "guid": "F7DF31DB4097614C8BA506A60F0CD2AA",
+                    "id": "value1"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "CA3DBD5B44D31D147F7778AA4F9B19E8",
+                        "preset": {
+                          "guid": "7706358A48E83EAB7D8D37B0336C19B5",
+                          "preset_id": "Math_ArithmeticOperator",
+                          "value_id": "mult"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "2B2AFED64B507E3E305881BDCBB86752",
+                    "id": "op"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "C6EA56B34A88C30BF582A3A10011A480",
+                        "type": "Value",
+                        "value": {
+                          "guid": "492DED4D4C4A57B861EC7FADB6E0BF8F",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "60.0"
+                        }
+                      }
+                    ],
+                    "guid": "81AEA71C4D6C18DEAF09788F5B6D9C73",
+                    "id": "value2"
+                  }
+                ]
+              },
+              "guid": "AAF8DAC240190AB9FC7396BABEE425AD",
+              "type": "Function"
+            }
+          ],
+          "guid": "2A6ED91B4ACB0ADA3849D48525E896F9",
+          "id": "value"
+        }
+      ]
+    },
+    {
+      "function_id": "Variable_SetVariable",
+      "guid": "3040808D470C08CF3F8D8DAF008BC1DC",
+      "is_enabled": false,
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "9FFE225A4C311D1095ABA684E8595B08",
+              "type": "Variable",
+              "variable": {
+                "guid": "1EC8C8A04F584D176CB6D8B31A38EFB5",
+                "variable_id": "LV_Time"
+              }
+            }
+          ],
+          "guid": "8D8DACDC4EC4E796D934C6AA7B41EC1F",
+          "id": "variable"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Math_Arithmetic_Time",
+                "guid": "6CAF3DA044767239BC1674A3DD9B943C",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "5CDD3FED4D7F81EA029FB489691A0E69",
+                        "type": "Value",
+                        "value": {
+                          "guid": "3D90CE2F45678001006680BBE1E1CEBE",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "1.0"
+                        }
+                      }
+                    ],
+                    "guid": "C3F73D3346F72CD4DF7533A961242F48",
+                    "id": "value1"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "C18016934EAB7A610536DF8E6AC50617",
+                        "preset": {
+                          "guid": "6B24B6EA45CC2945BC1BFC8CE74D7AC8",
+                          "preset_id": "Math_ArithmeticOperator",
+                          "value_id": "mult"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "A4C21F9C445B67A4745405991C78B1FD",
+                    "id": "op"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "3E08D7DD48D8D84105ED6FBF0F5A8FFF",
+                        "type": "Value",
+                        "value": {
+                          "guid": "A924E29949953019210B24BA3678ABE3",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "60.0"
+                        }
+                      }
+                    ],
+                    "guid": "B787524B48A2A929B06FFF8B6003D27B",
+                    "id": "value2"
+                  }
+                ]
+              },
+              "guid": "A4A2F0B245C2040A2A256CBB7B3E0E75",
+              "type": "Function"
+            }
+          ],
+          "guid": "44EF1285437FFC8CE98AF8960155F0CC",
+          "id": "value"
+        }
+      ]
+    },
+    {
+      "function_id": "Objectives_Objective_SetDetails",
+      "guid": "A685359C41C172D1D8578D81B90D1F33",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "8DF59D574E0C7E072C5E37A02F0E844A",
+              "type": "Variable",
+              "variable": {
+                "guid": "111610CB402F0F2B2DFDC5B98B59B89B",
+                "variable_id": "GV_Objective_SecondaryTimer"
+              }
+            }
+          ],
+          "guid": "7AEC254F4342C7FF45DD3DB915025F71",
+          "id": "objective"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "guid": "EEF1F62649EA2EF9F7D866AD8944DBF7",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Time_FromHMS",
+                          "guid": "ED5796AF46FE1EB0A8DC11B6AF88D8DD",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "A504D10D400AAD2271C20F9B7987457E",
+                                  "type": "Value",
+                                  "value": {
+                                    "guid": "88B0BEDD40F440E3F4CC31A477845C88",
+                                    "type": {
+                                      "directive": "FunctionType",
+                                      "implements": "",
+                                      "inner_type": "",
+                                      "param_id": "",
+                                      "sub_directive": "None",
+                                      "type": "Value"
+                                    },
+                                    "value": "0.0"
+                                  }
+                                }
+                              ],
+                              "guid": "E6A90F904BA9C39CA7410ABA480A55D1",
+                              "id": "hours"
+                            },
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Math_Arithmetic_Time",
+                                    "guid": "6A0A28F9424850D5CFA7A88B94314999",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "EE7AEA5742D12AB11E4FE5AE43107C25",
+                                            "type": "Variable",
+                                            "variable": {
+                                              "guid": "C63B8D7F44B63B38B690D2B5DBE1D740",
+                                              "variable_id": "LV_Time"
+                                            }
+                                          }
+                                        ],
+                                        "guid": "24DD5CEF4FF573ED6B9C45BBC7C90490",
+                                        "id": "value1"
+                                      },
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "136771AF403298EC2B6A519B2594D493",
+                                            "preset": {
+                                              "guid": "4C20B8C64B78D765E00104B1D81AF2AE",
+                                              "preset_id": "Math_ArithmeticOperator",
+                                              "value_id": "div"
+                                            },
+                                            "type": "Preset"
+                                          }
+                                        ],
+                                        "guid": "4BAA402A450E0EBC5D91198B819C5B7B",
+                                        "id": "op"
+                                      },
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "6910B5334E4CAD6BB50DDC950A3EE280",
+                                            "type": "Value",
+                                            "value": {
+                                              "guid": "5EB428FB4E0F8E6375C0CA9BDA402A68",
+                                              "type": {
+                                                "directive": "FunctionType",
+                                                "implements": "",
+                                                "inner_type": "",
+                                                "param_id": "",
+                                                "sub_directive": "None",
+                                                "type": "Time"
+                                              },
+                                              "value": "60.0"
+                                            }
+                                          }
+                                        ],
+                                        "guid": "A048D0F04CAF70BB88C402A2284764FF",
+                                        "id": "value2"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "A795FB4C482826358CEC25B88336D192",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "334468D646E2C8456FBC0CA890A86465",
+                              "id": "minutes"
+                            },
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Math_Arithmetic_Time",
+                                    "guid": "1DD57D0D4E2756A4F494B1826467757C",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "618A40CF49D85F2E908D16B35CDA3AD8",
+                                            "type": "Variable",
+                                            "variable": {
+                                              "guid": "4C29D9294EF05E273107F286861628D7",
+                                              "variable_id": "LV_Time"
+                                            }
+                                          }
+                                        ],
+                                        "guid": "6B05F0EC4D9589063DB9FEAE7BA7FA46",
+                                        "id": "value1"
+                                      },
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "E4427D8E4E9511291710968E7B845EAD",
+                                            "preset": {
+                                              "guid": "DE041636453C931E4E6B4B93703521C4",
+                                              "preset_id": "Math_ArithmeticOperator",
+                                              "value_id": "minus"
+                                            },
+                                            "type": "Preset"
+                                          }
+                                        ],
+                                        "guid": "A0B765164731D97D3CFB19A9F87BB135",
+                                        "id": "op"
+                                      },
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Math_Arithmetic_Time",
+                                              "guid": "849BE6EF4642D632A2F53BB52833AC00",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "guid": "EF577D5640824690B6D065B88B7DF7D6",
+                                                      "type": "Value",
+                                                      "value": {
+                                                        "guid": "16C7B7AE4E7ACADD2D98FF8941348186",
+                                                        "type": {
+                                                          "directive": "FunctionType",
+                                                          "implements": "",
+                                                          "inner_type": "",
+                                                          "param_id": "",
+                                                          "sub_directive": "None",
+                                                          "type": "Time"
+                                                        },
+                                                        "value": "60.0"
+                                                      }
+                                                    }
+                                                  ],
+                                                  "guid": "585CBFD9445EFF9ABD2E99B2D84D8AA8",
+                                                  "id": "value1"
+                                                },
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "guid": "CAB7E6B54280B2DA31F4C69B4FC851B8",
+                                                      "preset": {
+                                                        "guid": "887A732E45CFA29CD8216B813881705C",
+                                                        "preset_id": "Math_ArithmeticOperator",
+                                                        "value_id": "mult"
+                                                      },
+                                                      "type": "Preset"
+                                                    }
+                                                  ],
+                                                  "guid": "96903752407E81F73EA417BFA139C01F",
+                                                  "id": "op"
+                                                },
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "Math_Arithmetic_Time",
+                                                        "guid": "883530D3422DED6781CB4088A886AA92",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "00D7B7684EE0C19D52F029AE46F917B2",
+                                                                "type": "Variable",
+                                                                "variable": {
+                                                                  "guid": "E7C46D224C3F7740DCC1D49891C63DD1",
+                                                                  "variable_id": "LV_Time"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "BAD28EE847B6607EB5E5D2831931CD09",
+                                                            "id": "value1"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "52E9DE514617F900FE5E3F8337A0F02C",
+                                                                "preset": {
+                                                                  "guid": "C3B736224098947E88A030BC56B7A2F3",
+                                                                  "preset_id": "Math_ArithmeticOperator",
+                                                                  "value_id": "div"
+                                                                },
+                                                                "type": "Preset"
+                                                              }
+                                                            ],
+                                                            "guid": "5AD52D77402D0264CC0171AE6837D5A3",
+                                                            "id": "op"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "0587C37945CA71FE5A945896E862B6D0",
+                                                                "type": "Value",
+                                                                "value": {
+                                                                  "guid": "8E321DBF4779622011EAC198FFE5724A",
+                                                                  "type": {
+                                                                    "directive": "FunctionType",
+                                                                    "implements": "",
+                                                                    "inner_type": "",
+                                                                    "param_id": "",
+                                                                    "sub_directive": "None",
+                                                                    "type": "Time"
+                                                                  },
+                                                                  "value": "60.0"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "FD5B37C140A099EB0CECEF9E9F022860",
+                                                            "id": "value2"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "guid": "1DA0A2B4442C408CD9E46BAC4D6927A2",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "631FD4274FCB128222411D8AEADB68D5",
+                                                  "id": "value2"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "229B01CF4962ED2928D49E83B75E3AB5",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "60C6673C42454736EBE40B9D74C8D79F",
+                                        "id": "value2"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "1D5630624FE509FEDAE8D7A1B01C8AA1",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "2AB5376540FD27CAD2410C9E01BDCF2D",
+                              "id": "seconds"
+                            }
+                          ]
+                        },
+                        "guid": "0CDF1C534D5DB20011E462A83BB0AA13",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "FA5A6180411705DB63FDD4AA0E79AC2E",
+                    "id": "value"
+                  }
+                ]
+              },
+              "guid": "C4C848544E83755409EFFE8099447B5A",
+              "type": "Function"
+            }
+          ],
+          "guid": "2E42EC7646FE9AC5F36D46838B34B1DE",
+          "id": "details"
+        }
+      ]
+    },
+    {
+      "function_id": "Objectives_Objective_SetDetails",
+      "guid": "3FF285D04614424F97C284A92B319022",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "138CDEB44076D5CFFD5306B3D701AE33",
+              "type": "Variable",
+              "variable": {
+                "guid": "F7166D094855B5DA6BE6E58F1BF8BF24",
+                "variable_id": "GV_Objective_Survival"
+              }
+            }
+          ],
+          "guid": "0A20DCDF4E257388DD934DADCB16D05C",
+          "id": "objective"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_FormatNumber",
+                "guid": "6D434B5644672944AFED369921131935",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetHealth",
+                          "guid": "1D25563E485A0BB88186C19F98FFD0B6",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "05EA355A41BD1DE36C80E9A700861867",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "6119602D4F7B99EC96778C899A69CC89",
+                                    "variable_id": "GV_MainHealer"
+                                  }
+                                }
+                              ],
+                              "guid": "B7F2DB794F4BCF8ED28828A08AE5900A",
+                              "id": "unit"
+                            }
+                          ]
+                        },
+                        "guid": "0C53B28345ECB9CDA29E7DAB8A340771",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "6E524A664C0CB4A9E513F8BE2B222E7A",
+                    "id": "value"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "CE33820343A93CCF1F90EE8EF9715B29",
+                        "type": "Value",
+                        "value": {
+                          "guid": "75B69CA54928CF6209D9D89542F19D1B",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Boolean"
+                          },
+                          "value": "false"
+                        }
+                      }
+                    ],
+                    "guid": "9CA81E6343639663652443815A451280",
+                    "id": "always_sign"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "FA5F366D4DA7AC36AA037A9031901385",
+                        "type": "Value",
+                        "value": {
+                          "guid": "18E44848425E155881010098F1B32F6E",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Boolean"
+                          },
+                          "value": "false"
+                        }
+                      }
+                    ],
+                    "guid": "C8F0AF254E37CF48FBFD8AB363B9CE60",
+                    "id": "use_grouping"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "6C41A69844129D7E9B18738F222184C2",
+                        "preset": {
+                          "guid": "3D19ADBC468DAA6D874188993499C3A2",
+                          "preset_id": "Text_ValueRoundingMode",
+                          "value_id": "half_from_zero"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "CE5837A34B140268EBA8AC8E9D7ABE39",
+                    "id": "rounding_mode"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "DDB7BFAA4A4BCD38E7A05AB6A93C944A",
+                        "preset": {
+                          "guid": "CB203D2A491941702F94E69CF99CBD24",
+                          "preset_id": "Text_IntegralDigits",
+                          "value_id": "default_minimum"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "AB2C1FA74F9D96E99DB69F8CBF1BF23A",
+                    "id": "min_integral_digits"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "BE16F58E44ED68103A48C38436C659D9",
+                        "preset": {
+                          "guid": "93BEF2754F015838061B53910C1E7B07",
+                          "preset_id": "Text_IntegralDigits",
+                          "value_id": "default_maximum"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "132969DD4BB17A796D0A1FBA189E4D32",
+                    "id": "max_integral_digits"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "59E836C0412D76D6218733BEC067413E",
+                        "preset": {
+                          "guid": "1C434C1F416247B9C7363689566F1442",
+                          "preset_id": "Text_FractionalDigits",
+                          "value_id": "default_minimum"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "F45CA8FE47723369BBCE6DA8040620D8",
+                    "id": "min_fractional_digits"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "061EB8934536075424A7F3A0586B4564",
+                        "preset": {
+                          "guid": "BC1058A8471F1011D7105A9C5FFA8EA2",
+                          "preset_id": "Text_FractionalDigits",
+                          "value_id": "default_maximum"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "B7D384C940A057FC7A4A5E89342682C9",
+                    "id": "max_fractional_digits"
+                  }
+                ]
+              },
+              "guid": "342F838F48CDFBE077551185B34258D3",
+              "type": "Function"
+            }
+          ],
+          "guid": "0D6EC780429DAEF19AB64792011D4119",
+          "id": "details"
+        }
+      ]
+    },
+    {
+      "function_id": "General_WhileLoop",
+      "guid": "6E8295844032B76F24273DB51B5CC702",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "E339167444FA433B12E1A78AB0E2AD45",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "9C54ADE94FE748AF0DFA30AE1F0478CF",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "F526BB1F47DFEABAF79E508AC6213C51",
+                        "variable_id": "LV_Time"
+                      }
+                    }
+                  ],
+                  "guid": "87869113472E43B3E0C8FCA79B3E6C4F",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "B089A1D14CA4D3F94D6CB7A9E3F3AD24",
+                      "preset": {
+                        "guid": "B235C53744B16A6EA1CE5693C7523F88",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "gr"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "31428D524A83F2A6CF9673BFF16288BA",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "148854184D5F2E511CD3B29AD2A7AFF5",
+                      "type": "Value",
+                      "value": {
+                        "guid": "4A5CE25C418BE4FAA97143BE72339037",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "0.0"
+                      }
+                    }
+                  ],
+                  "guid": "D5B22F064BE2E0336CBC1AB750435897",
+                  "id": "value2"
+                }
+              ]
+            },
+            {
+              "function_id": "Unit_IsAlive",
+              "guid": "F07F5E9D4768CF63C07998AEDC47AC29",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "E6848CE5439466698E53BAA115AC42E8",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "F646EEBA49DF3F27D44580B9DE428868",
+                        "variable_id": "GV_MainEnemyStructure"
+                      }
+                    }
+                  ],
+                  "guid": "AC899A16444742884A9D25882D5481F4",
+                  "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "Unit_IsAlive",
+              "guid": "5A8F3D82404327E0E530C594144368A8",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "CBE7C18C487331595DEC318FAAEC5182",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "60E8F35C436E011DCB332BAEF74B05AE",
+                        "variable_id": "GV_MainWarz"
+                      }
+                    }
+                  ],
+                  "guid": "C60219F04C6F83782E5D9D963CF384ED",
+                  "id": "unit"
+                }
+              ]
+            }
+          ],
+          "guid": "4B2E3C3046A757B5F5AC84989F8CCA7F",
+          "id": "conditions"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "General_Wait",
+              "guid": "C2271724422B797D4D7015A00EE29B29",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "CCC271334546D077C01D0F84386A539A",
+                      "type": "Value",
+                      "value": {
+                        "guid": "F9A8D2CC4188ABC6E3F2649C52788FFC",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "1.0"
+                      }
+                    }
+                  ],
+                  "guid": "2B05B3954F2ED933AB3E8E919ECFB3E3",
+                  "id": "duration"
+                }
+              ]
+            },
+            {
+              "function_id": "Variable_ModifyVariable",
+              "guid": "F8F9114C4397BA87043CE7AA872517B0",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "E5EDC8E74622A5D064F9B39A2B884358",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "2E845A284F7682BF14639AAA6298F66B",
+                        "variable_id": "LV_Time"
+                      }
+                    }
+                  ],
+                  "guid": "0CD7C9F14445641B0F632EB0C5F5FCB0",
+                  "id": "variable"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "3576D8BC43EC09036A3285A0B750F689",
+                      "preset": {
+                        "guid": "CF7A26E246E3065783824C801BD74C8D",
+                        "preset_id": "Math_ArithmeticOperator",
+                        "value_id": "minus"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "8A4DA48F4080BAAD37E03FB6D68963CF",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "902E53A04675EADB5CF8578FA2DFDFDE",
+                      "type": "Value",
+                      "value": {
+                        "guid": "9E592DD246005AB06BD5E385C24D188F",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "1.0"
+                      }
+                    }
+                  ],
+                  "guid": "D132A99743C5894435D5C2A7937AA877",
+                  "id": "value"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_SetDetails",
+              "guid": "6001345E4B6E851287E6329BCED73CAD",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "129E23FD49FDDCA5CEF43C995F990BAC",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "6F8B08CC47A0001B8CBB8999A71C60B9",
+                        "variable_id": "GV_Objective_SecondaryTimer"
+                      }
+                    }
+                  ],
+                  "guid": "220FF55544AD9E9ED37A4EB06EB88CD3",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "guid": "0D707ACA4833056D9542B6AB023A3B85",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "Time_FromHMS",
+                                  "guid": "DAFB978C4D864AE33520078424813E95",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "44AC01D34F2F0939C84FD9A52A14F295",
+                                          "type": "Value",
+                                          "value": {
+                                            "guid": "1C315E1548A8D3CD25BD05AE7748FE15",
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "implements": "",
+                                              "inner_type": "",
+                                              "param_id": "",
+                                              "sub_directive": "None",
+                                              "type": "Value"
+                                            },
+                                            "value": "0.0"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "A1B3ADD1415FEAD6F12298A07E6BE361",
+                                      "id": "hours"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "function": {
+                                            "function_id": "Math_Arithmetic_Time",
+                                            "guid": "ABAD698F4D5C0E7DF36DEA968D377996",
+                                            "parameters": [
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "EB21EC7646325935C0FDA68BE2BF28AE",
+                                                    "type": "Variable",
+                                                    "variable": {
+                                                      "guid": "4A99CF8C40C487D3233EE1BBEB76155C",
+                                                      "variable_id": "LV_Time"
+                                                    }
+                                                  }
+                                                ],
+                                                "guid": "9DD2446244BD4796942C3EB69D720A50",
+                                                "id": "value1"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "FA74C7AD4EC06113A02D068B94AE3100",
+                                                    "preset": {
+                                                      "guid": "494B04C44734924FD887E49E89C59D8F",
+                                                      "preset_id": "Math_ArithmeticOperator",
+                                                      "value_id": "div"
+                                                    },
+                                                    "type": "Preset"
+                                                  }
+                                                ],
+                                                "guid": "3AC78E5049D3C1A34B057CA2B556B209",
+                                                "id": "op"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "DB08C053400D5856E072809B4FCE6E68",
+                                                    "type": "Value",
+                                                    "value": {
+                                                      "guid": "CBD499FD4A3FF754F8BBDFB727AF8C53",
+                                                      "type": {
+                                                        "directive": "FunctionType",
+                                                        "implements": "",
+                                                        "inner_type": "",
+                                                        "param_id": "",
+                                                        "sub_directive": "None",
+                                                        "type": "Time"
+                                                      },
+                                                      "value": "60.0"
+                                                    }
+                                                  }
+                                                ],
+                                                "guid": "F6C3552F42EB7676691329878BD00A8E",
+                                                "id": "value2"
+                                              }
+                                            ]
+                                          },
+                                          "guid": "31837F4C4986883C2F3BEAB70A016132",
+                                          "type": "Function"
+                                        }
+                                      ],
+                                      "guid": "9F16301E4B7B130CB839D6B8D65CBC69",
+                                      "id": "minutes"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "function": {
+                                            "function_id": "Math_Arithmetic_Time",
+                                            "guid": "768C03B04678C137D1502E990FFE6039",
+                                            "parameters": [
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "CDF0EED74074761513E72F9A505D4165",
+                                                    "type": "Variable",
+                                                    "variable": {
+                                                      "guid": "0E26CE034CE98668739D60AD5C3A23D5",
+                                                      "variable_id": "LV_Time"
+                                                    }
+                                                  }
+                                                ],
+                                                "guid": "B541F4694D341B0D7ED7DDB1D0CE61A1",
+                                                "id": "value1"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "1BCFC8F3469F0952D2B50191D08C6F4C",
+                                                    "preset": {
+                                                      "guid": "42FE29374E8426ACF7B52F963D8D91EE",
+                                                      "preset_id": "Math_ArithmeticOperator",
+                                                      "value_id": "minus"
+                                                    },
+                                                    "type": "Preset"
+                                                  }
+                                                ],
+                                                "guid": "FFCE7D644A2EF8413E4A49B6B0351192",
+                                                "id": "op"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "function": {
+                                                      "function_id": "Math_Arithmetic_Time",
+                                                      "guid": "725F862A47AE165E802846A70A07068E",
+                                                      "parameters": [
+                                                        {
+                                                          "expressions": [
+                                                            {
+                                                              "guid": "91CC661B49A5F0FF63CD6CAB27354580",
+                                                              "type": "Value",
+                                                              "value": {
+                                                                "guid": "EEDE01B14CB660493A91E38F9363D995",
+                                                                "type": {
+                                                                  "directive": "FunctionType",
+                                                                  "implements": "",
+                                                                  "inner_type": "",
+                                                                  "param_id": "",
+                                                                  "sub_directive": "None",
+                                                                  "type": "Time"
+                                                                },
+                                                                "value": "60.0"
+                                                              }
+                                                            }
+                                                          ],
+                                                          "guid": "DA8848804E233D9DBE2F0ABFC08D2B01",
+                                                          "id": "value1"
+                                                        },
+                                                        {
+                                                          "expressions": [
+                                                            {
+                                                              "guid": "9D0C21AC44FEA21F6EC518B168C2B77A",
+                                                              "preset": {
+                                                                "guid": "457E1383441C3338D61FC4877D05FA9D",
+                                                                "preset_id": "Math_ArithmeticOperator",
+                                                                "value_id": "mult"
+                                                              },
+                                                              "type": "Preset"
+                                                            }
+                                                          ],
+                                                          "guid": "B4D9C6CF416C8237FC5B9B9B800425AB",
+                                                          "id": "op"
+                                                        },
+                                                        {
+                                                          "expressions": [
+                                                            {
+                                                              "function": {
+                                                                "function_id": "Math_Arithmetic_Time",
+                                                                "guid": "8AE09B6147746707A5450F874912BF52",
+                                                                "parameters": [
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "6A36F7794BB0EFE55182DDA33214A499",
+                                                                        "type": "Variable",
+                                                                        "variable": {
+                                                                          "guid": "83D4C1F942870FA9F1E8F68BBD894EEC",
+                                                                          "variable_id": "LV_Time"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "guid": "2F82A198412F7D23C453CD849E897EDD",
+                                                                    "id": "value1"
+                                                                  },
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "FB99B82B4665D3954AFF1B81184AC775",
+                                                                        "preset": {
+                                                                          "guid": "7295E38647A153E00D124599F1E409F7",
+                                                                          "preset_id": "Math_ArithmeticOperator",
+                                                                          "value_id": "div"
+                                                                        },
+                                                                        "type": "Preset"
+                                                                      }
+                                                                    ],
+                                                                    "guid": "52FD40594F57D14EBDF0ACB959EC4423",
+                                                                    "id": "op"
+                                                                  },
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "2C9E552E493540F650B18E8AA5C0DC1B",
+                                                                        "type": "Value",
+                                                                        "value": {
+                                                                          "guid": "8E927EA3468C03127AEE5A96EB418A30",
+                                                                          "type": {
+                                                                            "directive": "FunctionType",
+                                                                            "implements": "",
+                                                                            "inner_type": "",
+                                                                            "param_id": "",
+                                                                            "sub_directive": "None",
+                                                                            "type": "Time"
+                                                                          },
+                                                                          "value": "60.0"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "guid": "E388BB074985D8A70B25EB9D6B514C23",
+                                                                    "id": "value2"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              "guid": "40B4F18349DB90B6B3EECA9662C3D666",
+                                                              "type": "Function"
+                                                            }
+                                                          ],
+                                                          "guid": "FAFAFE5949046CE764AAFEB6AFFD83EC",
+                                                          "id": "value2"
+                                                        }
+                                                      ]
+                                                    },
+                                                    "guid": "396531154C9A1FC996CF4A8530231894",
+                                                    "type": "Function"
+                                                  }
+                                                ],
+                                                "guid": "D3C63E1A409BAD32639A05AC9D970DEE",
+                                                "id": "value2"
+                                              }
+                                            ]
+                                          },
+                                          "guid": "3B60D14B410E45EA055E319F3C7785CE",
+                                          "type": "Function"
+                                        }
+                                      ],
+                                      "guid": "C05FE6EE42538A36338D46B1C5EF9731",
+                                      "id": "seconds"
+                                    }
+                                  ]
+                                },
+                                "guid": "3BB62208462132DB33EE09ADFE1F45EF",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "B1675DC340D64897508D7CB2B3322444",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      "guid": "8855FFBE4A7C51DBFD33A4ACB883B065",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "E6EF2E414107E44F11963AA4A9710735",
+                  "id": "details"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_SetDetails",
+              "guid": "4653AEB7411FCA1A83294D8DE185ADF9",
+              "is_enabled": false,
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "4A4DE6F64C5C432F000CF7B5C4A78336",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "DE99CC574A37C24A71DD6BA88ADB4DBD",
+                        "variable_id": "GV_Objective_Survival"
+                      }
+                    }
+                  ],
+                  "guid": "707A583F47131E124E305B8B840F54EE",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "guid": "9CA8D7A24F015CBB556628968EFCF543",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "String_Concat",
+                                  "guid": "EF49C72F4AB0285FA2E519BE757BF493",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "function": {
+                                            "function_id": "Unit_GetUnitProperty",
+                                            "guid": "DAAE16D14BF32DD06D7D09A305A01D6D",
+                                            "parameters": [
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "E643A3904C1240DC13401ABDFCDA7139",
+                                                    "type": "Variable",
+                                                    "variable": {
+                                                      "guid": "F26A1B424F2B8A3A909BD29F4A4CE69A",
+                                                      "variable_id": "GV_MainHealer"
+                                                    }
+                                                  }
+                                                ],
+                                                "guid": "CA758D8845276BDBA0A57C9117276C5E",
+                                                "id": "unit"
+                                              },
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "D02C740D4C3F5787A429C1BC8F7CBB9A",
+                                                    "preset": {
+                                                      "guid": "DD405F3747C25139F44462A30D1C9560",
+                                                      "preset_id": "Unit_UnitProperties",
+                                                      "value_id": "health_current"
+                                                    },
+                                                    "type": "Preset"
+                                                  }
+                                                ],
+                                                "guid": "7A81EF3B4923A04A2EFE3884983CF030",
+                                                "id": "property"
+                                              }
+                                            ]
+                                          },
+                                          "guid": "890A43604BA0541F9F859BA3B0E66671",
+                                          "type": "Function"
+                                        },
+                                        {
+                                          "guid": "C6513F9E4C235A7B3FE4348AAC27A072",
+                                          "type": "Value",
+                                          "value": {
+                                            "guid": "DFEA316449805B0D7B70B99E5B76C0DB",
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "implements": "",
+                                              "inner_type": "",
+                                              "param_id": "",
+                                              "sub_directive": "None",
+                                              "tags": [
+                                                "to_string"
+                                              ],
+                                              "type": "String"
+                                            },
+                                            "value": " Health"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "309BF64B455F3E68019AC9A45A0D2FAC",
+                                      "id": "strings"
+                                    }
+                                  ]
+                                },
+                                "guid": "92E8BA3644E57EDAC20B4A80A3B68410",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "A2F0F62E4A06587E081F68B4A91948DD",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      "guid": "1DA3E53744B6626CB00DB5A3FA12D997",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "C382030748422909E5CB0D821089C022",
+                  "id": "details"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_SetDetails",
+              "guid": "E27546AE4AA4DE8176D6BFBEF6F763CA",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "E6CD85B745B281DD294A5396E26CF9B0",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "A7E4391244C1BEC86C3498917234ADAA",
+                        "variable_id": "GV_Objective_Survival"
+                      }
+                    }
+                  ],
+                  "guid": "8349C39846511D55DB48C6B283910665",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_FormatNumber",
+                        "guid": "0AA63D0D45F1E1AABB282AB229524CCC",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "Unit_GetHealth",
+                                  "guid": "0401F37C46AAEC6267AE3F9E749F7210",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "D5F86FAA4136284DE68309AE8DBE542A",
+                                          "type": "Variable",
+                                          "variable": {
+                                            "guid": "0E1FF52347E72A3373BC67B0379866C7",
+                                            "variable_id": "GV_MainHealer"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "79AF89D6479A622B38CBF0A1BFE05DB0",
+                                      "id": "unit"
+                                    }
+                                  ]
+                                },
+                                "guid": "C6C9C2B143A832D21A54C4986BDC635F",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "50C0A8A24624A7B98F997AB877FFA4DC",
+                            "id": "value"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "202AF6FD4AD972301961C090DC53BCC6",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "0E96E750422A6C5D3358F4BC20105D02",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Boolean"
+                                  },
+                                  "value": "false"
+                                }
+                              }
+                            ],
+                            "guid": "142AB2824C86ECF0088A0880F0DC0BF9",
+                            "id": "always_sign"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "F302593F4C55CDB5B67C01B996FFEE7C",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "DFF2CE7540BD2ECCBFA5D195C0E9926D",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Boolean"
+                                  },
+                                  "value": "false"
+                                }
+                              }
+                            ],
+                            "guid": "DAAF0DC04EEDAFD4155B66B7BB13DFE6",
+                            "id": "use_grouping"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "47574D7241CE1BA5247D51AA6F8C204C",
+                                "preset": {
+                                  "guid": "FE7C00BE47BF99273D1E708F01B206EA",
+                                  "preset_id": "Text_ValueRoundingMode",
+                                  "value_id": "half_from_zero"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "13608A3D43ED812A9CCE4887E08D489D",
+                            "id": "rounding_mode"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "5A81C61446B275917812E89E9B86AC98",
+                                "preset": {
+                                  "guid": "4C9DAE4C4A1A5F7B1EC9489D23DAE1A5",
+                                  "preset_id": "Text_IntegralDigits",
+                                  "value_id": "default_minimum"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "5F8828EC4FE0FA71293331A2797B4A7E",
+                            "id": "min_integral_digits"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "E1E4B45A4C8D55977A66BB96FBC4C822",
+                                "preset": {
+                                  "guid": "F52998894A062C0A97D6C99C61996238",
+                                  "preset_id": "Text_IntegralDigits",
+                                  "value_id": "default_maximum"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "456708E9426AA596879BE78AF99A40A2",
+                            "id": "max_integral_digits"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "2CC6317D4442E64BE97EE19C288730AB",
+                                "preset": {
+                                  "guid": "27AF676F49A73EC2513819975B76D343",
+                                  "preset_id": "Text_FractionalDigits",
+                                  "value_id": "default_minimum"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "FE618F7440A3B75ED1E70C9049958969",
+                            "id": "min_fractional_digits"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "3C715957449A8C3FBFC0BD8F7F1F6E72",
+                                "preset": {
+                                  "guid": "503668094BEB40D1DD0135B5CA4F3604",
+                                  "preset_id": "Text_FractionalDigits",
+                                  "value_id": "default_maximum"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "FF2D01614F1515532FFD078E7A00662D",
+                            "id": "max_fractional_digits"
+                          }
+                        ]
+                      },
+                      "guid": "A0F621D949DD8CA94306F196BD1355B7",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "967B7E854DE713EF0ACA3AAA4863C391",
+                  "id": "details"
+                }
+              ]
+            }
+          ],
+          "guid": "E8C4ACCE40D43A3B7D9B47A5020278CB",
+          "id": "actions"
+        }
+      ]
+    },
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "9E8240BA416337FED374C281A7E29586",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_IsAlive",
+              "guid": "37225F2E4DB23C6F59C5BDA0052A2972",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "9347A87E4EC8905E877924913D4837BD",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "56398BBC4D002FC7BFE1508E86CB1CE3",
+                        "variable_id": "GV_MainEnemyStructure"
+                      }
+                    }
+                  ],
+                  "guid": "C9E0F5AA4663AB6B03C5A28E7ED8A4C0",
+                  "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "Unit_IsAlive",
+              "guid": "1086725F4BA0C2D1657C78A8F5E2B52A",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "09D661F84864296B0C9844A6AAB268AE",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "2637DAF54D39C087258F4298E35BB133",
+                        "variable_id": "GV_MainWarz"
+                      }
+                    }
+                  ],
+                  "guid": "BB7AAED545B352BF0A5322BA2C89DC6E",
+                  "id": "unit"
+                }
+              ]
+            }
+          ],
+          "guid": "E467C4484D6F3E0075BC6B8F548B198C",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Objectives_Objective_State",
+              "guid": "68AB686F476FBB7F8FAF71AF2AF08BBC",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "97C497394F57144767E76BAD0A849919",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "2E6FDEE24B713A2B1C27D78BD7F172FE",
+                        "variable_id": "GV_Objective_SecondaryTimer"
+                      }
+                    }
+                  ],
+                  "guid": "6FFFF9A34AAF7BD817BC59BDC747F16F",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "B7AF986D4E5816E5E04D67B92E9087D7",
+                      "preset": {
+                        "guid": "0BD6069C4C055DA513ED3BB65B1413ED",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "failed"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "8B20524348A43C340DB954B28A17D514",
+                  "id": "state"
+                }
+              ]
+            },
+            {
+              "function_id": "Transmission_PlayTransmission",
+              "guid": "3CA0224944B4D1059A46359D0E3A0553",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "BDE1ACC447290CA74311F5B6803A1110",
+                      "preset": {
+                        "guid": "492AE6794C6AF75BBC3EB881634B3DA3",
+                        "preset_id": "Transmission_TransmissionPlayers",
+                        "value_id": "comms"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "CA70D933400667B348C17BBB5267AFFE",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "23E93C134FB7A54D47EF65B2F992A04D",
+                      "type": "Value",
+                      "value": {
+                        "guid": "86FDF1A94351231E0AA1828D1C0E13C9",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Transmission"
+                        },
+                        "value": "duckiesTransmissionWarz_WarzGameEndAttack"
+                      }
+                    }
+                  ],
+                  "guid": "3EE01B184C73930D43C23DA5E33C631C",
+                  "id": "transmission"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "5FBEAD27411E617DFFF085841EC64DAE"
+                      },
+                      "guid": "68D8203448388819FD1AAE998BE0CFCE",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "790C76BB4CCBA9C114BFC48F5BD9FDEE",
+                  "id": "player_group"
+                }
+              ]
+            },
+            {
+              "function_id": "Unit_CreateUnit",
+              "guid": "3E06011B41DB627ABE70C897C8E132D7",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "E1979B7D42F13B9A1F9813A4B1E47377",
+                      "type": "Value",
+                      "value": {
+                        "guid": "7825F14540D5EE66E67494BB6F57CBC0",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Integer"
+                        },
+                        "value": "11"
+                      }
+                    }
+                  ],
+                  "guid": "C0687BC24D16AD5DFA886B9F931B20C8",
+                  "id": "count"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "9B0E8A9F4D6283F0A51615AC27E3BF2A",
+                      "type": "Value",
+                      "value": {
+                        "guid": "ECA913A742B628924CFCA991BF513093",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UnitData"
+                        },
+                        "value": "duckiesHostileWarz_Unit"
+                      }
+                    }
+                  ],
+                  "guid": "CCFCE1DD47B34C32F6D90D8D596EA127",
+                  "id": "unit_data"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "7CC8FDD94ED530BF7D22FAB686AAC446",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "B39423BA4FF743D00406EAA9CBDC8F70",
+                        "variable_id": "HOSTILE_PLAYER"
+                      }
+                    }
+                  ],
+                  "guid": "DE6086EB496ACC57A297A3AB0966691C",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Actor_GetPosition",
+                        "guid": "ECD7831B4F823AFE1FC75FB619B070CB",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "41A0A06C442C0AFB041C9392ACEA7BB5",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "2A2C211E4D88444C5019D6990ED4E928",
+                                  "variable_id": "GV_MainWarz"
+                                }
+                              }
+                            ],
+                            "guid": "312C91734BA1EEFD3DC2659CCF332A78",
+                            "id": "actor"
+                          }
+                        ]
+                      },
+                      "guid": "0827F0A8464221E82D29789BE45F220D",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "A9C44326410FFFDBDD26538CAA0A969C",
+                  "id": "position"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "8F654F594E1DB40F4579B18F952662E0",
+                      "type": "Value",
+                      "value": {
+                        "guid": "0A57117944F4DD1C217C26A4C912496E",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Boolean"
+                        },
+                        "value": "false"
+                      }
+                    }
+                  ],
+                  "guid": "66A1C1E645A2BAA837B389A3DE922D83",
+                  "id": "force_position"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "12C8975E404FFCE904092E8C09E3A1E7",
+                      "type": "Value",
+                      "value": {
+                        "guid": "EF40D59B4ACAE98DE90145BB456BE4D4",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Degrees"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "guid": "28C56CD749E79EA3BAD2329D2C01FA22",
+                  "id": "facing"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "EC66F88145C52BEDB57A6EA422E4365A",
+                      "type": "Value",
+                      "value": {
+                        "guid": "8E69FC2A4472275CFED07B82A1568C46",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Boolean"
+                        },
+                        "value": "false"
+                      }
+                    }
+                  ],
+                  "guid": "37449B4E4F0761284A7FA48D4EAEC17D",
+                  "id": "birth"
+                }
+              ]
+            },
+            {
+              "function_id": "General_Wait",
+              "guid": "1283221642BB6AD36155FC829B8A67FF",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "84EACF7F43C128F1D85EAABD166A0D69",
+                      "type": "Value",
+                      "value": {
+                        "guid": "25777FC54B0AC8C21A1C7DA6E405B8C8",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "10"
+                      }
+                    }
+                  ],
+                  "guid": "56DB45794F1770F8A7991E8F54246418",
+                  "id": "duration"
+                }
+              ]
+            },
+            {
+              "function_id": "UnitGroup_ForEachUnitInGroup",
+              "guid": "5011240640FF511C193C0FAA6FEAEFC8",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_GetLastCreatedUnits",
+                        "guid": "6CB70E064F54A7C9572F7BA2CBA66BD9"
+                      },
+                      "guid": "5DCA92044A54C6B699023195B9533C10",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "2640EA75445A4E02C539EB9C353A049F",
+                  "id": "units"
+                }
+              ],
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Unit_SetSeekAndDestroy",
+                      "guid": "01075676420D831C607D379D948D0E48",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetCurrentUnit",
+                                "guid": "EEC9F63F4EA1125F9B0FE9B5CBC266BF"
+                              },
+                              "guid": "835BAC1A49D3EB397E69838BF0575E8C",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "B0CBD7F04E7CFB3212776EBCE0DC319C",
+                          "id": "unit"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "282B95234D2659469916259B9EA055EF",
+                              "preset": {
+                                "guid": "AB2313604F633F2E1B4EC5A6CF64F69C",
+                                "preset_id": "Preset_OnOff",
+                                "value_id": "on"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "351879B4447DF3B77212C5B5D5F5C494",
+                          "id": "on"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Actor_ApplyBuff",
+                      "guid": "487AD65144F1DEAE419A7FBBF3E64D85",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "49503B2B48BE9EDBD0E633B0511B9C7C",
+                              "type": "Value",
+                              "value": {
+                                "guid": "7E8352AE4B75064B97AA4C9CCB1A1F56",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Buff"
+                                },
+                                "value": "duckiesHostileWarzClones_Buff"
+                              }
+                            }
+                          ],
+                          "guid": "B03FE624499922E434E5099AB11EB69D",
+                          "id": "buff"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "2E95C60D43F5C35647EFCEA200F1D382",
+                              "type": "Value",
+                              "value": {
+                                "guid": "2BF409BF4F97CCC5B44C9981D8E1F108",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Integer"
+                                },
+                                "value": "1"
+                              }
+                            }
+                          ],
+                          "guid": "6DB13F61442B77C3EDF4BAA1BBB9F0DA",
+                          "id": "stacks"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetCurrentUnit",
+                                "guid": "9C6AF090441D969BA34FA7863C94F31C"
+                              },
+                              "guid": "0B76924E4A6AEF5B725B3CB12CF1BAC4",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "3B1E0B17429A157EE350DE95300B07B8",
+                          "id": "target"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetCurrentUnit",
+                                "guid": "F27A49F24679E6059DF30E99A804F7F1"
+                              },
+                              "guid": "33F5B018416DA579FAB1B9911ACA39F2",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "EC1BAB2A4AD02CD5F7CE68BDBEEF3364",
+                          "id": "source"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "0942D0174CA07E5F1299A4A0BC0746B3",
+                  "id": "actions"
+                }
+              ]
+            },
+            {
+              "function_id": "General_WhileLoop",
+              "guid": "2FBFCC094B5FFB9EE30ECFBA824C5898",
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Unit_IsAlive",
+                      "guid": "21C8F1094BF54A619A4337974A106E5B",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "2AE4053540360621266906AE186A8577",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "E45750EF41E1F8378867F183CC4970A9",
+                                "variable_id": "GV_MainWarz"
+                              }
+                            }
+                          ],
+                          "guid": "AF6F3CC0499A0AD8538F09BB32139701",
+                          "id": "unit"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "4F39457E431DE2C2D2BBF5A8D22EE878",
+                  "id": "conditions"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "General_Wait",
+                      "guid": "3C85AC994C4B795A7CFC22814D994ACF",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "D9FE8B264CDDA4EA113E409CD9B3CE27",
+                              "type": "Value",
+                              "value": {
+                                "guid": "7FB34EC84AC33CC61EAEA09E4D5FBF1A",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Time"
+                                },
+                                "value": "1.0"
+                              }
+                            }
+                          ],
+                          "guid": "78B286DC48C3F6FF2B4903B814D38324",
+                          "id": "duration"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "4358DC8D49DF4F9A49A9A2A7410D29DF",
+                  "id": "actions"
+                }
+              ]
+            },
+            {
+              "function_id": "UnitGroup_ForEachUnitInGroup",
+              "guid": "BB881C3040FFF891ED0DC684E88814B8",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_GetUnitsOfType",
+                        "guid": "40E2EAE74A981DDC11DDC8AF24B742B2",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "4E33D3F94FEAE12446DC95AD401AB62A",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "6B8DED534D45A1B32F1DFBAC305707AA",
+                                  "variable_id": "HOSTILE_PLAYER"
+                                }
+                              }
+                            ],
+                            "guid": "9FB88FB047A3EF4140C520A24C01201A",
+                            "id": "player"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "3D8A0D8E4943B415921D0EB8F14124B6",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "50C8CE3A41318B67A5421AACDB2E5924",
+                                  "type": {
+                                    "directive": "TypeRef",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "UnitData"
+                                  },
+                                  "value": "duckiesHostileWarz_Unit"
+                                }
+                              }
+                            ],
+                            "guid": "810B7F9D440F82DBD3053389537C2BBD",
+                            "id": "unit_type"
+                          }
+                        ]
+                      },
+                      "guid": "27E0C898495C733A7D71A19405E7375A",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "813BC6294C1617EE1DF1B3B35FA9E141",
+                  "id": "units"
+                }
+              ],
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Unit_Kill",
+                      "guid": "7FAD51D14297F53809BABC9CA0CF928A",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetCurrentUnit",
+                                "guid": "208AD0064FB9AFF01BD993B4C786FB20"
+                              },
+                              "guid": "0041E0A947FA3BD5F870DE8C0456A4A5",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "BEA1EE374072DB716447A8A1FE09CC94",
+                          "id": "unit"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "9A7DB07941E541C70F33F28F8FFAF45E",
+                  "id": "actions"
+                }
+              ]
+            }
+          ],
+          "guid": "8407B7284458ADA91EDB7ABF596E3917",
+          "id": "then"
+        },
+        {
+          "guid": "B976EF8D489C2B9B47AA22A5F30E0A8C",
+          "id": "else"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "id": "Objective_Timer",
+  "variables": [
+    {
+      "guid": "1C2DF22541E8B9684E02F4891482FCAF",
+      "id": "LV_Time",
+      "initial_values": [
+        {
+          "guid": "DD35611B481196638CC4F0898A626A95",
+          "type": "Value",
+          "value": {
+            "guid": "C1315602483468BD090A5BA4B1050A2C",
+            "type": {
+              "directive": "FunctionType",
+              "implements": "",
+              "inner_type": "",
+              "param_id": "",
+              "sub_directive": "None",
+              "type": "Integer"
+            },
+            "value": "0"
+          }
+        }
+      ],
+      "name": "LV_Time",
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "type": "Time"
+      }
+    }
+  ]
+}

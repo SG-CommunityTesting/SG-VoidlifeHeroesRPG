@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Prowl.UI_Icons_Abilities_Prowl'",
+    "id": "duckiesHeroCarnivexWeaponPounce_TraitBtn",
+    "name": "Predation Drive",
+    "tooltip": "This unit will pounce on distant targets, stunning them for <d ref=\"duckiesHeroCarnivexWeaponPounce_Debuff.duration\"/> seconds with it's first attack."
+  },
+  "meta": {}
+}

@@ -1,0 +1,56 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileWarzScytheThrow_CallBackLaunchMissile",
+    "impact_effect": "CallWeaponBack_SetMissileImpact",
+    "impact_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Entity",
+      "target": "Caster"
+    },
+    "launch_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 10.0,
+      "socket": "None"
+    },
+    "periodic": {
+      "duration": 0.2,
+      "effect": "ReapTheHarvest_TravelReveal"
+    },
+    "projectile": "ReapTheHarvest_Missile",
+    "projectile_movement_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/ProjectileMovementComponents/PMC_Gaunt_BounceProjectile.PMC_Gaunt_BounceProjectile_C'",
+    "skillshots": [
+      {
+        "effects": [
+          "ReapTheHarvest_DamageTravel"
+        ],
+        "end_projectile": false,
+        "forward_offset": 0,
+        "max_targets": -1,
+        "target_filter": {
+          "alliance": {
+            "ally": false,
+            "enemy": true,
+            "neutral": true,
+            "player": false,
+            "self": false
+          },
+          "tags": {
+            "excluded": [
+              "status_invulnerable"
+            ],
+            "required": []
+          }
+        },
+        "target_validator": "emptyRef",
+        "width": 2.0
+      }
+    ]
+  },
+  "meta": {}
+}

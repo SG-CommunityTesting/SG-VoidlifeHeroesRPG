@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_WarzUnitKill_B",
+    "pause": 10.0,
+    "text_field": "I was right to come here. The void-life is truly a sight to behold. It may not be today, but your true place is within the Infernal Host. One way or the other, you will become ours."
+  },
+  "meta": {}
+}

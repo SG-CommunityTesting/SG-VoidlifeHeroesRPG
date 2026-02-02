@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 224.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroArchangelAirWeaponAtA_Damage",
+    "impact_fx": "BP_FXI_ArchangelFlying_Impact"
+  },
+  "meta": {}
+}

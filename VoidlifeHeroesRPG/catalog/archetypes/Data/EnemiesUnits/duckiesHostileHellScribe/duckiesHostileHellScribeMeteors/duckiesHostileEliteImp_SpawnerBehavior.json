@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "based_on": "BehaviorUnitSpawner",
+    "flags": {
+      "change_owner": true,
+      "kill_spawned_on_death": false,
+      "kill_spawned_on_max_amount": false
+    },
+    "id": "duckiesHostileEliteImp_SpawnerBehavior",
+    "spawn_max_count": 6,
+    "spawn_period": 1.0,
+    "spawn_unit": "duckiesHostileEliteImp_PassiveImpUnit"
+  },
+  "meta": {}
+}

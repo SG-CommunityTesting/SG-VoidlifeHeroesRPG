@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "BaseGameEffectApplyBuffStun",
+  "buff": "duckiesHostileHarbingerLand_CasterStun",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesHostileHarbingerLand_CasterStunApply",
+  "validator": "emptyRef"
+}

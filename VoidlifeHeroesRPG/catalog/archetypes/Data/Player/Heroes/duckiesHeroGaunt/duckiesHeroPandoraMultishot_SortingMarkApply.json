@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroPandoraMultishot_SortingMarkBuff",
+    "id": "duckiesHeroPandoraMultishot_SortingMarkApply"
+  },
+  "meta": {}
+}

@@ -1,0 +1,69 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectPersistent",
+    "based_on": "BaseGameEffectPersistent",
+    "effect_expire_delay": 1.0,
+    "effect_initial": "duckiesHeroStormflyerBombs_RevealPersistent",
+    "flags": {
+      "channel_execute_event": false,
+      "channeling": false,
+      "mark_exclusive_target": false,
+      "use_attack_speed": false
+    },
+    "id": "duckiesHeroVulcanBombs_LaunchPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [],
+      "periodic_method": "Loop",
+      "variance": {
+        "angle": 0,
+        "radius": 0
+      },
+      "vector_facing_end": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      }
+    },
+    "periodic": {
+      "count": 1,
+      "durations": [
+        4.0
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHeroVulcanBombs_ImpactPersistent"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    },
+    "reveal": {
+      "detector": false,
+      "vision_height": 20.0,
+      "vision_holder": {
+        "effect_parent": "none",
+        "target": "Target"
+      },
+      "vision_radius": 3.0
+    },
+    "tracker": "",
+    "validator": "emptyRef"
+  },
+  "meta": {}
+}

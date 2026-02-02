@@ -1,0 +1,79 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_MainWarz",
+    "initial_values": [
+      {
+        "function": {
+          "function_id": "UnitGroup_GetFirstUnit",
+          "guid": "082041CE46C8822A0DEF2B9F79A55A83",
+          "parameters": [
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "UnitGroup_GetUnitsOfType",
+                    "guid": "71D5F57D4A9228EDC1F9EAB4657B424F",
+                    "parameters": [
+                      {
+                        "expressions": [
+                          {
+                            "guid": "ADFAF1284FF44D6CE87B3CA56E1B3249",
+                            "type": "Variable",
+                            "variable": {
+                              "guid": "ADEF0FFD48644BBAF318DBB9346C5F7E",
+                              "variable_id": "HOSTILE_PLAYER"
+                            }
+                          }
+                        ],
+                        "guid": "8EBD41B146AAD795658562A3A013378F",
+                        "id": "player"
+                      },
+                      {
+                        "expressions": [
+                          {
+                            "guid": "1695F3F248BFD0808BB5B189B88A87EF",
+                            "type": "Value",
+                            "value": {
+                              "guid": "DF7D66A2483AB307691F1E8D9B3F81D7",
+                              "type": {
+                                "directive": "TypeRef",
+                                "implements": "",
+                                "inner_type": "",
+                                "param_id": "",
+                                "sub_directive": "None",
+                                "type": "UnitData"
+                              },
+                              "value": "duckiesHostileWarz_Unit"
+                            }
+                          }
+                        ],
+                        "guid": "AADF45E64D0F0FF8C1C16699BF0D63BD",
+                        "id": "unit_type"
+                      }
+                    ]
+                  },
+                  "guid": "651C67BC40F3B397DFFCD2B92A6EB9BB",
+                  "type": "Function"
+                }
+              ],
+              "guid": "910A8A364D3C5DB2D3E9D1B88BC26F11",
+              "id": "group"
+            }
+          ]
+        },
+        "guid": "5B03B5394A3E4DB66D2296B963599C89",
+        "type": "Function"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Unit"
+    }
+  },
+  "meta": {}
+}

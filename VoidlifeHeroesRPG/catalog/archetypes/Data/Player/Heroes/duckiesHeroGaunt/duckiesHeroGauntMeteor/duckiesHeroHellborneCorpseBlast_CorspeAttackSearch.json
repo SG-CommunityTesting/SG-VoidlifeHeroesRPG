@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchRadius",
+    "id": "duckiesHeroHellborneCorpseBlast_CorspeAttackSearch",
+    "impact_fx": "BP_FXS_ServeTheFlame_Cast",
+    "max_targets": 1,
+    "radius": 9.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "target_sorts": [
+      "TS_DistanceClosest"
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,84 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_MainHealer",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "UnitGroup_GetFirstUnit",
+        "guid": "082041CE46C8822A0DEF2B9F79A55A83",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "UnitGroup_GetUnitsOfType",
+                  "guid": "71D5F57D4A9228EDC1F9EAB4657B424F",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "guid": "63B857CD46871F9FA0BA599EE4F59EF5",
+                          "type": "Value",
+                          "value": {
+                            "guid": "9782C0AE42E86EA062AE8F9C2A6CB25A",
+                            "type": {
+                              "directive": "FunctionType",
+                              "implements": "",
+                              "inner_type": "",
+                              "param_id": "",
+                              "sub_directive": "None",
+                              "type": "Player"
+                            },
+                            "value": "1"
+                          }
+                        }
+                      ],
+                      "guid": "8EBD41B146AAD795658562A3A013378F",
+                      "id": "player"
+                    },
+                    {
+                      "expressions": [
+                        {
+                          "guid": "63044C6F4CA0AFFC834F3FAF90EDA3D5",
+                          "type": "Value",
+                          "value": {
+                            "guid": "9A98D1124E02D0B5DDE2F6B8B9416550",
+                            "type": {
+                              "directive": "TypeRef",
+                              "implements": "",
+                              "inner_type": "",
+                              "param_id": "",
+                              "sub_directive": "None",
+                              "type": "UnitData"
+                            },
+                            "value": "duckiesVoidheartShrine"
+                          }
+                        }
+                      ],
+                      "guid": "AADF45E64D0F0FF8C1C16699BF0D63BD",
+                      "id": "unit_type"
+                    }
+                  ]
+                },
+                "guid": "651C67BC40F3B397DFFCD2B92A6EB9BB",
+                "type": "Function"
+              }
+            ],
+            "guid": "910A8A364D3C5DB2D3E9D1B88BC26F11",
+            "id": "group"
+          }
+        ]
+      },
+      "guid": "5B03B5394A3E4DB66D2296B963599C89",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Unit"
+  }
+}

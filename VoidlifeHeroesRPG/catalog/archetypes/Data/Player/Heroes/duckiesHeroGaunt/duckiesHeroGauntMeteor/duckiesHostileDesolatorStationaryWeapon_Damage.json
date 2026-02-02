@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "amount": 100.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHostileDesolatorStationaryWeapon_Damage",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 0,
+      "launch_power": 0.5
+    }
+  },
+  "meta": {}
+}

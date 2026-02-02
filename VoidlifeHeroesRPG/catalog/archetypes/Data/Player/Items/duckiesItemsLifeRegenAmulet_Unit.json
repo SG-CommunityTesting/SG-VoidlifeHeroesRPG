@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsLifeRegenAmulet_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_FocusOfTheEmpyrean.UI_Icons_Weapons_FocusOfTheEmpyrean'",
+    "id": "duckiesItemsLifeRegenAmulet_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 1,
+    "name": "Lifestone Pendant",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "Increases life regeneration by <d ref=\"duckiesItemsLifeRegenAmulet_Buff.modifiers[0].amount\" style=\"Bold\"/>.\n\n<UnitName>Stacks up to 1 time per item slot.</>",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

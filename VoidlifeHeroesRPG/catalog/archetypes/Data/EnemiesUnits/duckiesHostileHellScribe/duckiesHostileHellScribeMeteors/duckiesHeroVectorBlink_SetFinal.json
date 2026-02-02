@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroVectorBlink_TeleportBack"
+    ],
+    "id": "duckiesHeroVectorBlink_SetFinal",
+    "impact_fx": "BP_FXS_GhostBlink_TeleportOut",
+    "validator": "Valid_CasterShouldRecall"
+  },
+  "meta": {}
+}

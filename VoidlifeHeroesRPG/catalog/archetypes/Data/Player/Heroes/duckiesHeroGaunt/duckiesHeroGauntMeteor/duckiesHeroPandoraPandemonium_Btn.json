@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Overkill.UI_Icons_Abilities_Overkill'",
+    "id": "duckiesHeroPandoraPandemonium_Btn",
+    "name": "Pandemonium",
+    "tooltip": "Unleash a wave of dark energy that travels forward from the caster, inflicting <d ref=\"duckiesHeroPandoraPandemonium_Damage.amount\" style=\"Bold\"/> (+<d ref=\"duckiesHeroPandoraPandemonium_DamageTagBonus.bonus\" style=\"Bold\"/> vs light) damage to enemy ground units and stunning them for <d ref=\"duckiesHeroPandoraPandemonium_Stunned.duration\"/> seconds."
+  },
+  "meta": {}
+}

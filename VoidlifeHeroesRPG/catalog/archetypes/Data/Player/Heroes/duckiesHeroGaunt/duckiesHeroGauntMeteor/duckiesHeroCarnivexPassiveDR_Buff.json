@@ -1,0 +1,36 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "duration": -1.0,
+    "flags": {
+      "change_owner_on_polymorph": false,
+      "disable_on_attacking": false,
+      "disable_on_damage_taken": false,
+      "hidden": false,
+      "hide_timer": false,
+      "override_source": false,
+      "pause_while_disabled": false,
+      "persist_on_dead": false,
+      "remove_on_attacking": false,
+      "remove_on_damage_taken": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MitigativeGuard.UI_Icons_Abilities_MitigativeGuard'",
+    "id": "duckiesHeroCarnivexPassiveDR_Buff",
+    "name": "Chrono Shell",
+    "responses": [
+      "CarnivexDeferredDamage_ResponseDeferredDamage",
+      "CarnivexDeferredDamage_ResponseDamage"
+    ],
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 0,
+      "initial": 1,
+      "maximum": 1
+    },
+    "tooltip": "<d ref=\"CarnivexDeferredDamage_ResponseDamage.modify_fraction * 100\"/>% of all damage taken is deferred and instead taken as up to <d ref=\"CarnivexDeferredDamage_StoreValueDamage.store_value.root.parameters[1].argument.value / CarnivexDeferredDamage_Persistent.periodic.durations[0]\"/> damage per second."
+  },
+  "meta": {}
+}

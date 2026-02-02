@@ -1,0 +1,20 @@
+﻿{
+  "__base_type": "GameEffectModifyVitals",
+  "based_on": "GameEffectModifyVitals",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "energy_mod_expression": {},
+  "energy_mod_flat_amount": -0.5,
+  "energy_mod_percentage": 0.0,
+  "health_mod_expression": {},
+  "health_mod_flat_amount": 0.0,
+  "health_mod_percentage": 0.0,
+  "id": "duckiesHostileGoldHealerHeal_TickUpkeep",
+  "shield_mod_expression": {},
+  "shield_mod_flat_amount": 0.0,
+  "shield_mod_percentage": 0.0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

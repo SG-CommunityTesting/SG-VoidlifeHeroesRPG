@@ -1,0 +1,169 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHostileHellScribeMeteors_Abil"
+    ],
+    "armor": 10.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "armor_name": "pegasus_core|ArmorName_InfernalHeroicArmor",
+    "based_on": "BaseUnit",
+    "build_cost": {
+      "resource_a": 15.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "cargo_size": "One",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHostileHellScribeMeteors_Abil",
+        "button": "duckiesHostileHellScribeMeteors_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      0,
+      10
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "id": "duckiesHostileHellScribe_Unit",
+    "inner_radius": 0.5,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.35,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 2,
+      "speed": 4.5,
+      "stationary_turn_period": 0.35,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Hellscribe",
+    "outer_radius": 1.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_light"
+    ],
+    "subgroup_priority": 200,
+    "traits": [
+      "duckiesHostileHellscribeMeteors_Trait"
+    ],
+    "unit_button": "BloodScribe_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Default_BloodScribe.UI_Portrait_Default_BloodScribe'",
+    "unreal_actor": "BP_UD_BloodScribe_00",
+    "veterancy_given_on_death": 100,
+    "vision_radius": 12.0,
+    "vital_energy": {
+      "maximum": 50.0,
+      "regen": 0.0,
+      "starting": 0.0
+    },
+    "vital_health": {
+      "maximum": 800.0,
+      "regen": 0.0,
+      "starting": 800.0
+    },
+    "weaponList": [
+      "duckiesHostileHellScribeWeaponA_Wpn"
+    ]
+  },
+  "meta": {}
+}

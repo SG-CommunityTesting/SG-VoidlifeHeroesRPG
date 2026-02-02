@@ -1,0 +1,101 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": false,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "dead",
+            "status_invulnerable"
+          ],
+          "required": [
+            "heightplane_ground"
+          ]
+        }
+      },
+      "autocasts": true,
+      "exclusive_targeting": false,
+      "initially_on": true,
+      "range": 6.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [],
+      "validator": "NoValidator"
+    },
+    "based_on": "StagedAbilityData",
+    "cast_game_effect": "duckiesHostileWarzScytheThrow_LaunchMissile",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 4.0,
+          "name": "Reap The Harvest",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 20.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "display_effect_area": "ReapTheHarvest_DamageRadiusStatic",
+    "finish_duration": 1.0,
+    "flags": {
+      "best_unit": true,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": false,
+      "channeling_breaks_on_facing": true,
+      "channeling_breaks_on_range": true,
+      "channeling_breaks_on_vision": true,
+      "channeling_resists_push": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "increment_worker_count": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": false,
+      "reapproach": false,
+      "requires_vision": false,
+      "show_progress": false,
+      "silenceable": true,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": true,
+        "channel": false,
+        "finish": true,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHostileWarzScytheThrow_Abil",
+    "range_maximum": 8.0,
+    "targeting_type": "Location",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

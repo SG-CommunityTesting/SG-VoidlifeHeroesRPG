@@ -1,0 +1,105 @@
+﻿{
+  "data": {
+    "__base_type": "UnitData",
+    "armor": 0.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "armor_name": "pegasus_core|ArmorName_InfernalStructureArmor",
+    "based_on": "BaseUnit_InfernalS",
+    "behaviors": [
+      "duckiesHostileFarm_Behavior"
+    ],
+    "buffs": [],
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "commandList": [],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "faction": "Infernal",
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "footprint": {
+      "angled": false,
+      "clumpable": false,
+      "snap": false,
+      "unbuildable": false,
+      "vision_block_height": 0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "duckiesHostileFarm_Unit",
+    "inner_radius": 0.375,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 0.0,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Felhog Farm",
+    "outer_radius": 1.7,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "heightplane_ground",
+      "attribute_mechanical",
+      "attribute_light",
+      "supply"
+    ],
+    "traits": [],
+    "unit_button": "BarrowFarm_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BarrowFarm.UI_Portrait_Demon_Default_BarrowFarm'",
+    "unreal_actor": "BP_SD_BarrowFarm_00",
+    "veterancy_given_on_death": 100,
+    "vital_health": {
+      "maximum": 300.0,
+      "regen": 0.0,
+      "starting": 300.0
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,892 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "593CFAA8405D3A53D2CF40A786372EFA",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_IsType",
+              "guid": "104E7E124324BCEF09EA60A253A7F9C9",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit",
+                        "guid": "2383690F4F7C5C411D6E22806E6A1E0E"
+                      },
+                      "guid": "D7B35C304C71843F666A07911811F0D4",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "5A9E5C014AF8B2BB8FE1A2A7A5D8B27F",
+                  "id": "unit"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "0FBBD75642A2D2A0B487D595B324EF73",
+                      "type": "Value",
+                      "value": {
+                        "guid": "E19153474F9534C3AF7165A1D0A11A29",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UnitData"
+                        },
+                        "value": "duckiesShrineUpgraderHealing_Unit"
+                      }
+                    }
+                  ],
+                  "guid": "21FC33B04BF523127AC90494C020AB77",
+                  "id": "type"
+                }
+              ]
+            }
+          ],
+          "guid": "2ABDF2874E04568C347F5FA59D6A4279",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Callouts_Major",
+              "guid": "02AAF5EC43BC2EE118796E9EEA5A681E",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "E3C6E98B40D5CAFB58BCB8B7151DC9EC",
+                      "script": "\"Voidheart Shrine Upgraded\"",
+                      "type": "Script"
+                    }
+                  ],
+                  "guid": "ED80ECFD456334AB240E6AAE2DCC3781",
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "2E01667C4C2159D6FBCBCDB59BBBB5D7",
+                      "type": "Value",
+                      "value": {
+                        "guid": "CE607B374B0943302A38D28E1675DE1B",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "6.0"
+                      }
+                    }
+                  ],
+                  "guid": "C39BE6184A8C3422DFC10898BE502856",
+                  "id": "lifetime"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "BC0C55484C96C626A6E340AE4A231BC4",
+                      "type": "Value",
+                      "value": {
+                        "guid": "3E88EA5C42FB49B6825BB8A345F71AD6",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "7EF55F1E4E8F47EF8A8408AD1027A527",
+                  "id": "r"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "DF0592C9453AC20945F54D95B5EE6EA3",
+                      "type": "Value",
+                      "value": {
+                        "guid": "27357258438BC0C2B9F8EAB18A09D0C9",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "400201D34C142093D17257A28A586F82",
+                  "id": "g"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "AA5BDFAA416B14E18713669B4FE04D03",
+                      "type": "Value",
+                      "value": {
+                        "guid": "24CD3FC7455DB796109EDCA3F8CAF511",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "DCFEB94D420A8C4B0772A0A68DAA31A5",
+                  "id": "b"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "2CDDD90E45D5751CA8AC469B533C8832"
+                      },
+                      "guid": "BD79785941ED4BB7B70AE59701F9F06B",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "B5C3BC3F4B09640A0D208DB2AD4BA6B7",
+                  "id": "group"
+                }
+              ]
+            },
+            {
+              "function_id": "Callouts_Minor",
+              "guid": "1DE558AF45F1D0EE19FCF7807CD724F9",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "9D876748471FF8D4CE3547B963165F25",
+                      "script": "\"Voidheart Shrine Healing Increased by 50%\\n\\n\"",
+                      "type": "Script"
+                    }
+                  ],
+                  "guid": "080B35154D9E5E92F92299BB61616668",
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "4AD2E76844376AF56F5C48AFAA081087",
+                      "type": "Value",
+                      "value": {
+                        "guid": "B75B59464335ECFEFCA08C8D54FC6962",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "6.0"
+                      }
+                    }
+                  ],
+                  "guid": "7BF9A85C4254F792697D89B2F5462A3A",
+                  "id": "lifetime"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "E5107DE541402B04305D50BEB2CFCCEF",
+                      "type": "Value",
+                      "value": {
+                        "guid": "3C7DF73E456EA5D19A501C9FA91C3188",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "AFEE7B9F4352826A04B3F2920DC9808C",
+                  "id": "r"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "05629674456383C6F75B3E88100AA3F7",
+                      "type": "Value",
+                      "value": {
+                        "guid": "F0D08B134F4D27A3983BA1AD854D3C9F",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "363D28D64F3BD3D3ADDF079DC9D3B81C",
+                  "id": "g"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "5F736DD54E4C9DBB08AB359046C584BA",
+                      "type": "Value",
+                      "value": {
+                        "guid": "D44F86B444E5D7B69B28089200147E5C",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "73CF9986427D1A5D254764B568AAF726",
+                  "id": "b"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "A63CE1BC435DA3E19A1436A5C46E37C5"
+                      },
+                      "guid": "DCA5AFF441DF1707669BEF939D9B6AB1",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "F847BC4C4D32F065E312809E6967EDA8",
+                  "id": "group"
+                }
+              ]
+            },
+            {
+              "function_id": "TechTree_AddUpgradeLevel",
+              "guid": "3D83F0784D501B634C4B349BE8C90891",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "464B058A4220E3FB66530C8256127857",
+                      "type": "Value",
+                      "value": {
+                        "guid": "3E7958C04CC2BC60BAD12E943E0AA580",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Player"
+                        },
+                        "value": "1"
+                      }
+                    }
+                  ],
+                  "guid": "20A47DF240237DC218148EBD71917587",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "7C4A25AF4F7BB3CB269FCF904C79209F",
+                      "type": "Value",
+                      "value": {
+                        "guid": "0D62F9904D5C0FFB903D95991AB28560",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UpgradeData"
+                        },
+                        "value": "duckiesShrineUpgraderHealing_Upgrade"
+                      }
+                    }
+                  ],
+                  "guid": "88FC5A88407A565E769601830E9C8DEB",
+                  "id": "upgrade_data"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C1321D14442F493EEE5C078D8AFC2AAB",
+                      "type": "Value",
+                      "value": {
+                        "guid": "2126849E4D0695F8C3B21AB6B69E906A",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Integer"
+                        },
+                        "value": "1"
+                      }
+                    }
+                  ],
+                  "guid": "0CF4C8C44FE68CD4469234A6DB58C1DB",
+                  "id": "levels"
+                }
+              ]
+            }
+          ],
+          "guid": "288B30A54F2455C62CA6F1A538132E38",
+          "id": "then"
+        },
+        {
+          "guid": "EA8930934895944EABF340ACFD88D625",
+          "id": "else"
+        }
+      ]
+    },
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "5C9660054A676441CA7A2AA4D9CA2663",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_IsType",
+              "guid": "45434B4E420561387246D3A9847CAC38",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit",
+                        "guid": "77573373433629396FBB95BB32BC0D23"
+                      },
+                      "guid": "E800CAC74E825A6FD9928CA9B0A67CF2",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "1366E6E34CADF89EDE1542AFDE8B5D90",
+                  "id": "unit"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "25F9A9C945C6B85B5C5CB0BB8139BC89",
+                      "type": "Value",
+                      "value": {
+                        "guid": "2C8FDEB24E2A42CFF808AE9CD8129F05",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UnitData"
+                        },
+                        "value": "duckiesShrineUpgraderDefenses_Unit"
+                      }
+                    }
+                  ],
+                  "guid": "80A1AB564A166C489FFB66B6B1E2470C",
+                  "id": "type"
+                }
+              ]
+            }
+          ],
+          "guid": "229DDD4849E92BFB7808F9A509B3CCD0",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Callouts_Major",
+              "guid": "4F0D036443E22F92B813018D66F12CBA",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "72564AD64606BD28574FA689860E316B",
+                      "script": "\"Voidheart Shrine Upgraded\"",
+                      "type": "Script"
+                    }
+                  ],
+                  "guid": "8085C2A642289A542695C79D7AEB692E",
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "18E137FB454677382A0E2C8A351C12E4",
+                      "type": "Value",
+                      "value": {
+                        "guid": "57BDE5D64259B4464B05988B472D7A46",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "6.0"
+                      }
+                    }
+                  ],
+                  "guid": "7E77445342E2B42A7DA7CE953E50678B",
+                  "id": "lifetime"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "97482D084D5608A42FF1A2AC51C468A8",
+                      "type": "Value",
+                      "value": {
+                        "guid": "2DE4967B4B3AA1EFEFFF2C800466B4C9",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "B2CA6D4E4F010DA1765B66AC256B4D57",
+                  "id": "r"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "1577FABB4A2F7EE781A8FFA32C69FEF7",
+                      "type": "Value",
+                      "value": {
+                        "guid": "CF413B9B4BE811EB853806A041A4B7B2",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "A97FD86E4EA4A182A50AFFAFB2D443D7",
+                  "id": "g"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "EDFBC62546601D3BA1A188923C45287A",
+                      "type": "Value",
+                      "value": {
+                        "guid": "E972F6924A02B2297A7323A572128E51",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "DFCA6E9841699422355B50AE1204759A",
+                  "id": "b"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "EB8A881F423D2E76E2F463BE8D82961E"
+                      },
+                      "guid": "6060FBCD4A05E811E2353BADCCDCEAF4",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "53F0DDB54229EEFBFE63A6A938F47AAC",
+                  "id": "group"
+                }
+              ]
+            },
+            {
+              "function_id": "Callouts_Minor",
+              "guid": "E23A707E417534277C713AB5D1FE2472",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "533F64AE4FDB7EB1203214A7D6D6038E",
+                      "script": "\"Shrine and Shroudstone armor increased by 20 \\nShroudstone damage increased by 10\\n\\n\"",
+                      "type": "Script"
+                    }
+                  ],
+                  "guid": "5C45B9F14A80105FE7A1D9B6DB625780",
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "133C924348F1F71FD8B662896661B526",
+                      "type": "Value",
+                      "value": {
+                        "guid": "75B8E6BA483EFFAE92E6E1B38CFE11DF",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "6.0"
+                      }
+                    }
+                  ],
+                  "guid": "00B57F7A4503112999CA2DB5374745E4",
+                  "id": "lifetime"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C3656818459AB7C12344DC882AA86FE1",
+                      "type": "Value",
+                      "value": {
+                        "guid": "E26D0C4148BAA6EABC4697BD678AF312",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "F40A77E84A527F8D2BD229BCA9FCF199",
+                  "id": "r"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "7AFACBA245129D4F519E0B9B98F7684F",
+                      "type": "Value",
+                      "value": {
+                        "guid": "BB5ADC87485F5DC054C4AE80CFE58D07",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "24C8FFDF4D8CE9614158AF97172211F2",
+                  "id": "g"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "79C5EB7340CA3293EF92F5BDC7D54B2E",
+                      "type": "Value",
+                      "value": {
+                        "guid": "0CFF86264DF6DBC3AA4819ADA7E56A24",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "E7B60F864294E53351B985A7EDD1D05B",
+                  "id": "b"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "56BE847B461F67571C51939F1E38A9F5"
+                      },
+                      "guid": "6140749E487365D62BBB299FAC50CF15",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "490E9EDE475DA988C7B18C9FBB76A9C5",
+                  "id": "group"
+                }
+              ]
+            },
+            {
+              "function_id": "TechTree_AddUpgradeLevel",
+              "guid": "528AC75B4B0D8898EA3672AA69284D84",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "7FF315E54B09CF03583F44B796B8D35C",
+                      "type": "Value",
+                      "value": {
+                        "guid": "F7E981B04AE31254ACDBA294A3C08709",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Player"
+                        },
+                        "value": "1"
+                      }
+                    }
+                  ],
+                  "guid": "7F33EE174AA829B920DED3ABD3082A9A",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "496E17EC48F313F4F03D1DAC88F76FC1",
+                      "type": "Value",
+                      "value": {
+                        "guid": "6875D7DA457E079686F9A69CF2E3F18A",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UpgradeData"
+                        },
+                        "value": "duckiesShrineUpgraderDefenses_Upgrade"
+                      }
+                    }
+                  ],
+                  "guid": "4432E00244216F21692B22833B8B1E8A",
+                  "id": "upgrade_data"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "06C9052E462813BC5E87DBA40FF58C59",
+                      "type": "Value",
+                      "value": {
+                        "guid": "C485E1CC4A0A9C26C7BF0281DEE15E8B",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Integer"
+                        },
+                        "value": "1"
+                      }
+                    }
+                  ],
+                  "guid": "D76BBD2947E26A0E2DB167B34B1B1334",
+                  "id": "levels"
+                }
+              ]
+            }
+          ],
+          "guid": "6CBFD07A4F10E8E767B79EADCC591871",
+          "id": "then"
+        },
+        {
+          "guid": "A42BF9984E6FA388E5B0C181C6EB5B5F",
+          "id": "else"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_AndOrConditions",
+      "guid": "04C58B6546A19D0964A0F4BADDC7C4E3",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "1DE9FFA641F824FFBEAA4E81CE9FF3BF",
+              "preset": {
+                "guid": "8CFF0FE54B856B5DD2D65FA6B3AE5FC3",
+                "preset_id": "Logic_AndOrOperator",
+                "value_id": "or"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "0C858C494C95DC586D2160AA7B2AE9F5",
+          "id": "op"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_IsType",
+              "guid": "F6A52F83463EF1DF45D1F38B0808C197",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit",
+                        "guid": "20AD408E4074280D18ABF1A2C198AEC6"
+                      },
+                      "guid": "664A57904987B13931CED9A39DC0B0CD",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "003A4FB9484447D01E1417A6C5DD6972",
+                  "id": "unit"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C2CE6274471988EC0E96C5B7EA9D20EC",
+                      "type": "Value",
+                      "value": {
+                        "guid": "69B98E2C4C582A8F5B7BD0A06BEB2507",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UnitData"
+                        },
+                        "value": "duckiesShrineUpgraderHealing_Unit"
+                      }
+                    }
+                  ],
+                  "guid": "26ED98FE4793B3E073F48CB23528793B",
+                  "id": "type"
+                }
+              ]
+            },
+            {
+              "function_id": "Unit_IsType",
+              "guid": "3DACAF3E4A671D2BCE7BEBBCB3CE2BD1",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit",
+                        "guid": "6C7BB78F4B99FECE1B2858B3EE186912"
+                      },
+                      "guid": "F07F35C8483BC4A62E5C31A15541480F",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "5DBB5F5445316BB3B3C5948F98990161",
+                  "id": "unit"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "76B7B87843B32731AB4CBDA31B5E6A5C",
+                      "type": "Value",
+                      "value": {
+                        "guid": "2F3643BB433332586BA02792EF116A75",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "UnitData"
+                        },
+                        "value": "duckiesShrineUpgraderDefenses_Unit"
+                      }
+                    }
+                  ],
+                  "guid": "BECAD8DC4A166C490CC2199ED7882E4E",
+                  "id": "type"
+                }
+              ]
+            }
+          ],
+          "guid": "6CE29F3E4F1BB196DFBE2BB0F373B834",
+          "id": "conditions"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "function_id": "Unit_OnKilled",
+      "guid": "8A609F54475F194868C40F972AFF2747",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "98D7A7BB4224C78A7CAE9DA872CCEC73",
+              "preset": {
+                "guid": "AEC9963D4813FEE73491E7B2188866C7",
+                "preset_id": "Unit_AnyUnit",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "861BE10A496B51DD9C09049DA9AD5569",
+          "id": "unit"
+        }
+      ]
+    }
+  ],
+  "id": "ShrineUpgraderPickup_Activation"
+}

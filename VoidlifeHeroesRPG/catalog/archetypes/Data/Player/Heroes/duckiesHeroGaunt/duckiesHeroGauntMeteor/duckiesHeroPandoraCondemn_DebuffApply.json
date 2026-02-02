@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectApplyBuff",
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroPandoraCondemn_Debuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHeroPandoraCondemn_DebuffApply"
+  },
+  "meta": {}
+}

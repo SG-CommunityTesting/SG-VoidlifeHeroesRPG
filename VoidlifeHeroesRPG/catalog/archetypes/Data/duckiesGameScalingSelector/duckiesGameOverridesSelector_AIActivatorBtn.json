@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Gear/UI_Icons_Gear_MaximumControl.UI_Icons_Gear_MaximumControl'",
+    "id": "duckiesGameOverridesSelector_AIActivatorBtn",
+    "name": "Override missing players with AI",
+    "tooltip": "Activates AI for all empty player slots. This can also be done by changing player to AI in the lobby prior to game's start."
+  },
+  "meta": {}
+}

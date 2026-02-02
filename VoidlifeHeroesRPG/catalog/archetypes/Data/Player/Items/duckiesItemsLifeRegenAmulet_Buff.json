@@ -1,0 +1,36 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "flags": {
+      "change_owner_on_polymorph": false,
+      "disable_on_attacking": false,
+      "disable_on_damage_taken": false,
+      "hidden": true,
+      "hide_timer": false,
+      "override_source": false,
+      "pause_while_disabled": false,
+      "persist_on_dead": true,
+      "remove_on_attacking": false,
+      "remove_on_damage_taken": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_BastionArmor.UI_Icons_Items_BastionArmor'",
+    "id": "duckiesItemsLifeRegenAmulet_Buff",
+    "modifiers": [
+      {
+        "amount": 5.0,
+        "stat_mod": "HealthRegenScaledAdditiveBonus"
+      }
+    ],
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 0,
+      "initial": 1,
+      "maximum": 100
+    },
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

@@ -1,0 +1,22 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_FX_Magmadon_TrampleBuff",
+    "duration": 8.0,
+    "effect_initial": "duckiesHostileMagmadonLeaderTrample_StunnerHostApply",
+    "effect_periodic": "duckiesHostileMagmadonLeaderTrample_PeriodicDamageSet",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Magmadon.UI_Icons_Units_Demon_Magmadon'",
+    "id": "duckiesHostileMagmadonLeaderTrample_PrimaryBuff",
+    "modifiers": [
+      {
+        "amount": 1.0,
+        "stat_mod": "PushPriorityUnscaledBonus"
+      }
+    ],
+    "name": "pegasus_coop|Buff_name_AbyssalTrample_BuffPrimary",
+    "periodic_duration": 0.5,
+    "tooltip": "pegasus_coop|Buff_tooltip_AbyssalTrample_BuffPrimary"
+  },
+  "meta": {}
+}

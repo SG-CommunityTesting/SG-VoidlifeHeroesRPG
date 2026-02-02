@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroCarnivexWeaponPounce_BuffCD",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_CDApply"
+  },
+  "meta": {}
+}

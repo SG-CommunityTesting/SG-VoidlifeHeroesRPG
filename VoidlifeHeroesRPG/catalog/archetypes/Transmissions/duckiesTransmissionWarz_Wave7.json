@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_Wave7",
+    "pause": 10.0,
+    "text_field": "The shrine can no longer sustain it's hold over the realm.\n\nThe little time it has left will not make any difference, not against our assault."
+  },
+  "meta": {}
+}

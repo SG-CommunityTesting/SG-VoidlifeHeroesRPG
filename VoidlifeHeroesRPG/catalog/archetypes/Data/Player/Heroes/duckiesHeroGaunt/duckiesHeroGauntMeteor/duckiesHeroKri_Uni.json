@@ -1,0 +1,177 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "BaseInventory",
+      "duckiesHeroKriHeal_Abil",
+      "duckiesHeroKriEvolve_Abil"
+    ],
+    "armor": 10.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_Mecha_Light.UI_Icons_Armor_Celestial_Mecha_Light'",
+    "armor_name": "pegasus_core|ArmorName_CelestialArmor",
+    "based_on": "duckiesHeroBase_TIER1",
+    "buffs": [
+      "duckiesHeroKri_RollOutPassiveBuff"
+    ],
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroKriHeal_Abil",
+        "button": "duckiesHeroKriHeal_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroKriEvolve_Abil",
+        "button": "duckiesHeroBase_EvolveBtn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "emptyRef"
+    },
+    "id": "duckiesHeroKri_Uni",
+    "inner_radius": 0.375,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 5.5,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_Kri",
+    "outer_radius": 0.6,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_mechanical",
+      "attribute_light",
+      "attribute_melee",
+      "attribute_hero",
+      "attribute_biological"
+    ],
+    "subgroup_priority": 102,
+    "traits": [
+      "duckiesHeroKri_RollOutTrait",
+      "duckiesHeroKriWeapon_Trait"
+    ],
+    "unit_button": "Kri_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Kri.UI_Portrait_Angel_Default_Kri'",
+    "unit_name_list": "CelCelestial",
+    "unreal_actor": "BP_UA_Kri_00",
+    "vital_health": {
+      "maximum": 175.0,
+      "regen": 1.0,
+      "starting": 175.0
+    },
+    "weaponList": [
+      "duckiesHeroKriWeapon_Wpn",
+      "duckiesHeroKriWeaponAlt_Wpn",
+      "Kri_WeaponBlazeOfLight"
+    ]
+  },
+  "meta": {}
+}

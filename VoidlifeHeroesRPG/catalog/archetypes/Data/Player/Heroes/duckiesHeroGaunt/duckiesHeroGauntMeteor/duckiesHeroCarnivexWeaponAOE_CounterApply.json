@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroCarnivexWeaponAOE_CounterBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroCarnivexWeaponAOE_CounterApply"
+  },
+  "meta": {}
+}

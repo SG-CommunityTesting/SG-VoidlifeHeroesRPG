@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesGlobalEXPReward_WarzSearchRadius",
+      "ResourcePickupRefund"
+    ],
+    "id": "duckiesGlobalEXPReward_WarzRevengeSet"
+  },
+  "meta": {}
+}

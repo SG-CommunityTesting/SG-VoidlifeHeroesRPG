@@ -1,0 +1,32 @@
+﻿{
+  "data": {
+    "amount": 56.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroCarnivexWeapon_Damage",
+    "impact_fx": "BP_FXI_Carnivex_Impact",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 0,
+      "launch_power": 0.05
+    },
+    "tag_bonuses": [
+      "duckiesHeroCarnivexWeapon_TagBonus"
+    ],
+    "vitals_leech": {
+      "energy": {
+        "max": 0.0,
+        "min": 0.0,
+        "percent": 0.0
+      },
+      "health": {
+        "max": 0.0,
+        "min": 0.0,
+        "percent": 50.0
+      }
+    }
+  },
+  "meta": {}
+}

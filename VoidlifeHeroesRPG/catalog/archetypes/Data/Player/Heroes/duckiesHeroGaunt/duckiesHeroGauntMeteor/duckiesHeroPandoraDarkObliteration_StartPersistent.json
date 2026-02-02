@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_initial": "duckiesHeroPandoraDarkObliteration_ImpactSwitch",
+    "effect_initial_delay": 0.4,
+    "effect_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "id": "duckiesHeroPandoraDarkObliteration_StartPersistent",
+    "impact_fx": "BP_FXS_ServeTheFlame_Cast",
+    "periodic": {
+      "count": 1,
+      "durations": [
+        0.2
+      ],
+      "effects": [
+        "emptyRef"
+      ],
+      "validator": "NoValidator"
+    },
+    "unreal_actor": "BP_EBFX_Infernal_Curse_CreateUnit"
+  },
+  "meta": {}
+}

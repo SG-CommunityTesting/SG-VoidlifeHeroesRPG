@@ -1,0 +1,83 @@
+﻿{
+  "data": {
+    "augmented_ability": "attackData",
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": false,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "status_invulnerable",
+            "status_sleeping",
+            "dead",
+            "entity_unit_structure",
+            "capturable"
+          ],
+          "required": [
+            "heightplane_ground"
+          ]
+        }
+      },
+      "autocasts": true,
+      "exclusive_targeting": true,
+      "initially_on": true,
+      "range": 8.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [],
+      "validator": "Valid_duckiesHeroCarnivexWeaponPounce_DistanceCheck"
+    },
+    "based_on": "AugmentAbilityData",
+    "cast_game_effect": "duckiesHeroCarnivexWeaponPounce_LaunchMissile",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "Pounce",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "flags": {
+      "activation_requires_target": true,
+      "best_unit": false
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_AugmentAbil",
+    "target_actor": "BP_InstantTargetActor",
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [],
+        "required": []
+      }
+    },
+    "targeting_type": "Unit"
+  },
+  "meta": {}
+}

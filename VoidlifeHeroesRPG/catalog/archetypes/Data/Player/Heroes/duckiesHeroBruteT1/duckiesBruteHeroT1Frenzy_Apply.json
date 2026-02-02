@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesBruteHeroT1Frenzy_Buff",
+    "id": "duckiesBruteHeroT1Frenzy_Apply"
+  },
+  "meta": {}
+}

@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "amount": 8.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHostileGoldHorrorWeapon_Damage",
+    "tag_bonuses": [
+      "OozeRewardHeavyTagBonus"
+    ]
+  },
+  "meta": {}
+}

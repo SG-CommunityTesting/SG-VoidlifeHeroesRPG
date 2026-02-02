@@ -1,0 +1,184 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "UnderConstructionData",
+      "structureProductionQueueAbilityData",
+      "RitualChamber_Research"
+    ],
+    "alias_tech": [
+      "_RitualChamber"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "behaviors": [
+      "duckiesSpawnerRitualChamberPassive_Behavior"
+    ],
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 70.0,
+    "commandList": [
+      {
+        "ability": "structureProductionQueueAbilityData",
+        "button": "CancelProduction_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": true,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "FlameOnUpgrade_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "GauntPlagueAxeUpgrade_Button",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "GauntDeathAxeUpgrade_Button",
+        "commandIndex": 2,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "HagAdeptTrainingUpgrade_Button",
+        "commandIndex": 3,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "HagMasterTrainingUpgrade_Button",
+        "commandIndex": 4,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "DominariAdeptTrainingUpgrade_Button",
+        "commandIndex": 5,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "DarkLureUpgrade_Button",
+        "commandIndex": 6,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "MistborneAssaultUpgrade_Button",
+        "commandIndex": 7,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "RitualChamber_Research",
+        "button": "DominariMasterTrainingUpgrade_Button",
+        "commandIndex": 8,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "duckiesGlobalEXPReward_RevengeSet"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Hag"
+      }
+    ],
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesSpawnerRitualChamber_Unit",
+    "name": "pegasus_core|UnitData_Name_RitualChamber",
+    "outer_radius": 2.2,
+    "shroud_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "duckiesTagSpawner",
+      "heightplane_ground",
+      "duckiesTagSpawnerObjective"
+    ],
+    "subgroup_priority": 33,
+    "unit_button": "RitualChamber_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_RitualChamber.UI_Portrait_Demon_Default_RitualChamber'",
+    "unreal_actor": "BP_SD_RitualChamberV2_00",
+    "vision_radius": 11.0,
+    "vital_health": {
+      "maximum": 2500.0,
+      "regen": 0.0,
+      "starting": 2500.0
+    }
+  },
+  "meta": {}
+}

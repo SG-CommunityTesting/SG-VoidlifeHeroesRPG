@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "MassAttackWaveID",
+  "initial_values": [
+    {
+      "guid": "C0733B3947ABDDD18288B49A2EFC4807",
+      "type": "Value",
+      "value": {
+        "guid": "82FB4ACD4F56220ED5B1FA88D30FFF31",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        },
+        "value": "0"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Integer"
+  }
+}

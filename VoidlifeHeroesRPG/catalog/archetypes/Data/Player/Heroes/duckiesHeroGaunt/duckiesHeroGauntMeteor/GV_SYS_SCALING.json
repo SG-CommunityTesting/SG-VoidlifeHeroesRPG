@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_SYS_SCALING",
+    "initial_values": [
+      {
+        "guid": "37E06C9741E04EBF7A31409D52EA3C2B",
+        "type": "Value",
+        "value": {
+          "guid": "FB9DD3314535F8095F9629867DB6A8E1",
+          "type": {
+            "directive": "FunctionType",
+            "implements": "",
+            "inner_type": "",
+            "param_id": "",
+            "sub_directive": "None",
+            "type": "Integer"
+          },
+          "value": "0"
+        }
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Integer"
+    }
+  },
+  "meta": {}
+}

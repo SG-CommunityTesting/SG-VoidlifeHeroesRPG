@@ -1,0 +1,84 @@
+﻿{
+  "data": {
+    "amount_expression": {
+      "root": {
+        "left": {
+          "left": {
+            "node": "Literal",
+            "type": "Value",
+            "value": 6
+          },
+          "node": "Math",
+          "operator": "-",
+          "right": {
+            "name": "ExpressionApi::Buff::get_stack_count",
+            "node": "FunctionCall",
+            "parameters": [
+              {
+                "argument": {
+                  "name": "ExpressionApi::effect_target",
+                  "node": "FunctionCall",
+                  "parameters": [
+                    {
+                      "argument": {
+                        "node": "Literal",
+                        "type": "Name",
+                        "value": ""
+                      },
+                      "name": "effect_parent",
+                      "type": "Name"
+                    }
+                  ],
+                  "type": "Entity"
+                },
+                "name": "entity",
+                "type": "Entity"
+              },
+              {
+                "argument": {
+                  "node": "Literal",
+                  "type": "Buff",
+                  "value": "Pandemonium_BuffCounter"
+                },
+                "name": "buff",
+                "type": "Buff"
+              },
+              {
+                "argument": {
+                  "name": "ExpressionApi::Entity::any",
+                  "node": "FunctionCall",
+                  "parameters": [],
+                  "type": "Entity"
+                },
+                "name": "source",
+                "type": "Entity"
+              }
+            ],
+            "type": "Count"
+          },
+          "type": "Value"
+        },
+        "node": "Math",
+        "operator": "*",
+        "right": {
+          "node": "Literal",
+          "type": "Value",
+          "value": 15
+        },
+        "type": "Value"
+      },
+      "type": "Value"
+    },
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "flags": {
+      "alert": true,
+      "damage_response": false
+    },
+    "id": "duckiesHeroPandoraCondemn_Damage",
+    "impact_fx": "BP_FX_Dominari_Pandemonium_Impact"
+  },
+  "meta": {}
+}

@@ -1,0 +1,231 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "UnitGroup_ForEachUnitInGroup",
+        "guid": "2A523A9F4FE326CB5807EA8427EC56B9",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Player_GetHeroUnits",
+                  "guid": "9B6A6C84428947263DBB7EBF082CD1D0",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "Player_GetTriggeringPlayer",
+                            "guid": "DBF484EA4B494A5AAF603BA6C49C8925"
+                          },
+                          "guid": "EDAD450548290D9082E32D9198A6C295",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "B80CFFF24A849D089DFA1A806EFB7836",
+                      "id": "player"
+                    }
+                  ]
+                },
+                "guid": "A61C1849405F6DAD8EA63B9160DA5493",
+                "type": "Function"
+              }
+            ],
+            "guid": "0055B95E43C9531562BC26830D5D46F3",
+            "id": "units"
+          }
+        ],
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "Unit_AdjustVeterancyXP",
+                "guid": "3CA7D5594B2C369FC25514AE2ABC96B9",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetCurrentUnit",
+                          "guid": "49AE8E334B68A47EB287A2B6D62D711D"
+                        },
+                        "guid": "270947A7425089F4D8DFA580834379C4",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "2DA6FB1B4464DB22801715BBB0E4F0A5",
+                    "id": "unit"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "79A6867D44B765A092B871B7C6A854D0",
+                        "type": "Value",
+                        "value": {
+                          "guid": "B5AE86764B778619C19A2F8B36086333",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Value"
+                          },
+                          "value": "99999.0"
+                        }
+                      }
+                    ],
+                    "guid": "5826BC2443AEBF5C5E9113A6F8CA8C29",
+                    "id": "veterancy"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "3097177F4A8A828B2FF847A050158D8F",
+                        "preset": {
+                          "guid": "6A1DABA943F74BEFC682A7B3F4119A7F",
+                          "preset_id": "General_DoDoNot",
+                          "value_id": "do"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "FF3C41E94B0919E4ACFE66BA8670B2C6",
+                    "id": "adjust_player_score"
+                  }
+                ]
+              }
+            ],
+            "guid": "D2903CF24B7C818CE17E929C492396A1",
+            "id": "actions"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "conditions": [
+      {
+        "function_id": "Logic_Comparison",
+        "guid": "4038047C48C864A82BCFE09ED8586423",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_CountPlayers",
+                  "guid": "53B6D71048C34DE8859A8A871288D75E",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "PlayerGroup_GetActivePlayers",
+                            "guid": "E6ECCF0A48F33ACDD2531F94FD147515"
+                          },
+                          "guid": "5CB3DC8A40DAF6B79758C4960A2A6596",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "72F5D049436DC83D1046F98A6B24F312",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "88FBF74C4CCD83765691FA9622265072",
+                "type": "Function"
+              }
+            ],
+            "guid": "950C74E3420E0AD9DAA56482F179ACCE",
+            "id": "value1"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "CBF60E074945858EE271228ED149D7A8",
+                "preset": {
+                  "guid": "F65825F44BE22BE7226FDAA439D3FC8F",
+                  "preset_id": "Logic_ComparisonOperator",
+                  "value_id": "eq"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "A79DAADE42A5F71CA45A3EB805A5200E",
+            "id": "op"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "BC93057440B787CB44389EBB8AADD28F",
+                "type": "Value",
+                "value": {
+                  "guid": "44EC0ADC495825FBD3DE72A850C071AE",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Player"
+                  },
+                  "value": "1"
+                }
+              }
+            ],
+            "guid": "785313D84D6CA567C5E58998D00B824F",
+            "id": "value2"
+          }
+        ]
+      }
+    ],
+    "enabled": false,
+    "events": [
+      {
+        "function_id": "Player_OnPlayerSendsChatMessage",
+        "guid": "B21B744646258CB58BD9929126903974",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "0DC8C1BB437849DF200B248F8A437A22",
+                "preset": {
+                  "guid": "3A6FAE874753E568931849919BDFA355",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "27B075CC4BEFB2872035329C3CC0D68B",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "B2F5784749206521685B6CA378BC8780",
+                "type": "Value",
+                "value": {
+                  "guid": "7E4801E04F7FBBEA0324E6842D1C19DE",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "String"
+                  },
+                  "value": "!exp"
+                }
+              }
+            ],
+            "guid": "A4B4DC084DD8902C62CB1CA80CDF4BC6",
+            "id": "message"
+          }
+        ]
+      }
+    ],
+    "id": "Debug_EXP_Cheat"
+  },
+  "meta": {}
+}

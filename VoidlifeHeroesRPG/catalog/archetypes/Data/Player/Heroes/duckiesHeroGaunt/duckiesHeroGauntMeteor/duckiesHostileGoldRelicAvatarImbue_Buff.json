@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_StormEmpowerment",
+    "duration": -1.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ImbueAvatar.UI_Icons_Abilities_Stormgates_ImbueAvatar'",
+    "id": "duckiesHostileGoldRelicAvatarImbue_Buff",
+    "modifiers": [
+      {
+        "amount": 100.0,
+        "stat_mod": "HealthMaxPercentageAdditiveMultiplier"
+      },
+      {
+        "amount": 100.0,
+        "stat_mod": "EnergyRegenPercentageBonus"
+      },
+      {
+        "amount": 100.0,
+        "stat_mod": "AttackDamagePercentageBonus"
+      }
+    ],
+    "name": "Empowered",
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 0,
+      "initial": 1,
+      "maximum": 1
+    },
+    "tooltip": "Unit's health, attack damage and energy regeneration increased by <d ref=\"duckiesHostileGoldRelicAvatarImbue_Buff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</>",
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

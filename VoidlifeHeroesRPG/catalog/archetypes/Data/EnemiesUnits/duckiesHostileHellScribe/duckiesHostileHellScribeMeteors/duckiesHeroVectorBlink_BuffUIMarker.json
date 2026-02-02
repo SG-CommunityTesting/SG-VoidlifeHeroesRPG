@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_GhostBlink",
+    "duration": 17.2,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PhaseGhost.UI_Icons_Abilities_PhaseGhost'",
+    "id": "duckiesHeroVectorBlink_BuffUIMarker",
+    "name": "pegasus_core|Buff_name_GhostBlink_Buff",
+    "responses": [],
+    "tooltip": "This unit can Recall to its previous location at any time."
+  },
+  "meta": {}
+}

@@ -1,0 +1,224 @@
+﻿{
+  "data": {
+    "__base_type": "UnitData",
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHeroIncarnateStomp_Abil",
+      "duckiesHeroIncarnateSporeBlast_Abil",
+      "duckiesHeroMagmadonConsume_Abil",
+      "BaseInventory",
+      "duckiesHeroIncarnateEvolve_Abil",
+      "Incarnate_SwarmofHorrors"
+    ],
+    "armor": 20.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "armor_name": "pegasus_core|ArmorName_InfernalArmor",
+    "based_on": "duckiesHeroBase_TIER3",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroIncarnateStomp_Abil",
+        "button": "duckiesHeroIncarnateStomp_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroIncarnateSporeBlast_Abil",
+        "button": "duckiesHeroIncarnateSporeBlast_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroMagmadonConsume_Abil",
+        "button": "duckiesHeroMagmadonConsume_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroIncarnateEvolve_Abil",
+        "button": "duckiesheroBruteT1Evolve_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      10
+    ],
+    "enabled_unit_tech": [],
+    "energy_type": "Energy",
+    "faction": "Infernal",
+    "fidget": {
+      "delay_maximum": 30.0,
+      "delay_minimum": 10.0,
+      "turning_angle": 90.0,
+      "turning_duration": 1.0,
+      "weights": {
+        "animate": 33.0,
+        "idle": 66.0,
+        "turn": 0.0
+      }
+    },
+    "global_resource_overrides": [],
+    "id": "duckiesHeroIncarnate_Unit",
+    "inner_radius": 1.0,
+    "minimap_icon_size": 16.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": true,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.7,
+      "pathing_mode": "Ground",
+      "push_priority": 1,
+      "push_priority_same_team": 3,
+      "speed": 5.0,
+      "stationary_turn_period": 0.7,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_Name_Incarnate",
+    "outer_radius": 2.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_heavy",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_resilient",
+      "attribute_hero"
+    ],
+    "targeting_participation_alias": [],
+    "traits": [
+      "duckiesHeroBruteT1Weapon_Trait"
+    ],
+    "turret_list": [],
+    "ui_flags": {
+      "callout_attacks_air": false,
+      "callout_attacks_ground": true
+    },
+    "unit_button": "Incarnate_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Creeps/UI_Portrait_Creeps_Default_Incarnate.UI_Portrait_Creeps_Default_Incarnate'",
+    "unreal_actor": "BP_UD_IncarnateV2_00",
+    "vital_energy": {
+      "maximum": 300.0,
+      "regen": 3.0,
+      "starting": 300.0
+    },
+    "vital_health": {
+      "maximum": 4000.0,
+      "regen": 0.0,
+      "starting": 4000.0
+    },
+    "vital_shield": {
+      "maximum": 0.0,
+      "regen": 0.0,
+      "starting": 0.0
+    },
+    "vitals_force_hide": false,
+    "weaponList": [
+      "Incarnate_Weapon_Air",
+      "duckiesHeroIncarnateWeaponGround_Wpn"
+    ]
+  },
+  "meta": {}
+}

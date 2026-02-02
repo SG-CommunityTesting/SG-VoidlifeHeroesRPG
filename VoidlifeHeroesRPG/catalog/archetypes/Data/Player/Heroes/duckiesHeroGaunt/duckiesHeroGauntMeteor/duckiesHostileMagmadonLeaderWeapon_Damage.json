@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 200.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHostileMagmadonLeaderWeapon_Damage",
+    "impact_fx": "BP_FX_Magmadon_Impact"
+  },
+  "meta": {}
+}

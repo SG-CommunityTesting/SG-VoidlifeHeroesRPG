@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_RevitalizationRadiance.UI_Icons_Abilities_RevitalizationRadiance'",
+    "id": "duckiesShopHealPot_Btn",
+    "name": "Healing Potion",
+    "tooltip": "Purchase a healing potion which will heal the hero for <d ref=\"duckiesItemsHealingPotionUse_Heal.amount\" style=\"Green\"/> and restore <d ref=\"duckiesItemsHealingPot_EnergyModify.energy_mod_flat_amount\" style=\"Blue\"/> energy on use."
+  },
+  "meta": {}
+}

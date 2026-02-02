@@ -1,0 +1,61 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::Buff::has_buff",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": ""
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            },
+            {
+              "argument": {
+                "node": "Literal",
+                "type": "Buff",
+                "value": "duckiesHeroPandoraMultishot_SortingMarkBuff"
+              },
+              "name": "buff",
+              "type": "Buff"
+            },
+            {
+              "argument": {
+                "name": "ExpressionApi::Unit::any",
+                "node": "FunctionCall",
+                "parameters": [],
+                "type": "Unit"
+              },
+              "name": "source",
+              "type": "Unit"
+            }
+          ],
+          "type": "Bool"
+        },
+        "node": "Logical",
+        "operator": "!",
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroPandoraMultishot_NoMarker"
+  },
+  "meta": {}
+}

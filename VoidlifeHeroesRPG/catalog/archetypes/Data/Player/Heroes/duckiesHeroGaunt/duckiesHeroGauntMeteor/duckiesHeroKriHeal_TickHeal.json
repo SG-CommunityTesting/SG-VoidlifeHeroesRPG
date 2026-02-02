@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "amount": 5.0,
+    "based_on": "GameEffectHeal",
+    "id": "duckiesHeroKriHeal_TickHeal"
+  },
+  "meta": {}
+}

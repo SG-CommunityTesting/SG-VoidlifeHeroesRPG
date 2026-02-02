@@ -1,0 +1,34 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchRadius",
+    "black_white_list": {
+      "exclude": [
+        {
+          "effect_parent": "origin",
+          "target": "Target"
+        }
+      ],
+      "include": []
+    },
+    "game_effect": "duckiesHeroDragonWeapon_AOEImpactSet",
+    "id": "duckiesHeroDragonWeapon_AOESearchRadius",
+    "radius": 3.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "dead"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

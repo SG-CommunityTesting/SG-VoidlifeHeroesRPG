@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_RendingFangs.UI_Icons_Weapons_Stormgates_RendingFangs'",
+    "id": "duckiesHeroCarnivexWeaponAOE_TraitBtn",
+    "name": "Cleave",
+    "tooltip": "On every third attack this unit will cleave all enemy units in front of it."
+  },
+  "meta": {}
+}

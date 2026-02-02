@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "amount": 500.0,
+    "based_on": "GameEffectHeal",
+    "id": "duckiesVoidHeartShrine_ShopHeal",
+    "impact_fx": "BP_FX_HealingBurst_Impact"
+  },
+  "meta": {}
+}

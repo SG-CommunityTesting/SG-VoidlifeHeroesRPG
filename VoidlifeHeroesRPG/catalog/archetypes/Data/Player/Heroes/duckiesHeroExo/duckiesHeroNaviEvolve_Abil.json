@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "duckiesHeroBase_EvolveAbil",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "requirement": "duckiesHeroNaviEvolve_Req",
+        "unit": "duckiesHeroArchangel_Unit"
+      }
+    ],
+    "id": "duckiesHeroNaviEvolve_Abil"
+  },
+  "meta": {}
+}

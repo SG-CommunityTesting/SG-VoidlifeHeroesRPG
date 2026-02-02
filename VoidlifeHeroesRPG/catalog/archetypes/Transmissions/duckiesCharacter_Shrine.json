@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseCharacter",
+    "faction": "Infernal",
+    "id": "duckiesCharacter_Shrine",
+    "image": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Neutral/UI_Portrait_Neutral_Default_WellSpring.UI_Portrait_Neutral_Default_WellSpring'",
+    "name": "Voidheart Shrine",
+    "portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Neutral/UI_Portrait_Neutral_Default_WellSpring.UI_Portrait_Neutral_Default_WellSpring'"
+  },
+  "meta": {}
+}

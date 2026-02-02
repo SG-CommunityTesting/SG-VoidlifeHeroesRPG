@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroPandoraSummon_RemovvalSearch",
+      "duckiesHeroPandoraSummon_CreateUnit"
+    ],
+    "id": "duckiesHeroPandoraSummon_StartSet",
+    "impact_fx": "BP_FXS_MassShroudweave_TeleportIn"
+  },
+  "meta": {}
+}

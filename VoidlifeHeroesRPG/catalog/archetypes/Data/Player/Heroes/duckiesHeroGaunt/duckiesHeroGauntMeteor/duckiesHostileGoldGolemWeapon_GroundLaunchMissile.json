@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileGoldGolemWeapon_GroundLaunchMissile",
+    "impact_effect": "duckiesHostileGoldGolemWeapon_ImpactSet",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 24.0
+    },
+    "projectile": "AntiAirReward_WeaponGround_Missile"
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 66.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroPandoraSummon_UnitWpnDamage",
+    "impact_fx": "BP_FX_Brute_Impact"
+  },
+  "meta": {}
+}

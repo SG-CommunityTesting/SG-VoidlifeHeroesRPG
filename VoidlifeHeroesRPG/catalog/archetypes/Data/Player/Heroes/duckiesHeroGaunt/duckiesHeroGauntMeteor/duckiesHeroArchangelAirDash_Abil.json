@@ -1,0 +1,71 @@
+﻿{
+  "data": {
+    "based_on": "BaseStagedAbility",
+    "cast_game_effect": "duckiesHeroArchangelAirDash_LaunchMissile",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 4.0,
+          "name": "AetherSlash",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 30.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "flags": {
+      "best_unit": false,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": false,
+      "channeling_breaks_on_facing": true,
+      "channeling_breaks_on_range": true,
+      "channeling_breaks_on_vision": true,
+      "channeling_resists_push": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": false,
+      "reapproach": false,
+      "requires_vision": false,
+      "show_progress": false,
+      "silenceable": true,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": false,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroArchangelAirDash_Abil",
+    "range_maximum": 9999.0,
+    "range_to_visualize": "cast_game_effect_range",
+    "targeting_type": "Location",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

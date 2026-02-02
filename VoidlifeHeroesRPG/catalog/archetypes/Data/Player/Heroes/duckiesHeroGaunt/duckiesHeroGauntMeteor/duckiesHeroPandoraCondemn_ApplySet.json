@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "effects": [
+      "duckiesHeroPandoraCondemn_DebuffApply",
+      "duckiesHeroPandoraCondemn_DoTDebuffApply"
+    ],
+    "id": "duckiesHeroPandoraCondemn_ApplySet",
+    "range_maximum": 5.0,
+    "validator": "Valid_duckiesHeroPandoraCondemn_NoBuff"
+  },
+  "meta": {}
+}

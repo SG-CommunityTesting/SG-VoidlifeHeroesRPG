@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "BaseStagedAbility",
+    "cast_duration": 0.1,
+    "cast_game_effect": "duckiesHostileGoldRelicAvatarImbue_StartSet",
+    "id": "duckiesHostileGoldRelicAvatarImbue_Abil",
+    "range_maximum": 6.0,
+    "range_slop": 1.0,
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure",
+          "attribute_object",
+          "attribute_hero",
+          "capturable"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "targeting_type": "Unit",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

@@ -1,0 +1,73 @@
+﻿{
+  "__base_type": "WeaponData",
+  "ammo": "NoAmmo",
+  "arc": 0.0,
+  "arc_slop": 11.25,
+  "backswing": 0.4,
+  "backswing_locked": -1.0,
+  "based_on": "WeaponData",
+  "can_use": "emptyRef",
+  "cannot_fire_while_flocking": 0.0,
+  "display_effect_area": "emptyRef",
+  "display_effect_damage": "emptyRef",
+  "flags": {
+    "always_visualize_range": false,
+    "can_attack_location": false,
+    "channeled": true,
+    "fires_passively": false,
+    "hide_weapon": true,
+    "melee": false,
+    "scan_for_new_targets": true
+  },
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Harbinger.UI_Icons_Units_Demon_Harbinger'",
+  "id": "duckiesHostileHarbingerWeapon",
+  "name": "",
+  "period": 2.0,
+  "preswing_initial": 0.0,
+  "preswing_repeating": 0.0,
+  "preswing_winddown": 0.0,
+  "random_delay_maximum": 0.09375,
+  "random_delay_minimum": -0.046875,
+  "range_acquire": 20.0,
+  "range_maximum": 3.0,
+  "range_minimum": 0.0,
+  "range_slop": 2.0,
+  "swing": 0.0,
+  "swing_reacquire_range": 0.0,
+  "turret": "emptyRef",
+  "unreal_component": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+  "weapon_acquire_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": false,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_sleeping"
+      ],
+      "required": []
+    }
+  },
+  "weapon_fire": "duckiesHostileHarbingerWeapon_Command",
+  "weapon_target_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": true,
+      "neutral": true,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_invulnerable",
+        "entity_destructible_tree"
+      ],
+      "required": [
+        "heightplane_ground"
+      ]
+    }
+  }
+}

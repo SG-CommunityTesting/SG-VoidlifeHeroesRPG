@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesItemsHealingPotionUse_Heal",
+      "duckiesItemsHealingPot_EnergyModify"
+    ],
+    "id": "duckiesItemsHealingPot_StartSet"
+  },
+  "meta": {}
+}

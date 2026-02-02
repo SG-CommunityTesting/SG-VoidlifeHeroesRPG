@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "amount": -100000.0,
+    "based_on": "BaseGameEffectModifyVeterancy",
+    "id": "duckiesHeroBase_EvolveResetExp",
+    "impact_fx": "BP_FXS_Promote",
+    "validator": "Valid_TargetCanBePromoted"
+  },
+  "meta": {}
+}

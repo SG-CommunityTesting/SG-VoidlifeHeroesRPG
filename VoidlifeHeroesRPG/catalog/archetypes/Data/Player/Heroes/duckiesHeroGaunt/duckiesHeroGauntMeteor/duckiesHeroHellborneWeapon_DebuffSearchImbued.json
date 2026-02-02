@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "flags": {
+      "target_becomes_instigator": false,
+      "use_search_location_outer_radius": false
+    },
+    "game_effect": "duckiesHeroHellborneWeapon_DebuffApplyImbued",
+    "id": "duckiesHeroHellborneWeapon_DebuffSearchImbued",
+    "radius": 3.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "dead",
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "target_sorts": [],
+    "tracker": ""
+  },
+  "meta": {}
+}

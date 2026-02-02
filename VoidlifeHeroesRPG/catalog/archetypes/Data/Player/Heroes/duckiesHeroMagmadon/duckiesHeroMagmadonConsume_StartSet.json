@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroMagmadonConsume_ModifyVitalsHealth",
+      "duckiesHeroMagmadonConsume_Damage"
+    ],
+    "id": "duckiesHeroMagmadonConsume_StartSet",
+    "impact_fx": "BP_FXS_Consume_Target"
+  },
+  "meta": {}
+}

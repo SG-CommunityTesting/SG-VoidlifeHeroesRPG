@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectRemoveBuff",
+    "buff": "duckiesHeroCarnivexWeaponAOE_CounterBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroCarnivexWeaponAOE_CounterRemove",
+    "stacks": 999
+  },
+  "meta": {}
+}

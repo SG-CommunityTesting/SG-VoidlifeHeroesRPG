@@ -1,0 +1,23 @@
+﻿{
+  "data": {
+    "based_on": "Gaunt_WeaponOnShroud_BounceMissileLauncher2",
+    "id": "duckiesHeroGauntWeapon_Bounce2LaunchMissile",
+    "impact_effect": "duckiesHeroGauntWeapon_Bounce2ImpactSet",
+    "launch_location": {
+      "effect_parent": "Gaunt_WeaponOnShroud_BounceMissileLauncher2",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 25.0,
+      "socket": "None"
+    }
+  },
+  "meta": {}
+}

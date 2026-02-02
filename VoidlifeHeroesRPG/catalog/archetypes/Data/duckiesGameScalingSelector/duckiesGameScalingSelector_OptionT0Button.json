@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Veterancy/UI_Icons_Veterancy_Human_Level_00.UI_Icons_Veterancy_Human_Level_00'",
+    "id": "duckiesGameScalingSelector_OptionT0Button",
+    "name": "Extra Scaling: Tier 0",
+    "tooltip": "Default mass attack size. \n\nDefault setting for singleplayer."
+  },
+  "meta": {}
+}

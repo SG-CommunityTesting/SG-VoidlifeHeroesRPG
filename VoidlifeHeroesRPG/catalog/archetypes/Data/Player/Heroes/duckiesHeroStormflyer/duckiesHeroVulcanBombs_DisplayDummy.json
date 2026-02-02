@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectDamageRadius",
+    "amount": 1.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 3.0
+      }
+    ],
+    "based_on": "BaseGameEffectDamageRadius",
+    "flags": {
+      "alert": true,
+      "damage_response": true,
+      "use_search_location_outer_radius": false
+    },
+    "id": "duckiesHeroVulcanBombs_DisplayDummy",
+    "search_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [
+          "dead",
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    }
+  },
+  "meta": {}
+}

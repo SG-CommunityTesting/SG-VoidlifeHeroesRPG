@@ -1,0 +1,37 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 100.0,
+  "amount_expression": {},
+  "based_on": "GameEffectDamage",
+  "damage_tags": [
+    "damage_ranged"
+  ],
+  "death_type": "Normal_DeathType",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "alert": true,
+    "damage_response": true
+  },
+  "friendly_fire_percentage": 100.0,
+  "id": "duckiesHostileHellScribeWeapon_Damage",
+  "impact_fx": "BP_FXI_Maloc_Impact",
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

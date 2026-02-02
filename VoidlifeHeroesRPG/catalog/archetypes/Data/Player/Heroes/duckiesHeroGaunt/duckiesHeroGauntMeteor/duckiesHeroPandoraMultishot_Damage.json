@@ -1,0 +1,24 @@
+﻿{
+  "data": {
+    "amount": 50.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroPandoraMultishot_Damage",
+    "impact_fx": "BP_FX_Dominari_Attack_Impact",
+    "vitals_leech": {
+      "energy": {
+        "max": 0.0,
+        "min": 0.0,
+        "percent": 0.0
+      },
+      "health": {
+        "max": 0.0,
+        "min": 0.0,
+        "percent": 100.0
+      }
+    }
+  },
+  "meta": {}
+}

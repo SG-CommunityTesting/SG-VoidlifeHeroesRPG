@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_DevourSouls.UI_Icons_Abilities_DevourSouls'",
+    "id": "duckiesHeroHellborneCorpseBlast_Btn",
+    "name": "Wrathform",
+    "tooltip": "Transforms corpses in target area into void energy which will attack nearby enemies (attacks once per second for <d ref=\"duckiesHeroHellborneCorpseBlastHolder_WpnDamage.amount\"/> damage).\n\n Persist for <d ref=\"duckiesHeroHellborneCorpseBlast_VoidRiftPersistent.effect_expire_delay\"/> seconds before disappearing."
+  },
+  "meta": {}
+}

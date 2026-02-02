@@ -1,0 +1,30 @@
+﻿{
+  "abilityList": [],
+  "additional_black_mask_vision_radius": 0.0,
+  "based_on": "BaseUnit_InfernalS",
+  "commandList": [],
+  "effects": {
+    "birth": "emptyRef",
+    "constructed": "emptyRef",
+    "creation": "emptyRef",
+    "death": "duckiesAlliedObelisk_RespawnUnitCreate",
+    "revenge": "emptyRef"
+  },
+  "fog_visibility": "Hidden",
+  "footprint": {
+    "angled": false,
+    "clumpable": false,
+    "snap": false,
+    "unbuildable": false,
+    "vision_block_height": 0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "id": "duckiesAlliedObelisk_RespawnerUnit",
+  "inner_radius": 0.0,
+  "outer_radius": 0.0,
+  "starting_snowtags": [
+    "status_invulnerable"
+  ],
+  "vision_radius": 0.0
+}

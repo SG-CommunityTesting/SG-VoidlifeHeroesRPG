@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SeismicSlam.UI_Icons_Abilities_SeismicSlam'",
+    "id": "duckiesHeroBruteT1Thunderclap_Btn",
+    "name": "Rage Stomp",
+    "tooltip": "Stomp the ground, dealing <d ref=\"duckiesHeroBruteT1Thunderclap_DamageRadius.amount\" style=\"Bold\"/> damage to nearby enemies."
+  },
+  "meta": {}
+}

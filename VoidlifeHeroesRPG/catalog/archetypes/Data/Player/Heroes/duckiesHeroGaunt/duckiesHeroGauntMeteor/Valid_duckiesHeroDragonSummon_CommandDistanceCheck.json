@@ -1,0 +1,78 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::Vector::get_distance_sq",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::Vector::get_entity_position",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "name": "ExpressionApi::effect_target",
+                      "node": "FunctionCall",
+                      "parameters": [
+                        {
+                          "argument": {
+                            "node": "Literal",
+                            "type": "Name",
+                            "value": ""
+                          },
+                          "name": "effect_parent",
+                          "type": "Name"
+                        }
+                      ],
+                      "type": "Entity"
+                    },
+                    "name": "entity",
+                    "type": "Entity"
+                  }
+                ],
+                "type": "Vector"
+              },
+              "name": "a",
+              "type": "Vector"
+            },
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target_point",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": "origin"
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Vector"
+              },
+              "name": "b",
+              "type": "Vector"
+            }
+          ],
+          "type": "Distance (Squared)"
+        },
+        "node": "Logical",
+        "operator": ">=",
+        "right": {
+          "node": "Literal",
+          "type": "Distance (Squared)",
+          "value": 25.0
+        },
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroDragonSummon_CommandDistanceCheck"
+  },
+  "meta": {}
+}

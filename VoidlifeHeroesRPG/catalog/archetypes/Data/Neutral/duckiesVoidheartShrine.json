@@ -1,0 +1,97 @@
+﻿{
+  "data": {
+    "additional_black_mask_vision_radius": 0.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_VoidField.UI_Icons_Armor_Stormgates_VoidField'",
+    "based_on": "BaseUnit",
+    "buffs": [
+      "duckiesVoidheartShrineAura_HostBuff"
+    ],
+    "fidget": {
+      "delay_maximum": 0.0,
+      "delay_minimum": 0.0,
+      "turning_angle": 90.0,
+      "turning_duration": 1.0,
+      "weights": {
+        "animate": 33.0,
+        "idle": 33.0,
+        "turn": 33.0
+      }
+    },
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": true,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "fog_visibility": "Visible",
+    "footprint": {
+      "angled": false,
+      "snap": true,
+      "vision_block_height": 0,
+      "x": 6.0,
+      "y": 6.0
+    },
+    "id": "duckiesVoidheartShrine",
+    "minimap_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Minimap/UI_Icons_Minimap_Voidheart.UI_Icons_Minimap_Voidheart'",
+    "minimap_icon_size": 20.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 0.0,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Voidheart Shrine",
+    "outer_radius": 3.4,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "heightplane_ground"
+    ],
+    "unit_button": "duckiesVoidheartShrine_Btn",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Neutral/UI_Portrait_Neutral_Default_WellSpring.UI_Portrait_Neutral_Default_WellSpring'",
+    "unreal_actor": "BP_Structure_Neutral_Voidheart_Shrine",
+    "vision_radius": 30.0,
+    "vital_health": {
+      "maximum": 5000.0,
+      "regen": 10.0,
+      "starting": 5000.0
+    },
+    "weaponList": [
+      "duckiesVoidheartShrineHealRateDisplayWpn_Wpn"
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,25 @@
+﻿{
+  "based_on": "GameEffectPersistent",
+  "effect_initial": "duckiesHeroDragonSummon_TimedLifeApply",
+  "effect_location": {
+    "effect_parent": "",
+    "entity_or_point": "Entity",
+    "target": "Target"
+  },
+  "id": "duckiesHeroDragonSummon_SummonedFatePersistent",
+  "periodic": {
+    "count": -1,
+    "durations": [
+      0.0,
+      1.0,
+      4.0
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesHeroDragonSummon_BirthCommandMove",
+      "duckiesHeroDragonSummon_BirthCommand"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "Valid_duckiesHeroDragonSummon_TargetNotDead"
+  }
+}

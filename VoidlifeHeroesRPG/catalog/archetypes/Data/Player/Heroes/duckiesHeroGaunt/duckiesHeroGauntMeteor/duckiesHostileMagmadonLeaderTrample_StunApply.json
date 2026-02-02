@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectApplyBuffStun",
+    "buff": "duckiesHostileMagmadonLeaderTrample_StunBuff",
+    "id": "duckiesHostileMagmadonLeaderTrample_StunApply"
+  },
+  "meta": {}
+}

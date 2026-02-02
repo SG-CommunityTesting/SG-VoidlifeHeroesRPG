@@ -1,0 +1,22 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "BaseButton",
+    "extended_tooltips": [
+      {
+        "text": "pegasus_core|Button_extended_tooltips_0_text_FullSalvo_Button",
+        "validator": "Valid_AmaraFullSalvoLevel1"
+      },
+      {
+        "text": "pegasus_core|Button_extended_tooltips_1_text_FullSalvo_Button",
+        "validator": "Valid_AmaraFullSalvoLevel2"
+      }
+    ],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_FullSalvo.UI_Icons_Abilities_FullSalvo'",
+    "id": "duckiesHeroStormflyerBombs_Btn",
+    "name": "Guided Strikes",
+    "tooltip": "Calldown <d ref=\"duckiesHeroStormflyerBombs_StartPersistent.periodic.count\" style=\"Bold\"/> explosive rounds to strike target area at random. Each round deals <d ref=\"duckiesHeroStormflyerBombs_ImpactDamageRadius.amount\" style=\"Bold\"/> (+<d ref=\"duckiesHeroStormflyerBombs_TagBonusStructure.bonus\" style=\"Bold\"/> vs structures) area damage.\n\nLong initial delay."
+  },
+  "meta": {}
+}

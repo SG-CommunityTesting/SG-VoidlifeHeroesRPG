@@ -1,0 +1,30 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "command": {
+      "ability": "duckiesItemsTeleport_Abil",
+      "commandIndex": 0,
+      "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Teleport.UI_Icons_Abilities_Teleport'",
+      "repeatable": false,
+      "targetSubmenu": -1
+    },
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": true,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Teleport.UI_Icons_Abilities_Teleport'",
+    "id": "duckiesItemsTeleport_Unit",
+    "max_stacks": 10,
+    "name": "Recall Stone",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "<UnitName>On use:</> After a 3 second cast, teleports your hero to the position of the target friendly unit.",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

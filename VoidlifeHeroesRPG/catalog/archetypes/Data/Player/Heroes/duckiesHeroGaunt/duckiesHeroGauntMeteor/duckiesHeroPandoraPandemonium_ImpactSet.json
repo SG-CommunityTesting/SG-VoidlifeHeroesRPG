@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroPandoraPandemonium_Damage",
+      "duckiesHeroPandoraPandemonium_StunApply"
+    ],
+    "id": "duckiesHeroPandoraPandemonium_ImpactSet"
+  },
+  "meta": {}
+}

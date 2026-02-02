@@ -1,0 +1,94 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Light.UI_Icons_Armor_Infernals_Army_Light'",
+    "based_on": "BaseUnit_InfernalU",
+    "buffs": [],
+    "build_cost": {
+      "resource_a": 3.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.2,
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "InfernalWarpBuffApplier",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "expiration_time": 60.0,
+    "faction": "Infernal",
+    "height": 5.5,
+    "id": "duckiesHostileSpriggan_Unit",
+    "inner_radius": 0.375,
+    "movement": {
+      "acceleration_time": 1.0,
+      "collision": {
+        "air": true,
+        "burrowed": false,
+        "ground": false,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 1.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0.0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.18,
+      "pathing_mode": "Flying",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 7.0,
+      "stationary_turn_period": 0.18,
+      "turn_radius": 0.5,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_Name_Spriggan",
+    "outer_radius": 0.6,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_air",
+      "attribute_light",
+      "attribute_biological",
+      "attribute_ranged"
+    ],
+    "subgroup_priority": 105,
+    "supply_cost": 3.0,
+    "traits": [
+      "SprigganDebuff_Trait",
+      "SalivaryOverflowUpgrade_Trait"
+    ],
+    "unit_button": "Spriggan_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_SprigganV2.UI_Portrait_Demon_Default_SprigganV2'",
+    "unit_name_list": "InfFlyers",
+    "unreal_actor": "BP_UD_SprigganV2_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "veterancy_given_on_death": 4,
+    "vision_height": 20.0,
+    "vision_radius": 12.0,
+    "vital_energy": {
+      "maximum": 0.0,
+      "regen": 0.0,
+      "starting": 0.0
+    },
+    "vital_health": {
+      "maximum": 160.0,
+      "regen": 0.0,
+      "starting": 160.0
+    },
+    "weaponList": [
+      "Spriggan_Weapon"
+    ]
+  },
+  "meta": {}
+}

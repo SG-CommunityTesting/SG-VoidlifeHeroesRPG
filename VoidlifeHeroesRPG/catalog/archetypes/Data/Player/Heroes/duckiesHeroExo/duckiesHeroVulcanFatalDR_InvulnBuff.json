@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "applied_tags": [
+      "status_invulnerable"
+    ],
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_ShieldsUp",
+    "duration": 4.0,
+    "effect_final": "duckiesHeroVulcanFatalDR_CDApply",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Invulnerability.UI_Icons_Abilities_Invulnerability'",
+    "id": "duckiesHeroVulcanFatalDR_InvulnBuff",
+    "name": "pegasus_core|Buff_name_SurvivalInstinct_BuffInvulnerability",
+    "tooltip": "pegasus_core|Buff_tooltip_SurvivalInstinct_BuffInvulnerability"
+  },
+  "meta": {}
+}

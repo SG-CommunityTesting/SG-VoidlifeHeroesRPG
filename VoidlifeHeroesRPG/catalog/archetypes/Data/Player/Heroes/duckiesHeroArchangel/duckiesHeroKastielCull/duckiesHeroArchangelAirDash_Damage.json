@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "amount": 60.0,
+    "based_on": "BaseGameEffectDamage",
+    "damage_tags": [
+      "damage_splash",
+      "damage_spell"
+    ],
+    "id": "duckiesHeroArchangelAirDash_Damage",
+    "impact_fx": "BP_FXI_AirDash_Impact"
+  },
+  "meta": {}
+}

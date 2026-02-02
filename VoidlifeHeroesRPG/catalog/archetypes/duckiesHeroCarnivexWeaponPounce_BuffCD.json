@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "based_on": "Buff",
+    "duration": 3.0,
+    "effect_final": "duckiesHeroCarnivexWeaponPounce_PermitApply",
+    "effect_initial": "duckiesHeroCarnivexWeaponPounce_PermitRemove",
+    "flags": {
+      "hidden": true,
+      "hide_timer": false,
+      "override_source": false,
+      "show_progress": false
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_BuffCD",
+    "periodic_duration": 1.0
+  },
+  "meta": {}
+}

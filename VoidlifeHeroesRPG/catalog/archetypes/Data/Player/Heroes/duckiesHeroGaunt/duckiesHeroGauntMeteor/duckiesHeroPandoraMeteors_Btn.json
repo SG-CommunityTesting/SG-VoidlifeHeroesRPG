@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CinderStorm.UI_Icons_Abilities_CinderStorm'",
+    "id": "duckiesHeroPandoraMeteors_Btn",
+    "name": "Hellfire Rain",
+    "tooltip": "Calls down <d ref=\"duckiesHeroPandoraMeteors_StartPersistent.periodic.count\"/> meteor to strike target area at random. Each meteor impacts for <d ref=\"duckiesHeroPandoraMeteors_Damage.amount\" style=\"Bold\"/> damage."
+  },
+  "meta": {}
+}

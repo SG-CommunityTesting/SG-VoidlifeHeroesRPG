@@ -1,0 +1,39 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "WorkerInfernalHarvest",
+      "Imp_Construct",
+      "Enflame"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Light.UI_Icons_Armor_Infernals_Army_Light'",
+    "based_on": "BaseUnit_InfernalU",
+    "id": "duckiesHeroDragonDarkBeam_RandomTargetingDummyUnit",
+    "name": "pegasus_core|UnitData_Name_Imp",
+    "num_corpses": 0,
+    "selection_alias": "Imp",
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_air",
+      "status_invulnerable",
+      "status_hidden"
+    ],
+    "unit_button": "Imp_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Imp.UI_Portrait_Demon_Default_Imp'",
+    "unreal_actor": "BP_Critter_Wildfire",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "veterancy_given_on_death": 100,
+    "vital_health": {
+      "maximum": 1.0,
+      "regen": -1.0,
+      "starting": 1.0
+    },
+    "weaponList": [
+      "Imp_Weapon"
+    ]
+  },
+  "meta": {}
+}

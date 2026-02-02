@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroHellborneWeapon_DebuffDamage",
+      "duckiesHeroHellborneWeapon_DebuffReveal"
+    ],
+    "id": "duckiesHeroHellborneWeapon_DebuffPeriodicSet"
+  },
+  "meta": {}
+}

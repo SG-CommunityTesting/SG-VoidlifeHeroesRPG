@@ -1,0 +1,42 @@
+﻿{
+  "__base_type": "MorphAbilityData",
+  "based_on": "MorphAbilityData",
+  "command_visualizer": "WaypointLine",
+  "commands": [
+    {
+      "cooldown": {
+        "duration": 0.0,
+        "name": "",
+        "scope": "Ability"
+      },
+      "requirement": "NoRequirement",
+      "unit": "duckiesHostileHarbinger_Unit"
+    }
+  ],
+  "flags": {
+    "approach": false,
+    "best_unit": false,
+    "builds": false,
+    "cancelable": false,
+    "disable_abilities": false,
+    "perform_height_transition": true,
+    "placement": false,
+    "unload_cargo": false,
+    "upgrade": false
+  },
+  "height_transition_duration": 0.28333,
+  "height_transition_initial_delay": 0.05,
+  "id": "duckiesHostileHarbingerLift_Morph",
+  "morph_duration": 0.666667,
+  "morph_finish_effect": "emptyRef",
+  "morph_finish_fx": "None",
+  "morph_start_fx": "BP_FXS_HarbingerAscend_Initial",
+  "placement_range": 0.0,
+  "progress_description": "pegasus_core|MorphAbilityData_progress_description_Progress",
+  "target_actor": "BP_InstantTargetActor",
+  "timings": {
+    "abilities": 1.0,
+    "vitals": 1.0
+  },
+  "unreal_component": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Morph.AC_Ability_Morph_C'"
+}

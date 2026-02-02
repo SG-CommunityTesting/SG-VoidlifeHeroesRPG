@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "effects": [
+      "duckiesHeroGauntWeapon_Damage",
+      "duckiesHeroGauntWeapon_DebuffApply",
+      "duckiesHeroGauntWeapon_Bounce1Search"
+    ],
+    "id": "duckiesHeroGauntWeapon_Impact1Set",
+    "validator": "Valid_TargetIsAlive"
+  },
+  "meta": {}
+}

@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectKill",
+    "death_type": "Remove_DeathType",
+    "id": "duckiesHeroDragonConsumeDead_RemoveVisual",
+    "impact_fx": "BP_FX_Dominari_Pandemonium_Impact"
+  },
+  "meta": {}
+}

@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TraitData",
+    "button": "duckiesHostileBruteDeathrattle_TraitBtn",
+    "id": "duckiesHostileBruteDeathrattle_Trait",
+    "requirement": "MoreFiendsUpgrade_RequirementHave"
+  },
+  "meta": {}
+}

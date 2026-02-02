@@ -1,0 +1,51 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectModifyVitals",
+    "effect_target": {
+      "effect_parent": "origin",
+      "target": "Source"
+    },
+    "energy_mod_expression": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::get_max_health",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": "Target"
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            }
+          ],
+          "type": "Value"
+        },
+        "node": "Math",
+        "operator": "*",
+        "right": {
+          "node": "Literal",
+          "type": "Value",
+          "value": 0.5
+        },
+        "type": "Value"
+      },
+      "type": "Value"
+    },
+    "id": "duckiesHeroPandoraDarkObliteration_DefaultModifyEnergy"
+  },
+  "meta": {}
+}

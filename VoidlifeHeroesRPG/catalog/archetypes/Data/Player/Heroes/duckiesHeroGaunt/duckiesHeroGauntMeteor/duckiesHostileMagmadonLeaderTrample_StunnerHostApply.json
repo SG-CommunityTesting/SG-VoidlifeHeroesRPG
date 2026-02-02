@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectApplyBuffStun",
+    "buff": "duckiesHostileMagmadonLeaderTrample_StunnerBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHostileMagmadonLeaderTrample_StunnerHostApply"
+  },
+  "meta": {}
+}

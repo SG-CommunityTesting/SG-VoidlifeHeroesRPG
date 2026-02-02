@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effect_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "effects": [
+      "duckiesHeroPandoraDarkObliteration_DefaultModifyEnergy",
+      "Kill"
+    ],
+    "id": "duckiesHeroPandoraDarkObliteration_DefaultImpactSet",
+    "range_maximum": 5.0,
+    "validator": "emptyRef"
+  },
+  "meta": {}
+}

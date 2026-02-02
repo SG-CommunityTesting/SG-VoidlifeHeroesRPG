@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "applied_tags": [
+      "status_slowed"
+    ],
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_BVA_SkymineDetonate_Slow",
+    "duration": 5.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_WingedDash.UI_Icons_Abilities_WingedDash'",
+    "id": "duckiesHeroArchangelAirDash_Debuff",
+    "modifiers": [
+      {
+        "amount": -40.0,
+        "stat_mod": "SpeedPercentageBonus"
+      }
+    ],
+    "name": "Aether Slash Slow",
+    "tooltip": "pegasus_core|Buff_tooltip_SkymineDetonate_BuffSlow"
+  },
+  "meta": {}
+}

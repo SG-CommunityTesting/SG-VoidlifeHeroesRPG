@@ -1,0 +1,59 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "BaseUnit_InfernalU",
+    "height": 0.0,
+    "id": "duckiesHostileDesolatorStationary_Unit",
+    "inner_radius": 1.2,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": true,
+        "burrowed": false,
+        "ground": false,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 3.0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Flying",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 0.0,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 3.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_Desolator",
+    "outer_radius": 3.0,
+    "sb_id": "desolator",
+    "selection_alias": "desolator",
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_resilient"
+    ],
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Desolator.UI_Portrait_Demon_Default_Desolator'",
+    "unreal_actor": "BP_UD_DesolatorCampaign",
+    "vision_height": 20.0,
+    "vision_radius": 17.0,
+    "vital_health": {
+      "maximum": 8000.0,
+      "regen": 0.0,
+      "starting": 8000.0
+    },
+    "weaponList": [
+      "duckiesHostileDesolatorStationaryWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

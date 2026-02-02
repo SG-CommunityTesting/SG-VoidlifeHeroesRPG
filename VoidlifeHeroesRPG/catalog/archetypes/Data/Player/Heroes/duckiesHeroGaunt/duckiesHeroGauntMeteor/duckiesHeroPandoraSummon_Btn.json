@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_BruteV2.UI_Icons_Units_Demon_BruteV2'",
+    "id": "duckiesHeroPandoraSummon_Btn",
+    "name": "Summon Hellguard",
+    "tooltip": "Summons <d ref=\"duckiesHeroPandoraSummon_CreateUnit.spawn_count\" style=\"Bold\"/> Hellguards to attack nearby enemies.\n\nHellguards have <d ref=\"duckiesHeroPandoraSummon_Unit.vital_health.maximum\"/> health and do <d ref=\"duckiesHeroPandoraSummon_UnitWpnDamage.amount\" style=\"Bold\"/> damage per hit, applying soulbrand on the enemies they damage.\n\nSummoning new batch kills previous one."
+  },
+  "meta": {}
+}

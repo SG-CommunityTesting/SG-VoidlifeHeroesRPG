@@ -1,0 +1,53 @@
+﻿{
+  "data": {
+    "based_on": "Requirement",
+    "can_show": {},
+    "can_use": [
+      {
+        "check": {
+          "root": {
+            "left": {
+              "name": "ExpressionApi::count_highest_level_achieved_of_unit_type",
+              "node": "FunctionCall",
+              "parameters": [
+                {
+                  "argument": {
+                    "name": "ExpressionApi::Player::self",
+                    "node": "FunctionCall",
+                    "parameters": [],
+                    "type": "Player"
+                  },
+                  "name": "player",
+                  "type": "Player"
+                },
+                {
+                  "argument": {
+                    "node": "Literal",
+                    "type": "UnitData",
+                    "value": "duckiesHeroExoBeam_Unit"
+                  },
+                  "name": "unit_type",
+                  "type": "UnitData"
+                }
+              ],
+              "type": "Count"
+            },
+            "node": "Logical",
+            "operator": "==",
+            "right": {
+              "node": "Literal",
+              "type": "Count",
+              "value": 10
+            },
+            "type": "Bool"
+          },
+          "type": "Bool"
+        },
+        "reason": "Reach level 10.",
+        "reason_announcement": "None"
+      }
+    ],
+    "id": "duckiesHeroExoBeamEvolve_Req"
+  },
+  "meta": {}
+}

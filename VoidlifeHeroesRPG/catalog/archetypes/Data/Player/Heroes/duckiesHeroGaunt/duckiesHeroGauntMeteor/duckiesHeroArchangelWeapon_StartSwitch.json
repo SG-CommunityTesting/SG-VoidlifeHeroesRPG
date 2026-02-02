@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSwitch",
+    "cases": [
+      {
+        "action": "duckiesHeroArchangelWeaponAvatar_StartSet",
+        "case_condition": "duckiesHeroArchangelWeapon_CasterHasRadiantMantle"
+      }
+    ],
+    "default_action": "duckiesHeroArchangelWeapon_DamageRadius",
+    "id": "duckiesHeroArchangelWeapon_StartSwitch"
+  },
+  "meta": {}
+}

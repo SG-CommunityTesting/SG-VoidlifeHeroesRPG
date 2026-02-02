@@ -1,0 +1,21 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesHostileGoldHealerHeal_TickHeal",
+    "duckiesHostileGoldHealerHeal_BuffApplier",
+    "duckiesHostileGoldHealerHeal_TickUpkeep"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesHostileGoldHealerHeal_PeriodicSet",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

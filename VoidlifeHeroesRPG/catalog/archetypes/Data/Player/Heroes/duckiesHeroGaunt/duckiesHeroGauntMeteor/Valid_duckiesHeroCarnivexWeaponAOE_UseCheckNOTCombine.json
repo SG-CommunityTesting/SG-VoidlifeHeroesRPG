@@ -1,0 +1,29 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::combine_validators_and",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "Array<Validator>",
+              "value": [
+                "Valid_duckiesHeroCarnivexWeaponAOE_StackCountNOT",
+                "Valid_duckiesHeroCarnivexWeaponAOE_EnhanceCheckNOT"
+              ]
+            },
+            "name": "validators",
+            "type": "Array<Validator>"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroCarnivexWeaponAOE_UseCheckNOTCombine"
+  },
+  "meta": {}
+}

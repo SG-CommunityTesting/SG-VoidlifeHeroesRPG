@@ -1,0 +1,180 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_Objective_SecondaryTimer",
+    "initial_values": [
+      {
+        "function": {
+          "function_id": "Objectives_Objective_Create",
+          "guid": "C9F1E1D843C9DAC1EA52A4BE5A7F5273",
+          "parameters": [
+            {
+              "expressions": [
+                {
+                  "guid": "9AF071AB46A592234B47D99E8C505AAC",
+                  "script": "\"Warz Assault\"",
+                  "type": "Script"
+                }
+              ],
+              "guid": "126065514F1BEE2AAF48929B7F21BDEC",
+              "id": "text"
+            },
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "Text_ToText",
+                    "guid": "4C38A1D1471BDBFA8E5F67936C7A5235",
+                    "parameters": [
+                      {
+                        "expressions": [
+                          {
+                            "function": {
+                              "function_id": "Time_FromHMS",
+                              "guid": "384CA3594A029F03B52B29B1F056DA2C",
+                              "parameters": [
+                                {
+                                  "expressions": [
+                                    {
+                                      "guid": "D136096C4E07F829C9CC0198B6D8D966",
+                                      "type": "Value",
+                                      "value": {
+                                        "guid": "C9794A4345D342542010D68A17698817",
+                                        "type": {
+                                          "directive": "FunctionType",
+                                          "implements": "",
+                                          "inner_type": "",
+                                          "param_id": "",
+                                          "sub_directive": "None",
+                                          "type": "Value"
+                                        },
+                                        "value": "0.0"
+                                      }
+                                    }
+                                  ],
+                                  "guid": "C805A0744915843D22FAAC9AE5CA6BF1",
+                                  "id": "hours"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "guid": "DF6BF5E4445E0404E51842AD65BD11C3",
+                                      "type": "Value",
+                                      "value": {
+                                        "guid": "F2C074384A10A4AB658FC6A236B45B68",
+                                        "type": {
+                                          "directive": "FunctionType",
+                                          "implements": "",
+                                          "inner_type": "",
+                                          "param_id": "",
+                                          "sub_directive": "None",
+                                          "type": "Value"
+                                        },
+                                        "value": "30.0"
+                                      }
+                                    }
+                                  ],
+                                  "guid": "D189BA354C2E69729A55DF90EE63C031",
+                                  "id": "minutes"
+                                },
+                                {
+                                  "expressions": [
+                                    {
+                                      "guid": "C5EB18F04A85D2F00A85D19FB824439D",
+                                      "type": "Value",
+                                      "value": {
+                                        "guid": "5417FB7740A060650AF9F8BA2E9EA146",
+                                        "type": {
+                                          "directive": "FunctionType",
+                                          "implements": "",
+                                          "inner_type": "",
+                                          "param_id": "",
+                                          "sub_directive": "None",
+                                          "type": "Value"
+                                        },
+                                        "value": "15.0"
+                                      }
+                                    }
+                                  ],
+                                  "guid": "6E67F04042F801C39BAC068F49DC5E38",
+                                  "id": "seconds"
+                                }
+                              ]
+                            },
+                            "guid": "903124DE47B3041732CBF0BA977D9B6A",
+                            "type": "Function"
+                          }
+                        ],
+                        "guid": "CFAC973E46E1513F268358843DCD7F1F",
+                        "id": "value"
+                      }
+                    ]
+                  },
+                  "guid": "3D6E91884A06ACC8BEFBF6BE147B44AA",
+                  "type": "Function"
+                }
+              ],
+              "guid": "D95C43C045251A4453166FB943969657",
+              "id": "details"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "2266591C4F4AB1E945D9DEB2FC7FC406",
+                  "preset": {
+                    "guid": "43F6B73D43CB693AC3FAD793BA93349B",
+                    "preset_id": "Objective_StatePreset",
+                    "value_id": "incomplete"
+                  },
+                  "type": "Preset"
+                }
+              ],
+              "guid": "5F914E064CD581D93BB1C08E43EBBD50",
+              "id": "state"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "604AE7FD4A2CEE7E614D6CA6A5E956BA",
+                  "preset": {
+                    "guid": "4DEC5BBE4B4B86F4BD0EE3A93E5B6177",
+                    "preset_id": "General_Visible",
+                    "value_id": "visible"
+                  },
+                  "type": "Preset"
+                }
+              ],
+              "guid": "815787734155E7CB966F748BCA928B76",
+              "id": "visible"
+            },
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "PlayerGroup_GetAllPlayers",
+                    "guid": "276478684D1B647D3A25CAA2204BEE2D"
+                  },
+                  "guid": "09BFA17C44CDB1E8F6F17FA15E577EE8",
+                  "type": "Function"
+                }
+              ],
+              "guid": "108EFA8C4A74E699915CBE9C914E7686",
+              "id": "player_group"
+            }
+          ]
+        },
+        "guid": "CC490B9540DE8588A2C27DA945A187F4",
+        "type": "Function"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Objective"
+    }
+  },
+  "meta": {}
+}

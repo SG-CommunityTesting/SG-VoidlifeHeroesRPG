@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "amount": 12.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroExoWeapon_Damage",
+    "impact_fx": "BP_FXI_Shrike_Impact",
+    "tag_bonuses": [
+      "duckiesHeroExoWeapon_StructureBonus"
+    ]
+  },
+  "meta": {}
+}

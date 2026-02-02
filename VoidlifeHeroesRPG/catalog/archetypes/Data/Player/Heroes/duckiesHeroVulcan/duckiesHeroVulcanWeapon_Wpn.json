@@ -1,0 +1,40 @@
+﻿{
+  "data": {
+    "backswing": 0.0,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHeroVulcanWeapon_Damage",
+    "flags": {
+      "channeled": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Vanguard_Vulcan_Minigun.UI_Icons_Weapons_Vanguard_Vulcan_Minigun'",
+    "id": "duckiesHeroVulcanWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Vulcan_Weapon",
+    "period": 0.25,
+    "preswing_initial": 0.3,
+    "preswing_winddown": 1.0,
+    "random_delay_maximum": 0.0,
+    "random_delay_minimum": 0.0,
+    "range_acquire": 9.0,
+    "range_maximum": 7.0,
+    "range_slop": 3.0,
+    "swing": 0.0,
+    "unreal_component": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_LightMech_00.AC_Weapon_LightMech_00_C'",
+    "weapon_fire": "duckiesHeroVulcanWeapon_StartSwitch",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

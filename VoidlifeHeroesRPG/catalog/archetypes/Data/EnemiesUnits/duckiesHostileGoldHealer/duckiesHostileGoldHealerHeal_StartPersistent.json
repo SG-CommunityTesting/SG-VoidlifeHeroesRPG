@@ -1,0 +1,76 @@
+﻿{
+  "__base_type": "GameEffectPersistent",
+  "based_on": "GameEffectPersistent",
+  "display_effect": "emptyRef",
+  "effect_expire": "emptyRef",
+  "effect_expire_delay": 0.0,
+  "effect_finish": "emptyRef",
+  "effect_initial": "duckiesHostileGoldHealerHeal_PeriodicSet",
+  "effect_initial_delay": 0.0,
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "flags": {
+    "channel_execute_event": false,
+    "channeling": true,
+    "mark_exclusive_target": false,
+    "use_attack_speed": false
+  },
+  "id": "duckiesHostileGoldHealerHeal_StartPersistent",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 0,
+      "radius": 0
+    },
+    "vector_facing_end": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    }
+  },
+  "periodic": {
+    "count": -1,
+    "durations": [
+      0.25
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesHostileGoldHealerHeal_PeriodicSet"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "Valid_CanChannelCreepRestorationBeam"
+  },
+  "reveal": {
+    "detector": false,
+    "vision_height": 20.0,
+    "vision_holder": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "vision_radius": 0
+  },
+  "tracker": "",
+  "unreal_actor": "BP_EBFX_RestorationBeam",
+  "validator": "Valid_duckiesHostileGoldHealerHeal_TargetValidator"
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroArchangelWeaponAvatar_AvatarMissileDamage"
+    ],
+    "id": "duckiesHeroArchangelWeaponAvatar_MissilePeriodicSet",
+    "validator": "Valid_TargetIsNotTargeted"
+  },
+  "meta": {}
+}

@@ -1,0 +1,141 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHeroSelectorUse_Abil"
+    ],
+    "additional_black_mask_vision_radius": 0.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Light.UI_Icons_Armor_Infernals_Army_Light'",
+    "based_on": "BaseUnit_InfernalU",
+    "buffs": [],
+    "build_cost": {
+      "resource_a": 50.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroSelectorUse_Abil",
+        "button": "duckiesHeroSelectorUse_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "id": "duckiesHeroSelector_Unit",
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 4.0,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Hero Selector",
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "status_invulnerable"
+    ],
+    "unit_button": "Imp_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Imp.UI_Portrait_Demon_Default_Imp'",
+    "unreal_actor": "BP_UD_Imp_00",
+    "vision_radius": 2.0,
+    "vital_health": {
+      "maximum": 10.0,
+      "regen": 0.0,
+      "starting": 10.0
+    },
+    "vitals_force_hide": true
+  },
+  "meta": {}
+}

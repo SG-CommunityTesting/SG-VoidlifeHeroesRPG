@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectModifyVitals",
+    "energy_mod_flat_amount": 100.0,
+    "energy_mod_percentage": 0.0,
+    "id": "duckiesItemsHealingPot_EnergyModify"
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectMorph",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHeroArchangelDiveBomb_MorphToGround",
+    "morph_type": "duckiesHeroArchangel_Unit"
+  },
+  "meta": {}
+}

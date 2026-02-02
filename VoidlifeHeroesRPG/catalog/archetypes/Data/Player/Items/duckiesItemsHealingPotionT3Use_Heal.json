@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "amount": 0.0,
+    "based_on": "GameEffectHeal",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesItemsHealingPotionT3Use_Heal",
+    "impact_fx": "BP_FXS_Revitalize_Target"
+  },
+  "meta": {}
+}

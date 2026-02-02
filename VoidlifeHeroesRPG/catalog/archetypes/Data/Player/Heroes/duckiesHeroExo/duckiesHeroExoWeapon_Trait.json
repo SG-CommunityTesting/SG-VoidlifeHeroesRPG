@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "TraitData",
+    "button": "duckiesHeroExoWeapon_TraitBtn",
+    "id": "duckiesHeroExoWeapon_Trait"
+  },
+  "meta": {}
+}

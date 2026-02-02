@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_RollOut.UI_Icons_Abilities_RollOut'",
+    "id": "duckiesHeroKri_RollOutTraitBtn",
+    "name": "Roll Out",
+    "tooltip": "After not attacking for <d ref=\"duckiesHeroKriWeapon_RollOutCDBuff.duration\"/> seconds, this unit will tuck into a ball, gaining <d ref=\"duckiesHeroKri_RollOutPassiveBuff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</> bonus movement speed and ability to push through units. The first attack in Ball Form will deal damage to all surrounding ground enemies."
+  },
+  "meta": {}
+}

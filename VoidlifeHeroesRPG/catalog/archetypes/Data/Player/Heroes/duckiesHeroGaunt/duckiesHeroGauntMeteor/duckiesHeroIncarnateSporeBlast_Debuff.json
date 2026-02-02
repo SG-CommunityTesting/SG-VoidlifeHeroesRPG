@@ -1,0 +1,23 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_MeteorShowerDebuff",
+    "duration": 16.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Abilities_Miasma.UI_Icons_Abilities_Miasma'",
+    "id": "duckiesHeroIncarnateSporeBlast_Debuff",
+    "modifiers": [
+      {
+        "amount": -80.0,
+        "stat_mod": "SpeedPercentageBonus"
+      },
+      {
+        "amount": -80.0,
+        "stat_mod": "AttackSpeedPercentageAdditiveMultiplier"
+      }
+    ],
+    "name": "Miasma",
+    "tooltip": "Attack and movement speed reduced by <d ref=\"duckiesHeroIncarnateSporeBlast_Debuff.modifiers[0].amount * (-1)\"/>%."
+  },
+  "meta": {}
+}

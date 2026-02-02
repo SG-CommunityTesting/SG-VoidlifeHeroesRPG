@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "based_on": "Buff",
+    "duration": 8.0,
+    "effect_periodic": "duckiesHostileMagmadonLeaderTrample_StunSearch",
+    "flags": {
+      "hidden": true,
+      "hide_timer": false,
+      "override_source": false,
+      "show_progress": false
+    },
+    "id": "duckiesHostileMagmadonLeaderTrample_StunnerBuff",
+    "periodic_duration": 0.8
+  },
+  "meta": {}
+}

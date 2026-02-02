@@ -1,0 +1,9 @@
+﻿{
+  "based_on": "GameEffectModifyVitals",
+  "energy_mod_flat_amount": 999999.0,
+  "energy_mod_percentage": 100.0,
+  "health_mod_flat_amount": 999999.0,
+  "health_mod_percentage": 100.0,
+  "id": "duckiesHeroBase_EvolveFullHeal",
+  "shield_mod_percentage": 100.0
+}

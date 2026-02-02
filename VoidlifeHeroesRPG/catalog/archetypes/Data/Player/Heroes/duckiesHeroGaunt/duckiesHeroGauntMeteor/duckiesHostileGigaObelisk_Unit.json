@@ -1,0 +1,76 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "UnderConstructionData",
+      "attackData",
+      "stopData"
+    ],
+    "alias_tech": [
+      "_Shroudstone"
+    ],
+    "armor": 100.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "buffs": [
+      "ObeliskSlowAura_BuffSearcher"
+    ],
+    "build_cost": {
+      "resource_a": 200.0,
+      "resource_b": 25.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "commandList": [],
+    "default_acquire_level": "Offensive",
+    "flags": {
+      "detector": true,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false
+    },
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 3.0,
+      "y": 3.0
+    },
+    "id": "duckiesHostileGigaObelisk_Unit",
+    "name": "pegasus_core|UnitData_name_ObeliskSlow",
+    "outer_radius": 1.7,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "preventdefeat_elimination",
+      "heightplane_ground",
+      "attribute_mechanical",
+      "attribute_heavy",
+      "defensive"
+    ],
+    "subgroup_priority": 20,
+    "targeting_participation_alias": [
+      "_ShroudstoneManifestationTargeting"
+    ],
+    "traits": [
+      "ShroudGenerator_Trait",
+      "Detector_Trait",
+      "ObeliskSlowAura_Trait"
+    ],
+    "turret_list": [
+      "Turret_Obelisk"
+    ],
+    "unit_button": "ObeliskSlow_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ObeliskSlow.UI_Portrait_Demon_Default_ObeliskSlow'",
+    "unreal_actor": "BP_SD_WraithstoneV2_00",
+    "veterancy_given_on_death": 300,
+    "vision_radius": 15.0,
+    "vital_health": {
+      "maximum": 8000.0,
+      "regen": 0.0,
+      "starting": 8000.0
+    },
+    "weaponList": [
+      "Obelisk_Weapon"
+    ]
+  },
+  "meta": {}
+}

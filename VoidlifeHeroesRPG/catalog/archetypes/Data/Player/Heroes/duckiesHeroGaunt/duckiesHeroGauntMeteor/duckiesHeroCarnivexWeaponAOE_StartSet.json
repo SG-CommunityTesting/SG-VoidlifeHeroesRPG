@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroCarnivexWeaponAOE_SearchCone",
+      "duckiesHeroCarnivexWeaponAOE_CounterRemove",
+      "duckiesHeroCarnivexWeaponPounce_CDApply"
+    ],
+    "id": "duckiesHeroCarnivexWeaponAOE_StartSet",
+    "impact_fx": "BP_FXS_Carnivex_Swipe_Impact"
+  },
+  "meta": {}
+}

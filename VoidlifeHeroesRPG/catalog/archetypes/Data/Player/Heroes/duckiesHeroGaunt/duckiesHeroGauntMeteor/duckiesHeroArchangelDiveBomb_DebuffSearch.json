@@ -1,0 +1,38 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "game_effect": "duckiesHeroArchangelDiveBomb_DebuffApply",
+    "id": "duckiesHeroArchangelDiveBomb_DebuffSearch",
+    "max_targets": -1,
+    "radius": 2.5,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure",
+          "dead",
+          "status_invulnerable",
+          "capturable",
+          "entity_destructible_tree"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "target_sorts": []
+  },
+  "meta": {}
+}

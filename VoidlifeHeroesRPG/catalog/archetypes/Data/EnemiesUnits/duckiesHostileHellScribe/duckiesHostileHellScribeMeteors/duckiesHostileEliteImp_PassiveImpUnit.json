@@ -1,0 +1,161 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "ImpKaboom"
+    ],
+    "attack_target_priority": 20,
+    "based_on": "Imp",
+    "buffs": [],
+    "build_cost": {
+      "resource_a": 50.0,
+      "resource_b": 25.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.4,
+    "cargo_size": "Zero",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "ImpKaboom",
+        "button": "ImpKaboom_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "damage_response": "Acquire_or_Flee",
+    "default_acquire_level": "Offensive",
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "creation": "emptyRef",
+      "death": "ImpEnflamed_Weapon_DamageRadius",
+      "revenge": "emptyRef"
+    },
+    "expiration_time": 60.0,
+    "id": "duckiesHostileEliteImp_PassiveImpUnit",
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 5.0,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_Name_ImpEnflamed",
+    "selection_alias": "ImpEnflamed",
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological"
+    ],
+    "subgroup_priority": 101,
+    "traits": [
+      "NoDropship_Trait"
+    ],
+    "unit_button": "EnflamedImp_Button",
+    "unreal_actor": "BP_UD_ImpEnflamed_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "veterancy_given_on_death": 0,
+    "vital_health": {
+      "maximum": 60.0,
+      "regen": 0.0,
+      "starting": 60.0
+    },
+    "weaponList": [
+      "ImpEnflamed_Weapon"
+    ]
+  },
+  "meta": {}
+}

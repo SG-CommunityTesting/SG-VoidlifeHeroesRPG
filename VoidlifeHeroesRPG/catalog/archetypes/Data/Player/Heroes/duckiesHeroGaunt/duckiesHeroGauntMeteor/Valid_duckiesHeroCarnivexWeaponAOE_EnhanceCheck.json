@@ -1,0 +1,56 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::Buff::get_stack_count",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_caster",
+                "node": "FunctionCall",
+                "parameters": [],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            },
+            {
+              "argument": {
+                "node": "Literal",
+                "type": "Buff",
+                "value": "duckiesHeroCarnivexEnhance_Buff"
+              },
+              "name": "buff",
+              "type": "Buff"
+            },
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_caster",
+                "node": "FunctionCall",
+                "parameters": [],
+                "type": "Entity"
+              },
+              "name": "source",
+              "type": "Entity"
+            }
+          ],
+          "type": "Count"
+        },
+        "node": "Logical",
+        "operator": ">",
+        "right": {
+          "node": "Literal",
+          "type": "Count",
+          "value": 0
+        },
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroCarnivexWeaponAOE_EnhanceCheck"
+  },
+  "meta": {}
+}

@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsArmor_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_BastionArmor.UI_Icons_Items_BastionArmor'",
+    "id": "duckiesItemsArmor_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 20,
+    "name": "Armor Plating",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "Increases armor by <d ref=\"duckiesItemsArmor_Buff.modifiers[0].amount\" style=\"Bold\"/>.\n\n<UnitName>On 20 stacks is converted into Adaptive Armor Carapace.</>",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

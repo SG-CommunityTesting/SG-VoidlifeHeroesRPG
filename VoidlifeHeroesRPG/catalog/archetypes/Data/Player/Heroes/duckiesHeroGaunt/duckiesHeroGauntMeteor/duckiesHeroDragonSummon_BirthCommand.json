@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "ability": "attackData",
+    "based_on": "GameEffectCommand",
+    "effect_target": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "id": "duckiesHeroDragonSummon_BirthCommand",
+    "validator": "Valid_duckiesHeroDragonSummon_CommandDistanceCheck"
+  },
+  "meta": {}
+}

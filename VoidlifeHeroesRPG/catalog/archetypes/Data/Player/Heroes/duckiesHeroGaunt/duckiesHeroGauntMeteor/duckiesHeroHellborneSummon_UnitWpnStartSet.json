@@ -1,0 +1,8 @@
+﻿{
+  "based_on": "GameEffectSet",
+  "effects": [
+    "duckiesHeroHellborneSummon_UnitWpnDamage",
+    "duckiesHeroGauntWeapon_DebuffApply"
+  ],
+  "id": "duckiesHeroHellborneSummon_UnitWpnStartSet"
+}

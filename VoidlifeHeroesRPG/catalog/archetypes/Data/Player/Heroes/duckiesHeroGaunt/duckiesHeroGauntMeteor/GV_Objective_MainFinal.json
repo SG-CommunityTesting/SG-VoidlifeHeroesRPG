@@ -1,0 +1,153 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_Objective_MainFinal",
+    "initial_values": [
+      {
+        "function": {
+          "function_id": "Objectives_Objective_Create",
+          "guid": "C9F1E1D843C9DAC1EA52A4BE5A7F5273",
+          "parameters": [
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "Text_ToText",
+                    "guid": "D23C9D5744333D62830CE988633FAF06",
+                    "parameters": [
+                      {
+                        "expressions": [
+                          {
+                            "guid": "FF4D6DA743C10BE90F313CA2FCADA7D9",
+                            "type": "Value",
+                            "value": {
+                              "guid": "D35F1497454CF49FCD20A685EC17154E",
+                              "type": {
+                                "directive": "FunctionType",
+                                "implements": "",
+                                "inner_type": "",
+                                "param_id": "",
+                                "sub_directive": "None",
+                                "tags": [
+                                  "to_text"
+                                ],
+                                "type": "String"
+                              },
+                              "value": "Destroy the Temple of Evil"
+                            }
+                          }
+                        ],
+                        "guid": "B20D9DE841BDE81D16FD6285D6B2D4E7",
+                        "id": "value"
+                      }
+                    ]
+                  },
+                  "guid": "D43C64404A870EEE7564779D8FE5F49C",
+                  "type": "Function"
+                }
+              ],
+              "guid": "126065514F1BEE2AAF48929B7F21BDEC",
+              "id": "text"
+            },
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "Text_ToText",
+                    "guid": "A4DED03B49CB15B12C016DB3B3BE68A0",
+                    "parameters": [
+                      {
+                        "expressions": [
+                          {
+                            "guid": "D86136C045E6B191ACB07C99050CFE8F",
+                            "type": "Value",
+                            "value": {
+                              "guid": "5BF3F0A144403988AC76BBB0151C3103",
+                              "type": {
+                                "directive": "FunctionType",
+                                "implements": "",
+                                "inner_type": "",
+                                "param_id": "",
+                                "sub_directive": "None",
+                                "tags": [
+                                  "to_text"
+                                ],
+                                "type": "Integer"
+                              },
+                              "value": "1"
+                            }
+                          }
+                        ],
+                        "guid": "3B9D8C1C4339FFB6335D90A21CDB585F",
+                        "id": "value"
+                      }
+                    ]
+                  },
+                  "guid": "99706AA249C9119C29C03C886DA7EA33",
+                  "type": "Function"
+                }
+              ],
+              "guid": "D95C43C045251A4453166FB943969657",
+              "id": "details"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "2266591C4F4AB1E945D9DEB2FC7FC406",
+                  "preset": {
+                    "guid": "43F6B73D43CB693AC3FAD793BA93349B",
+                    "preset_id": "Objective_StatePreset",
+                    "value_id": "incomplete"
+                  },
+                  "type": "Preset"
+                }
+              ],
+              "guid": "5F914E064CD581D93BB1C08E43EBBD50",
+              "id": "state"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "A14303F7405259E3EC0A0FAF0C4E085D",
+                  "preset": {
+                    "guid": "2E7FB38341E738DC83E5A5A614C29700",
+                    "preset_id": "General_Visible",
+                    "value_id": "hidden"
+                  },
+                  "type": "Preset"
+                }
+              ],
+              "guid": "815787734155E7CB966F748BCA928B76",
+              "id": "visible"
+            },
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "PlayerGroup_GetAllPlayers",
+                    "guid": "276478684D1B647D3A25CAA2204BEE2D"
+                  },
+                  "guid": "09BFA17C44CDB1E8F6F17FA15E577EE8",
+                  "type": "Function"
+                }
+              ],
+              "guid": "108EFA8C4A74E699915CBE9C914E7686",
+              "id": "player_group"
+            }
+          ]
+        },
+        "guid": "CC490B9540DE8588A2C27DA945A187F4",
+        "type": "Function"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Objective"
+    }
+  },
+  "meta": {}
+}

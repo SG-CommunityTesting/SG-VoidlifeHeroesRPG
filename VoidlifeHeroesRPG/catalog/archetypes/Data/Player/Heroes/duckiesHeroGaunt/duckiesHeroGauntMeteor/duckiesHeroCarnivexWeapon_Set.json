@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroCarnivexWeapon_Damage",
+      "duckiesHeroCarnivexWeaponAOE_CounterApply",
+      "duckiesHeroCarnivexWeaponPounce_CDApply"
+    ],
+    "id": "duckiesHeroCarnivexWeapon_Set"
+  },
+  "meta": {}
+}

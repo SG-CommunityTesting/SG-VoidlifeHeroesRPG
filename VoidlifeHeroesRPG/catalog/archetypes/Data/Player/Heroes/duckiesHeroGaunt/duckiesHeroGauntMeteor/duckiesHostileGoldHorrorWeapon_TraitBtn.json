@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_EnsnaringFluid.UI_Icons_Abilities_Stormgates_EnsnaringFluid'",
+    "id": "duckiesHostileGoldHorrorWeapon_TraitBtn",
+    "name": "Ensnaring",
+    "tooltip": "Atack reduces movement speed by <d ref=\"duckiesHostileGoldHorrorWeapon_Debuff.modifiers[0].amount * (-1)\"/> % for <d ref=\"duckiesHostileGoldHorrorWeapon_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

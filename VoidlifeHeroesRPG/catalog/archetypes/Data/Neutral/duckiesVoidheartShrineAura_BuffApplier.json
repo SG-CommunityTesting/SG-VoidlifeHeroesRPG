@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesVoidheartShrineAura_Buff",
+    "id": "duckiesVoidheartShrineAura_BuffApplier"
+  },
+  "meta": {}
+}

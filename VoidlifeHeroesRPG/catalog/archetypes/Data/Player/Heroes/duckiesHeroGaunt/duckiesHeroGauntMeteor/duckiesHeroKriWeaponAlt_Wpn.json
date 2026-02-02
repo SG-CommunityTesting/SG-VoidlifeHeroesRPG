@@ -1,0 +1,45 @@
+﻿{
+  "data": {
+    "backswing": 0.9,
+    "backswing_locked": 0.3,
+    "based_on": "BaseWeapon",
+    "can_use": "Valid_SelfKriUsesWeaponAoE",
+    "display_effect_damage": "duckiesHeroKriWeaponAlt_DamageRadius",
+    "flags": {
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": true,
+      "melee": false,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Kri_KriWeaponAoE.UI_Icons_Weapons_Celestials_Kri_KriWeaponAoE'",
+    "id": "duckiesHeroKriWeaponAlt_Wpn",
+    "name": "pegasus_core|WeaponData_name_Kri_WeaponAlternate",
+    "period": 1.0,
+    "range_acquire": 7.0,
+    "range_maximum": 0.1,
+    "swing": 0.1,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Alternate.AC_Weapon_Alternate_C'",
+    "weapon_fire": "duckiesHeroKriWeaponAlt_StartSet",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

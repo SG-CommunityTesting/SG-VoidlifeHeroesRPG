@@ -1,0 +1,93 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_Objective_Secondary",
+    "initial_values": [
+      {
+        "function": {
+          "function_id": "Objectives_Objective_Create",
+          "guid": "C9F1E1D843C9DAC1EA52A4BE5A7F5273",
+          "parameters": [
+            {
+              "expressions": [
+                {
+                  "guid": "BA3E96AE4B7E62F0CE591492750CBB47",
+                  "script": "\"Remaining Summoning Pyres\"",
+                  "type": "Script"
+                }
+              ],
+              "guid": "126065514F1BEE2AAF48929B7F21BDEC",
+              "id": "text"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "9E3D742648D2B95EF68CC5A6F7C8F711",
+                  "script": "\"\"",
+                  "type": "Script"
+                }
+              ],
+              "guid": "D95C43C045251A4453166FB943969657",
+              "id": "details"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "2266591C4F4AB1E945D9DEB2FC7FC406",
+                  "preset": {
+                    "guid": "43F6B73D43CB693AC3FAD793BA93349B",
+                    "preset_id": "Objective_StatePreset",
+                    "value_id": "incomplete"
+                  },
+                  "type": "Preset"
+                }
+              ],
+              "guid": "5F914E064CD581D93BB1C08E43EBBD50",
+              "id": "state"
+            },
+            {
+              "expressions": [
+                {
+                  "guid": "499BB12F4AFA3BC86D492FBA649038A7",
+                  "preset": {
+                    "guid": "291E82EA4DC9846A1C56A18B0C76E83D",
+                    "preset_id": "General_Visible",
+                    "value_id": "visible"
+                  },
+                  "type": "Preset"
+                }
+              ],
+              "guid": "815787734155E7CB966F748BCA928B76",
+              "id": "visible"
+            },
+            {
+              "expressions": [
+                {
+                  "function": {
+                    "function_id": "PlayerGroup_GetAllPlayers",
+                    "guid": "276478684D1B647D3A25CAA2204BEE2D"
+                  },
+                  "guid": "09BFA17C44CDB1E8F6F17FA15E577EE8",
+                  "type": "Function"
+                }
+              ],
+              "guid": "108EFA8C4A74E699915CBE9C914E7686",
+              "id": "player_group"
+            }
+          ]
+        },
+        "guid": "CC490B9540DE8588A2C27DA945A187F4",
+        "type": "Function"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Objective"
+    }
+  },
+  "meta": {}
+}

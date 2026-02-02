@@ -1,0 +1,75 @@
+﻿{
+  "data": {
+    "auto_set_priority": "VSRepairAutocastPriority",
+    "autocast_filter": "VSRepairAutocastFilter",
+    "based_on": "BaseStagedAbility",
+    "cast_game_effect": "duckiesHeroNaviHush_Search",
+    "channel_duration": 0.25,
+    "channel_game_effect": "GameEffect_Worker_00_Repair",
+    "channel_loop_count": -1,
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 16.0,
+          "name": "Hush",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 50.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "display_effect_area": "Hush_RadialSearch",
+    "finish_duration": 0.5,
+    "flags": {
+      "best_unit": true,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": false,
+      "channeling_breaks_on_facing": true,
+      "channeling_breaks_on_range": true,
+      "channeling_breaks_on_vision": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reapproach": false,
+      "requires_vision": true,
+      "show_progress": false,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": false,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroNaviHush_Abil",
+    "range_maximum": 8.0,
+    "range_slop": 0.5,
+    "targeting_type": "Location",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

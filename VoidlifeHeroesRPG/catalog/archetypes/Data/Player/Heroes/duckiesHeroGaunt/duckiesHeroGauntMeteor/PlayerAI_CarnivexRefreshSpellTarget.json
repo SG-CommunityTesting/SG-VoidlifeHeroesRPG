@@ -1,0 +1,1675 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "Variable_SetVariable",
+        "guid": "037BCA4048066A59116E479A2E37C772",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "11845AAB48C706653D19369628842F06",
+                "type": "Variable",
+                "variable": {
+                  "guid": "0501630C4ADEF4B2A9E521BD7D94EDE9",
+                  "variable_id": "LV_Blackboard"
+                }
+              }
+            ],
+            "guid": "3F801ABF4B0F5205BFC1DD98B5DB4141",
+            "id": "variable"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Blackboard_GetBlackboardOfPlayer",
+                  "guid": "18F43EFD451879F2B5B068A1BB772298",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "guid": "4F786BF243564922A9489080E17E816D",
+                          "type": "Variable",
+                          "variable": {
+                            "guid": "FBE8C82742AF7E8C820F7686BA95A0D1",
+                            "variable_id": "LV_PLAYER"
+                          }
+                        }
+                      ],
+                      "guid": "C7596B56479C7D1E21C12CA6E136BAAD",
+                      "id": "player"
+                    }
+                  ]
+                },
+                "guid": "317874CE4319D9EC4C565F9273F89F75",
+                "type": "Function"
+              }
+            ],
+            "guid": "ACE62A3046A93995F1D607A46FB6ACFC",
+            "id": "value"
+          }
+        ]
+      },
+      {
+        "function_id": "Variable_SetVariable",
+        "guid": "CD98336E49C17298B01B9CA90B454D90",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "414210B14453FAF202B6E4ADAD271525",
+                "type": "Variable",
+                "variable": {
+                  "guid": "453C84C3488A92073A46ECB04CE78680",
+                  "variable_id": "LV_HERO"
+                }
+              }
+            ],
+            "guid": "999754FB4939F243EF918FA2D501775C",
+            "id": "variable"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Blackboard_GetValue_Unit",
+                  "guid": "BBB0BF604A0A72A3F5856B857A9AC9CF",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "guid": "301E51114CEEADF66D15ECB47BCAD21F",
+                          "type": "Variable",
+                          "variable": {
+                            "guid": "A0176A2B43B34D13F1FAB79312BA380D",
+                            "variable_id": "LV_Blackboard"
+                          }
+                        }
+                      ],
+                      "guid": "9500065D4C6797CD8E48FE9C9B64E7F5",
+                      "id": "blackboard"
+                    },
+                    {
+                      "expressions": [
+                        {
+                          "guid": "ED0E478F400745189EFD5D8965849744",
+                          "type": "Value",
+                          "value": {
+                            "guid": "3467756C4384AE8E17FC268DE1A8619E",
+                            "type": {
+                              "directive": "FunctionType",
+                              "implements": "",
+                              "inner_type": "",
+                              "param_id": "",
+                              "sub_directive": "None",
+                              "type": "String"
+                            },
+                            "value": "Hero"
+                          }
+                        }
+                      ],
+                      "guid": "CCB8EA45400C8D3B22BB30892A0F344E",
+                      "id": "key"
+                    }
+                  ]
+                },
+                "guid": "415F9307411AED98042680905EF5066D",
+                "type": "Function"
+              }
+            ],
+            "guid": "5D970AEA4610BA45A71F6C881D00589B",
+            "id": "value"
+          }
+        ]
+      },
+      {
+        "function_id": "UI_SendChatMessage",
+        "guid": "E267C007467D8953AB6104905705A668",
+        "is_enabled": false,
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_ToText",
+                  "guid": "10F4452E4D3584A4EF8D4DA14C040BCB",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "String_Concat",
+                            "guid": "7641E56642E10B8F69F1B99303F68045",
+                            "parameters": [
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "6A22DD714D33F398FC9A2BAB6E12260C",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "01F94107452132B044CF2B8EDDE161A4",
+                                      "type": {
+                                        "directive": "FunctionType",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "tags": [
+                                          "to_string"
+                                        ],
+                                        "type": "String"
+                                      },
+                                      "value": "Starting AI for Carnivex Hero// Player"
+                                    }
+                                  },
+                                  {
+                                    "function": {
+                                      "function_id": "String_ToString",
+                                      "guid": "AA21846546C93C8CE64A2EA4848ECDAE",
+                                      "parameters": [
+                                        {
+                                          "expressions": [
+                                            {
+                                              "guid": "3E36809F471D8A8D1A74BF9E00AB9953",
+                                              "type": "Variable",
+                                              "variable": {
+                                                "guid": "D8CE30B44F0184BD85E9779668A1DBAD",
+                                                "variable_id": "LV_PLAYER"
+                                              }
+                                            }
+                                          ],
+                                          "guid": "9115962749DB2C2CAB9A07970283CA74",
+                                          "id": "value"
+                                        }
+                                      ]
+                                    },
+                                    "guid": "85A0E561489A5E1E9EF6B382CD464E16",
+                                    "type": "Function"
+                                  }
+                                ],
+                                "guid": "3D2C06554AB84235FCD8ABA3D88A07CA",
+                                "id": "strings"
+                              }
+                            ]
+                          },
+                          "guid": "86A70BE146916C28C1BDF6956A22050F",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "4C3BDEA64B5B15BD632DA0A03E66FD31",
+                      "id": "value"
+                    }
+                  ]
+                },
+                "guid": "258E56674BB01D9EAFABB79A4FCF337E",
+                "type": "Function"
+              }
+            ],
+            "guid": "62C77C7C47C80CE5DF7AD7A78515E473",
+            "id": "message"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_GetAllPlayers",
+                  "guid": "D0947EC440D2A01EC8FCD19F2FC23568"
+                },
+                "guid": "0FCA8C08482666ED0B11B2B2060B4EF8",
+                "type": "Function"
+              }
+            ],
+            "guid": "7F599095441B00F481D81BBF2B6A5F75",
+            "id": "group"
+          }
+        ]
+      },
+      {
+        "function_id": "General_WhileLoop",
+        "guid": "AE9043D34361E7BD949388B8582F0B30",
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "Logic_Comparison",
+                "guid": "0ECD804C4CC0872E926F168D06B065BE",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_IsType",
+                          "guid": "6A9FD9754ECC41DA7FCD78A8FE2EE1C4",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "142C6A3A43A62EF4C261738D43A6A132",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "128AC53B483E051E44204EB54BB7D185",
+                                    "variable_id": "LV_HERO"
+                                  }
+                                }
+                              ],
+                              "guid": "6A7446044ECFDE86AEF297B901C2B9E1",
+                              "id": "unit"
+                            },
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "88EA8A824373D47F690136A2D46AB567",
+                                  "type": "Value",
+                                  "value": {
+                                    "guid": "6AD224B941047EC2EF16A885AF4F2A3E",
+                                    "type": {
+                                      "directive": "TypeRef",
+                                      "implements": "",
+                                      "inner_type": "",
+                                      "param_id": "",
+                                      "sub_directive": "None",
+                                      "type": "UnitData"
+                                    },
+                                    "value": "duckiesHeroCarnivex_Unit"
+                                  }
+                                }
+                              ],
+                              "guid": "60FC7DF7436351C6725547B087A9DACA",
+                              "id": "type"
+                            }
+                          ]
+                        },
+                        "guid": "8A5588A74B6321F32F5CD5B0ED666DF5",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "75737CF046E1879E8F0435BD6A3FA8B7",
+                    "id": "value1"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "B23B1EA444803BE00C216BB75679FB52",
+                        "preset": {
+                          "guid": "F18FA6C64D114483F75889B53BFAE0FC",
+                          "preset_id": "Logic_ComparisonOperator",
+                          "value_id": "eq"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "5BFFCAAF4C1B46AFB871459B13D3FAA2",
+                    "id": "op"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "201F1F0D40A278764182B9A79DEF79E3",
+                        "type": "Value",
+                        "value": {
+                          "guid": "43029CDE4B43326DF83384BC4C37CE33",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Boolean"
+                          },
+                          "value": "true"
+                        }
+                      }
+                    ],
+                    "guid": "6F7AA4D24A2BF7D1FD23B3A2CE2D6AE0",
+                    "id": "value2"
+                  }
+                ]
+              }
+            ],
+            "guid": "FCB46FEF4C0BCD94AA1282A0955B1C0F",
+            "id": "conditions"
+          },
+          {
+            "functions": [
+              {
+                "function_id": "General_Wait",
+                "guid": "2821BFC04200C09F812354A226CD6120",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "85A4385E4BC1BD9FABBE718DE544BB8D",
+                        "type": "Value",
+                        "value": {
+                          "guid": "48B19FAB4209C8B5C443A7B164D6A749",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "2.0"
+                        }
+                      }
+                    ],
+                    "guid": "66C867F54595BDDF673D249A248D9429",
+                    "id": "duration"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_IfThenElse",
+                "guid": "F222786D406AB2A2A57E3BA037587B7E",
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Unit_IsAlive",
+                        "guid": "7A8CCE75478BAF6DD049559AC0C78680",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "A8EDEEBC434F4F69B231F8AF6B90D8E1",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "8D2101834636F8979FC1749FB51CFCDA",
+                                  "variable_id": "LV_HERO"
+                                }
+                              }
+                            ],
+                            "guid": "70B9A38A419DF31340C07C80C29979A1",
+                            "id": "unit"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "Logic_Comparison",
+                        "guid": "8BE3271044CF435F5E3DEEB935784493",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "Unit_GetUnitProperty",
+                                  "guid": "03D6246E43619551B48A558A8CCEE1D9",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "E6E3347E47C8BC6A3D566483E96A378B",
+                                          "type": "Variable",
+                                          "variable": {
+                                            "guid": "F397CC434FB33074BACC3F8C9C47474F",
+                                            "variable_id": "LV_HERO"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "9BA88E1642A633CC361E3B840462AB0E",
+                                      "id": "unit"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "A4B68D6C4F0E8AFA2534AFBE30A17363",
+                                          "preset": {
+                                            "guid": "4BE3DB2043CD1FE2BBB3F6908DDFB0B3",
+                                            "preset_id": "Unit_UnitProperties",
+                                            "value_id": "energy_current"
+                                          },
+                                          "type": "Preset"
+                                        }
+                                      ],
+                                      "guid": "20019F7D48B904FC150442AF2A856566",
+                                      "id": "property"
+                                    }
+                                  ]
+                                },
+                                "guid": "6A09E6B24744571D6EAB0681849010B8",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "F51428A3458F6411F03061AEE46796E4",
+                            "id": "value1"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "A500DFED4F23104695C305BBF1D447AA",
+                                "preset": {
+                                  "guid": "DB48FE8944DD66EFF39C85A4FB8CD945",
+                                  "preset_id": "Logic_ComparisonOperator",
+                                  "value_id": "gre"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "3F419AA94B86187B5C5913A6D4A2702D",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "5FA621534D8D391C0707F89E337B5301",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "3FB3EEE74DF732AF248AADA1E05E1A60",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Value"
+                                  },
+                                  "value": "150.0"
+                                }
+                              }
+                            ],
+                            "guid": "1F7BF20F411D7DC888861782AADA9F71",
+                            "id": "value2"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "Logic_Comparison",
+                        "guid": "0E7432654C272BA69F5BEC8279F91FE8",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "Entity_HasBuff",
+                                  "guid": "A28411C3499B35DA69ED8486600EE3F1",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "5E4BDA304BB7822EE87AC1B23DB4F5D9",
+                                          "type": "Variable",
+                                          "variable": {
+                                            "guid": "733732EA40D44FED109512B2E458BC40",
+                                            "variable_id": "LV_HERO"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "0FD5BC61469096829DC39484E2E69DA1",
+                                      "id": "entity"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "E7D332984E47CAB76F3428B2F709D8C2",
+                                          "type": "Value",
+                                          "value": {
+                                            "guid": "9B87EB8C4742223DDCE614AB394C3A02",
+                                            "type": {
+                                              "directive": "TypeRef",
+                                              "implements": "",
+                                              "inner_type": "",
+                                              "param_id": "",
+                                              "sub_directive": "None",
+                                              "type": "Buff"
+                                            },
+                                            "value": "duckiesHeroCarnivexEnhance_Buff"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "FB273D0D49AC3E9935186281C183C280",
+                                      "id": "buff"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "DEB93274474D978F67B781B116033C2B",
+                                          "preset": {
+                                            "guid": "D10CACD74A515EA930333B8C45189CD5",
+                                            "preset_id": "Buff_AnySource",
+                                            "value_id": "none"
+                                          },
+                                          "type": "Preset"
+                                        }
+                                      ],
+                                      "guid": "DA92998242E0492BD76BC0BBB7844A54",
+                                      "id": "source"
+                                    }
+                                  ]
+                                },
+                                "guid": "F6AFE22C493B196DB22141BB58CBE7F8",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "411E36C8451DDC6EE41366B60FF288AA",
+                            "id": "value1"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "E0C4908D4C16F3A3E3AEFE9660576B61",
+                                "preset": {
+                                  "guid": "3DA0B4D74D0BB01E4F1EEEBAC33B2C3D",
+                                  "preset_id": "Logic_ComparisonOperator",
+                                  "value_id": "eq"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "59C087CF40EF476F21385BA18EFAD2D0",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "2574AF0D41535F11420A67BE007CCD4E",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "03BEAEEA46B17C49A05EFA816F5BFC04",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Boolean"
+                                  },
+                                  "value": "false"
+                                }
+                              }
+                            ],
+                            "guid": "4D6F48544F549560BFC47999A0F5CC59",
+                            "id": "value2"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "2B4D62A54D9CC20DCB6402B8562E8208",
+                    "id": "if"
+                  },
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "0C6923F14D33A1A8877ECC809B67CF96",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "2724F9424DF8D2FE4A19959C3624E925",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "538C9ACE406B799EF82BF9AB19875A1C",
+                                  "variable_id": "LV_ScanGroup"
+                                }
+                              }
+                            ],
+                            "guid": "3E1B215F40D92FA3BD7812973FFBBC04",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "UnitGroup_GetEnemyUnitsInRangeOfPosition",
+                                  "guid": "8854FDC94F0C8B3818AB54B7718EADBB",
+                                  "parameters": [
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "D0B1574B41312242FB8607A2E84D5A15",
+                                          "type": "Variable",
+                                          "variable": {
+                                            "guid": "1325678A471BBF23660C1FB71C83E4AC",
+                                            "variable_id": "LV_PLAYER"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "81EB73F84991461B038806B25CA17680",
+                                      "id": "player"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "function": {
+                                            "function_id": "Actor_GetPosition",
+                                            "guid": "169C76FF475CA09864E922B7F6E65EB0",
+                                            "parameters": [
+                                              {
+                                                "expressions": [
+                                                  {
+                                                    "guid": "7777FA434E4DFCEEDF0EBDB981B91A62",
+                                                    "type": "Variable",
+                                                    "variable": {
+                                                      "guid": "A8A30E744AD71920DA55DCBE6BCE4DA9",
+                                                      "variable_id": "LV_HERO"
+                                                    }
+                                                  }
+                                                ],
+                                                "guid": "D5EC907549484CA96833F093A713A6E5",
+                                                "id": "actor"
+                                              }
+                                            ]
+                                          },
+                                          "guid": "76C4643C4A7328D5AEED7A8A75543746",
+                                          "type": "Function"
+                                        }
+                                      ],
+                                      "guid": "2D661C314244079AEB075B8D4CB4017E",
+                                      "id": "position"
+                                    },
+                                    {
+                                      "expressions": [
+                                        {
+                                          "guid": "6BDE36B14C38A99093537790A05933E8",
+                                          "type": "Value",
+                                          "value": {
+                                            "guid": "E15604054323D42FA47CADA9B4E04711",
+                                            "type": {
+                                              "directive": "FunctionType",
+                                              "implements": "",
+                                              "inner_type": "",
+                                              "param_id": "",
+                                              "sub_directive": "None",
+                                              "type": "Distance"
+                                            },
+                                            "value": "4.0"
+                                          }
+                                        }
+                                      ],
+                                      "guid": "FEB45ACE4544FAA70E2D27BDDA6FE2D9",
+                                      "id": "range"
+                                    }
+                                  ]
+                                },
+                                "guid": "6CDFC58643FDD44BB89A98857D260BCB",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "D3983BD84DA6927B8F30DBB921438088",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "UnitGroup_ForEachUnitInGroup",
+                        "guid": "3BB386174E4728ADF5A46FB47ECEDB64",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "B035A35A4B1F150F2995B2B55BC81100",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "2124118A4C3AD1E9C473AEB3102C4285",
+                                  "variable_id": "LV_ScanGroup"
+                                }
+                              }
+                            ],
+                            "guid": "6EADF200484877C5C5187AA5CD557166",
+                            "id": "units"
+                          }
+                        ],
+                        "sub_functions": [
+                          {
+                            "functions": [
+                              {
+                                "function_id": "General_IfThenElse",
+                                "guid": "A3DB97144D5D86FC5F069EBCD85C237D",
+                                "sub_functions": [
+                                  {
+                                    "functions": [
+                                      {
+                                        "function_id": "Logic_Comparison",
+                                        "guid": "87B2E4E6435000654E691689DD911ADC",
+                                        "parameters": [
+                                          {
+                                            "expressions": [
+                                              {
+                                                "function": {
+                                                  "function_id": "Unit_IsDead",
+                                                  "guid": "762FA6624D5868A889275999CC1DEE64",
+                                                  "parameters": [
+                                                    {
+                                                      "expressions": [
+                                                        {
+                                                          "function": {
+                                                            "function_id": "UnitGroup_GetCurrentUnit",
+                                                            "guid": "B843CB174EB1369FB88943AFB39F20A1"
+                                                          },
+                                                          "guid": "41329F1241A5A13B452C4BBD32F04F5D",
+                                                          "type": "Function"
+                                                        }
+                                                      ],
+                                                      "guid": "A8B6C10C4E3CD5140B91F689BDC81050",
+                                                      "id": "unit"
+                                                    }
+                                                  ]
+                                                },
+                                                "guid": "71456DDF411A665E9783BB9ADAF2C5DF",
+                                                "type": "Function"
+                                              }
+                                            ],
+                                            "guid": "4DBB233247E75DE02C8AC99D3211F7CB",
+                                            "id": "value1"
+                                          },
+                                          {
+                                            "expressions": [
+                                              {
+                                                "guid": "0C15FE674B3421015AF03A92ABD3FF61",
+                                                "preset": {
+                                                  "guid": "A7AFFDF04441EFD4F6EE2EBAAB2B8A12",
+                                                  "preset_id": "Logic_ComparisonOperator",
+                                                  "value_id": "eq"
+                                                },
+                                                "type": "Preset"
+                                              }
+                                            ],
+                                            "guid": "1860207C4CB69D707E2BC09441CD92EA",
+                                            "id": "op"
+                                          },
+                                          {
+                                            "expressions": [
+                                              {
+                                                "guid": "52D2E6964C4742E47F0DC8B60DE7A59C",
+                                                "type": "Value",
+                                                "value": {
+                                                  "guid": "4B01ED654EB18CD14A283DBF8AB0C39E",
+                                                  "type": {
+                                                    "directive": "FunctionType",
+                                                    "implements": "",
+                                                    "inner_type": "",
+                                                    "param_id": "",
+                                                    "sub_directive": "None",
+                                                    "type": "Boolean"
+                                                  },
+                                                  "value": "true"
+                                                }
+                                              }
+                                            ],
+                                            "guid": "5082F9974B4CE93E5A9DA498926FDC72",
+                                            "id": "value2"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "guid": "F94632174120E4766C25FCA363B48B32",
+                                    "id": "if"
+                                  },
+                                  {
+                                    "functions": [
+                                      {
+                                        "function_id": "UnitGroup_RemoveUnit",
+                                        "guid": "F7968F0648DB4C8205139DAB53919E00",
+                                        "parameters": [
+                                          {
+                                            "expressions": [
+                                              {
+                                                "guid": "A45C8B2F47E14846ECCE1A9108675017",
+                                                "type": "Variable",
+                                                "variable": {
+                                                  "guid": "00A054AD4509902376DC529ECA311A91",
+                                                  "variable_id": "LV_ScanGroup"
+                                                }
+                                              }
+                                            ],
+                                            "guid": "0A27D4D348EB28F5EA59E5AE5C640044",
+                                            "id": "group"
+                                          },
+                                          {
+                                            "expressions": [
+                                              {
+                                                "function": {
+                                                  "function_id": "UnitGroup_GetCurrentUnit",
+                                                  "guid": "F50C3FA647CEABAAB8AEAE8088C65085"
+                                                },
+                                                "guid": "E136026047622D89F148FB9FF9B980B0",
+                                                "type": "Function"
+                                              }
+                                            ],
+                                            "guid": "8C7C5B5F4676E0E3DFDB869A590F8078",
+                                            "id": "unit"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "guid": "5432F46345839E9D54B977ADDCFDD8DD",
+                                    "id": "then"
+                                  },
+                                  {
+                                    "guid": "831EA496443FAFC73AD1539B6788ADFC",
+                                    "id": "else"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "BBAF66964B0D16DDF2E994950C6F8552",
+                            "id": "actions"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "General_IfThenElse",
+                        "guid": "0DD4EF2D41CAB2F8B1C9B0B30442B76C",
+                        "sub_functions": [
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Logic_Comparison",
+                                "guid": "1B13CCEB438E3D7A0F1DF1B37B17569B",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "UnitGroup_CountUnits",
+                                          "guid": "4F3887214F843F3058BC86B0B3311B78",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "0AB5DA6F4519E37FCD0125BA70491A05",
+                                                  "type": "Variable",
+                                                  "variable": {
+                                                    "guid": "C6C130624716D0D48E4F2FB9735C5290",
+                                                    "variable_id": "LV_ScanGroup"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "01EC0F354C2AB1D9C88327BE33F7675D",
+                                              "id": "group"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "F3DE30274D7219B5CB3C178A7FCA3D14",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "27A0EA0248B735F6A84210B2A678F696",
+                                    "id": "value1"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "73CE15AD445657F962428B8020E77004",
+                                        "preset": {
+                                          "guid": "BD3D82AD44CB77EA7640958C69371061",
+                                          "preset_id": "Logic_ComparisonOperator",
+                                          "value_id": "gre"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "45FFA2C14A0453211B7F28B592E59160",
+                                    "id": "op"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "A1990E1A411720D5E0FC5AA50A27DAB7",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "ABC5FD8240F578F03FAA46B298CF7E6B",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Player"
+                                          },
+                                          "value": "4"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "27EB6CC240FCF7AC0447FBA438A2F2E3",
+                                    "id": "value2"
+                                  }
+                                ]
+                              },
+                              {
+                                "function_id": "Logic_Comparison",
+                                "guid": "8448147B48FDB162EE28C4A48B207EE9",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "Unit_GetUnitProperty",
+                                          "guid": "D222B097479E3CED6CCA69BD00BBC586",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "339F1F31430FCE18B1F3489E36A16EAE",
+                                                  "type": "Variable",
+                                                  "variable": {
+                                                    "guid": "748648844E66CB57A25040BE039B53F8",
+                                                    "variable_id": "LV_HERO"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "6908EF47402036EAC8360CA39A0E1E05",
+                                              "id": "unit"
+                                            },
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "D8F430B14B6F7CA3C80557AA99250279",
+                                                  "preset": {
+                                                    "guid": "6FA80D4A4A480201ACDABFBEC498B08D",
+                                                    "preset_id": "Unit_UnitProperties",
+                                                    "value_id": "health_percent"
+                                                  },
+                                                  "type": "Preset"
+                                                }
+                                              ],
+                                              "guid": "7A4F64054A4177FEFA2295B9C2C92FC5",
+                                              "id": "property"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "E9B37A66475DD7C844187FB9795799DD",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "9B6B035343C6C9D9273716BD681AD9E9",
+                                    "id": "value1"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "F1A728254614D6DA04B8008C7980ECDF",
+                                        "preset": {
+                                          "guid": "BDCCDD5646DA57CADFD67FBE787E872C",
+                                          "preset_id": "Logic_ComparisonOperator",
+                                          "value_id": "lte"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "31C0CB1A4FF815AD1B1658A6AE2EEFF1",
+                                    "id": "op"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "F24BBA9F416243E830545EB30924F5CE",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "26017598496EEA71B8589F8FB0672CF4",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Value"
+                                          },
+                                          "value": "80.0"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "8001C2C440918F1EE871FAB91B8EA0A1",
+                                    "id": "value2"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "552808264A9C56112C14F9B0C59D64ED",
+                            "id": "if"
+                          },
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Unit_IssueOrderWithNoTarget",
+                                "guid": "A872477644891B002EABAB893908989D",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "AFFF97B54F1C9314501631A398B1F57F",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "48AC89BC48C4EFCEF705699411F0FACC",
+                                          "variable_id": "LV_HERO"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "E58D23DE47AE31BDA32727898AE66E90",
+                                    "id": "unit"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "50BC0D474ADFC1D66F6A99A9D6803CB0",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "048C0C9C4A0BF5FF60942B91B3DD2905",
+                                          "type": {
+                                            "directive": "TypeRef",
+                                            "implements": "ability_data",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": ""
+                                          },
+                                          "value": "duckiesHeroCarnivexEnhance_Abil"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "28FF819846AB87BC3EC44F81E82B435B",
+                                    "id": "order"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "D5DDD2FB4B6CE62A18864FAF926DC520",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "6717DAC4400BED731B55D1B01E786BAC",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Integer"
+                                          },
+                                          "value": "0"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "4F3B14B243AF2303AAE48E81AC41A158",
+                                    "id": "order_index"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "0E51A45E464563ED5107DBB0AF40F517",
+                                        "preset": {
+                                          "guid": "2B4A7B10460EB7D713BCAF8D0A3692D4",
+                                          "preset_id": "Unit_OrderQueueOptions",
+                                          "value_id": "replace"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "FE3486344F6466BA385B5BBA01F8D5EF",
+                                    "id": "queue_order"
+                                  }
+                                ]
+                              },
+                              {
+                                "function_id": "General_Wait",
+                                "guid": "A6D7621A48A1C843FD54B382DDD279D4",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "397F90CD489D222835ADAD9BA8CA4BDD",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "184E32E84F2C3CF9D6F8ACA082DB93F3",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Time"
+                                          },
+                                          "value": "1.0"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "E27CC8BB4F03AC2F21FB99902E8460E2",
+                                    "id": "duration"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "53091F444DAF50848586CFA9DDF664D5",
+                            "id": "then"
+                          },
+                          {
+                            "guid": "0E8248E14055B94DC92F85BFD9DFF170",
+                            "id": "else"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "General_IfThenElse",
+                        "guid": "2834D490457D04F2E22C539810C53658",
+                        "sub_functions": [
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Logic_Comparison",
+                                "guid": "864E234B43E6093F103ACF8EF18BAF1B",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "UnitGroup_CountUnits",
+                                          "guid": "9A9E59ED44A6E054B7B4159C998F4F41",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "E07762B04C1CB6EBEDB1F19152663FB4",
+                                                  "type": "Variable",
+                                                  "variable": {
+                                                    "guid": "ACE67CB64A12762FD8FE2E86EA2AF82A",
+                                                    "variable_id": "LV_ScanGroup"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "1C63B9954A7FDDB26035899F5551F9F4",
+                                              "id": "group"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "C3D9921E4742A3BAC7FA498FB8CDB174",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "B2A7E4334409AAD38D029DB242A7D2AB",
+                                    "id": "value1"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "1A82970841273B21A700B9896ECA3429",
+                                        "preset": {
+                                          "guid": "651508364E5F583A0CED7D94C6E78E09",
+                                          "preset_id": "Logic_ComparisonOperator",
+                                          "value_id": "gre"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "6BF7F817440677BAA686CDB2A8C28EE5",
+                                    "id": "op"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "3118E1D3434FA78E86A9A19099925D28",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "334092D546A6469E6F1F7CADCAEFEDDF",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Player"
+                                          },
+                                          "value": "1"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "95098359449C5A4155F3BE86D8B4019D",
+                                    "id": "value2"
+                                  }
+                                ]
+                              },
+                              {
+                                "function_id": "Logic_Comparison",
+                                "guid": "59039C024719CC355C5F4AA5930F6207",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "Unit_GetUnitProperty",
+                                          "guid": "BA2E521842FD168432FEF98546210D92",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "17FA639A4B122CC9C8F3A58FBD1DAB03",
+                                                  "type": "Variable",
+                                                  "variable": {
+                                                    "guid": "B7F518C541ABC8811990C3A36D050929",
+                                                    "variable_id": "LV_HERO"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "726434D840B72B00BA6F9A9318B6E168",
+                                              "id": "unit"
+                                            },
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "6579C18649428FF18D4976B95BB8C2DB",
+                                                  "preset": {
+                                                    "guid": "75CC054E40D5549E0809E6B5DEDEDABE",
+                                                    "preset_id": "Unit_UnitProperties",
+                                                    "value_id": "health_percent"
+                                                  },
+                                                  "type": "Preset"
+                                                }
+                                              ],
+                                              "guid": "D7AB1541475C58758654B6B46F14E824",
+                                              "id": "property"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "36CC6A8C44A37DF62C8F09B08A0833F4",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "8B62037346A9AA4C76E7E7A6ECB95F4E",
+                                    "id": "value1"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "D44D7DD443070EDF55B55D95AF48D897",
+                                        "preset": {
+                                          "guid": "483DDDB44557CABBB25DBA85C20A0CCD",
+                                          "preset_id": "Logic_ComparisonOperator",
+                                          "value_id": "lte"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "E8C1C73845A711F57E3B55B324F51FFC",
+                                    "id": "op"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "BC61AE5147FD1881DCC4D8AF424D1A1D",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "8E1D700E4710F4D59E116CBC8964A1CA",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Value"
+                                          },
+                                          "value": "40.0"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "4EB9C6BB49A986938C2F1F870BF3D2A5",
+                                    "id": "value2"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "A3390BC94CC0210DDF33B9B3737A7EBE",
+                            "id": "if"
+                          },
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Unit_IssueOrderWithNoTarget",
+                                "guid": "FE7B3A984B7CA546AFF3669BB3122466",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "CF06F72541276F42CF0B54A8D84773FD",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "09B81DF746F138077B89A1A874917A5C",
+                                          "variable_id": "LV_HERO"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "D822786144613734C301CAB2FAD01DD6",
+                                    "id": "unit"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "92443A00420DF7C4B93394AEC9097F8E",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "4ED32D9E4868C7C15706C49C4CB6708E",
+                                          "type": {
+                                            "directive": "TypeRef",
+                                            "implements": "ability_data",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": ""
+                                          },
+                                          "value": "duckiesHeroCarnivexEnhance_Abil"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "B151D5E74B32DB0C1B9A5FAE0D652ABA",
+                                    "id": "order"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "5281B3904A9FF49EDB6BD2A45EF1FEBA",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "B90B5B3743DA0F1C631C8EBBC63C6322",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Integer"
+                                          },
+                                          "value": "0"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "921D839343A5DACFF564349695CD0385",
+                                    "id": "order_index"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "BFEA80314927697284C5BFA88C8C04EA",
+                                        "preset": {
+                                          "guid": "080A5C82419C82E5BDAB16BF8F212CFA",
+                                          "preset_id": "Unit_OrderQueueOptions",
+                                          "value_id": "replace"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "7A768BFB4062046D9CF3D2A18DAC320A",
+                                    "id": "queue_order"
+                                  }
+                                ]
+                              },
+                              {
+                                "function_id": "General_Wait",
+                                "guid": "445C09D148AA7478C5832CB3AD890AFD",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "14D319DA41E125ACAD334AAA0FCFC1B2",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "34C18B5E4B9CA41976FAB59CE348015A",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Time"
+                                          },
+                                          "value": "1.0"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "387A0E464617E702CE740A9AC2114413",
+                                    "id": "duration"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "7FC2E1F541DFE29BA80230A6EABEFD64",
+                            "id": "then"
+                          },
+                          {
+                            "guid": "E634066D4EB159873D0B6F9C0574F45A",
+                            "id": "else"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "6AC58006499267EF576B0D8187BD15FE",
+                    "id": "then"
+                  },
+                  {
+                    "guid": "8B7910D149B3DC749FFD0E964C210CEB",
+                    "id": "else"
+                  }
+                ]
+              }
+            ],
+            "guid": "201A50AD42277B26276B709702C68D39",
+            "id": "actions"
+          }
+        ]
+      },
+      {
+        "function_id": "UI_SendChatMessage",
+        "guid": "A13CC9EE4D415FEEE7620B840C8065F1",
+        "is_enabled": false,
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_ToText",
+                  "guid": "A1ECC6DC4FD8CD3DEC677193C7956F6B",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "String_Concat",
+                            "guid": "F07906254F9832E67E5A02BD6ED3BC5E",
+                            "parameters": [
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "7A885B75428F8FA67B7E2295FB43D7F2",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "F94A526D4BA3834FB43AA28D19B6264E",
+                                      "type": {
+                                        "directive": "FunctionType",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "tags": [
+                                          "to_string"
+                                        ],
+                                        "type": "String"
+                                      },
+                                      "value": "Ending AI for Carnivex Hero// Player"
+                                    }
+                                  },
+                                  {
+                                    "function": {
+                                      "function_id": "String_ToString",
+                                      "guid": "46065E3C4362932A84E4F8AAEB02B756",
+                                      "parameters": [
+                                        {
+                                          "expressions": [
+                                            {
+                                              "guid": "1A8380A346102B41D812F3AF699D0934",
+                                              "type": "Variable",
+                                              "variable": {
+                                                "guid": "2DE1A5414003B1649A806CA1DEA5CBE8",
+                                                "variable_id": "LV_PLAYER"
+                                              }
+                                            }
+                                          ],
+                                          "guid": "F9EC639244DBD505297A8C824A993B54",
+                                          "id": "value"
+                                        }
+                                      ]
+                                    },
+                                    "guid": "592C46FE46BEC64A17F6AD9CEFBDA636",
+                                    "type": "Function"
+                                  }
+                                ],
+                                "guid": "F954FEB64346CB977B6D22AF9FD22E9E",
+                                "id": "strings"
+                              }
+                            ]
+                          },
+                          "guid": "914C011C4F96231348A44AB915E840C3",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "240C72B94356A5DA5E2A0FA8B77401F3",
+                      "id": "value"
+                    }
+                  ]
+                },
+                "guid": "70BFBCF746B469221EBD8592377BB455",
+                "type": "Function"
+              }
+            ],
+            "guid": "8212B7CF408B11B7C522578E6FED37AD",
+            "id": "message"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_GetAllPlayers",
+                  "guid": "F0FA406A43BC8DC9845354AC17EE120B"
+                },
+                "guid": "B1EB6F64458C6E8F58BD9B83D84085F0",
+                "type": "Function"
+              }
+            ],
+            "guid": "419F07124003F877692EE3B5CE5F57A7",
+            "id": "group"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "id": "PlayerAI_CarnivexRefreshSpellTarget",
+    "variables": [
+      {
+        "guid": "892414EA4F8F9BB745E1F7A26A58C005",
+        "id": "LV_PLAYER",
+        "initial_values": [
+          {
+            "guid": "496ED1454BC73AE59653B28922766587",
+            "type": "Variable",
+            "variable": {
+              "guid": "3E8760254A8E0C5D06AA7E8711DE780B",
+              "variable_id": "GV_FunctRefInt"
+            }
+          }
+        ],
+        "name": "LV_PLAYER",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        }
+      },
+      {
+        "guid": "3A3CA7D44A1EDA7E4DC7B3900FF66444",
+        "id": "LV_HERO",
+        "initial_values": [
+          {
+            "guid": "72A3E9344CDE63E5677D33B01E406820",
+            "preset": {
+              "guid": "2528A15C47412F239DE3C09211DB7436",
+              "preset_id": "Unit_NoUnit",
+              "value_id": "none"
+            },
+            "type": "Preset"
+          }
+        ],
+        "name": "LV_HERO",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Unit"
+        }
+      },
+      {
+        "guid": "90AB2C7147F107188895D0AC89ED72F0",
+        "id": "LV_CURR_ENEMY",
+        "initial_values": [
+          {
+            "guid": "E81E026E458D38D9747970ACFE9679B1",
+            "preset": {
+              "guid": "A11EE399403FB2CFBAC4718491ECE92E",
+              "preset_id": "Unit_NoUnit",
+              "value_id": "none"
+            },
+            "type": "Preset"
+          }
+        ],
+        "name": "LV_CURR_ENEMY",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Unit"
+        }
+      },
+      {
+        "guid": "0D6807DC42107394D404BEAA84ED5165",
+        "id": "LV_Blackboard",
+        "initial_values": [
+          {
+            "guid": "1FF23F644E0E284F65D8B5814119F5E5",
+            "preset": {
+              "guid": "CF5B4DEE48BB1AD5048D808E9D8341E4",
+              "preset_id": "Blackboard_NoBlackboard",
+              "value_id": "none"
+            },
+            "type": "Preset"
+          }
+        ],
+        "name": "LV_Blackboard",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Blackboard"
+        }
+      },
+      {
+        "guid": "F3D08C654AA37CD5FFC69CA41C91CE13",
+        "id": "LV_ScanGroup",
+        "initial_values": [
+          {
+            "function": {
+              "function_id": "UnitGroup_GetNewUnitGroup",
+              "guid": "4A0326AC46F39AD22D607D88FE2155B2"
+            },
+            "guid": "47517EC4466FAC0AF5AB7AB82F5645C2",
+            "type": "Function"
+          }
+        ],
+        "name": "LV_ScanGroup",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "UnitGroup"
+        }
+      }
+    ]
+  },
+  "meta": {}
+}

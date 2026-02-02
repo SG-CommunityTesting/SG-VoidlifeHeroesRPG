@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SwarmOfHorrors.UI_Icons_Abilities_SwarmOfHorrors'",
+    "id": "duckiesHeroBruteFinalPassive_TraitBtn",
+    "name": "Battle Ferocity",
+    "tooltip": "Killing an enemy causes this unit to regenerate <d ref=\"duckiesHeroBruteFinalPassive_RegenBuffStack.modifiers[0].amount\" style=\"Bold\"/> health."
+  },
+  "meta": {}
+}

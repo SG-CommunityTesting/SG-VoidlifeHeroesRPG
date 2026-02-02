@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SaberWideAttacks.UI_Icons_Abilities_SaberWideAttacks'",
+    "id": "duckiesHeroExoBeamWeapon_TraitBtn",
+    "name": "pegasus_core|Button_Name_SaberWeapon_ButtonTrait",
+    "tooltip": "pegasus_core|Button_Tooltip_SaberWeapon_ButtonTrait"
+  },
+  "meta": {}
+}

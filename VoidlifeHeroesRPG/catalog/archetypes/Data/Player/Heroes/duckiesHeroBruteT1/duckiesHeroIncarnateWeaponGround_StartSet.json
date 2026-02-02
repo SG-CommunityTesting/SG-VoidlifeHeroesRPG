@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroIncarnateWeaponGround_Damage",
+      "duckiesHeroBruteFinalWeapon_StunApply"
+    ],
+    "id": "duckiesHeroIncarnateWeaponGround_StartSet"
+  },
+  "meta": {}
+}

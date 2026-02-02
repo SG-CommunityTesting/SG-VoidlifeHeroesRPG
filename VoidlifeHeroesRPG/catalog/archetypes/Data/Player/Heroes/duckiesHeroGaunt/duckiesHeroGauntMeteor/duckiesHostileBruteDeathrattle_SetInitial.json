@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "BruteDeath_Switch",
+      "HardenedBrute_Switch"
+    ],
+    "id": "duckiesHostileBruteDeathrattle_SetInitial",
+    "impact_fx": "BP_FXS_BruteDeath"
+  },
+  "meta": {}
+}

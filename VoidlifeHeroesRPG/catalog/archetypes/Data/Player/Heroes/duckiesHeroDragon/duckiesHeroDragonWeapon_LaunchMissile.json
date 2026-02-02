@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroDragonWeapon_LaunchMissile",
+    "impact_effect": "duckiesHeroDragonWeapon_PrimaryImpactSet",
+    "launch_fx": "BP_FXS_FlayedDragon_Launch",
+    "movement": {
+      "acceleration_time": 0.0,
+      "max_speed": 21.0
+    },
+    "projectile": "FlayedDragon_Weapon_Missile"
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_EnergyStrike.UI_Icons_Abilities_EnergyStrike'",
+    "id": "duckiesHeroPandoraMultishot_Btn",
+    "name": "Soul Orbs",
+    "tooltip": "Manifest <d ref=\"duckiesHeroPandoraMultishot_StartPersistent.periodic.count\"/> soul orbs to strike randomly chosen enemies in the target area. Each orb inflicts <d ref=\"duckiesHeroPandoraMultishot_Damage.amount\" style=\"Bold\"/> damage, heals caster for damage dealt and stuns it's target for <d ref=\"duckiesHeroPandoraMultishot_Stunned.duration\"/> seconds.\n\nSoul Orbs will attempt to hit different targets if they're able to."
+  },
+  "meta": {}
+}

@@ -1,0 +1,47 @@
+﻿{
+  "__base_type": "Validator",
+  "based_on": "Validator",
+  "check": {
+    "root": {
+      "name": "ExpressionApi::SnowTag::has_any",
+      "node": "FunctionCall",
+      "parameters": [
+        {
+          "argument": {
+            "name": "ExpressionApi::effect_target",
+            "node": "FunctionCall",
+            "parameters": [
+              {
+                "argument": {
+                  "node": "Literal",
+                  "type": "Name",
+                  "value": ""
+                },
+                "name": "effect_parent",
+                "type": "Name"
+              }
+            ],
+            "type": "Entity"
+          },
+          "name": "who",
+          "type": "Entity"
+        },
+        {
+          "argument": {
+            "node": "Literal",
+            "type": "Array<SnowTag>",
+            "value": [
+              "attribute_boss"
+            ]
+          },
+          "name": "tags",
+          "type": "Array<SnowTag>"
+        }
+      ],
+      "type": "Bool"
+    },
+    "type": "Bool"
+  },
+  "error_string": "",
+  "id": "Valid_duckiesTargetIsBoss"
+}

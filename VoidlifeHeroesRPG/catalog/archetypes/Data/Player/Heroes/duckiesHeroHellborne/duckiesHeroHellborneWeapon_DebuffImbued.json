@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "__base_type": "Buff",
+    "alignment": "Harmful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_MoltenTouch",
+    "duration": 10.0,
+    "effect_periodic": "duckiesHeroHellborneWeapon_DebuffimbuedPeriodicSet",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Molten.UI_Icons_Abilities_Molten'",
+    "id": "duckiesHeroHellborneWeapon_DebuffImbued",
+    "name": "On Fire",
+    "periodic_duration": 0.25,
+    "tooltip": "Unit is burning for <d ref=\"duckiesHeroHellborneWeapon_DebuffDamage.amount / duckiesHeroHellborneWeapon_Debuff.periodic_duration\" style=\"Bold\"/> damage per second."
+  },
+  "meta": {}
+}

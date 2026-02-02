@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroKriWeapon_Damage",
+      "duckiesHeroKriWeapon_RollOutCDApply"
+    ],
+    "id": "duckiesHeroKriWeapon_StartSet"
+  },
+  "meta": {}
+}

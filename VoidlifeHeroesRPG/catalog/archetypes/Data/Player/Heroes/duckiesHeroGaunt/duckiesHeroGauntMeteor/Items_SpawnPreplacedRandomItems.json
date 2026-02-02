@@ -1,0 +1,1784 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "57DC019147533826E5BF09BB7CBA384C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "BABEC2DB48A7FEBF52EBEEB917CCA040",
+              "type": "Value",
+              "value": {
+                "guid": "07DAB8A74FEBB6B62C572EA8FEBFB7CE",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "866397FC4E8757D1229BD087F783D99A",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "3708243F440F9A3DF77636BCD4CFF5A2",
+              "type": "Value",
+              "value": {
+                "guid": "50F65EDA402DC1BEA3D236804F4E354F",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsWeapon_Unit"
+              }
+            }
+          ],
+          "guid": "CF68683B447A7DCB92A6C28D334FB0A7",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "7DAD4E3F470AA1D48E9B29A27C90176D",
+              "type": "Variable",
+              "variable": {
+                "guid": "0016AE61473A74D1D40962830EB8CAA3",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "1C180B73492501EDDFA4BE952E91ED4B",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "B46A2D3146171354672E698D3F50F07E",
+              "type": "Value",
+              "value": {
+                "guid": "8E1C5E28490C3B8250424CBAF6FDC2BE",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "763357AD4136BA9CAC94D8A8BA06118B",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "47E7CDA84AF17862176E998B4DEE035F",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "4D5C39384EC1958708A6F6B1FFA46793",
+              "type": "Variable",
+              "variable": {
+                "guid": "5C55B272482F66912CB258A9A2F32EA5",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "1FD7B5964461AA0C780D498242F379B9",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "B432492F4BA51BEDB3E25EAE17D6EF53"
+              },
+              "guid": "A0924ECA428263E3E4934EBD0EE1377B",
+              "type": "Function"
+            }
+          ],
+          "guid": "0A16D52E44A70C9DDC9897B55AD272A1",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "1460897648A5F4BDF6E792A247EFEF8E",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "C95F6718437DC305FE651A8A79515DB6",
+              "type": "Value",
+              "value": {
+                "guid": "EB9BDF5642B8A7997296D0935571CD9F",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "38989E5D4306A7D17209B29C107A3162",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "3BE6C64E4D39E852854FAB9A37E19AFF",
+              "type": "Value",
+              "value": {
+                "guid": "07177AAD4094E146A3ED2BBDC081601D",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsArmor_Unit"
+              }
+            }
+          ],
+          "guid": "B38E6F994A3354DCB26A15A36BD049A3",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "73F5581C4EA07A4F0FB88AAB40903768",
+              "type": "Variable",
+              "variable": {
+                "guid": "EAD5B0ED484024C6EA4FE9B06B352BE7",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "E837BD7345C851BAF5B79681E3E316D3",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "11DD70F5498DC96418698C814277B375",
+              "type": "Value",
+              "value": {
+                "guid": "3A5954B84305E9323952F9B18FC2903B",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "8BC751D14FFB871054DE35805D2AB5BB",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "DCF0E939497E1BE26BAB41BB608D10B1",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "8E7F4FE0487BCFBDD11714850E1A5B4E",
+              "type": "Variable",
+              "variable": {
+                "guid": "C093DCE2473D9FCBC3B58A9396CFD6EA",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "B262D7A145D56902E1A87BAABF701398",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "6CF2ED9C49182D4A968991987F35B2DE"
+              },
+              "guid": "107DCB8F44D8114C896FB783BFFF780D",
+              "type": "Function"
+            }
+          ],
+          "guid": "2850A23048567F58A645AC8F9220812F",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "7BEB75D940EF0652491501B1FF8D2652",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "A82E84F0473ED4AD6365379FA17DF003",
+              "type": "Value",
+              "value": {
+                "guid": "00BD07C34083F9073E86A1B8446E6E41",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "FA5B1CF64B74C4D45A62D6875228049F",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "0FA215614A300E1950A86B917C15985F",
+              "type": "Value",
+              "value": {
+                "guid": "D7C64D1746922BE61870F8ADA214929B",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsHealthArmor_Unit"
+              }
+            }
+          ],
+          "guid": "F78F13C04A35670B2129BC99A176487F",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "A329F15C49048A523F0F65ACF863A1BB",
+              "type": "Variable",
+              "variable": {
+                "guid": "E9818DB2458A9D6523BCA28300C126F4",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "CB784BF14F67CC63D0C50EACC04D582A",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D7BFD55746A882A2D32CC89ECBC78B13",
+              "type": "Value",
+              "value": {
+                "guid": "179210DB4B5A04CEB46A4EA9ED5C85D1",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "13C5B0A7404242D7332A79821D37CED7",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "86F7EBDF4010EB891D9D0AAC500DAED5",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "42CE50004A75EEE72C2A50933A02DAF0",
+              "type": "Variable",
+              "variable": {
+                "guid": "FD982EC64B1B9DDE9F2FE786273C815A",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "F008CC8D4336D107283F42AADC7EADA9",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "0ADE3E6342D17D965BFFED93EE634825"
+              },
+              "guid": "678849CF4093D7D1DB3E8AA31C6377AE",
+              "type": "Function"
+            }
+          ],
+          "guid": "8F7DE4724E317DF5D09E21A1CE8CC05B",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "FDED004B4E3451E66E9CE7A751908B8A",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "E170046A4D711F99D91B668B6E9959F6",
+              "type": "Value",
+              "value": {
+                "guid": "C316FD734EEBC4B8ACA637B3318B5143",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "1B46BAEB49EE07076E11F3BB9235D57E",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "A778A6F7448852C5772EAFBA31600A92",
+              "type": "Value",
+              "value": {
+                "guid": "A24AA0904614071C8119849B6BD0DC3B",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsEnergyAmulet_Unit"
+              }
+            }
+          ],
+          "guid": "9FBED02C4C3AA292E199499B2223CCC2",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "A65753A747068C3973E32EAC2FD1CAFA",
+              "type": "Variable",
+              "variable": {
+                "guid": "107F80B1472B73E41AC05BA111A135BD",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "B5BB4879425D9BE3DCE774BB16674CD8",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "394B890C4FFED30770FF8C99F1C7132B",
+              "type": "Value",
+              "value": {
+                "guid": "32C0F17D451C6D37BE88C8BBD4AA8192",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "36E450E1418CE3EEE344E6BF22FFEDCF",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "E3FD6C224623433A9BFF7A987ED89CC4",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "E10664F444F852A7A826FFAC7BDD5CA2",
+              "type": "Variable",
+              "variable": {
+                "guid": "BDFD75B54AB6D88460D98BAD309ACBFE",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "25779EB8441A955090B3D1837E7802F5",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "BBD4F7204CED7ED45C33AF8CE36B1191"
+              },
+              "guid": "570A78254D71C9263EBFCF96F2923925",
+              "type": "Function"
+            }
+          ],
+          "guid": "35B0BD2345ECBE0F256EFF8440F6F266",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "BFF3D0E5484A6AD3678AFA8D96CB9E8C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "1AB999164C9325F648F470971907BC7B",
+              "type": "Value",
+              "value": {
+                "guid": "7C0ABDCD46DF84D2F69C7EB5290B3594",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "DF4C4DA3413054068802359101956132",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "6B1380EA4264D5BD8567F49D8A877AD4",
+              "type": "Value",
+              "value": {
+                "guid": "F5472C7A43C9B6ED8BD3619C4527A9B0",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsLifeRegenAmulet_Unit"
+              }
+            }
+          ],
+          "guid": "1F6980A24FA131BA0707C79C1845CC66",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "8C81621A45005B489873929BF4C01697",
+              "type": "Variable",
+              "variable": {
+                "guid": "3552C2E24F1B1CDE5684E5925664DB3A",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "70865CA24BEFDCC00DA6A8A4466E7C4B",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "5690D82A4A6241902D075DB783B2E30A",
+              "type": "Value",
+              "value": {
+                "guid": "B9833D364668217C2AD6D19453D18595",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "2CB9985941D491D61998EA98D2396461",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "9C2326BB4FAE3625FBDCD3B0D47B05D2",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "19F0566F4A10C5D1EBA4599423A771F1",
+              "type": "Variable",
+              "variable": {
+                "guid": "57CC912C44D45870A410B881667D63B6",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "887D9D7D4B390C4FEC4532AFA42B2E59",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "2B008278423A3241A1DA4CA68D79E5D3"
+              },
+              "guid": "84B7EDB945B1D25FFDED99A484A41AE0",
+              "type": "Function"
+            }
+          ],
+          "guid": "DC97DAB044EBF2523DB4F4998BAD7F81",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "86102ED8490319C476213DB2F4D3E3C4",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "A76631234D6B6DD101DE87B3213556BD",
+              "type": "Value",
+              "value": {
+                "guid": "9049ABFB464E097ACD74F5A830996181",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "2B5FB1C344AC670BE246BA822482ADE9",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "58A7FC6E4B8490949708D3AF0E7333B7",
+              "type": "Value",
+              "value": {
+                "guid": "F3AC6CD94BC8CAE30D302CBFF8F76961",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsDamage_Unit"
+              }
+            }
+          ],
+          "guid": "8EAFD73F4DBFA296408957B584E0086A",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "04C277814B0A74E5A28C4A901DE1D199",
+              "type": "Variable",
+              "variable": {
+                "guid": "5A84AAAF429BB8E7C61D2EA81B817CB0",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "0240C8B14E072C39496C5B9990FEFCC6",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "6B6113E14556274E2FC8D4AC7F1C3705",
+              "type": "Value",
+              "value": {
+                "guid": "3EF0CF344ACEE411A24BC8AAB412A90D",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "3B82522B494DA7C99F4D118400E8EF67",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "3DC7CCAA464A8E196301F8983C58936E",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "5263C2864FF1212304756FB4B7BCD342",
+              "type": "Variable",
+              "variable": {
+                "guid": "29B0FC144085F350325F2A8DDE5FBB21",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "2F28C1E34D67CB48463B42898DE8631B",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "6580048B4B3A95A61313B184C1724D6B"
+              },
+              "guid": "2EC6A4354EF0C8554BC5109665E95D07",
+              "type": "Function"
+            }
+          ],
+          "guid": "F3A53B0B4080805568447C93E3DDD6D8",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Debug_DebugMessage",
+      "guid": "59BB84F4453F82CFBFA452BF2B05D2F5",
+      "is_enabled": false,
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "931399C3467AC962C1A98594E60E63BB",
+              "preset": {
+                "guid": "B09AE342470C09C8182FEABD4B0E691A",
+                "preset_id": "Debug_DebugMessageTag",
+                "value_id": "notag"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "D8A0E2C64B697545FCDB4784B02100AE",
+          "id": "tag"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D66462254486BADE642AAA8F9201F696",
+              "type": "Value",
+              "value": {
+                "guid": "35B9B09642F33BA46CA072983D4D3E11",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "String"
+                },
+                "value": "TIER2"
+              }
+            }
+          ],
+          "guid": "14B011E44ADE7970C2A8E8B5EF603CE9",
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "C4F86FF249754A52BD326E915AE1928D",
+              "type": "Value",
+              "value": {
+                "guid": "18BC7BC74A345D587B610DB0AE0C4653",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "10.0"
+              }
+            }
+          ],
+          "guid": "DCF55B67429A304E6243C8A80632C6BA",
+          "id": "duration"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "9BADED3E43987C838614CDB8090964A0",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "E8253D8C448876A40958EEB4C88AAE6D",
+              "type": "Value",
+              "value": {
+                "guid": "A7E2019D4D92D5993C839EA327F771FE",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "BE93BAD842856156C2F97F8865398D9C",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "357E02434885819A705C68AD27D24227",
+              "type": "Value",
+              "value": {
+                "guid": "A515778442F4CFBB379B0192B06FCDF6",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsWeaponT2_Unit"
+              }
+            }
+          ],
+          "guid": "E92294F340BF57B46674D282BF14AE73",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "262B930847E288F1B894749628BD7863",
+              "type": "Variable",
+              "variable": {
+                "guid": "E0A732F64E9CBB44E04B03BCB8492C14",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "490BDC5F4542ED3FE17981983AA41531",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "B78518374EBA73A1015CC9B138083210",
+              "type": "Value",
+              "value": {
+                "guid": "EE002D2A4480270C44BB999FA66B16D3",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "909117E446B93AA0FBA253B881B8CC05",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "F28A9D654F38CD6B58E870B6AA911DA4",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "F390F9964DABCC1B81B70EB40EB5135B",
+              "type": "Variable",
+              "variable": {
+                "guid": "AE4333E44A393F5703E0858FC015B018",
+                "variable_id": "LV_ItemsPoolT2"
+              }
+            }
+          ],
+          "guid": "7B5473A942E00C0C44AA3E8F987483F3",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "44C5EF094633D75687B116A17226B9B0"
+              },
+              "guid": "CB5AA8EB44BD8C86F840F3A57FB712D9",
+              "type": "Function"
+            }
+          ],
+          "guid": "342B8D384E73C98FF67230A9CA43EE2D",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "E2BC54D1437DBF2566D95E93ED8C9049",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "7CFA19B84A202121429F3A863BA52EB8",
+              "type": "Value",
+              "value": {
+                "guid": "CDEA5B7D40C00448BE13E1AE3706075D",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "BBF06F184440219B208020A1A2F0AF1B",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "7F0E77FE440886B0415DEB8E4B19E34A",
+              "type": "Value",
+              "value": {
+                "guid": "7C61C40F4FF6947DAD51A98CCCB91744",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsArmorT2_Unit"
+              }
+            }
+          ],
+          "guid": "39CCB4664835875F66265783CCBCBEE8",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "32D9E1514063197F7BA5E8BFE62A512C",
+              "type": "Variable",
+              "variable": {
+                "guid": "1A44CA574D7DCC71B0AB9FBA57B32C37",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "3E85B51346D3670374BC02ADCB6E8F09",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "229A23D04C2A3080220AA3AFE225C685",
+              "type": "Value",
+              "value": {
+                "guid": "6918F65D4B050038B2F5E7BEEE0ADFBD",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "F569BEA649EA6034275B37B46B7303F0",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "B3213CCB40A43520BB2047A480BDC64C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "D8F743C046ADEBC7F11271A0E84FB058",
+              "type": "Variable",
+              "variable": {
+                "guid": "BF4D38934CBFECC1116F5DA775475FC0",
+                "variable_id": "LV_ItemsPoolT2"
+              }
+            }
+          ],
+          "guid": "9297789C48BB7375596750BA134B7952",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "85E4CEEB494A09C9DF7A4AB8479DBF5E"
+              },
+              "guid": "D7A9FC1745AD069E7E0E6AA3D4425136",
+              "type": "Function"
+            }
+          ],
+          "guid": "361EB3B44C48F6D84CD34DA216E5D3E3",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_ForEachItemInGroup",
+      "guid": "79FB68054625451F53E697BB18DB9ACA",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "ItemGroup_GetItemsInRangeOfPosition",
+                "guid": "476BF8044399219BDB93279EF159A495",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "075D82504E0C908BA29ED18E7FD190ED",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "12D3603E40B7E5B1FBD4609A97F16CDC",
+                          "variable_id": "LV_SpawnPoint"
+                        }
+                      }
+                    ],
+                    "guid": "B527ED5D4C7E1C163BBD7A9E48C303AB",
+                    "id": "position"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "C128615D4BDF605D963F018592D352C7",
+                        "type": "Value",
+                        "value": {
+                          "guid": "03024B4B40F6C925083ECBB8FF667499",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Distance"
+                          },
+                          "value": "1000.0"
+                        }
+                      }
+                    ],
+                    "guid": "5575C2C54496DB96940E638987A57E1A",
+                    "id": "radius"
+                  }
+                ]
+              },
+              "guid": "987417784B73C4A4DF341C8A4687F6CA",
+              "type": "Function"
+            }
+          ],
+          "guid": "0CFFFF344575E1DB554A62A102CEA5D6",
+          "id": "group"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "General_IfThenElse",
+              "guid": "23F2BA8949AC7E437723EB9635516901",
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Logic_Comparison",
+                      "guid": "48B2953C488D59409A22BCBB03B2A71E",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "Item_GetArchetype",
+                                "guid": "A850FC2947C2547051608584235CB5CE",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "ItemGroup_GetCurrentItem",
+                                          "guid": "13F72A05458598A607CBAFA4AEE25673"
+                                        },
+                                        "guid": "4CDAE4324B2DC58F7458B7AAAC74DDA3",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "392A2B704F39C0861DE7B398CDAA1793",
+                                    "id": "item"
+                                  }
+                                ]
+                              },
+                              "guid": "5AE0F6C3458D98788D128CA3981D3314",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "14FED56E4DBE647D9EEFF6846E1EC6CD",
+                          "id": "value1"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "4D8D132E4FACD25E218926970CA1D223",
+                              "preset": {
+                                "guid": "6A8F3DF04E1BD60C8687F9BC3D8FAD15",
+                                "preset_id": "Logic_ComparisonOperator",
+                                "value_id": "eq"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "A685E1D746051DF4DE93D3AE04BD067A",
+                          "id": "op"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "6804C7F84D3F9F6F228D6FAFF1FA45EB",
+                              "type": "Value",
+                              "value": {
+                                "guid": "2447218A44BF2461E25161AA9BB9FD81",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "ItemData"
+                                },
+                                "value": "duckiesItemsRandom_Unit"
+                              }
+                            }
+                          ],
+                          "guid": "FE90493B4692B52D3BE05C81C38E1808",
+                          "id": "value2"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "497B158143667344C42BBA9772322032",
+                  "id": "if"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "Item_CreateItem",
+                      "guid": "A801B6464C903CA5F29EDEB71356A878",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "2682B4D74A8DEA7AC88966A27A29675C",
+                              "type": "Value",
+                              "value": {
+                                "guid": "BC23E30149C43AE13FEB3B8F417F2988",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Integer"
+                                },
+                                "value": "1"
+                              }
+                            }
+                          ],
+                          "guid": "381F47654C907C2FB1B2D7910ADF9557",
+                          "id": "count"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "Item_GetArchetype",
+                                "guid": "7E2C499A4AF003DB56AA27B07AEE664B",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "ItemGroup_GetRandomItem",
+                                          "guid": "DC5D7CB041B72A573571848913DE0EAF",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "0B2446D64F8BAEC4093CE4BF20A31490",
+                                                  "type": "Variable",
+                                                  "variable": {
+                                                    "guid": "907729474C6823FA1E828697B1E634E3",
+                                                    "variable_id": "LV_ItemsPoolT1"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "FF23AB7847D5BA6138E856AC4816B573",
+                                              "id": "group"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "B6FD1F034D638E13EC03CCB582037E81",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "74773C5F4DC195B2F1096DB9B763DDD0",
+                                    "id": "item"
+                                  }
+                                ]
+                              },
+                              "guid": "E6BD8B0E4AE44EFE7D4D7E928B4534B2",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "B3A7C62942638D0DF690708B4E35AFF7",
+                          "id": "type"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "Actor_GetPosition",
+                                "guid": "3A3B854648C68282E7D0EC87C17FC6B9",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "ItemGroup_GetCurrentItem",
+                                          "guid": "08FB27814700D3A210D88799AB651C94"
+                                        },
+                                        "guid": "34897C4C4A16EA042481E4925BE2857E",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "217DFEF646FBBACFBDF0C684C5EAE05A",
+                                    "id": "actor"
+                                  }
+                                ]
+                              },
+                              "guid": "1181626E43D5C0596B0B299555A4BA66",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "37FD1D2A4850084EF2E28CB62FE6F6AF",
+                          "id": "position"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "F73D4A7B4A5A62F6FEA7F98DCF6993CF",
+                              "type": "Value",
+                              "value": {
+                                "guid": "55ED8E8E4898F56F80D0BE8A3669BBB3",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Degrees"
+                                },
+                                "value": "0"
+                              }
+                            }
+                          ],
+                          "guid": "E2F8F8E94EAC78E49E184C9FD8F4A3D2",
+                          "id": "facing"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Item_Remove",
+                      "guid": "5D11186A40D5BD0E97F458B568327374",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "ItemGroup_GetCurrentItem",
+                                "guid": "0AB1088F42EA0BFBF97CC2BA7ABBDFCC"
+                              },
+                              "guid": "5D9E803449BA12E76849B6BC49F7966B",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "FB98DA524DCB96420C5E8A8409C3C7EF",
+                          "id": "item"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "4EB861E5478C371B52DFCE82C49FDC41",
+                  "id": "then"
+                },
+                {
+                  "guid": "E13443B643124EC0D04AE0B77F2AA2DB",
+                  "id": "else"
+                }
+              ]
+            },
+            {
+              "function_id": "General_IfThenElse",
+              "guid": "A349289D4EBB9ADCD615538DD7CAA231",
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Logic_Comparison",
+                      "guid": "8EDDB86A46D97D759626ACBA1A120706",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "Item_GetArchetype",
+                                "guid": "26B736D74C7A3433A3AF84BA1C12EA8D",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "ItemGroup_GetCurrentItem",
+                                          "guid": "8B64E1354009DEDAAC986B9CFEB6591B"
+                                        },
+                                        "guid": "0BFB0C3F477D7CDBE39E0C8A32AF7A98",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "23B1A9CA46573553BCDE0B8D81B47068",
+                                    "id": "item"
+                                  }
+                                ]
+                              },
+                              "guid": "895D23D34C75E2B3C592FFB279B97D4E",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "D12F176444B01482EF099782139B36B1",
+                          "id": "value1"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "A7893E114DE83B663E8DDABF35889BA6",
+                              "preset": {
+                                "guid": "82E0BE0749594F5D854FD093E3277036",
+                                "preset_id": "Logic_ComparisonOperator",
+                                "value_id": "eq"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "6484E7FA4672EE463C45638DC01949CF",
+                          "id": "op"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "745DC94E4466BAC38740399F6D501E84",
+                              "type": "Value",
+                              "value": {
+                                "guid": "F198F25840E8E8665062EE81A3166590",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "ItemData"
+                                },
+                                "value": "duckiesItemsRandomT2_Unit"
+                              }
+                            }
+                          ],
+                          "guid": "B7F71CD04176F361D5DBD6899996EB27",
+                          "id": "value2"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "B9923074487D6B4ECBCAAE8CE93204B9",
+                  "id": "if"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "Item_CreateItem",
+                      "guid": "4C87C20A43639E6031A1D2B873BF6705",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "4EF9FB084E997F7350212CB467720A11",
+                              "type": "Value",
+                              "value": {
+                                "guid": "4969EB2342036534640915BAEA975FC9",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Integer"
+                                },
+                                "value": "1"
+                              }
+                            }
+                          ],
+                          "guid": "9A116B3F4695C4594E6E9BA19C24BA7D",
+                          "id": "count"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "Item_GetArchetype",
+                                "guid": "8BD8FCCD42E9C50C40A2A899E7A04579",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "ItemGroup_GetRandomItem",
+                                          "guid": "FDEE8D8148BDBBCAC32430A58811EDB5",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "guid": "49BB54084E9BA176A606DAB2C439441A",
+                                                  "type": "Variable",
+                                                  "variable": {
+                                                    "guid": "BAB7D5C84A2774667903198D2FA724EB",
+                                                    "variable_id": "LV_ItemsPoolT2"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "0D6509F24059246DCF9D748769DBA068",
+                                              "id": "group"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "FDEFD4CD4F63DAFA0E50EC82E7110E06",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "86BD66834089C7A404014C9EBEAA6D08",
+                                    "id": "item"
+                                  }
+                                ]
+                              },
+                              "guid": "510CB73F4E50BB355A9F4EB673BFAE0C",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "378866E944C76B7ED3FC709974F2E0E4",
+                          "id": "type"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "Actor_GetPosition",
+                                "guid": "7433BE344EE8B02A9A2FFCAB0E7A7B02",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "ItemGroup_GetCurrentItem",
+                                          "guid": "56BD97384959641C376BE1A8A4BE504C"
+                                        },
+                                        "guid": "3FF9E96F4427DC59C403909A0F87715D",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "7154D02747D823DF6D13F5BC0E79596D",
+                                    "id": "actor"
+                                  }
+                                ]
+                              },
+                              "guid": "C1D13FFE40779B375100A3834FD121C2",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "B9AD004E4D2E971F11F95F952AF318D4",
+                          "id": "position"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "DC1292F34B2447113E77A89B9D9C4FA7",
+                              "type": "Value",
+                              "value": {
+                                "guid": "A4F764854C294FB5BE88858C83BD52FC",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Degrees"
+                                },
+                                "value": "0"
+                              }
+                            }
+                          ],
+                          "guid": "30FD9A5045C31386B9F50AB06DC00009",
+                          "id": "facing"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Item_Remove",
+                      "guid": "031ED66549A743C5B92BA59FE0089785",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "ItemGroup_GetCurrentItem",
+                                "guid": "4B706D4444931D17BA85B6972FADD04E"
+                              },
+                              "guid": "4036A1F74C9D39A8765AA883614A30D5",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "3536F3694C0821105F0172B5A5EAF506",
+                          "id": "item"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "F788185C4F8F488BC367EFBF5A6CB876",
+                  "id": "then"
+                },
+                {
+                  "guid": "B933B0B944F41F16A30D5BA1C370C279",
+                  "id": "else"
+                }
+              ]
+            }
+          ],
+          "guid": "C7A0B413466350174EC3BDB0777B61EC",
+          "id": "actions"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_ForEachItemInGroup",
+      "guid": "81A094BC4FC6FF84A4990E949B1BA024",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "C9838D80495C7A2B3D8D9F87FDFFAF03",
+              "type": "Variable",
+              "variable": {
+                "guid": "BE033F204515ABE254EFFE935E159762",
+                "variable_id": "LV_ItemsPoolT1"
+              }
+            }
+          ],
+          "guid": "1949F33E49FBCAB54E9047B7763D3210",
+          "id": "group"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Item_Remove",
+              "guid": "3E8761214256973D4B20FC94FFF4ACC9",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "ItemGroup_GetCurrentItem",
+                        "guid": "BAB77BBF471E0B91B32027A1CD1EBCA9"
+                      },
+                      "guid": "E9FF993C41801852B5709C8E9594D6A1",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "B73DE5FF45369FE26091FFB9B55053D8",
+                  "id": "item"
+                }
+              ]
+            }
+          ],
+          "guid": "353F4912440BBB1E5A4153B9E78F4EC8",
+          "id": "actions"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_ForEachItemInGroup",
+      "guid": "AAFB757748D58742FC960599F1F3005C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "24B625F04DE875D4D068B1A11E63E322",
+              "type": "Variable",
+              "variable": {
+                "guid": "192971144056597B85D5C8B9CEA7FE4E",
+                "variable_id": "LV_ItemsPoolT2"
+              }
+            }
+          ],
+          "guid": "0A88FBDF495F4C53AE541EA53EE672A1",
+          "id": "group"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Item_Remove",
+              "guid": "BF2396924BAA5A4AA09F88AE7B832131",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "ItemGroup_GetCurrentItem",
+                        "guid": "51EAAB4B40ABA4ECFFF5788DF4045BDD"
+                      },
+                      "guid": "F66C50BF4B9E50AC70D0FF9E2F11C9D4",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "D6745692434BF7E6DB3BA5A16384BB97",
+                  "id": "item"
+                }
+              ]
+            }
+          ],
+          "guid": "83A9CE2049980BB011129488A17C0499",
+          "id": "actions"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "events": [
+    {
+      "function_id": "Game_OnMapInitialization",
+      "guid": "AC7D66AC4E0E8AFD9546DC9A60BC518C"
+    }
+  ],
+  "id": "Items_SpawnPreplacedRandomItems",
+  "variables": [
+    {
+      "guid": "1B71D4EF45B83E4C16795C9417BD358A",
+      "id": "LV_SpawnPoint",
+      "initial_values": [
+        {
+          "guid": "0D9F397046760BA306C4F1AB7410C524",
+          "type": "Value",
+          "value": {
+            "guid": "179513C5404674B538EC139B05D6E56E",
+            "type": {
+              "directive": "FunctionType",
+              "implements": "",
+              "inner_type": "",
+              "param_id": "",
+              "sub_directive": "None",
+              "type": "Vector"
+            },
+            "value": "X=-120.000 Y=-120.000"
+          }
+        }
+      ],
+      "name": "LV_SpawnPoint",
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "type": "Vector"
+      }
+    },
+    {
+      "guid": "B852BD084117657253E80990CE753C4D",
+      "id": "LV_AIHeroPool",
+      "initial_values": [
+        {
+          "function": {
+            "function_id": "ItemGroup_GetNewItemGroup",
+            "guid": "55E0C7BE494479FA779B7C82A457C0ED"
+          },
+          "guid": "D5CEFC944778B5A7CC7F6CB3A4DA3B54",
+          "type": "Function"
+        }
+      ],
+      "name": "LV_AIHeroPool",
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "type": "ItemGroup"
+      }
+    },
+    {
+      "guid": "77B82D434AA2F63999AD3D93F969C920",
+      "id": "LV_ItemsPoolT1",
+      "initial_values": [
+        {
+          "function": {
+            "function_id": "ItemGroup_GetNewItemGroup",
+            "guid": "CB942D074A9C455E3C5680B7C7B1E59B"
+          },
+          "guid": "A3E7A76E4DA8BBE0263194948AD857D9",
+          "type": "Function"
+        }
+      ],
+      "name": "LV_ItemsPoolT1",
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "type": "ItemGroup"
+      }
+    },
+    {
+      "guid": "48F2CDF546878D53F7D629A78E394418",
+      "id": "LV_ItemsPoolT2",
+      "initial_values": [
+        {
+          "function": {
+            "function_id": "ItemGroup_GetNewItemGroup",
+            "guid": "EB8F237E48468B298850FDA61BEE6670"
+          },
+          "guid": "43E527EC4F6F263F18EB6DBF5BF99B38",
+          "type": "Function"
+        }
+      ],
+      "name": "LV_ItemsPoolT2",
+      "type": {
+        "directive": "FunctionType",
+        "implements": "",
+        "inner_type": "",
+        "param_id": "",
+        "sub_directive": "None",
+        "type": "ItemGroup"
+      }
+    }
+  ]
+}

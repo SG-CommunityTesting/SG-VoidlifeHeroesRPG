@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TagBonus",
+    "bonus": 300.0,
+    "id": "duckiesHostileGoldDemonWeapon_TagBonusHeavy",
+    "tag": "attribute_heavy"
+  },
+  "meta": {}
+}

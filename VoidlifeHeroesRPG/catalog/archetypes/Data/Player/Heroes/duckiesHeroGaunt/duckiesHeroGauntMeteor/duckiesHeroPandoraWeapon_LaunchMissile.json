@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHeroPandoraWeapon_LaunchMissile",
+    "impact_effect": "duckiesHeroPandoraWeapon_Damage",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_ShadowDemon_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 11.0,
+      "socket": "Auto"
+    },
+    "projectile": "Dominari_Weapon_Missile",
+    "range_max": 10.0
+  },
+  "meta": {}
+}

@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "amount": 500.0,
+    "amount_expression": {},
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "flags": {
+      "alert": true,
+      "damage_response": false
+    },
+    "id": "duckiesHeroPandoraDarkObliteration_ResilientDamage",
+    "impact_fx": "BP_FX_Dominari_Pandemonium_Impact"
+  },
+  "meta": {}
+}

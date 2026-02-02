@@ -1,0 +1,205 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "General_PickEachInteger",
+      "guid": "1B42017F46D9E232A8A9C798BEC6E38B",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "20E378F74C590DCB6BACDC963CCFB398",
+              "type": "Value",
+              "value": {
+                "guid": "4CA388EB4EF41EA7078AF1A795887938",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "2"
+              }
+            }
+          ],
+          "guid": "1D3137114E66277FC99A289E1DBB155A",
+          "id": "start"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "9FA2FFFC42DFAE336DBEF7B47CF956F1",
+              "type": "Value",
+              "value": {
+                "guid": "7252477C4CB5E1286EC6439CF080953A",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "6"
+              }
+            }
+          ],
+          "guid": "B6A01FF74487FC42EF5BB8ADFA564214",
+          "id": "end"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Variable_SetVariable",
+              "guid": "5A0BD9BC4AC963F71FC847AB8EE9842B",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "E1CDD04149EC30DD36BCE7B55D3BDC3B",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "F80F99464C510160A4522AA6BB655AD8",
+                        "variable_id": "GV_FunctRefInt"
+                      }
+                    }
+                  ],
+                  "guid": "D360086741996257B274D7A7259EA9C9",
+                  "id": "variable"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "General_GetPickedInteger",
+                        "guid": "2F0E91484430C4C3531BB89B8592C5F8"
+                      },
+                      "guid": "7DF15ECB4B448BE5344367820ECD2625",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "D028696848E3805E3D0BB197523A50E9",
+                  "id": "value"
+                }
+              ]
+            },
+            {
+              "function_id": "Trigger_Run",
+              "guid": "61BD2767468D60279E9760A8A0CBC52F",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "93C0963140831C0BC385C58EF98F9624",
+                      "type": "Value",
+                      "value": {
+                        "guid": "F3003BEA42184755984C7E9C585F3EA1",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Trigger"
+                        },
+                        "value": "Shop_Runtime"
+                      }
+                    }
+                  ],
+                  "guid": "AE8E62CE47155DF20D29E490C86AE6CD",
+                  "id": "trigger"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "CE17490448A9CF16DA1CB2A7F0AA1379",
+                      "preset": {
+                        "guid": "97136BCF4326941F6309FA9C5F555B47",
+                        "preset_id": "Trigger_CheckIgnoreConditions",
+                        "value_id": "ignore"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "DAD38DD8430B3BFAD2E72394F42FBC87",
+                  "id": "conditions"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "FE905EDB4890D93F3AE89CA93E290A8D",
+                      "preset": {
+                        "guid": "9AA739734ACC8EEE935AD683FC7CD469",
+                        "preset_id": "Trigger_WaitDontWait",
+                        "value_id": "nowait"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "CC05685E436608D7AB2869BBB6B31132",
+                  "id": "wait"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "FBBF282D4AEA130043273EB6A6A314A1",
+                      "preset": {
+                        "guid": "AC12401A4E99905B794A7FAEC31AB9C6",
+                        "preset_id": "Time_Forever",
+                        "value_id": "forever"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "47657D2E4924CDBE2C936A878D1EF56A",
+                  "id": "timeout"
+                }
+              ]
+            },
+            {
+              "function_id": "General_Wait",
+              "guid": "8DC457474B3198850F82F2B63EF19D79",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "4E35939F44EF23207279479025012E87",
+                      "type": "Value",
+                      "value": {
+                        "guid": "398EBD704FD59E6ED2F383B32ACDD27D",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "0.25"
+                      }
+                    }
+                  ],
+                  "guid": "F0BDAC7246B618BE1C8535AE6C263B0F",
+                  "id": "duration"
+                }
+              ]
+            }
+          ],
+          "guid": "8AEB46A348629C039A5B86858CEA7AAB",
+          "id": "actions"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "events": [
+    {
+      "function_id": "Game_OnMapInitialization",
+      "guid": "0E78902544AFDEE9BDFA54A97035F057"
+    }
+  ],
+  "id": "Shop_Init"
+}

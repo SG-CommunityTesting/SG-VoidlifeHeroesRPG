@@ -1,0 +1,69 @@
+﻿{
+  "__base_type": "GameEffectModifyVitals",
+  "based_on": "GameEffectModifyVitals",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "health_mod_expression": {
+    "root": {
+      "name": "ExpressionApi::Value::min",
+      "node": "FunctionCall",
+      "parameters": [
+        {
+          "argument": {
+            "node": "Literal",
+            "type": "Value",
+            "value": 1250.0
+          },
+          "name": "A",
+          "type": "Value"
+        },
+        {
+          "argument": {
+            "left": {
+              "name": "ExpressionApi::get_health",
+              "node": "FunctionCall",
+              "parameters": [
+                {
+                  "argument": {
+                    "name": "ExpressionApi::effect_target",
+                    "node": "FunctionCall",
+                    "parameters": [
+                      {
+                        "argument": {
+                          "node": "Literal",
+                          "type": "Name",
+                          "value": "origin"
+                        },
+                        "name": "effect_parent",
+                        "type": "Name"
+                      }
+                    ],
+                    "type": "Entity"
+                  },
+                  "name": "entity",
+                  "type": "Entity"
+                }
+              ],
+              "type": "Value"
+            },
+            "node": "Math",
+            "operator": "*",
+            "right": {
+              "node": "Literal",
+              "type": "Value",
+              "value": 1.0
+            },
+            "type": "Value"
+          },
+          "name": "B",
+          "type": "Value"
+        }
+      ],
+      "type": "Value"
+    },
+    "type": "Value"
+  },
+  "id": "duckiesHeroKastielCull_ModifyLifeBoss"
+}

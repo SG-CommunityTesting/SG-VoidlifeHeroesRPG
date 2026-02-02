@@ -1,0 +1,581 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "0AA804B446C9E3E9D692A3BC585484D5",
+        "is_enabled": false,
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "05ECD3B24CA2F1DF86FDC88738BFFA44"
+                },
+                "guid": "4698714B47DEB9F5F22799B56630C9BD",
+                "type": "Function"
+              }
+            ],
+            "guid": "D2A57D7142008B69DA27E9B414968E12",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "17CAC66547A4B78AF649C8805DF7785F",
+                "type": "Value",
+                "value": {
+                  "guid": "80AB72FF4615E5B1E17A3EABED841EE9",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "10.0"
+                }
+              }
+            ],
+            "guid": "2E54C8EF422C73993750B081ACC4DB6C",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "3B2256094C7F5440D3FADC8DE915AE2C",
+                "preset": {
+                  "guid": "E7B015BF427D84EB3A6C929AD400FFBD",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "F6B9BF44453E4E90D77C7B80A1693A73",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "3F4136ED4F82D7D0BC154683C2CEDE76",
+        "is_enabled": false,
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "586F2B754251CEB3ABF2B48377730450"
+                },
+                "guid": "292C22D648263E90D8EA80A293CA902B",
+                "type": "Function"
+              }
+            ],
+            "guid": "0ACA8E1D4F3707835C83E188F4326AB9",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "9AF104CE4B647F4C8C481BAC46BA87D8",
+                "type": "Value",
+                "value": {
+                  "guid": "5BB243CD4A695C32A0530AAD4F47558B",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "60.0"
+                }
+              }
+            ],
+            "guid": "E29CF63A49E3E546840030B312533D79",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "95EEE332461D4C948E4684861600B079",
+                "preset": {
+                  "guid": "2A6830BE4C88F8D5B92788AD748984B2",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "548365444E3BE08D1AEF73925AFE1D7D",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "B4D2D484413605D0A776D18B11087EA8",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "FE34F02145402E8D9B8D4D83854EC360"
+                },
+                "guid": "CE4FAEAF4E36FC5715293ABA0838456C",
+                "type": "Function"
+              }
+            ],
+            "guid": "A0117C8641E01C9A6BE50BBC9C770A14",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "3A0F88F944D696978F15F9B55FC6B3D6",
+                "type": "Value",
+                "value": {
+                  "guid": "44D3FB074C176ACAB584E3830353A119",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "240.0"
+                }
+              }
+            ],
+            "guid": "76BB82DC4479818ADCE408BA44040D26",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "43B801D249A7220953CACC94F9E6DECF",
+                "preset": {
+                  "guid": "74CDFAA14B26FC0CC813EABC2C79991A",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "1C51BA44455D8819C97692AB699308FC",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "C099E387413D59C7021CC392A91D0527",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "C871874D403154FD553F609F90193F58"
+                },
+                "guid": "0363055A4E1EFD4F76FDC6831E596C97",
+                "type": "Function"
+              }
+            ],
+            "guid": "E4641AA249052EC54D755799012E80C1",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "BE736A1140B0F2DE1342F787FCFBF18A",
+                "type": "Value",
+                "value": {
+                  "guid": "ED435D774791251A5B05E8AA4D87AC67",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "480.0"
+                }
+              }
+            ],
+            "guid": "021C9D6840B8BEAC299604ABCD3274DD",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "08BFB3B2467662978FA9BBB8A0A3D957",
+                "preset": {
+                  "guid": "25CE98384D62AAA94E5E2887ED55238C",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "656CD55D492262D42B6DC3BDE8F1CDAF",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "58A7F9104E6DA4AEFCBD61A0F0C776DF",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "DE5B298E410E2D732FC1468A8F967F1F"
+                },
+                "guid": "C0D82F694C716A1B559B9292F4C0871F",
+                "type": "Function"
+              }
+            ],
+            "guid": "D8A23C894020F8AB92C10FBA6291B151",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "A38E1D754C6F7DCD5FEFECA43A62E668",
+                "type": "Value",
+                "value": {
+                  "guid": "0310CC864633C42233CD1D9836FBEE19",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "720.0"
+                }
+              }
+            ],
+            "guid": "D94EAF274A77E629F3A0D3B5595F6239",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "BF876D7A48166983A1AAD2B6D8196F56",
+                "preset": {
+                  "guid": "20588FBD4B4555035C091B92F0F16478",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "459D08EB436FE3E2C547648DB1DD5903",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "4CD9190C4FA274DD728AD9A96FDB2D57",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "215C95CE4D7F0010F09D4C9BCB324D32"
+                },
+                "guid": "D1B568724E52DCDD6CA1C19D0733B8FE",
+                "type": "Function"
+              }
+            ],
+            "guid": "BAD53AEC4FBF1E261E551BAC1CDD2A17",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "A5408D474C779E70E9DC02B72967727A",
+                "type": "Value",
+                "value": {
+                  "guid": "1773E1B54F3898B8D187E7BD22F4E9F2",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "1080.0"
+                }
+              }
+            ],
+            "guid": "B18016174D3DB8B368175AB98B24B38D",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "4EF825DA4D7FC59CEB70FFB253FD1F80",
+                "preset": {
+                  "guid": "D5784EA34C07AD88269ECBB3147E7730",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "EC7444034E439C8DAFFBC48285514E99",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "ADE49FEF42CF0FBB0C3E9893FD251D77",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "3CE096564FD80914C217B197477E06A5"
+                },
+                "guid": "4DDC44F844638ECFAE8DBF8FB50C707C",
+                "type": "Function"
+              }
+            ],
+            "guid": "22779E3E4BFEE4A7E4AC24BE244EDE02",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "1C9B989C410DF59D34EFE2BB5917343D",
+                "type": "Value",
+                "value": {
+                  "guid": "674812CE40E0507022DBF8A97E760231",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "1440.0"
+                }
+              }
+            ],
+            "guid": "7C5F6F814540166DCC1D7C8FBDB300C1",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "EB3F730A435B0688BC66ABBB0D6FAF1C",
+                "preset": {
+                  "guid": "F1F6479042A4A5F0D557A780871E736B",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "6D8F01C54E1E17F413C94DA2BAB76D50",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "BCE4DDAD4B9862490F0FF786B3E2DB3D",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "170709384209AE54CEAA16912B0A65EA"
+                },
+                "guid": "9F3714794FB3A9D46BDA9395311CC9C0",
+                "type": "Function"
+              }
+            ],
+            "guid": "A80D79A641CDB00A577ABB9DE464553F",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "95F75E5443B3BAFD62FBC5AC77DCC08C",
+                "type": "Value",
+                "value": {
+                  "guid": "A09C21E54D5077C69E07949AF3389BF6",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "1920.0"
+                }
+              }
+            ],
+            "guid": "359C20C0497AB070B702EE88A46E2CE8",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "F1B6183B4B02196B760D319151241FAE",
+                "preset": {
+                  "guid": "3DFB922047E589195A127A87AF90CEE3",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "AFEA7CB04ACFF4E72AC7679F0330162C",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "EA0B3AE14B650C9294CDB5A6B763C05A",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "842B1B784956D652C672429DFFDA7140"
+                },
+                "guid": "C9C754A740D4B80DE372B6AD36ACC2F9",
+                "type": "Function"
+              }
+            ],
+            "guid": "14897AF745020C5210C262B42B1D6D74",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "33723B95412F12F47527449D6AD6A3A5",
+                "type": "Value",
+                "value": {
+                  "guid": "EFE201D849D9ADAD529CB0AE7D086410",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "2400.0"
+                }
+              }
+            ],
+            "guid": "99E3ED3A40B210F189123491C0AFD23B",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "51F31663448E4A5E5EF1A6A2103C068F",
+                "preset": {
+                  "guid": "21E9102641A28E0D696CA69496A7716B",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "F1A462A74D9E9E7EECC3869943A0C456",
+            "id": "repeating"
+          }
+        ]
+      },
+      {
+        "function_id": "Timer_StartTimer",
+        "guid": "D68A685E49D294AD6E1381AE2EE78FA9",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Timer_GetNewTimer",
+                  "guid": "C3042E2445765F671F291889627F8E56"
+                },
+                "guid": "37F6619E40E599C6D3DAB585C45F039B",
+                "type": "Function"
+              }
+            ],
+            "guid": "D3D62BF94E20E5A7E30EDAA3B2997BEB",
+            "id": "timer"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "79319D924A977F1AA567CDA0CBDAA95C",
+                "type": "Value",
+                "value": {
+                  "guid": "B06C81FA4EFDF6A638148A996FB25680",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Time"
+                  },
+                  "value": "3000.0"
+                }
+              }
+            ],
+            "guid": "4055604A44330B7E279BD3A9BEEA56B1",
+            "id": "duration"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "0A20914449C60712363D4498FA6DD8C6",
+                "preset": {
+                  "guid": "2F4E62F144B340F56F19C3B3B163BCDA",
+                  "preset_id": "Timer_RepeatingOption",
+                  "value_id": "oneshot"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "E20813AE457503D95853D591FA75E398",
+            "id": "repeating"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "id": "Mass_Attack_Timer_Init"
+  },
+  "meta": {}
+}

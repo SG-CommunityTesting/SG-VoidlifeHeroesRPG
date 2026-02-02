@@ -1,0 +1,39 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "applied_tags": [
+      "status_stunned"
+    ],
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_FX_StunDebuff",
+    "duration": 2.0,
+    "flags": {
+      "change_owner_on_polymorph": false,
+      "disable_on_attacking": false,
+      "disable_on_damage_taken": false,
+      "hidden": false,
+      "hide_timer": false,
+      "override_source": false,
+      "pause_while_disabled": false,
+      "persist_on_dead": false,
+      "remove_on_attacking": false,
+      "remove_on_damage_taken": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Abilities_ScoutSlow.UI_Icons_Abilities_ScoutSlow'",
+    "id": "duckiesHeroCarnivexWeaponPounce_Debuff",
+    "name": "Stunned",
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 1,
+      "initial": 1,
+      "maximum": 1
+    },
+    "tooltip": "Unit is stunned."
+  },
+  "meta": {}
+}

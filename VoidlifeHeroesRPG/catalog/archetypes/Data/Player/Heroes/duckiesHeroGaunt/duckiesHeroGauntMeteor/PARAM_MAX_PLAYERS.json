@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "PARAM_MAX_PLAYERS",
+  "initial_values": [
+    {
+      "guid": "2C44B0A243D59F68D4E85487DFC5892B",
+      "type": "Value",
+      "value": {
+        "guid": "E9B935224CA72EFF9B3315808822729A",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        },
+        "value": "6"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Integer"
+  }
+}

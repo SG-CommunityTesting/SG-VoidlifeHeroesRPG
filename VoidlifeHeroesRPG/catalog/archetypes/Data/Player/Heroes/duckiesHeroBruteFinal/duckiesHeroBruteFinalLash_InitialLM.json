@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "flags": {
+      "channeling": true,
+      "landing_spot_find": false,
+      "landing_spot_reserve": false
+    },
+    "id": "duckiesHeroBruteFinalLash_InitialLM",
+    "impact_effect": "duckiesHeroBruteFinalLash_InitialImpactSet",
+    "impact_fx": "BP_FXI_Lash_Impact",
+    "launch_fx": "BP_FXS_VoidLash_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 20.0
+    },
+    "projectile": "AbyssalLash_Missile"
+  },
+  "meta": {}
+}

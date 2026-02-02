@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 400.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHostileWarzWeapon_Damage",
+    "impact_fx": "BP_FXI_Warz_Impact"
+  },
+  "meta": {}
+}

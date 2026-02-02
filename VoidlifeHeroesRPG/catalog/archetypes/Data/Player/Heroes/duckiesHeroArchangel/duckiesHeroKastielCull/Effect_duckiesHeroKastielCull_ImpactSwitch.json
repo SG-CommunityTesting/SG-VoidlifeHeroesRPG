@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroKastielCull_ImpactSetBoss",
+      "case_condition": "Valid_duckiesTargetIsBoss"
+    },
+    {
+      "action": "duckiesHeroKastielCull_ImpactSetResilient",
+      "case_condition": "Valid_duckiesTargetIsResilient"
+    }
+  ],
+  "default_action": "duckiesHeroKastielCull_ImpactSet",
+  "id": "duckiesHeroKastielCull_ImpactSwitch"
+}

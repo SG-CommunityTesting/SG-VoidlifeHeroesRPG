@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroCarnivexWeaponPounce_Debuff",
+    "id": "duckiesHeroCarnivexWeaponPounce_DebuffApply"
+  },
+  "meta": {}
+}

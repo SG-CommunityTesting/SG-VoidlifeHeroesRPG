@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectCreateUnit",
+    "editor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Fiend.UI_Icons_Units_Demon_Fiend'",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Caster"
+    },
+    "flags": {
+      "find_placement": true,
+      "follow_source_rally": false
+    },
+    "id": "duckiesHeroHellborneSummon_CreateUnit",
+    "impact_fx": "BP_FXS_InfernalTeleport_TeleportOut",
+    "should_birth_on_creation": true,
+    "spawn_count": 6,
+    "spawn_effect": "emptyRef",
+    "spawn_owner": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "spawn_unit": "duckiesHeroHellborneSummon_Unit"
+  },
+  "meta": {}
+}

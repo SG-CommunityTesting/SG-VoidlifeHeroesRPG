@@ -1,0 +1,1438 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "General_Wait",
+      "guid": "FBF36FE747AEC5D3A45454BD182EA029",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "C15CFE144E534D4A6A27D29566ADA8E6",
+              "type": "Value",
+              "value": {
+                "guid": "001BF097402D1A5039A3C78403DCA48A",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "0.5"
+              }
+            }
+          ],
+          "guid": "C796B8BB4F7FBE125B6C53AB93F6F7EE",
+          "id": "duration"
+        }
+      ]
+    },
+    {
+      "function_id": "Objectives_Objective_SetDetails",
+      "guid": "B783B5D8428AC066000B828409FAA087",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "C13F3E974638CD29689ED092B7BF52F9",
+              "type": "Variable",
+              "variable": {
+                "guid": "30FABB1D4E50D129495D99B6325F96F6",
+                "variable_id": "GV_Objective_Main"
+              }
+            }
+          ],
+          "guid": "9B9A7BDD4D8C796BC204B1BE14BE597A",
+          "id": "objective"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "guid": "A97212094952DAF71C0AF39F011E8C16",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_CountUnits",
+                          "guid": "96081DBE4A90048464E45784C933D15C",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "2F2160544058A2E67526579601FB72FE",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "E71A5FFB4A9D10121A3BD280651D1AED",
+                                    "variable_id": "GV_SpawnersObjectives"
+                                  }
+                                }
+                              ],
+                              "guid": "EAD918A948A5020B96F2438498449371",
+                              "id": "group"
+                            }
+                          ]
+                        },
+                        "guid": "1945258D44BE3807EAD9AD824F1002BB",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "14135273469014F93A44778C3B85DD7C",
+                    "id": "value"
+                  }
+                ]
+              },
+              "guid": "6E20004D4F55F82AC77F6BA4DA0EEC38",
+              "type": "Function"
+            }
+          ],
+          "guid": "F18F7A624D8BACE20937ED943BC47D90",
+          "id": "details"
+        }
+      ]
+    },
+    {
+      "function_id": "Objectives_Objective_SetDetails",
+      "guid": "E96BD531439EA08C982FE99AB428DFCB",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "BB0E4A82453D7628064CBA9ADAE2E1F0",
+              "type": "Variable",
+              "variable": {
+                "guid": "CA0A1E8946DEAF8D0244A3BA5CA65073",
+                "variable_id": "GV_Objective_Secondary"
+              }
+            }
+          ],
+          "guid": "6BCADA00419B4A103C6589A9B174FF23",
+          "id": "objective"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "guid": "ED4047E443315FC9A3E5029B5FFD5BEE",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_CountUnits",
+                          "guid": "F505DFA5442A286A20BF6CA8FE44313B",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "E00AE88347409641CB80D8A1EC0C877B",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "F68CBF0742739C83369BD2B59905D2F3",
+                                    "variable_id": "GV_SpawnersSecondary"
+                                  }
+                                }
+                              ],
+                              "guid": "045D37BB4BD0FCCEB7ACD5B35396791A",
+                              "id": "group"
+                            }
+                          ]
+                        },
+                        "guid": "FE688DAF40A03B67A57D15B8ECD8712A",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "017FD3E0400767EAB3A7C5B270AC980A",
+                    "id": "value"
+                  }
+                ]
+              },
+              "guid": "E99B43CD496E52F4568318BD5E5D9319",
+              "type": "Function"
+            }
+          ],
+          "guid": "EEBFA596465D02C1C73D85B92E885C65",
+          "id": "details"
+        }
+      ]
+    },
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "5A9C26074C8659F7422725BF5D309628",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "4C7EF4A84D27B1E9EBB8798C17E591E1",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_CountUnits",
+                        "guid": "13BB40F54077400F199EE99B3D38F7C3",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "CFA5CE5C4BDE26A59FFE1DB56CE4FEF5",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "4D70BCE34F5D6F37F46E25BA5B9F1013",
+                                  "variable_id": "GV_SpawnersObjectives"
+                                }
+                              }
+                            ],
+                            "guid": "FF8FCF8F490B71B32087C2A55189606F",
+                            "id": "group"
+                          }
+                        ]
+                      },
+                      "guid": "04528D524010A43064E5CEBE9735D43E",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "4F2978E8407921356491B98C2257D495",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "F3DC31694CB5163BDFEBD1970007E19B",
+                      "preset": {
+                        "guid": "18D371694B31B43D6075B2BBB0E747E5",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "067949EF407834332B619095015876A1",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "AA79B88449C422E5FD05C9ABB5219347",
+                      "type": "Value",
+                      "value": {
+                        "guid": "B1C2B85B4E1754AB0074A9988A095AA6",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Player"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "guid": "4EF11FE84E7BCB219AE0B388B2F13E44",
+                  "id": "value2"
+                }
+              ]
+            },
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "C8A36844438594B9A4968BA30CD8C625",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Objectives_Objective_GetState",
+                        "guid": "984DFE374A7CD0FE0EF9EBA92B949C50",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "773DC5D34FB8AAE62712D5B934FA6125",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "DF37508F4CAC872397F373A05B7E1273",
+                                  "variable_id": "GV_Objective_Main"
+                                }
+                              }
+                            ],
+                            "guid": "69013607491569275A4D6EAAABF83FFC",
+                            "id": "objective"
+                          }
+                        ]
+                      },
+                      "guid": "4AA9866C456C74D45B13A59C91401F6D",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "2F3C28644ADFA1B19F25BCA154FBC423",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "5940930C4714F20843628582B83503CE",
+                      "preset": {
+                        "guid": "D268F82F4CBADA81BF37CDB4553C6BAB",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "373CACC04F6357442F2288B819CFC932",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "FAEAC9AC4B469CDF137E1A8ABB9703F0",
+                      "preset": {
+                        "guid": "642C5D3F4AE2C089A8359C82160C9F2D",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "incomplete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "553B1EAB4F9DC00A46C89198DE159953",
+                  "id": "value2"
+                }
+              ]
+            }
+          ],
+          "guid": "D2D35A24423DA74434493B94F5B9C880",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Objectives_Objective_State",
+              "guid": "07C199FE401B062AC4B75F9D25344D50",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "97179A004DA683081C6BEFB69A576E8C",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "B2DA5C5D4EC18D9FA435D1BB6578B4B4",
+                        "variable_id": "GV_Objective_Main"
+                      }
+                    }
+                  ],
+                  "guid": "8BB9E4E24D8AB5933F1F2991DEEAEA02",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "03A141A2466369CF820A50841D96CFE7",
+                      "preset": {
+                        "guid": "FE67C40B4418D1760CD9E3A1C4DD842E",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "complete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "7F268E2B409A38465D02E9AE31E08F2B",
+                  "id": "state"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_SetVisible",
+              "guid": "56F5EFDB4554B19E9445098909AF42EE",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "1C7594FD467F7609E96491BFF071FE57",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "2483E063475E4DD46E95D09D39C571BA",
+                        "variable_id": "GV_Objective_MainFinal"
+                      }
+                    }
+                  ],
+                  "guid": "E744160742EB0B32FE27A99F499C5D9B",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "583E341D46027F791661C69C3DD560B5",
+                      "preset": {
+                        "guid": "32CAC70C47C4FFCAF91300B5964B0375",
+                        "preset_id": "General_Visible",
+                        "value_id": "visible"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "8006560B4778D329F40C3591D9FCF667",
+                  "id": "visible"
+                }
+              ]
+            },
+            {
+              "function_id": "Actor_RemoveBuff",
+              "guid": "84A35FD54EC5AFF002BEE2B68C7C4336",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "C7CCCC6E47A645E53583BBA2BB70195D",
+                      "type": "Value",
+                      "value": {
+                        "guid": "7F7CC4D74CB9D384CA4D6A937DEAE6E4",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Buff"
+                        },
+                        "value": "duckiesSpawnerElderShrine_ShieldBuff"
+                      }
+                    }
+                  ],
+                  "guid": "6C8D2515489CDBDA95804AB2C18EB012",
+                  "id": "buff"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "7A5F03EA4798FF0CAEE84EACA7630F58",
+                      "preset": {
+                        "guid": "F4E748FC4D75C2102D977CA6ED4CE852",
+                        "preset_id": "Integer_MaxStacks",
+                        "value_id": "max"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "437FE31E4656ABBDBF885DBB15A4C742",
+                  "id": "stacks"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "1AC2525B49050DD813072C82C8DC0C8B",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "1C7E0AEC4ED3E8AB03B6458699073001",
+                        "variable_id": "GV_MainEnemyStructure"
+                      }
+                    }
+                  ],
+                  "guid": "B2A702CA4601DD0D680F58BC1F7F8E06",
+                  "id": "target"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "A97EDB3643A1002366F5BBAEBF084290",
+                      "preset": {
+                        "guid": "3BC40450452338BC9861B087AA7D76F9",
+                        "preset_id": "Actor_AnyActor",
+                        "value_id": "any"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "7D18F4CD4B547E86AF26F2BA1CE7043E",
+                  "id": "source"
+                }
+              ]
+            },
+            {
+              "function_id": "Transmission_PlayTransmission",
+              "guid": "D2C59E6E40292270532D6A905F13FFD0",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "5DC0EFFE4DF26A0A724D1EAACA2CBB61",
+                      "preset": {
+                        "guid": "7C368EAB4B6FDBD238C73CA6D8AFEA05",
+                        "preset_id": "Transmission_TransmissionPlayers",
+                        "value_id": "comms"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "80EA016F4D3B8B98EA138F8FF9CC0A63",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C47F9682435FB2C28C79BBA89E8FA2D4",
+                      "type": "Value",
+                      "value": {
+                        "guid": "31035C654D25BABBF5599B86608DE953",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Transmission"
+                        },
+                        "value": "duckiesTransmissionShrine_PrimarySpawnersKilled"
+                      }
+                    }
+                  ],
+                  "guid": "087DE1DF4C093C9B0707ACB7329016F6",
+                  "id": "transmission"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "B751A97241CC12B77CD6A7BEAA02C27B"
+                      },
+                      "guid": "CA1B5EC1410107B4781178ADF60C82F3",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "B6ACEEC748EA919747FDB3BF21643E27",
+                  "id": "player_group"
+                }
+              ]
+            }
+          ],
+          "guid": "AB3F42CB480FA501AEF187B39728E3BB",
+          "id": "then"
+        },
+        {
+          "guid": "9F03A66845DB1EC1BDF5E69F8A63F80E",
+          "id": "else"
+        }
+      ]
+    },
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "2A1E4FED49449D8EE015648ED9C9B1B7",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "A89987DA46C981358475B7A7891C9AB3",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_CountUnits",
+                        "guid": "E8B980FE499382AD630E7BADF54754EC",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "0D83E2D3452FDFB5FB4976959A0D9E16",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "6A0FF86E46A48EC73095C99D4E15AC43",
+                                  "variable_id": "GV_SpawnersSecondary"
+                                }
+                              }
+                            ],
+                            "guid": "FC2FDE0247EAA70B555746B33584408F",
+                            "id": "group"
+                          }
+                        ]
+                      },
+                      "guid": "DF0B71A44205B9602CB11081F5B8A667",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "61B7E8F84F700D61B0A193B686ADD0A6",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C990BAEE49DF79649EE26C9D7C460C98",
+                      "preset": {
+                        "guid": "4A27420743299F38D142428AB1EBA9BF",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "4DC85D7E429A0DA208BE52BA378995BF",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "4CC0B52F4DAF8B212C2CDF97085D02D5",
+                      "type": "Value",
+                      "value": {
+                        "guid": "9B1D595B49216BD817C79CB768618DB6",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Player"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "guid": "E7957F8741BF2DA5DB41DAB9701D12AD",
+                  "id": "value2"
+                }
+              ]
+            },
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "AC9DDEB94B9343FEFE575FB5954E92A6",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Objectives_Objective_GetState",
+                        "guid": "25CD35C1450E129EC18181A20C1B31E9",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "4CBACD1348A2204AE0380EA196FCAEE6",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "AFB7FCCE483663AEE46F8090686C4176",
+                                  "variable_id": "GV_Objective_Secondary"
+                                }
+                              }
+                            ],
+                            "guid": "9415546646783444013CB4A5472DE12C",
+                            "id": "objective"
+                          }
+                        ]
+                      },
+                      "guid": "48DC46C34018DEF406BADAA21B0F40EE",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "804F30CB475A4F6DBCEEF9AFB9BEE7BF",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "0CF652724A5E6BDCEDB999AAFE3FF44F",
+                      "preset": {
+                        "guid": "80A0842B4096094B5A14979C8A2C1844",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "F60C892F4418B6E111402FAECD8945BD",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "A443814E4B73139064BD018902ADE689",
+                      "preset": {
+                        "guid": "AECEA6BE4DB854B78F74F685F46BDA0D",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "incomplete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "25D37FAA484497472434F09F2885E253",
+                  "id": "value2"
+                }
+              ]
+            }
+          ],
+          "guid": "13B5A2C74CDB0B98D1B4C1A4026C95D5",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Objectives_Objective_State",
+              "guid": "F260C0444A7DBB63E2E19D904BF94B1A",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "BD1B706A49E89C7A382C12B4D0078A49",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "FE822DCD47E8BAA8B8B305AB5881FF9C",
+                        "variable_id": "GV_Objective_Secondary"
+                      }
+                    }
+                  ],
+                  "guid": "E686DD874FB3A0AD998560A827C6B606",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "509B863947D5A97FBDDB318B9AA6B3B9",
+                      "preset": {
+                        "guid": "9D82CB1647A19F9311ED4BB1E93CCFB9",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "complete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "EB6850B44CC399657490BF9902CD4C6B",
+                  "id": "state"
+                }
+              ]
+            }
+          ],
+          "guid": "D8616B0B480646477A32CEA36F8A83AB",
+          "id": "then"
+        },
+        {
+          "guid": "D92ADE944A004D42264A0AB96D9BFF30",
+          "id": "else"
+        }
+      ]
+    },
+    {
+      "function_id": "General_IfThenElse",
+      "guid": "F5BCF8274054D8640CD4F0A879995B77",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_IsDead",
+              "guid": "8801BBBD4E2EC9F8D8EB79A845276591",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "D0AFE50D49D2BDE3BE77FD858477FD65",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "234669914687167A3C860E8A42C9FE1D",
+                        "variable_id": "GV_MainEnemyStructure"
+                      }
+                    }
+                  ],
+                  "guid": "FB6976EA43FB19224C2DD1B71B1050C3",
+                  "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "BBD00DF04F6EAEBB205072A9B09760C3",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Objectives_Objective_GetState",
+                        "guid": "DBED3B8348CEDC3B67441895703E2A4B",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "5D54A43542159135F0592DA8468E68C5",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "08566EEC40DB5A7BF65FA2A7BDBE2B8E",
+                                  "variable_id": "GV_Objective_MainFinal"
+                                }
+                              }
+                            ],
+                            "guid": "3A205D4A4432787C85C440A5A1F11064",
+                            "id": "objective"
+                          }
+                        ]
+                      },
+                      "guid": "5E8BD64B4F98C0479B89FAB649ADAA47",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "FFD04874448CE89091DB6BB7D5BF5154",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "7441A9544173759C5437BD8559119AA6",
+                      "preset": {
+                        "guid": "0CA3FC2F42CCE9CE56D9EB9E3C32E39B",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "60F9542944EC9E9E469521871694A9CA",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "1BF63E294B4833FC39DA2EA30318C4D8",
+                      "preset": {
+                        "guid": "D0A4959A4EA4BD408C21D7BA134E3E5F",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "incomplete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "1E7C8C7440E978E6AC7004B6C2C4C8F2",
+                  "id": "value2"
+                }
+              ]
+            }
+          ],
+          "guid": "BCB9CC264BCC78B8F4D1739A42458411",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Actor_ApplyBuff",
+              "guid": "0F56C4F4471BCC1BC62844A54B34E0E3",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "0FB9EAD1458231DD8494129363C62DAB",
+                      "type": "Value",
+                      "value": {
+                        "guid": "BF007E2942E4232475A7C797A073290D",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Buff"
+                        },
+                        "value": "duckiesVoidheartShrine_InvulnBuff"
+                      }
+                    }
+                  ],
+                  "guid": "6E65487B49EB34F24DDD73A46F4C42EE",
+                  "id": "buff"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "36F93527443D2963A2141FBAC15A04DD",
+                      "type": "Value",
+                      "value": {
+                        "guid": "1A882DBE47FB82D559C4AB91C3AC537F",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Integer"
+                        },
+                        "value": "1"
+                      }
+                    }
+                  ],
+                  "guid": "86E591AF4AC325A34B854FA95D04145C",
+                  "id": "stacks"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "3F624C1C41894B9B1F26A398DB1FA0BD",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "D19832084D9EF5B399FD2BB19772D93A",
+                        "variable_id": "GV_MainHealer"
+                      }
+                    }
+                  ],
+                  "guid": "6C7DCBD54E06D61A69C22CB85745A4A7",
+                  "id": "target"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "AB4632504551C4AE932C21AC26C37CEF",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "6F4E0DC84879EABD1B3DD58566C1A521",
+                        "variable_id": "GV_MainHealer"
+                      }
+                    }
+                  ],
+                  "guid": "1156F2A345EB59C475D48DAA721668F5",
+                  "id": "source"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_SetDetails",
+              "guid": "74336413419C95B182C09CB5070FAE4B",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "26B619C0416D53DC17ACFAB62229C2DD",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "DF7603C0444EC335EA92BFAC0B053C7B",
+                        "variable_id": "GV_Objective_MainFinal"
+                      }
+                    }
+                  ],
+                  "guid": "69680F304BD2D6B0BC2E968EC103F800",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "guid": "1F158FCA45DFC86E7AC75EAB427CBE7C",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "F86C51394F97CDEAB25BE8B67F4B5C48",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "28F13C2A4D5C91C0660855867F2D4591",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "tags": [
+                                      "to_text"
+                                    ],
+                                    "type": "String"
+                                  },
+                                  "value": "0"
+                                }
+                              }
+                            ],
+                            "guid": "088CCE684F9CABF0FAE8C0BE60DE999F",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      "guid": "6D5F7E4C40167807A0C97487D9FDB1AE",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "6B4C5AFA43171737ACF6BC99C94A0FEC",
+                  "id": "details"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_State",
+              "guid": "CA28D03A448F8251446BB5BBA544CEF7",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "ACDEDA41478532A34BD5E7A9B4F0218B",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "240FDBF1433AB3DC2ABCC8BD71CC046A",
+                        "variable_id": "GV_Objective_MainFinal"
+                      }
+                    }
+                  ],
+                  "guid": "5DED51A147219997EF0759977106BF2D",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "61FE90144D12CC6B2BC4289D2A424FD6",
+                      "preset": {
+                        "guid": "1F240EF94326B271C20D0C837440A906",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "complete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "61A215D34CB91E5A34F4CD9BBF209C1A",
+                  "id": "state"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_State",
+              "guid": "620A4A8B4F307D1317821AA5354ACBBC",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "5A8FC21346AE715D391D0392D7AC2465",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "3B45956F4CE461C3B616888ED8369917",
+                        "variable_id": "GV_Objective_Survival"
+                      }
+                    }
+                  ],
+                  "guid": "C553F243460A785E1736D986D25F316C",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "5970B09646232562ED3B489D7FC7C0C3",
+                      "preset": {
+                        "guid": "47BEA41444679852CDB7C78FA2F79602",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "complete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "3994269C4E60F71B567DE7AB7DD7C36A",
+                  "id": "state"
+                }
+              ]
+            },
+            {
+              "function_id": "Objectives_Objective_State",
+              "guid": "C6750DBF484BA22DEB0952BCE9700B56",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "67B66477447EBD0CEE5B98A5D9DEAFF6",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "C480E1E142AE60EB564CA2AD17BD70C0",
+                        "variable_id": "GV_Objective_SecondaryTimer"
+                      }
+                    }
+                  ],
+                  "guid": "1C555F844DF06094E93DA9ABF4278CAE",
+                  "id": "objective"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "F18C0EF94F75FE86C9660DA2774879D2",
+                      "preset": {
+                        "guid": "3D4EDB7C482B5387D07C1FAAF52EFB05",
+                        "preset_id": "Objective_StatePreset",
+                        "value_id": "complete"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "756ABC404F4D2E87D5E4B08F672C63CD",
+                  "id": "state"
+                }
+              ]
+            },
+            {
+              "function_id": "Transmission_PlayTransmission",
+              "guid": "F2311B7F48025FE91615C7A61C90ACF8",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "7C57446741F2450CD3B4B8BCCAF5C1E9",
+                      "preset": {
+                        "guid": "7B970BD844D87A58A76D55B5682F998A",
+                        "preset_id": "Transmission_TransmissionPlayers",
+                        "value_id": "comms"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "DCDCF87A4BCE907F7AE498A8943FFC5A",
+                  "id": "player"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C1E9B0C54ECCAFD95A0BBFB10AFB3573",
+                      "type": "Value",
+                      "value": {
+                        "guid": "5B5910DA45C6FF768900C2A9FA8A7BAB",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Transmission"
+                        },
+                        "value": "duckiesTransmissionShrine_Victory"
+                      }
+                    }
+                  ],
+                  "guid": "F0B0218045D4436A20BB54A5C10903CF",
+                  "id": "transmission"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "BBD7D1F74BCF43E89A562999A32ABCB8"
+                      },
+                      "guid": "9DB8AB1B4140A1FD50BA00A8DF5E3004",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "C6FEAEA14195DA9C38367985BD21EB6E",
+                  "id": "player_group"
+                }
+              ]
+            },
+            {
+              "function_id": "General_Wait",
+              "guid": "F2790B9A42FD2F2030177882F37A86BE",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "905C09C345320AA5E081C2928AFBB8BA",
+                      "type": "Value",
+                      "value": {
+                        "guid": "0B30F6FE4B73062837889E876623555C",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "5.0"
+                      }
+                    }
+                  ],
+                  "guid": "46F8965B4356A26FCA2CD7BEEECD08C1",
+                  "id": "duration"
+                }
+              ]
+            },
+            {
+              "function_id": "Callouts_Major",
+              "guid": "EA19021A452A1EE4703157B474DD5AA1",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Text_ToText",
+                        "guid": "BDC6F2AE40BB13D0367E07AB6B22317A",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "4ECF9F084ED340BE5019ECA0FDC69C01",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "0910FCCD44AAEFCD10733A9DA5BB8FC9",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "tags": [
+                                      "to_text"
+                                    ],
+                                    "type": "String"
+                                  },
+                                  "value": "Congratulations! You're Victorious!"
+                                }
+                              }
+                            ],
+                            "guid": "9BEF97E0459C4CA778048A83DCE39D88",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      "guid": "F4BD39734254CD7D587F458F210512B2",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "12E41B2042AC57176F669582C71A8B24",
+                  "id": "message"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C9CF95794A7736B1D91827AAF072A609",
+                      "type": "Value",
+                      "value": {
+                        "guid": "381776F240BA224281C844AC727672D4",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "10.0"
+                      }
+                    }
+                  ],
+                  "guid": "DA3C1CEE461919D4497544BF8C4F2203",
+                  "id": "lifetime"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "C9BE1B3D41E2ADCFAF691FAB448B89C3",
+                      "type": "Value",
+                      "value": {
+                        "guid": "DF494822426DEB6BCF2F179F22E28E97",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "9C98E600466D0217049D689A08401440",
+                  "id": "r"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "2E3742314F5E16C9B91D069F09CB4FB0",
+                      "type": "Value",
+                      "value": {
+                        "guid": "24B5664249BA411565EE09815567DB5F",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "F2CBCADE40D3A1CD4E4DDEBF33434B4B",
+                  "id": "g"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "82C3634F420DEC6383ECE9B75B963FE1",
+                      "type": "Value",
+                      "value": {
+                        "guid": "B5FCFC20427D982E8CCAE285ACD3C2E6",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "255"
+                      }
+                    }
+                  ],
+                  "guid": "CA7CDA1D481ED8D7921A378257987781",
+                  "id": "b"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetAllPlayers",
+                        "guid": "924AD53445D0A977467442B47D3E91B8"
+                      },
+                      "guid": "F4A9AE3048789FC2381C378DAC7842A7",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "6A4A39524370277E5D2193B0FEFD05F1",
+                  "id": "group"
+                }
+              ]
+            },
+            {
+              "function_id": "General_Wait",
+              "guid": "98099342467DC607375BD387BA33CB56",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "B4D4A86A4771C54EA82687AA16CDB662",
+                      "type": "Value",
+                      "value": {
+                        "guid": "4C1B87EC4451AF5D579C71BEA076E300",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "10"
+                      }
+                    }
+                  ],
+                  "guid": "A6C1934B44DBE07949598EB1B2E94593",
+                  "id": "duration"
+                }
+              ]
+            },
+            {
+              "function_id": "PlayerGroup_ForEachPlayerInGroup",
+              "guid": "7979402F42BD4EE6E2A0A18375775DA7",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "PlayerGroup_GetTeamPlayers",
+                        "guid": "6D506E5449A341C8668B0C8E65E8B3DD",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "0670F8E34BE6BEF092BD6FA2931BF539",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "335368764317E3B067351DB0191DFBA3",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "0"
+                                }
+                              }
+                            ],
+                            "guid": "81BC34E740628D32C9EAC3B6B82F20DD",
+                            "id": "team"
+                          }
+                        ]
+                      },
+                      "guid": "C6C908EA4BE45E4A62376FAEA316DAD3",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "726F18784CFADF8B22132B9E8B2B6B26",
+                  "id": "players"
+                }
+              ],
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Game_EndGameForPlayer",
+                      "guid": "A630016D43E5FEE1CE5DA6BC31C5E2BF",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "PlayerGroup_GetCurrentPlayer",
+                                "guid": "798941424A7795CE3E41EA945FE1C753"
+                              },
+                              "guid": "D64EC7E04DA6701AFB712A89C15AC4A9",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "265AA89B4B121EEE1FEB758E4C1ACC36",
+                          "id": "player"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "AFE6CC12452A95371474C78149AA193A",
+                              "preset": {
+                                "guid": "E1EBC87942690581DE5295848C7D176E",
+                                "preset_id": "Game_GameOverType",
+                                "value_id": "victory"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "D54764204C61064D77C72696D687D180",
+                          "id": "outcome"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "370C29C4427067FFE55AFB9E8452B29D",
+                              "preset": {
+                                "guid": "45A783C34C97E3EDAF021388129AC987",
+                                "preset_id": "Game_KickDontKick",
+                                "value_id": "nokick"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "F91634054C5A3F2388948E901D4EBF2D",
+                          "id": "kick"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "78EA1D9C483CF738394193890E0015F4",
+                  "id": "actions"
+                }
+              ]
+            }
+          ],
+          "guid": "54C93D184D20CDAAE2BC42B225014D48",
+          "id": "then"
+        },
+        {
+          "guid": "7EA26667493375639A4D269B1F660980",
+          "id": "else"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "id": "Objective_Refresh"
+}

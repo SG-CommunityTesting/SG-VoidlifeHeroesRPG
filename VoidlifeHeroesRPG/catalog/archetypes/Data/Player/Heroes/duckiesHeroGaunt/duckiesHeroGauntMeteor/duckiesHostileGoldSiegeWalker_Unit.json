@@ -1,0 +1,175 @@
+﻿{
+  "data": {
+    "armor": 5.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_TaintedHide.UI_Icons_Armor_Stormgates_TaintedHide'",
+    "armor_name": "pegasus_core|UnitData_armor_name_V5RocketLauncherReward",
+    "based_on": "BaseUnit_VanguardU",
+    "build_cost": {
+      "resource_a": 20.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.2,
+    "cargo_size": "Zero",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "attackData",
+        "button": "AttackLocationButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "damage_response": "Only_Acquire",
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "StormgateWarpBuffApplier",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "faction": "emptyRef",
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "id": "duckiesHostileGoldSiegeWalker_Unit",
+    "inner_radius": 0.8,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.5,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 2,
+      "speed": 4.0,
+      "stationary_turn_period": 0.5,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_V5RocketLauncherReward",
+    "outer_radius": 1.3,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_heavy",
+      "attribute_biological",
+      "attribute_ranged"
+    ],
+    "subgroup_priority": 109,
+    "supply_cost": 6.0,
+    "unit_button": "StormgateAbilityCreateTier2Siege_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_V5RocketLauncherReward.UI_Portrait_Demon_Default_V5RocketLauncherReward'",
+    "unreal_actor": "BP_UN_Lizard",
+    "veterancy_given_on_death": 50,
+    "vision_radius": 13.0,
+    "vital_health": {
+      "maximum": 440.0,
+      "regen": 0.0,
+      "starting": 440.0
+    },
+    "weaponList": [
+      "duckiesHostileGoldSiegeWalkerWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

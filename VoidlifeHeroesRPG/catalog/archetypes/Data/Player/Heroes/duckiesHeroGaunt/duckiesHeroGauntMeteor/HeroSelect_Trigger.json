@@ -1,0 +1,991 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Revealer_DestroyRevealer",
+      "guid": "1F5AFEC64A0670DED835A582E448F774",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Blackboard_GetValue_Revealer",
+                "guid": "85D761EB47BE475AD67058936FEB1661",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Blackboard_GetBlackboardOfPlayer",
+                          "guid": "E935EF7048126845334C54B383517823",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetOwningPlayer",
+                                    "guid": "1520CD074C1A14F3CA2A40AE4A9C1A81",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Unit_GetTriggeringUnit",
+                                              "guid": "8CD45F4944AFCEA28464798E0A47BAEC"
+                                            },
+                                            "guid": "FB3E1B6544737964430F7B9585A309DE",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "FEC08B574DC751A6CA30E79155F93DF7",
+                                        "id": "unit"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "83DE1D2F410CCB5DE7625F9D73A68C55",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "37C1DFA34FE8E8ED0287B495BFD18025",
+                              "id": "player"
+                            }
+                          ]
+                        },
+                        "guid": "943405C347F678B9943F2F870F694B9F",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "904F314F4EE56815F0156D805660ADC2",
+                    "id": "blackboard"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "665047C34C4961018226B89915ABE3ED",
+                        "type": "Value",
+                        "value": {
+                          "guid": "CD36676B4AD2323139669D8018B93384",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "String"
+                          },
+                          "value": "IntroRevealer"
+                        }
+                      }
+                    ],
+                    "guid": "89B7AD1A4737AB783BF177AA1AC840CD",
+                    "id": "key"
+                  }
+                ]
+              },
+              "guid": "A5596C0F4AFD861A74322BADAA6FD371",
+              "type": "Function"
+            }
+          ],
+          "guid": "AEC2071B48BA7CDE189DEAAC0B6857A6",
+          "id": "revealer"
+        }
+      ]
+    },
+    {
+      "function_id": "Revealer_DestroyRevealer",
+      "guid": "538AD93549C1DA0EC5D6C1919D1D9B0F",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Blackboard_GetValue_Revealer",
+                "guid": "947797DC48AD26420BE888A4F9F385B2",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Blackboard_GetBlackboardOfPlayer",
+                          "guid": "5B4377EB455DA28FA2A94BAB8BEF6EAF",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetOwningPlayer",
+                                    "guid": "D91301E84BF53066791AC99FFBB0E5A5",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Unit_GetTriggeringUnit",
+                                              "guid": "19335C554F96968B059D6F86B81D9673"
+                                            },
+                                            "guid": "9ED534BA4F63807D2ED53A8B98DE3371",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "F225443941742B33C91EC588591E3001",
+                                        "id": "unit"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "9E3355B94DCDF9BBCD485C97982C2738",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "F0182F99480A14646F7855AEAB49A836",
+                              "id": "player"
+                            }
+                          ]
+                        },
+                        "guid": "F5DA591544059EDD360D429B4D398D1D",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "B2A3C28D40CEB1CDBB478CA1365AB587",
+                    "id": "blackboard"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "9622DBA44415EE9204F8318375917B67",
+                        "type": "Value",
+                        "value": {
+                          "guid": "F36D911743E81858680A3185D5CE5915",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "String"
+                          },
+                          "value": "IntroRevealer2"
+                        }
+                      }
+                    ],
+                    "guid": "CFBCB08441F918C9FBFE0699EC15F8B7",
+                    "id": "key"
+                  }
+                ]
+              },
+              "guid": "21854D6C49A047AB34646084DD7A70A8",
+              "type": "Function"
+            }
+          ],
+          "guid": "07A533ED49D92CBE101E45A84AA40001",
+          "id": "revealer"
+        }
+      ]
+    },
+    {
+      "function_id": "Revealer_DestroyRevealer",
+      "guid": "73ED64A04B6D480E386EBB994EC8E188",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Blackboard_GetValue_Revealer",
+                "guid": "8A98F909415BEA0A61780E99B443408E",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Blackboard_GetBlackboardOfPlayer",
+                          "guid": "237E15134FA206522DCB468D86184B08",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetOwningPlayer",
+                                    "guid": "6F5E219E44E39931FE49A0B544E6BB95",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Unit_GetTriggeringUnit",
+                                              "guid": "74D6B37F409B1C60722800B811B2FEFF"
+                                            },
+                                            "guid": "184F683845DC4C02EFC51784C216A171",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "9A8FB91B4916393A7B93BCB81B0E3428",
+                                        "id": "unit"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "EFCA08804FBBD4EE2B3193BCF5A673A2",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "50E8B3874F6CDDCF8A2357B26DCAF302",
+                              "id": "player"
+                            }
+                          ]
+                        },
+                        "guid": "2A7BE6204DEC2234936DF392FE329941",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "D50371C4447C050CDBEF2FB3B0443B76",
+                    "id": "blackboard"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "11E09BC54B8311C4C1C35498830AF2A9",
+                        "type": "Value",
+                        "value": {
+                          "guid": "F24244824143E8386687848A0126F221",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "String"
+                          },
+                          "value": "IntroRevealer3"
+                        }
+                      }
+                    ],
+                    "guid": "35957B0946CEB6479C7E5A80B35C1DBC",
+                    "id": "key"
+                  }
+                ]
+              },
+              "guid": "C85CB71040BAA3FAA88613962FA0DCEF",
+              "type": "Function"
+            }
+          ],
+          "guid": "EAAC02EF47E4B0055C784B9A5CC940BF",
+          "id": "revealer"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_CreateUnit",
+      "guid": "57F757F64EB44157D39BBB9D33A28A58",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "D320094D47592BA81895F3A8DCDA9FEE",
+              "type": "Value",
+              "value": {
+                "guid": "F70E768F4C8A430E3AA1B284DD2483C2",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "B3E12D3F456EDA42C2176FBA4B461B18",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetType",
+                "guid": "D896D0AA4D1DD635BD397984F9D4DE75",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Ability_GetTargetUnitOfTriggeringAbility",
+                          "guid": "D186E6744E24E9CA5A97C1AD2B4E029D"
+                        },
+                        "guid": "A9AA2D0144A25BEB50AB6384A36DFAA8",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "DFC077004C047C97C02C26AB773B530B",
+                    "id": "unit"
+                  }
+                ]
+              },
+              "guid": "087A6A004579562F259B8DA47FBD853D",
+              "type": "Function"
+            }
+          ],
+          "guid": "018F951B47B8E86554B06FB689EB7D8C",
+          "id": "unit_data"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetOwningPlayer",
+                "guid": "FF02D9A141024135860AAD97A3C02661",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetTriggeringUnit",
+                          "guid": "3165405A4B71AEBCD53C90BDBD27DC89"
+                        },
+                        "guid": "03C4A5FA441EFFA4D173C3B20E43E41B",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "6B353B184BDE0029C6EED0BA298C8A62",
+                    "id": "unit"
+                  }
+                ]
+              },
+              "guid": "A2E57A3E4E6346389ADA8EBDDEF96302",
+              "type": "Function"
+            }
+          ],
+          "guid": "0BC2B80D41B3C1A7B51666A9B3CE62B4",
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Vector_GetVectorWithPolarOffset",
+                "guid": "F02ED4614DDB5D9F4A66568A876C4897",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Actor_GetPosition",
+                          "guid": "A6FD35604B5B3A1C4B3E73874BEC4561",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "E332C94B478CA1B15B9E3DA3E9CF4A16",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "0DE0AA29451194D436AE52B8254DE4B6",
+                                    "variable_id": "GV_MainHealer"
+                                  }
+                                }
+                              ],
+                              "guid": "FD30D9C54A5DC1478E2901AA26102FD6",
+                              "id": "actor"
+                            }
+                          ]
+                        },
+                        "guid": "DE83434248336FBC55A253B745428E69",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "209CB8CF4B2273887FAB8D8FDE6794F9",
+                    "id": "position"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "DF2D88D4455EB43898154995296A56DD",
+                        "type": "Value",
+                        "value": {
+                          "guid": "3FE9566D40B36B33EE55188DE0C37CA7",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Distance"
+                          },
+                          "value": "5.0"
+                        }
+                      }
+                    ],
+                    "guid": "882D1BEB45998E67D5FFCDA67F068A1A",
+                    "id": "distance"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "C053FB754D512707010AEBB687E899B9",
+                        "type": "Value",
+                        "value": {
+                          "guid": "587F33F2455A3406901ADE860C99A441",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Degrees"
+                          },
+                          "value": "60.0"
+                        }
+                      }
+                    ],
+                    "guid": "89E1A92E497638CEAC4E3D86A89E8D2F",
+                    "id": "angle"
+                  }
+                ]
+              },
+              "guid": "C0BFBACC438FB60B09822AAC34F5F457",
+              "type": "Function"
+            }
+          ],
+          "guid": "4AB4BFB540A0557206B07AB108FB8B28",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "160E516942D48A78D16E3A89F46FDACC",
+              "type": "Value",
+              "value": {
+                "guid": "1BC3854748B6CC085AD43CBD7C98284D",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Boolean"
+                },
+                "value": "false"
+              }
+            }
+          ],
+          "guid": "F1662930424AF3558BF8938617CAACE7",
+          "id": "force_position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "1C9FF592431D0956FCC800BF71D76820",
+              "type": "Value",
+              "value": {
+                "guid": "27DE866E4DD705886F71BD8C57AB0134",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "35A1E2DC46A3998E0FBF9DB6A69B9112",
+          "id": "facing"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "4127672E4D0C95002C1E729958C8DDF4",
+              "type": "Value",
+              "value": {
+                "guid": "AF5A0721449DD6245E0179A276DD7983",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Boolean"
+                },
+                "value": "false"
+              }
+            }
+          ],
+          "guid": "8E66347F42369508EFC638BF627043F2",
+          "id": "birth"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_Kill",
+      "guid": "61350607410091D74DEA5FA5B659F5C9",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetTriggeringUnit",
+                "guid": "5D71E2604EB68C0B7565A59C7445A4C1"
+              },
+              "guid": "E54B44264C898B343344849E1A881AE3",
+              "type": "Function"
+            }
+          ],
+          "guid": "C541FDCE4E7401C7DF9ECC9FFCB487BD",
+          "id": "unit"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_Kill",
+      "guid": "CB3015C749DBAF0BEF11BC812F5FDC1E",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "UnitGroup_GetFirstUnit",
+                "guid": "CC9BDE00444F38C7535B04ADA2911656",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetUnitsOfType",
+                          "guid": "3E959B744A1B96B476735EAC724C70E1",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetOwningPlayer",
+                                    "guid": "C9E0423C470D06A5083F7ABB92F0B5B3",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Unit_GetTriggeringUnit",
+                                              "guid": "BC237B9C4EF4DEE1096DA68C407951B3"
+                                            },
+                                            "guid": "0B5EA8D24B15C2A86927708F6913A213",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "FC9E496B4FCA927639BBEEB49658A2C7",
+                                        "id": "unit"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "06B90CAA4E61EB60CD97D6BE631163D7",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "0C917E66432DA201B781C0995AD7E4EF",
+                              "id": "player"
+                            },
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "63C8704347641497C7B5A0847BBD1900",
+                                  "type": "Value",
+                                  "value": {
+                                    "guid": "1B7F96E943067F1CFB4AD8ACE2169CF5",
+                                    "type": {
+                                      "directive": "TypeRef",
+                                      "implements": "",
+                                      "inner_type": "",
+                                      "param_id": "",
+                                      "sub_directive": "None",
+                                      "type": "UnitData"
+                                    },
+                                    "value": "duckiesGameScalingSelector_Unit"
+                                  }
+                                }
+                              ],
+                              "guid": "02AD02194D4F49742268F4970F0F1C9F",
+                              "id": "unit_type"
+                            }
+                          ]
+                        },
+                        "guid": "936AB3A64673471861530AACF2D451A4",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "E6146092400BD50E866A4B8D81050C79",
+                    "id": "group"
+                  }
+                ]
+              },
+              "guid": "C5626D8F46784060BF9BD5BA5FEF34FA",
+              "type": "Function"
+            }
+          ],
+          "guid": "DB5257894981F2B328FC30A2A2DB9197",
+          "id": "unit"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_Kill",
+      "guid": "2FFD96834D8120A31E1460BB41524476",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "UnitGroup_GetFirstUnit",
+                "guid": "176CBA55440CB849A223BBBF3B055964",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetUnitsOfType",
+                          "guid": "C97289234D3C521C23EC00BB3E6B6329",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetOwningPlayer",
+                                    "guid": "F30BB7F342685E48AA68DCA2E6AA2C00",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Unit_GetTriggeringUnit",
+                                              "guid": "EE8E865A4A8C628888CCB397576E8E25"
+                                            },
+                                            "guid": "7E117291423D51E5827819B3FCC0A11C",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "C91D805347232ED808C600AE967DA72B",
+                                        "id": "unit"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "1DD1405A45D5C837CBD0368CF25218A7",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "7EAE54DB4366BEFF2656B8AAFA1D794E",
+                              "id": "player"
+                            },
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "90F1B07D4797DC6E43A02E8868C10E9D",
+                                  "type": "Value",
+                                  "value": {
+                                    "guid": "3877ECB54745F6EC19E459A39F1ADB36",
+                                    "type": {
+                                      "directive": "TypeRef",
+                                      "implements": "",
+                                      "inner_type": "",
+                                      "param_id": "",
+                                      "sub_directive": "None",
+                                      "type": "UnitData"
+                                    },
+                                    "value": "duckiesGameOverridesSelector_Unit"
+                                  }
+                                }
+                              ],
+                              "guid": "36CAD31F4FE7031EB75D23B63A638776",
+                              "id": "unit_type"
+                            }
+                          ]
+                        },
+                        "guid": "87F60C3642AC478347766489D0489880",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "3BF00FBA431805D87195408F430C6506",
+                    "id": "group"
+                  }
+                ]
+              },
+              "guid": "2A44ED004B96417BA709959C09116E4F",
+              "type": "Function"
+            }
+          ],
+          "guid": "91758F7B43D07E748B585B9AC15FF77B",
+          "id": "unit"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_MoveToPositionInstant",
+      "guid": "DE92FC394E65CCB271ACD5BCE68F252D",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetOwningPlayer",
+                "guid": "C44BAC6F4A55DD49BDD0689C4C5BC1B5",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetLastCreatedUnit",
+                          "guid": "7071EE604288EA58190B6197CE5FDBD2"
+                        },
+                        "guid": "D99B355943A5C6F0A2E926891CF10531",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "748C93AA493698BFD1D8D5B47DE78DB1",
+                    "id": "unit"
+                  }
+                ]
+              },
+              "guid": "E42710554F0A37D8EF9959A3E37790FA",
+              "type": "Function"
+            }
+          ],
+          "guid": "BC572A904441C94425E433A21E687D75",
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Actor_GetPosition",
+                "guid": "5399D7934314D4A45D7FAEA6D38E4B9B",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetLastCreatedUnit",
+                          "guid": "0B0283F1430BD685D3B8E1A07ABF4648"
+                        },
+                        "guid": "51EF244B4B0C9C1D7D6DE19FAA0243AC",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "E1B55B434C85385D09778A9DE41068C6",
+                    "id": "actor"
+                  }
+                ]
+              },
+              "guid": "0701CB4F4AC7D5AF07B9B9BE43F77531",
+              "type": "Function"
+            }
+          ],
+          "guid": "956B8A5946623B08DE34D39110257B6B",
+          "id": "pos"
+        }
+      ]
+    },
+    {
+      "function_id": "Player_AddToSelection",
+      "guid": "A158A7604BD1E9FF557AAD8F43862B56",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetOwningPlayer",
+                "guid": "8EA574CE49396C3DF0DB128ECCC11C33",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetLastCreatedUnit",
+                          "guid": "D62A2BE14EE32DFB9B15DFB02DEB956E"
+                        },
+                        "guid": "DD43F3A54AF96EF0AB3AC7B864EF2431",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "54C168B9475AD6F4511801B038AD1BAF",
+                    "id": "unit"
+                  }
+                ]
+              },
+              "guid": "F78C55A34B08D9C1CE8FD1BD072B0639",
+              "type": "Function"
+            }
+          ],
+          "guid": "4193E8B64187E39471346F8517A706D8",
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetLastCreatedUnit",
+                "guid": "1E62B5DD41BD8E7DCFEB8FA33472F263"
+              },
+              "guid": "7CCE1A884C7B8277CDAEF294D074D10B",
+              "type": "Function"
+            }
+          ],
+          "guid": "04113CFB4CC5DCF4BF070090DB7046E7",
+          "id": "unit"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_SetRespawn",
+      "guid": "CFD0F3DF4EC209264195F5A04F754243",
+      "is_enabled": false,
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetLastCreatedUnit",
+                "guid": "2F65F788430FC2A9E8BF13B6AA3BE199"
+              },
+              "guid": "85C39AD741291BECA6F911AD4558BF59",
+              "type": "Function"
+            }
+          ],
+          "guid": "BE73BE384BB6EC9AE76C5EA0BAF50C96",
+          "id": "unit"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Actor_GetPosition",
+                "guid": "34049D584B0D505A2737168D616018C0",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "6DAF64CF417641EDB38B548501B43070",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "265A10E84AC6A414AE5147B37C8AF719",
+                          "variable_id": "GV_MainHealer"
+                        }
+                      }
+                    ],
+                    "guid": "830557404DDFC348F7B6F69C63E99B3B",
+                    "id": "actor"
+                  }
+                ]
+              },
+              "guid": "419D63A84090ADF72D9FA296FADB3BEB",
+              "type": "Function"
+            }
+          ],
+          "guid": "7ECB83134575C441FEA40E9C23E8554D",
+          "id": "respawn_position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "E3BD56904BE08FBDD604018D1431757D",
+              "type": "Value",
+              "value": {
+                "guid": "E637AEE64C8ECC83AF2C699C7845DA30",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "3.0"
+              }
+            }
+          ],
+          "guid": "47D3D3814C9A9DE7F7042488B15EEFB9",
+          "id": "respawn_time"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_Comparison",
+      "guid": "304B27AE4833A19CF011E4A9FF362A7A",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Ability_GetTriggeringAbility",
+                "guid": "063756F644AC27E81F3484850FC8DB82"
+              },
+              "guid": "3D6CB38747511A1C79C2908A9DC691AC",
+              "type": "Function"
+            }
+          ],
+          "guid": "B6C94A8F4F5CF2413DF0A68AF9A7A48B",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "9FF6F96E40555DFAB4951A8D7AFED9C4",
+              "preset": {
+                "guid": "C705C9AA46D672C31F12B49CDE9F8FD6",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "eq"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "C7BC3AE84747317A0C9DA8B95C7451DF",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "F04DCC0141E667E6862855BBBB1E4BDC",
+              "type": "Value",
+              "value": {
+                "guid": "FF1565C6455AD10108C0E48DC40219C9",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "ability_data",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": ""
+                },
+                "value": "duckiesHeroSelectorUse_Abil"
+              }
+            }
+          ],
+          "guid": "229E664A4811277339966CB0BAC8D719",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "function_id": "Unit_OnAbilityUsed",
+      "guid": "05D9C82244C3CF643699C4BC6E567156",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "35CA3B4E45D9DBD3FB7B9DB69D9C357C",
+              "preset": {
+                "guid": "D8D837D9458EE9F561DBF68DBB5F5589",
+                "preset_id": "Unit_AnyUnit",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "8E0B52F24219446F67B158B181772642",
+          "id": "unit"
+        }
+      ]
+    }
+  ],
+  "id": "HeroSelect_Trigger"
+}

@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "anim_montage_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AnimMontageComponents/AMC_LaunchUnitFly.AMC_LaunchUnitFly_C'",
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroArchangelDiveBomb_LauncMissile",
+    "impact_effect": "duckiesHeroArchangelDiveBomb_AreaImpactSet",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 2.0,
+      "lob": true,
+      "lob_gravity": 40.0,
+      "lock_facing": true,
+      "lock_height_offset": false,
+      "max_speed": 12.0,
+      "socket": "Auto"
+    },
+    "validator": "NoValidator"
+  },
+  "meta": {}
+}

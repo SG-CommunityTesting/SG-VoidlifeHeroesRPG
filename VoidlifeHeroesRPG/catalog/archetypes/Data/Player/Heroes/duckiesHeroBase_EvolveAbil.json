@@ -1,0 +1,39 @@
+﻿{
+  "data": {
+    "based_on": "MorphAbilityData",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "requirement": "duckiesHeroNaviEvolve_Req",
+        "unit": "duckiesHeroArchangel_Unit"
+      }
+    ],
+    "flags": {
+      "approach": false,
+      "best_unit": false,
+      "builds": false,
+      "cancelable": false,
+      "disable_abilities": false,
+      "orient_like_structure": false,
+      "perform_height_transition": false,
+      "placement": false,
+      "unload_cargo": false,
+      "upgrade": false
+    },
+    "id": "duckiesHeroBase_EvolveAbil",
+    "morph_finish_effect": "duckiesHeroBase_EvolveFinishSet",
+    "morph_start_fx": "BP_FX_HeroLevelUp",
+    "progress_description": "pegasus_core|MorphAbilityData_progress_description_Progress",
+    "vital_energy_field": 100,
+    "vital_energy_update": "set_percentage",
+    "vital_health_field": 100,
+    "vital_health_update": "set_percentage",
+    "vital_shield_field": 100,
+    "vital_shield_update": "set_percentage"
+  },
+  "meta": {}
+}

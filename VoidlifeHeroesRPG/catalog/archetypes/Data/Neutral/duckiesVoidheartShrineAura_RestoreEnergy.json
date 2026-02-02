@@ -1,0 +1,57 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectModifyVitals",
+    "energy_mod_expression": {
+      "root": {
+        "left": {
+          "node": "Literal",
+          "type": "Value",
+          "value": 2.5
+        },
+        "node": "Math",
+        "operator": "+",
+        "right": {
+          "left": {
+            "node": "Literal",
+            "type": "Value",
+            "value": 0.625
+          },
+          "node": "Math",
+          "operator": "*",
+          "right": {
+            "name": "ExpressionApi::count_completed_upgrade_of_type",
+            "node": "FunctionCall",
+            "parameters": [
+              {
+                "argument": {
+                  "node": "Literal",
+                  "type": "Player",
+                  "value": 1
+                },
+                "name": "player",
+                "type": "Player"
+              },
+              {
+                "argument": {
+                  "node": "Literal",
+                  "type": "UpgradeData",
+                  "value": "duckiesShrineUpgraderHealing_Upgrade"
+                },
+                "name": "upgrade",
+                "type": "UpgradeData"
+              }
+            ],
+            "type": "Count"
+          },
+          "type": "Value"
+        },
+        "type": "Value"
+      },
+      "type": "Value"
+    },
+    "energy_mod_flat_amount": 0.0,
+    "energy_mod_percentage": 0.0,
+    "id": "duckiesVoidheartShrineAura_RestoreEnergy"
+  },
+  "meta": {}
+}

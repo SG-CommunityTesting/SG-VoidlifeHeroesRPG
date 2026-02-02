@@ -1,0 +1,122 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "UnderConstructionData",
+      "rallyData",
+      "infernalTrainingIronVaultProductionQueue",
+      "IronVault_Spawn"
+    ],
+    "alias_tech": [
+      "_IronVault"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "behaviors": [
+      "duckiesHostileWeaverLeader_BehaviorSpawner"
+    ],
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 32.0,
+    "commandList": [
+      {
+        "ability": "infernalTrainingIronVaultProductionQueue",
+        "button": "CancelProduction_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": true,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "IronVault_Spawn",
+        "button": "Brute_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": true,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "IronVault_Spawn",
+        "button": "Magmadon_Button",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": true,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "IronVault_Spawn",
+        "button": "PitFiend_Button",
+        "commandIndex": 2,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": true,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "duckiesGlobalEXPReward_RevengeSet"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Brute"
+      },
+      {
+        "unit": "Hellforge"
+      },
+      {
+        "unit": "Obelisk"
+      },
+      {
+        "unit": "GreaterShrine"
+      }
+    ],
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesSpawnerIronVault_Unit",
+    "name": "pegasus_core|UnitData_Name_IronVault",
+    "outer_radius": 2.2,
+    "shroud_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "duckiesTagSpawner",
+      "heightplane_ground",
+      "duckiesTagSpawnerObjective"
+    ],
+    "subgroup_priority": 42,
+    "unit_button": "IronVault_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_IronVault2.UI_Portrait_Demon_Default_IronVault2'",
+    "unreal_actor": "BP_SD_IronVaultV2_00",
+    "vision_radius": 11.0,
+    "vital_health": {
+      "maximum": 2000.0,
+      "regen": 0.0,
+      "starting": 2000.0
+    }
+  },
+  "meta": {}
+}

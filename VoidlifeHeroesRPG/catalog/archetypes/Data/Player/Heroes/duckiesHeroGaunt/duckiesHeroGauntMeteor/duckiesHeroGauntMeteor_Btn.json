@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CinderStorm.UI_Icons_Abilities_CinderStorm'",
+    "id": "duckiesHeroGauntMeteor_Btn",
+    "name": "Skyfire",
+    "tooltip": "Calls down a meteor to strike target area for <d ref=\"duckiesHeroGauntMeteor_Damage.amount\" style=\"Bold\"/> damage."
+  },
+  "meta": {}
+}

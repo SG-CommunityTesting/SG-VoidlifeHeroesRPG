@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_InfuseLife.UI_Icons_Abilities_Stormgates_InfuseLife'",
+  "id": "duckiesHostileGoldHealerHeal_Button",
+  "name": "Infuse Life",
+  "tooltip": "Heals a nearby friendly unit for <d ref=\"duckiesHostileGoldHealerHeal_TickHeal.amount/duckiesHostileGoldHealerHeal_StartPersistent.periodic.durations[0]\" style=\"Green\"/> health per second."
+}

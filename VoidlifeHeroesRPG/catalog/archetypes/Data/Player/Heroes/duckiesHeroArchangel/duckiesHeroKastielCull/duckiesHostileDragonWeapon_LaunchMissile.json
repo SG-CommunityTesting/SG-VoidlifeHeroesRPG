@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "FlayedDragon_Weapon_MissileLauncher",
+    "id": "duckiesHostileDragonWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileDragonWeapon_ImpactSet"
+  },
+  "meta": {}
+}

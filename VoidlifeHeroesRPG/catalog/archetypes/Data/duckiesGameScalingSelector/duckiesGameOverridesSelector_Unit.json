@@ -1,0 +1,43 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "duckiesGameOverridesSelector_AIActivatorAbil",
+      "structureProductionQueueAbilityData"
+    ],
+    "additional_black_mask_vision_radius": 0.0,
+    "armor": 0.0,
+    "based_on": "BaseUnit_CelestialS",
+    "commandList": [
+      {
+        "ability": "duckiesGameOverridesSelector_AIActivatorAbil",
+        "button": "duckiesGameOverridesSelector_AIActivatorBtn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "id": "duckiesGameOverridesSelector_Unit",
+    "name": "AI OVERRIDE",
+    "outer_radius": 1.1,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "status_invulnerable"
+    ],
+    "unit_button": "PowerBank_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Default_Energizer_Node.UI_Portrait_Default_Energizer_Node'",
+    "unreal_actor": "BP_SA_PowerBank_00",
+    "vision_radius": 1.0,
+    "vital_health": {
+      "maximum": 100.0,
+      "regen": 0.0,
+      "starting": 100.0
+    },
+    "vitals_force_hide": true
+  },
+  "meta": {}
+}

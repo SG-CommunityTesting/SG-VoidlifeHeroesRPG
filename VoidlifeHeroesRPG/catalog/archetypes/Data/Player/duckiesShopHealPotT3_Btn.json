@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_MarkOfLife.UI_Icons_Items_MarkOfLife'",
+    "id": "duckiesShopHealPotT3_Btn",
+    "name": "Final Healing Potion",
+    "tooltip": "Purchase a final healing potion which will restore <bold>all</> health and energy on use."
+  },
+  "meta": {}
+}

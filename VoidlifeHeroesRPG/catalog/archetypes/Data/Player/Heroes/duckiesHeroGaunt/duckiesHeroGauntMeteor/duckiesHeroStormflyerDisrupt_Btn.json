@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Abilities_TechnoBlast.UI_Icons_Abilities_TechnoBlast'",
+    "id": "duckiesHeroStormflyerDisrupt_Btn",
+    "name": "Sonar Disruption",
+    "tooltip": "Deploys a sonar disruption pulse to stun enemies in target area for <d ref=\"duckiesHeroStormflyerDisrupt_StunBuff.duration\" style=\"Bold\"/> seconds."
+  },
+  "meta": {}
+}

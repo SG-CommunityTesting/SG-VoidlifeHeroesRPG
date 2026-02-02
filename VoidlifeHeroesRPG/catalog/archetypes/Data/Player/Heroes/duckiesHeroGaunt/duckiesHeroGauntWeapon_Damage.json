@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 16.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroGauntWeapon_Damage",
+    "impact_fx": "BP_FX_Gaunt_Impact"
+  },
+  "meta": {}
+}

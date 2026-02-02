@@ -1,0 +1,82 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectPersistent",
+    "based_on": "GameEffectPersistent",
+    "id": "duckiesHeroIncarnateSporeBlast_StartPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [
+        {
+          "angle": -5.0,
+          "radius": 2.0
+        },
+        {
+          "angle": 5.0,
+          "radius": 3.0
+        },
+        {
+          "angle": -10.0,
+          "radius": 3.0
+        },
+        {
+          "angle": 10.0,
+          "radius": 2.0
+        },
+        {
+          "angle": 0.0,
+          "radius": 2.0
+        },
+        {
+          "angle": -5.0,
+          "radius": 2.0
+        }
+      ],
+      "periodic_method": "Loop",
+      "variance": {
+        "angle": 0,
+        "radius": 0
+      },
+      "vector_facing_end": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      }
+    },
+    "periodic": {
+      "count": 12,
+      "durations": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "durations_method": "Loop",
+      "effects": [
+        "duckiesHeroIncarnateSporeBlast_LaunchSearch",
+        "duckiesHeroIncarnateSporeBlast_TargetRandomLocation",
+        "duckiesHeroIncarnateSporeBlast_TargetRandomLocation"
+      ],
+      "effects_method": "Loop",
+      "validator": "NoValidator"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,37 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectDamageRadius",
+    "amount": 100.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 1.0
+      }
+    ],
+    "based_on": "BaseGameEffectDamageRadius",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "id": "duckiesHeroStormflyerBombs_ImpactDamageRadius",
+    "location_impact_fx": "BP_FXI_AmaraFullSalvo_ImpactExplosion",
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "tag_bonuses": [
+      "duckiesHeroStormflyerBombs_TagBonusStructure"
+    ]
+  },
+  "meta": {}
+}

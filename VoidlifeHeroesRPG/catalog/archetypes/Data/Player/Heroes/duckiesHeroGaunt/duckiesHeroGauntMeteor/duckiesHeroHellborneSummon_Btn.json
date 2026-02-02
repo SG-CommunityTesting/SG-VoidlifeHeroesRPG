@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_FiendV2.UI_Icons_Units_Demon_FiendV2'",
+    "id": "duckiesHeroHellborneSummon_Btn",
+    "name": "Emberborn Fiends",
+    "tooltip": "Summons <d ref=\"duckiesHeroHellborneSummon_CreateUnit.spawn_count\" style=\"Bold\"/> fiends to attack nearby enemies.\n\nFiends have <d ref=\"duckiesHeroHellborneSummon_Unit.vital_health.maximum\"/> health and do <d ref=\"duckiesHeroHellborneSummon_UnitWpnDamage.amount\" style=\"Bold\"/> damage per hit, applying soulbrand on the enemies they damage.\n\nSummoning new pack kills all old fiends."
+  },
+  "meta": {}
+}

@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSwitch",
+    "cases": [
+      {
+        "action": "duckiesHeroCarnivexWeaponPounce_StartSet",
+        "case_condition": "Valid_duckiesHeroCarnivexWeaponPounce_HasPermit"
+      }
+    ],
+    "default_action": "duckiesHeroCarnivexWeapon_Set",
+    "id": "duckiesHeroCarnivexWeapon_Switch"
+  },
+  "meta": {}
+}

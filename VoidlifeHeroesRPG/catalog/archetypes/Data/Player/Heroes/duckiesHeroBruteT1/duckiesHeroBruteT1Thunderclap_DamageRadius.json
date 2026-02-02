@@ -1,0 +1,57 @@
+﻿{
+  "data": {
+    "amount": 150.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 2.0
+      },
+      {
+        "damage_fraction": 0.5,
+        "radius": 2.5
+      },
+      {
+        "damage_fraction": 0.25,
+        "radius": 3.0
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_splash",
+      "damage_spell"
+    ],
+    "id": "duckiesHeroBruteT1Thunderclap_DamageRadius",
+    "location_impact_fx": "BP_FXI_ArchAngel_MeteorStrikeLanding",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 5.0,
+      "launch_power": 0.2
+    },
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_flags": {
+      "include_target": true
+    },
+    "search_location": {
+      "effect_parent": "",
+      "entity_or_point": "Point",
+      "target": "Target"
+    }
+  },
+  "meta": {}
+}

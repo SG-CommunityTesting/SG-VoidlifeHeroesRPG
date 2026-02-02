@@ -1,0 +1,164 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "Squirm"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_BoneChitin.UI_Icons_Armor_Stormgates_BoneChitin'",
+    "armor_name": "pegasus_core|UnitData_armor_name_OozeReward",
+    "based_on": "BaseUnit_Creep",
+    "build_cost": {
+      "resource_a": 20.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "cargo_size": "Two",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "Squirm",
+        "button": "Squirm_Button",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "damage_response": "Acquire_or_Flee",
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "StormgateWarpBuffApplier",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "id": "duckiesHostileGoldHorror_Unit",
+    "inner_radius": 0.8,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.6,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 4.5,
+      "stationary_turn_period": 0.6,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_OozeReward",
+    "num_corpses": 1,
+    "outer_radius": 1.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_light"
+    ],
+    "subgroup_priority": 121,
+    "traits": [
+      "duckiesHostileGoldHorrorWeapon_Trait"
+    ],
+    "unit_button": "StormgateAbilityCreateTier1Ooze_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_OozeReward.UI_Portrait_Demon_Default_OozeReward'",
+    "unreal_actor": "BP_UN_AberrantReward",
+    "veterancy_given_on_death": 50,
+    "vision_radius": 11.0,
+    "vital_health": {
+      "maximum": 340.0,
+      "regen": 40.0,
+      "starting": 340.0
+    },
+    "weaponList": [
+      "duckiesHostileGoldHorrorWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

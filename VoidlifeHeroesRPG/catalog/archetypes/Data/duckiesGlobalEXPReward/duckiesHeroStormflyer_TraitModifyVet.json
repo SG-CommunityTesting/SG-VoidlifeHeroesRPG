@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectModifyVeterancy",
+    "amount": 10.0,
+    "based_on": "BaseGameEffectModifyVeterancy",
+    "id": "duckiesHeroStormflyer_TraitModifyVet"
+  },
+  "meta": {}
+}

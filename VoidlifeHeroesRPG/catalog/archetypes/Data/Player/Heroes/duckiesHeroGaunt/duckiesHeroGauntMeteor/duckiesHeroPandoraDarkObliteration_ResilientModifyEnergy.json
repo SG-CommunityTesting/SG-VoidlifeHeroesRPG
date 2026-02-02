@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectModifyVitals",
+    "effect_target": {
+      "effect_parent": "origin",
+      "target": "Source"
+    },
+    "energy_mod_flat_amount": 100.0,
+    "id": "duckiesHeroPandoraDarkObliteration_ResilientModifyEnergy"
+  },
+  "meta": {}
+}

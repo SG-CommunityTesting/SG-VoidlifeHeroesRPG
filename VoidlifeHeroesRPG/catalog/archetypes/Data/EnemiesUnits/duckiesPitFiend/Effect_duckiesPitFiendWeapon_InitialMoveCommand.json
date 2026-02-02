@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "moveData",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "",
+    "target": "Target"
+  },
+  "effect_target": {
+    "effect_parent": "duckiesPitFiendWeapon_CreateUnit",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "id": "duckiesPitFiendWeapon_InitialMoveCommand",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_expire": "Suicide",
+    "effect_expire_delay": 8.0,
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "id": "duckiesHeroHellborneCorpseBlast_VoidRiftPersistent",
+    "unreal_actor": "BP_EBFX_VoidSpriggan_VoidRift"
+  },
+  "meta": {}
+}

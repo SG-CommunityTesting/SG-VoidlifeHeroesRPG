@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHostileWarzScytheThrow_DamageRadius"
+    ],
+    "id": "duckiesHostileWarzScytheThrow_PeriodicSet"
+  },
+  "meta": {}
+}

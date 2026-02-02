@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_SpawnerUnique_Tier1CountAddition",
+  "initial_values": [
+    {
+      "guid": "B107CB084CDEE2443B4DDF98CAE738B7",
+      "type": "Value",
+      "value": {
+        "guid": "4690EDD146D7603F91F3249035603FE8",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        },
+        "value": "0"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Integer"
+  }
+}

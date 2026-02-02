@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "TerrainTileset",
+  "based_on": "TerrainTileset_SigmaArctic",
+  "cliff_set_a": "DA_Cliffset_Rand_A",
+  "cliff_set_b": "DA_CliffSet_Deadlands",
+  "display_name": "CustomRPG",
+  "id": "TerrainTileset_CustomRPG",
+  "layer_1": "TerrainLayer_ForestAutumn_Sand",
+  "layer_2": "TerrainLayer_ForestAutumn_Dirt",
+  "layer_3": "TerrainLayer_ForestAutumn_RockyGround",
+  "layer_4": "TerrainLayer_Deadlands_TemplarTilesFlat",
+  "layer_5": "TerrainLayer_ForestAutumn_PatchyGrass",
+  "layer_6": "TerrainLayer_SigmaArctic_Snow3",
+  "layer_7": "TerrainLayer_SigmaArctic_SnowRocks",
+  "layer_8": "TerrainLayer_SigmaArctic_Snow2",
+  "render_abyss": false
+}

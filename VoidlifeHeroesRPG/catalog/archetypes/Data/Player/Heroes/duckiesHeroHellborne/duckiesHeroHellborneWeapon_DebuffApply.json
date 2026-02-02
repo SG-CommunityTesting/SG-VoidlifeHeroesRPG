@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroHellborneWeapon_Debuff",
+    "id": "duckiesHeroHellborneWeapon_DebuffApply"
+  },
+  "meta": {}
+}

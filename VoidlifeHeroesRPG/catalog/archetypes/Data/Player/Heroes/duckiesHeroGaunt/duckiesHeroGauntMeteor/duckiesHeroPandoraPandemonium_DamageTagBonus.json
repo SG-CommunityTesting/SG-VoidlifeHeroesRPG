@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TagBonus",
+    "bonus": 300.0,
+    "id": "duckiesHeroPandoraPandemonium_DamageTagBonus",
+    "tag": "attribute_light"
+  },
+  "meta": {}
+}

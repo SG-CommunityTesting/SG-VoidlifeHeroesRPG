@@ -1,0 +1,56 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroPandoraPandemonium_LaunchMissile",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_ShadowDemon_Launch",
+    "movement": {
+      "acceleration_time": 10,
+      "impact_offset": 1.5,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 15.0,
+      "socket": "Auto"
+    },
+    "projectile": "Pandemonium_Missile",
+    "range_max": 18.0,
+    "skillshots": [
+      {
+        "effects": [
+          "duckiesHeroPandoraPandemonium_ImpactSet"
+        ],
+        "end_projectile": false,
+        "forward_offset": 0.5,
+        "max_targets": -1,
+        "target_filter": {
+          "alliance": {
+            "ally": false,
+            "enemy": true,
+            "neutral": true,
+            "player": false,
+            "self": false
+          },
+          "tags": {
+            "excluded": [
+              "status_invulnerable",
+              "dead",
+              "capturable"
+            ],
+            "required": [
+              "heightplane_ground"
+            ]
+          }
+        },
+        "target_validator": "emptyRef",
+        "width": 3.0
+      }
+    ]
+  },
+  "meta": {}
+}

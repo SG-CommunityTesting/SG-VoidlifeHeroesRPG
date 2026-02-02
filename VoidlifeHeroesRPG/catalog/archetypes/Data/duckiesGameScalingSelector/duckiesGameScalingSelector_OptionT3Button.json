@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "duckiesGameScalingSelector_OptionT0Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Veterancy/UI_Icons_Veterancy_Human_Level_03.UI_Icons_Veterancy_Human_Level_03'",
+    "id": "duckiesGameScalingSelector_OptionT3Button",
+    "name": "Extra Scaling: Tier 3",
+    "tooltip": "Mass attacks increased by 20% for each tier. \n\nDefault setting for a 4 player game."
+  },
+  "meta": {}
+}

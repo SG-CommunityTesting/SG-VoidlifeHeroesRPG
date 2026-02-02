@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "ProjectileData",
+    "id": "duckiesHeroPandoraMultishot_Missile",
+    "impact_fx": "BP_FXI_ShadowDemon_Impact",
+    "unreal_actor": "BP_ArtilleryMechDeployed_Missile"
+  },
+  "meta": {}
+}

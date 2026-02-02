@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectRemoveBuff",
+    "buff": "duckiesHeroCarnivexWeaponPounce_PermitBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_PermitRemove"
+  },
+  "meta": {}
+}

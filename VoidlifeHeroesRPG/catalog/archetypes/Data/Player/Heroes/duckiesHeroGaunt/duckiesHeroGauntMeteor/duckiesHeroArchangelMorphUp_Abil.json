@@ -1,0 +1,34 @@
+﻿{
+  "data": {
+    "based_on": "MorphAbilityData",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 0.0,
+          "name": "",
+          "scope": "Ability"
+        },
+        "requirement": "NoRequirement",
+        "unit": "duckiesHeroArchangel_UnitAir"
+      }
+    ],
+    "flags": {
+      "approach": false,
+      "best_unit": false,
+      "builds": false,
+      "cancelable": false,
+      "disable_abilities": false,
+      "perform_height_transition": true,
+      "placement": false,
+      "unload_cargo": false,
+      "upgrade": false
+    },
+    "height_transition_duration": 0.7,
+    "height_transition_initial_delay": 0.35,
+    "id": "duckiesHeroArchangelMorphUp_Abil",
+    "morph_duration": 1.333,
+    "morph_finish_effect": "emptyRef",
+    "progress_description": "pegasus_core|MorphAbilityData_progress_description_Progress"
+  },
+  "meta": {}
+}

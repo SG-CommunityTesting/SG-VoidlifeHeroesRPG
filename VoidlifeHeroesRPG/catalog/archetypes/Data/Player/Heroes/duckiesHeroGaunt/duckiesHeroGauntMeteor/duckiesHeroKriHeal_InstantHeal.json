@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectHeal",
+    "amount": 200.0,
+    "based_on": "GameEffectHeal",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHeroKriHeal_InstantHeal"
+  },
+  "meta": {}
+}

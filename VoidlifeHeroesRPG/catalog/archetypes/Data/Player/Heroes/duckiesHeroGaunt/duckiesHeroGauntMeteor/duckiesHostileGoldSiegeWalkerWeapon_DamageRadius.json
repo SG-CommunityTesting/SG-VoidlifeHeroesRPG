@@ -1,0 +1,55 @@
+﻿{
+  "data": {
+    "amount": 180.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 1.0
+      },
+      {
+        "damage_fraction": 0.5,
+        "radius": 2.0
+      },
+      {
+        "damage_fraction": 0.25,
+        "radius": 3.0
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_ranged",
+      "damage_splash"
+    ],
+    "friendly_fire_percentage": 50.0,
+    "id": "duckiesHostileGoldSiegeWalkerWeapon_DamageRadius",
+    "location_impact_fx": "BP_FXI_V5RocketLauncherReward_Impact",
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "dead"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_flags": {
+      "include_target": true
+    },
+    "search_location": {
+      "effect_parent": "V5RocketLauncher_Weapon_MissileLauncher",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "tag_bonuses": []
+  },
+  "meta": {}
+}

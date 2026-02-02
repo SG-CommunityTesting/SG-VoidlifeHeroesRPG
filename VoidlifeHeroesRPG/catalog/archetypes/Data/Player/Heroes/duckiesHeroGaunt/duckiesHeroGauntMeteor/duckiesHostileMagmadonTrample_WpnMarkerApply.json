@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHostileMagmadonTrample_WpnMarker",
+    "id": "duckiesHostileMagmadonTrample_WpnMarkerApply",
+    "validator": "Valid_duckiesHostileMagmadonTrample_TargetNoMarker"
+  },
+  "meta": {}
+}

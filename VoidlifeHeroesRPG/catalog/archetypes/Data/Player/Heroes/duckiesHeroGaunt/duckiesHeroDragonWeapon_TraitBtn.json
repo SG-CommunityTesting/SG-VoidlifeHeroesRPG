@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PlagueBreath.UI_Icons_Abilities_PlagueBreath'",
+    "id": "duckiesHeroDragonWeapon_TraitBtn",
+    "name": "Draconic Ruin",
+    "tooltip": "Attack target and units next to it are ignited and take <d ref=\"duckiesHeroDragonWeapon_DebuffDamage.amount / duckiesHeroDragonWeapon_Debuff.periodic_duration\" style=\"Bold\"/> damage per second for <d ref=\"duckiesHeroDragonWeapon_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

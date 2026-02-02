@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "backswing": 1.2,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHeroPandoraWeapon_Damage",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Overkill.UI_Icons_Abilities_Overkill'",
+    "id": "duckiesHeroPandoraWeapon_Wpn",
+    "name": "Blackfire Lightning",
+    "period": 1.3,
+    "range_acquire": 11.0,
+    "range_maximum": 9.0,
+    "swing": 0.2,
+    "weapon_fire": "duckiesHeroPandoraWeapon_LaunchMissile",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree",
+          "dead"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

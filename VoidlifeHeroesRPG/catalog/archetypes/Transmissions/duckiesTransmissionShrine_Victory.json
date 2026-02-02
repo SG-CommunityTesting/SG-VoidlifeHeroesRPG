@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "duckiesCharacter_Shrine",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionShrine_Victory",
+    "pause": 10.0,
+    "text_field": "The pathway for Host's invasion has been cut.\n\n Thanks to you, the realms is safe. Rest well heroes."
+  },
+  "meta": {}
+}

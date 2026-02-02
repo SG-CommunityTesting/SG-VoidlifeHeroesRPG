@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "duckiesCharacter_Shrine",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionShrine_IntroSelectHero",
+    "pause": 15.0,
+    "text_field": "The warlock Warz seeks my destruction. Yet not all hope is lost. I have given you a second life.\n\nChoose your form and defeat Warz's forces. Put an end to his assault."
+  },
+  "meta": {}
+}

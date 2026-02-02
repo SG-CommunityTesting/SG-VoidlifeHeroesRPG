@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroCarnivexWeaponPounce_PermitRemove",
+      "duckiesHeroCarnivexWeaponPounce_DummyBuffRemove",
+      "duckiesHeroCarnivexWeaponPounce_DebuffApply",
+      "duckiesHeroCarnivexWeapon_Damage",
+      "duckiesHeroCarnivexWeaponAOE_CounterApply",
+      "duckiesHeroCarnivexWeaponPounce_CDApply"
+    ],
+    "id": "duckiesHeroCarnivexWeaponPounce_StartSet"
+  },
+  "meta": {}
+}

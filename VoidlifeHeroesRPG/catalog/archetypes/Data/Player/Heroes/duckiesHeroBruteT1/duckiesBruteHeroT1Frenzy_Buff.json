@@ -1,0 +1,23 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_Aberrant_3v3_BuffSelf",
+    "duration": 10.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stats/UI_Icons_Stats_AttackSpeed.UI_Icons_Stats_AttackSpeed'",
+    "id": "duckiesBruteHeroT1Frenzy_Buff",
+    "modifiers": [
+      {
+        "amount": 25.0,
+        "stat_mod": "SpeedPercentageBonus"
+      },
+      {
+        "amount": 50.0,
+        "stat_mod": "AttackSpeedPercentageAdditiveMultiplier"
+      }
+    ],
+    "name": "pegasus_heroes|Buff_name_AberrantHowl_BuffAberrant",
+    "tooltip": "pegasus_3v3|Buff_tooltip_Aberrant_3v3_Creep_Buff"
+  },
+  "meta": {}
+}

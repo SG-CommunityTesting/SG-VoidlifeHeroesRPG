@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroBruteT1Weapon_Damage",
+      "duckiesHeroBruteFinalWeapon_StunApply"
+    ],
+    "id": "duckiesHeroBruteT1Weapon_StartSet"
+  },
+  "meta": {}
+}

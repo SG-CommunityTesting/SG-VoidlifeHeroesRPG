@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_finish": "duckiesHostileWarzScytheThrow_CallBackIterateHero",
+    "effect_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "id": "duckiesHostileWarzScytheThrow_MissilePersistent",
+    "periodic": {
+      "count": 40,
+      "durations": [
+        0.25
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHostileWarzScytheThrow_PeriodicSet"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "Valid_CasterIsAlive"
+    },
+    "reveal": {
+      "detector": false,
+      "vision_height": 20.0,
+      "vision_holder": {
+        "effect_parent": "none",
+        "target": "Caster"
+      },
+      "vision_radius": 4.0
+    },
+    "unreal_actor": "BP_EBFX_Warz_NetherBladeSpinning"
+  },
+  "meta": {}
+}

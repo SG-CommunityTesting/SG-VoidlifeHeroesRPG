@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "BaseButton",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ImbueAvatar.UI_Icons_Abilities_Stormgates_ImbueAvatar'",
+    "id": "duckiesHeroHellborneEmpower_Btn",
+    "name": "Empower",
+    "tooltip": "Empowers target friendly unit with <d ref=\"duckiesHeroHellborneEmpower_Buff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</> increased damage and <d ref=\"duckiesHeroHellborneEmpower_Buff.modifiers[1].amount\" style=\"Bold\"/> additional life regeneration for <d ref=\"duckiesHeroHellborneEmpower_Buff.duration\"/> seconds."
+  },
+  "meta": {}
+}

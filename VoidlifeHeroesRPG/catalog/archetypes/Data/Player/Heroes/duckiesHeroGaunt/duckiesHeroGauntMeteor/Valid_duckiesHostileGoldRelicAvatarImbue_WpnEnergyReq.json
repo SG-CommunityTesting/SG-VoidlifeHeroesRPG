@@ -1,0 +1,37 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::get_energy",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_caster",
+                "node": "FunctionCall",
+                "parameters": [],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            }
+          ],
+          "type": "Value"
+        },
+        "node": "Logical",
+        "operator": ">=",
+        "right": {
+          "node": "Literal",
+          "type": "Value",
+          "value": 20.0
+        },
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHostileGoldRelicAvatarImbue_WpnEnergyReq"
+  },
+  "meta": {}
+}

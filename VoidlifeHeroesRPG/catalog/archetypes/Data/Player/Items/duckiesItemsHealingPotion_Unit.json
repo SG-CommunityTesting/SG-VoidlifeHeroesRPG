@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "command": {
+      "ability": "duckiesItemsHealingPotionUse_AbilSelf",
+      "commandIndex": 0,
+      "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_JusticeJump.UI_Icons_Abilities_JusticeJump'",
+      "repeatable": false,
+      "targetSubmenu": -1
+    },
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": true,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_RevitalizationRadiance.UI_Icons_Abilities_RevitalizationRadiance'",
+    "id": "duckiesItemsHealingPotion_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 5,
+    "name": "Healing Potion",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "<UnitName>On use:</> heals hero for <d ref=\"duckiesItemsHealingPotionUse_Heal.amount\" style=\"Green\"/> and restores <d ref=\"duckiesItemsHealingPot_EnergyModify.energy_mod_flat_amount\" style=\"Blue\"/> energy.",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

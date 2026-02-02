@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Overkill.UI_Icons_Abilities_Overkill'",
+    "id": "duckiesHeroPandoraCondemn_Btn",
+    "name": "Condemn",
+    "tooltip": "Brands enemies in target area with a glyph, reducing their movement speed by 50% and burning them for <d ref=\"duckiesHeroPandoraCondemn_DoTDebuffDamage.amount / duckiesHeroPandoraCondemn_DoTDebuff.periodic_duration\" style=\"Bold\"/> damage per second.\n\nWhen glyph is removed, either by expiring or by unit dying it will explode, dealing <d ref=\"duckiesHeroPandoraCondemn_DamageRadius.amount\" style=\"Bold\"/> area damage.\n\nGlyph lasts for <d ref=\"duckiesHeroPandoraCondemn_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

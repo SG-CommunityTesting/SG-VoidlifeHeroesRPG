@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectPersistent",
+    "based_on": "GameEffectPersistent",
+    "id": "duckiesHeroIncarnateSporeBlast_TargetRandomLocation",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [],
+      "periodic_method": "Loop",
+      "variance": {
+        "angle": 180.0,
+        "radius": 4.0
+      },
+      "vector_facing_end": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      }
+    },
+    "periodic": {
+      "count": 1,
+      "durations": [],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHeroIncarnateSporeBlast_LauncMissile"
+      ],
+      "effects_method": "Loop",
+      "validator": "NoValidator"
+    }
+  },
+  "meta": {}
+}

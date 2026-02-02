@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "amount": 360.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 5.0
+      },
+      {
+        "damage_fraction": 0.75,
+        "radius": 7.0
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_splash"
+    ],
+    "id": "duckiesHeroBruteFinalThunderclap_DamageRadius",
+    "location_impact_fx": "BP_FXS_StunningStomp_Explosion",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 45.0,
+      "launch_power": 0.8
+    },
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "dead",
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "tag_bonuses": [
+      "StunningStomp_Damage_TagBonusStructure"
+    ]
+  },
+  "meta": {}
+}

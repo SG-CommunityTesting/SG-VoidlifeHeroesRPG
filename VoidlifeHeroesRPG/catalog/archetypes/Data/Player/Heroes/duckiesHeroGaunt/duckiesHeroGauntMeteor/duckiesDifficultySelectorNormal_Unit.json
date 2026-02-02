@@ -1,0 +1,40 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "BaseUnit_InfernalU",
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": true,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "id": "duckiesDifficultySelectorNormal_Unit",
+    "inner_radius": 0.375,
+    "name": "NORMAL MODE (RECOMMENDED)",
+    "outer_radius": 0.8,
+    "show_name_on_hover": true,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "status_invulnerable"
+    ],
+    "unit_button": "duckiesDifficultySelectorNormal_UnitBtn",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BruteV2.UI_Portrait_Demon_Default_BruteV2'",
+    "unreal_actor": "BP_UD_BruteV2_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "vitals_force_hide": false
+  },
+  "meta": {}
+}

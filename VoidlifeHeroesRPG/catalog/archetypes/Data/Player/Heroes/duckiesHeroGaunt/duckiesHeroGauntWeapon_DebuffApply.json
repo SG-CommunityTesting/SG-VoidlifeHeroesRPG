@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroGauntWeapon_Debuff",
+    "id": "duckiesHeroGauntWeapon_DebuffApply"
+  },
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesHeroPandoraSummon_UnitWpnDamage",
+      "duckiesHeroGauntWeapon_DebuffApply"
+    ],
+    "id": "duckiesHeroPandoraSummon_UnitWpnStartSet"
+  },
+  "meta": {}
+}

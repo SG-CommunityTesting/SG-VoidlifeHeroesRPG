@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroPandoraPandemonium_Stunned",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHeroPandoraPandemonium_StunApply",
+    "validator": "Valid_TargetNotResilient"
+  },
+  "meta": {}
+}

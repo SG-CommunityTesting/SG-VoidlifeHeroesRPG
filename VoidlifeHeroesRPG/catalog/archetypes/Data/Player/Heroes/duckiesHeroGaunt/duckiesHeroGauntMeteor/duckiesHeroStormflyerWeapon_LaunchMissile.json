@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroStormflyerWeapon_LaunchMissile",
+    "impact_effect": "duckiesHeroStormflyerWeapon_Damage",
+    "launch_fx": "BP_FXS_OrbitalPlatform_Launch",
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 17.0
+    },
+    "projectile": "OrbitalPlatform_Weapon_Missile"
+  },
+  "meta": {}
+}

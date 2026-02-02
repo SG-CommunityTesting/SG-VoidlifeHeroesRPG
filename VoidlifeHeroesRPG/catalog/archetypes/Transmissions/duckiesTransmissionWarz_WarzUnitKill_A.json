@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_WarzUnitKill_A",
+    "pause": 10.0,
+    "text_field": "A futile effort. You've banished my avatar, but I need not to lead the charge in person. My legion will finish the task, and I will find my way back soon enough."
+  },
+  "meta": {}
+}

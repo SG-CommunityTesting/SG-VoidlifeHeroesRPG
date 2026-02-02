@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "ProjectileData",
+    "id": "duckiesHeroHellborneCorpseBlastHolder_WpnMissile",
+    "unreal_actor": "BP_ShadowDemon_Projectile"
+  },
+  "meta": {}
+}

@@ -1,0 +1,28 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "effect_no_target_found ": "emptyRef",
+    "game_effect": "duckiesHeroIncarnateSporeBlast_ImpactSet",
+    "id": "duckiesHeroIncarnateSporeBlast_DamageRadius",
+    "impact_fx": "BP_FXI_VenomTrap_Impact",
+    "radius": 2.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "target_sorts": []
+  },
+  "meta": {}
+}

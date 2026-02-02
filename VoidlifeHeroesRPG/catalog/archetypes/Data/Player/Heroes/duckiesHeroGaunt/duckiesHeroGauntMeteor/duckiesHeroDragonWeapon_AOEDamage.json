@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "amount": 10.0,
+    "based_on": "FlayedDragon_Weapon_Damage",
+    "id": "duckiesHeroDragonWeapon_AOEDamage",
+    "tag_bonuses": []
+  },
+  "meta": {}
+}

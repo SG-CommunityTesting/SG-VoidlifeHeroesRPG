@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroPandoraMultishot_Damage",
+      "duckiesHeroPandoraMultishot_StunApply"
+    ],
+    "id": "duckiesHeroPandoraMultishot_ImpactSet"
+  },
+  "meta": {}
+}

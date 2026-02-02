@@ -1,0 +1,44 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "duckiesGlobalEXPReward_RevengeSet"
+    },
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesSpawnerSpire_UnitSilent",
+    "name": "pegasus_core|UnitData_Name_TwilightSpire",
+    "outer_radius": 2.2,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "duckiesTagSpawnerObjective",
+      "heightplane_ground",
+      "attribute_mechanical",
+      "attribute_heavy",
+      "duckiesTagSpawner"
+    ],
+    "unit_button": "TwilightSpire_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_TwilightSpire.UI_Portrait_Demon_Default_TwilightSpire'",
+    "unreal_actor": "BP_SD_DarkTemple_00",
+    "vital_health": {
+      "maximum": 2500.0,
+      "regen": 0.0,
+      "starting": 2500.0
+    }
+  },
+  "meta": {}
+}

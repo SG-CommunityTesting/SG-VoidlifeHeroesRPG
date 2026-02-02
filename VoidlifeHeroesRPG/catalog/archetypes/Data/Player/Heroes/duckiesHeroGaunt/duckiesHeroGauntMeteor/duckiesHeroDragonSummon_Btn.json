@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ChimeraDeath.UI_Icons_Abilities_ChimeraDeath'",
+    "id": "duckiesHeroDragonSummon_Btn",
+    "name": "Deathswarm",
+    "tooltip": "Summons <d ref=\"duckiesHeroDragonSummon_StartPersistent.periodic.count\" style=\"Bold\"/> <Bold>Chimeras</> to attack towards target locations. Chimeras attack ground enemies and last for <d ref=\"duckiesHeroDragonSummon_TimedLife.duration\"/> seconds."
+  },
+  "meta": {}
+}

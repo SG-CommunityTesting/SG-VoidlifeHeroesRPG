@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_initial": "duckiesHeroPandoraPandemonium_LaunchMissile",
+    "flags": {
+      "channeling": false
+    },
+    "id": "duckiesHeroPandoraPandemonium_StartPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 999.0
+      },
+      "periodic": [
+        {}
+      ],
+      "vector_facing_end": {
+        "effect_parent": "origin",
+        "entity_or_point": "Point",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "origin",
+        "entity_or_point": "Point",
+        "target": "Source"
+      }
+    },
+    "periodic": {},
+    "range_max": 14,
+    "tracker": "Track"
+  },
+  "meta": {}
+}

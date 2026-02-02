@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesGlobalEXPReward_Button",
+  "id": "duckiesGlobalEXPReward_Button_Barracks",
+  "tooltip": "Units produced by this structure grant no kill bounty.\n\nKilling this structure grants <d ref=\"duckiesGlobalEXPReward_ModifyVeterancy_Barracks.amount\" style=\"Yellow\"/> experience to all heroes."
+}

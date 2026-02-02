@@ -1,0 +1,54 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHeroArchangelWeaponAvatar_LaunchMissile",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_ArchangelAvatar_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 20.0
+    },
+    "projectile": "Archangel_WeaponAvatar_Missile",
+    "skillshots": [
+      {
+        "effects": [
+          "duckiesHeroArchangelWeaponAvatar_MissilePeriodicSet"
+        ],
+        "end_projectile": false,
+        "forward_offset": 0.5,
+        "max_targets": -1,
+        "target_filter": {
+          "alliance": {
+            "ally": false,
+            "enemy": true,
+            "neutral": true,
+            "player": false,
+            "self": false
+          },
+          "tags": {
+            "excluded": [
+              "dead",
+              "status_invulnerable"
+            ],
+            "required": [
+              "entity_unit",
+              "heightplane_ground"
+            ]
+          }
+        },
+        "target_validator": "emptyRef",
+        "width": 1.0
+      }
+    ]
+  },
+  "meta": {}
+}

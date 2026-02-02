@@ -1,0 +1,62 @@
+﻿{
+  "data": {
+    "alias_tech": [
+      "_Conclave"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "duckiesGlobalEXPReward_RevengeSet"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Gaunt"
+      },
+      {
+        "unit": "RitualChamber"
+      },
+      {
+        "unit": "Obelisk"
+      },
+      {
+        "unit": "GreaterShrine"
+      }
+    ],
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesSpawnerConclave_Unit",
+    "name": "pegasus_core|UnitData_Name_Conclave",
+    "outer_radius": 2.2,
+    "shroud_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "heightplane_ground",
+      "duckiesTagSpawner",
+      "duckiesTagSpawnerObjective"
+    ],
+    "subgroup_priority": 41,
+    "unit_button": "Conclave_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ConclaveV2.UI_Portrait_Demon_Default_ConclaveV2'",
+    "unreal_actor": "BP_SD_ConclaveV2_00",
+    "vision_radius": 11.0,
+    "vital_health": {
+      "maximum": 4000.0,
+      "regen": 0.0,
+      "starting": 4000.0
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectSet",
+    "effects": [
+      "duckiesGlobalEXPReward_SearchRadius",
+      "ResourcePickupRefund"
+    ],
+    "id": "duckiesGlobalEXPReward_RevengeSet"
+  },
+  "meta": {}
+}

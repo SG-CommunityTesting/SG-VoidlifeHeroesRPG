@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchRadius",
+    "game_effect": "duckiesHostileGoldRelicAvatarImbue_StartSet",
+    "id": "duckiesHostileGoldRelicAvatarImbue_WpnSearchAlly",
+    "impact_fx": "BP_FXS_Stormgate_CloseBurst",
+    "max_targets": 1,
+    "radius": 7.0,
+    "search_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "dead",
+          "entity_unit_structure",
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "target_sorts": [
+      "TS_Random"
+    ]
+  },
+  "meta": {}
+}

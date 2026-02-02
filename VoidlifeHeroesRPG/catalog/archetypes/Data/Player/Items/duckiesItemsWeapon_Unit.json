@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsWeapon_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Infernals_Melee_0.UI_Icons_Weapons_Infernals_Melee_0'",
+    "id": "duckiesItemsWeapon_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 20,
+    "name": "Weapon Grade",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "Increases damage by <d ref=\"duckiesItemsWeapon_Buff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</>.\n\n<UnitName>On 20 stacks is converted into Weapon Grade Amplifier.</>",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

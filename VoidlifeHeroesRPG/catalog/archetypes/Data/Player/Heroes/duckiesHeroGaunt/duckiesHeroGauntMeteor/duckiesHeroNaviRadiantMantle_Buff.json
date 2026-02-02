@@ -1,0 +1,32 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_FX_PreservationProtocol",
+    "duration": 10.0,
+    "flags": {
+      "hidden": false,
+      "hide_timer": false,
+      "override_source": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PulseShield.UI_Icons_Abilities_PulseShield'",
+    "id": "duckiesHeroNaviRadiantMantle_Buff",
+    "name": "Radiant Mantle",
+    "responses": [
+      "duckiesHeroNaviRadiantMantle_DRResponse"
+    ],
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 0,
+      "initial": 1,
+      "maximum": 1
+    },
+    "tooltip": "Damage done to this unit is reduced by <d ref=\"(1-RadiantMantle_ResponseDamageShield.modify_fraction)*100\"/>%."
+  },
+  "meta": {}
+}

@@ -1,0 +1,7 @@
+﻿{
+  "based_on": "BaseGameEffectSet",
+  "effects": [
+    "duckiesHeroBase_EvolveResetExp"
+  ],
+  "id": "duckiesHeroBase_EvolveFinishSet"
+}

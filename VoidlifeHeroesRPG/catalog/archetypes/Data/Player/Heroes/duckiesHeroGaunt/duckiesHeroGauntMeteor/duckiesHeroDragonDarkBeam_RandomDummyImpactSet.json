@@ -1,0 +1,6 @@
+﻿{
+  "based_on": "BaseGameEffectSet",
+  "effects": [],
+  "id": "duckiesHeroDragonDarkBeam_RandomDummyImpactSet",
+  "impact_fx": "BP_FX_ShroudstoneAttack_Impact"
+}

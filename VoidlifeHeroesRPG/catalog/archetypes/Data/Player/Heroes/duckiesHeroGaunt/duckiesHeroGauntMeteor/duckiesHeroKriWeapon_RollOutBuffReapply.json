@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroKri_RollOutPassiveBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroKriWeapon_RollOutBuffReapply"
+  },
+  "meta": {}
+}

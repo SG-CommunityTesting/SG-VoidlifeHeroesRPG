@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "amount": 500.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroMagmadonConsume_Damage",
+    "impact_fx": "BP_FXI_Carnivex_Impact",
+    "tag_bonuses": [
+      "Carnivex_Weapon_Damage_TagBonusHeavy"
+    ]
+  },
+  "meta": {}
+}

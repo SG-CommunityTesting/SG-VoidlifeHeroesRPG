@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TagBonus",
+    "bonus": 50.0,
+    "id": "duckiesHeroExoBeamWeapon_AOETagBonusStructure",
+    "tag": "entity_unit_structure"
+  },
+  "meta": {}
+}

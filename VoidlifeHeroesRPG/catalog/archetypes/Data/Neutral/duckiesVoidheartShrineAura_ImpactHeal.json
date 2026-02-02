@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "amount": 12.5,
+    "based_on": "GameEffectHeal",
+    "id": "duckiesVoidheartShrineAura_ImpactHeal"
+  },
+  "meta": {}
+}

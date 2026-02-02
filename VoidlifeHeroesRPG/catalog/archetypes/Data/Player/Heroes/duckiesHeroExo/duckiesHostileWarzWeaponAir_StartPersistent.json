@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_initial": "duckiesHostileWarzWeaponAir_LaunchMissile",
+    "flags": {
+      "channel_execute_event": false,
+      "channeling": false,
+      "mark_exclusive_target": false,
+      "use_attack_speed": false
+    },
+    "id": "duckiesHostileWarzWeaponAir_StartPersistent",
+    "periodic": {
+      "count": 2,
+      "durations": [
+        0.2
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHostileWarzWeaponAir_TargetSearch"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    }
+  },
+  "meta": {}
+}

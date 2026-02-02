@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSet",
+    "based_on": "GameEffectSet",
+    "effect_location": {
+      "effect_parent": "Caster",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "effects": [
+      "duckiesHeroNaviCannon_TargetMarkerApply",
+      "SovereignsDecree_BuffApplierCaster"
+    ],
+    "flags": {
+      "target_becomes_instigator": false
+    },
+    "id": "duckiesHeroNaviCannon_InitSet"
+  },
+  "meta": {}
+}

@@ -1,0 +1,63 @@
+﻿{
+  "data": {
+    "backswing": 2.167,
+    "based_on": "BaseWeapon",
+    "display_effect_area": "duckiesHostileGoldSiegeWalkerWeapon_DamageRadius",
+    "display_effect_damage": "duckiesHostileGoldSiegeWalkerWeapon_DamageRadius",
+    "flags": {
+      "always_visualize_range": true,
+      "can_attack_location": true,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": false,
+      "melee": false,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_SpewContamination.UI_Icons_Weapons_Stormgates_SpewContamination'",
+    "id": "duckiesHostileGoldSiegeWalkerWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_V5RocketLauncherReward_Weapon",
+    "period": 3.0,
+    "range_acquire": 16.0,
+    "range_maximum": 14.0,
+    "range_minimum": 0.0,
+    "swing": 0.833,
+    "swing_reacquire_range": 3.0,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_acquire_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_sleeping"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "weapon_fire": "duckiesHostileGoldSiegeWalkerWeapon_LaunchMissile",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroExoFatalDR_InvulnBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroExoFatalDR_ApplyInvuln"
+  },
+  "meta": {}
+}

@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "__base_type": "Buff",
+    "applied_tags": [
+      "status_stunned"
+    ],
+    "based_on": "Buff",
+    "buff_visuals": "BP_FX_StunDebuff",
+    "duration": 2.0,
+    "icon": "Texture2D'/Game/Pegasus/Art/ZZZ_OLD/FX_Prototype/Commander02/T_Proto_VFX_Commander02_ThunderClap_Stun.T_Proto_VFX_Commander02_ThunderClap_Stun'",
+    "id": "duckiesHostileHarbingerLand_ImpactStun",
+    "name": "pegasus_core|Buff_name_HarbingerStunUpgrade_BuffStun",
+    "tooltip": "pegasus_core|Buff_tooltip_HarbingerStunUpgrade_BuffStun"
+  },
+  "meta": {}
+}

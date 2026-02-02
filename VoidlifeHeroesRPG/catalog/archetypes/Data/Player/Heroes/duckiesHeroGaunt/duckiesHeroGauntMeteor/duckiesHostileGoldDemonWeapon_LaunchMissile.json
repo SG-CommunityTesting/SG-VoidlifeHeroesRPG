@@ -1,0 +1,19 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileGoldDemonWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileGoldDemonWeapon_Damage",
+    "launch_fx": "BP_FXS_ShadowDemon_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 24.0
+    },
+    "projectile": "ShadowDemonCreep_WeaponAir_Missile"
+  },
+  "meta": {}
+}

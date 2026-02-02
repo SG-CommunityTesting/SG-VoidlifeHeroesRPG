@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroKriWeapon_RollOutCDBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHeroKriWeapon_RollOutCDApply"
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_AffinityLink.UI_Icons_Abilities_AffinityLink'",
+    "id": "duckiesHeroSelectorUse_Btn",
+    "name": "Hero Selector",
+    "tooltip": "Select your hero with this ability."
+  },
+  "meta": {}
+}

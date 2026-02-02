@@ -1,0 +1,60 @@
+﻿{
+  "data": {
+    "backswing": 0.0,
+    "based_on": "BaseWeapon",
+    "can_use": "Valid_duckiesHostileMagmadonTrample_CasterHasBuff",
+    "flags": {
+      "always_visualize_range": false,
+      "can_attack_location": false,
+      "channeled": true,
+      "fires_passively": false,
+      "hide_weapon": true,
+      "melee": true,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_SurgeSmack.UI_Icons_Weapons_SurgeSmack'",
+    "id": "duckiesHostileMagmadonTrample_Wpn",
+    "name": "pegasus_core|WeaponData_name_Magmadon_Weapon",
+    "period": 0.5,
+    "range_maximum": 0.5,
+    "swing": 0.0,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_GenericNoAttackAnimation.AC_Weapon_GenericNoAttackAnimation_C'",
+    "weapon_acquire_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_sleeping"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "weapon_fire": "duckiesHostileMagmadonTrample_WpnMarkerApply",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

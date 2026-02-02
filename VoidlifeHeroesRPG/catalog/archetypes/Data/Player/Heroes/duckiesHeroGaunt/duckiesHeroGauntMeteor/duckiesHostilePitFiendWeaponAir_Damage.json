@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "amount": 60.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHostilePitFiendWeaponAir_Damage",
+    "impact_fx": "BP_FXI_PitFiend_Impact",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 0,
+      "launch_power": 0.4
+    },
+    "tag_bonuses": [
+      "duckiesHostilePitFiendWeaponAir_TagBonusHeavy"
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "anim_montage_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AnimMontageComponents/AMC_LaunchGroundUnitWithExitAnim.AMC_LaunchGroundUnitWithExitAnim_C'",
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "flags": {
+      "channeling": false,
+      "ignore_destructible_tree": false,
+      "landing_spot_find": false,
+      "landing_spot_reserve": false,
+      "mark_exclusive_target": false,
+      "stop_at_unpathable": false
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_LaunchMissile",
+    "impact_effect": "duckiesHeroCarnivexWeaponPounce_DummyBuffApply",
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 12.0,
+      "socket": "Auto"
+    }
+  },
+  "meta": {}
+}

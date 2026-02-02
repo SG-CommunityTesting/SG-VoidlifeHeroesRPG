@@ -1,0 +1,29 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchRadius",
+    "game_effect": "SummonGhostAndShadow_Unsummon_Kill",
+    "id": "duckiesHeroDragonSummon_UnsummonSearch",
+    "radius": 1200.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [],
+        "required": [
+          "attribute_summoned"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Source"
+    }
+  },
+  "meta": {}
+}

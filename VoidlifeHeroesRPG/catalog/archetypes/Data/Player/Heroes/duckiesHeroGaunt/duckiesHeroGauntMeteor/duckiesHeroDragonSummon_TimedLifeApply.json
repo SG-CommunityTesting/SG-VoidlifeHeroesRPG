@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesHeroDragonSummon_TimedLife",
+  "id": "duckiesHeroDragonSummon_TimedLifeApply"
+}

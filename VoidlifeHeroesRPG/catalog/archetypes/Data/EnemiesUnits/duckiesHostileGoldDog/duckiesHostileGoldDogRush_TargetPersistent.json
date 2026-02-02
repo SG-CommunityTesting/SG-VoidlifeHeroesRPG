@@ -1,0 +1,93 @@
+﻿{
+  "__base_type": "GameEffectPersistent",
+  "based_on": "GameEffectPersistent",
+  "display_effect": "emptyRef",
+  "effect_expire": "duckiesHostileGoldDogRush_CasterLauncher",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Caster"
+  },
+  "flags": {
+    "channel_execute_event": false,
+    "channeling": true,
+    "mark_exclusive_target": false,
+    "use_attack_speed": false
+  },
+  "id": "duckiesHostileGoldDogRush_TargetPersistent",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 500.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [
+      {
+        "angle": 0.0,
+        "radius": 1.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 2.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 3.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 4.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 5.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 6.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 7.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 8.0
+      }
+    ],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 0,
+      "radius": 0
+    },
+    "vector_facing_end": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Caster"
+    }
+  },
+  "periodic": {
+    "count": 8,
+    "durations": [
+      0.125
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [],
+    "effects_method": "RepeatLast",
+    "validator": "NoValidator"
+  },
+  "unreal_actor": "BP_EBFX_ShadowMastiff_ShadowRush_Warning",
+  "validator": "Valid_CasterAndTargetLocationOnSameCliffLevel"
+}

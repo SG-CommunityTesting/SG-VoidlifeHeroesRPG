@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "UpgradeData",
+    "create_alert_on_complete": false,
+    "id": "duckiesGameScalingSelector_T0Upgrade",
+    "research_time": 0.0
+  },
+  "meta": {}
+}

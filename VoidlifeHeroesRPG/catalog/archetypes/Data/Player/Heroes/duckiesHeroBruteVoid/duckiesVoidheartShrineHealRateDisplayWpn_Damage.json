@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "amount": 50.0,
+    "based_on": "GameEffectDamage",
+    "id": "duckiesVoidheartShrineHealRateDisplayWpn_Damage"
+  },
+  "meta": {}
+}

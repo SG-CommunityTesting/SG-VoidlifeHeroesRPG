@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TagBonus",
+    "bonus": 60.0,
+    "id": "duckiesHostilePitFiendWeaponAir_TagBonusHeavy",
+    "tag": "attribute_heavy"
+  },
+  "meta": {}
+}

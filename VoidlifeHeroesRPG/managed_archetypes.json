@@ -1,0 +1,146 @@
+﻿{
+  "map": {
+    "_AbyssalWeaver0": {
+      "based_on": "AbyssalWeaver",
+      "id": "_AbyssalWeaver0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Commands_Vanguard_MedTech_HealBeam.UI_Icons_Commands_Vanguard_MedTech_HealBeam'"
+    },
+    "_AbyssalWeaver1": {
+      "based_on": "AbyssalWeaver",
+      "id": "_AbyssalWeaver1",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ElderAbsorption.UI_Icons_Abilities_ElderAbsorption'"
+    },
+    "_AbyssalWeaver2": {
+      "based_on": "AbyssalWeaver",
+      "id": "_AbyssalWeaver2",
+      "unreal_actor": "Proxy_BP_VisionRewardUnit"
+    },
+    "_AbyssalWeaver3": {
+      "based_on": "AbyssalWeaver",
+      "id": "_AbyssalWeaver3",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_LostSouls.UI_Icons_Abilities_LostSouls'",
+      "unreal_actor": "BP_UA_SoulCannonUnit_00"
+    },
+    "_AbyssalWeaver4": {
+      "based_on": "AbyssalWeaver",
+      "id": "_AbyssalWeaver4",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_LostSouls.UI_Icons_Abilities_LostSouls'",
+      "unreal_actor": "BP_Critter_Van05_Tornado"
+    },
+    "_AbyssalWeaver5": {
+      "based_on": "AbyssalWeaver",
+      "id": "_AbyssalWeaver5",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/Proxy_UI_Icons_Commands_Knox_SoulFood.Proxy_UI_Icons_Commands_Knox_SoulFood'"
+    },
+    "_Carnivex0": {
+      "based_on": "Carnivex",
+      "id": "_Carnivex0",
+      "unreal_actor": "BP_Pet_Carnivex"
+    },
+    "_Carnivex1": {
+      "based_on": "Carnivex",
+      "id": "_Carnivex1",
+      "unreal_actor": "BP_UA_Carnivex_Guardian_00"
+    },
+    "_Scythe0": {
+      "based_on": "Scythe",
+      "id": "_Scythe0",
+      "unreal_actor": "BP_UA_Scythe_00"
+    },
+    "_StructureRelic0": {
+      "based_on": "StructureRelic",
+      "id": "_StructureRelic0",
+      "unreal_actor": "BP_UN_Totem5_C"
+    },
+    "_WorldPointRed0": {
+      "based_on": "WorldPointRed",
+      "id": "_WorldPointRed0",
+      "placed_name": "HeroSelectorSpawn"
+    },
+    "_WorldPointRed1": {
+      "based_on": "WorldPointRed",
+      "id": "_WorldPointRed1",
+      "placed_name": "DIFFSelectorSpawn"
+    },
+    "_duckiesGameScalingSelector_Unit0": {
+      "based_on": "duckiesGameScalingSelector_Unit",
+      "id": "_duckiesGameScalingSelector_Unit0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Gear/UI_Icons_Gear_MaximumControl.UI_Icons_Gear_MaximumControl'"
+    },
+    "_duckiesHeroDragonChimera_Unit0": {
+      "based_on": "duckiesHeroDragonChimera_Unit",
+      "id": "_duckiesHeroDragonChimera_Unit0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ChimeraDeath.UI_Icons_Abilities_ChimeraDeath'"
+    },
+    "_duckiesHeroExo_Unit0": {
+      "based_on": "duckiesHeroExo_Unit",
+      "id": "_duckiesHeroExo_Unit0"
+    },
+    "_duckiesHostileFiend_Unit0": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_FocusOfTheEmpyrean.UI_Icons_Weapons_FocusOfTheEmpyrean'"
+    },
+    "_duckiesHostileFiend_Unit1": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit1",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Resources/UI_Icons_Resources_PowerProduced.UI_Icons_Resources_PowerProduced'"
+    },
+    "_duckiesHostileFiend_Unit2": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit2"
+    },
+    "_duckiesHostileFiend_Unit3": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit3",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Faction/UI_Icons_Faction_Loading_Celestials.UI_Icons_Faction_Loading_Celestials'"
+    },
+    "_duckiesHostileFireGiant_Unit0": {
+      "based_on": "duckiesHostileFireGiant_Unit",
+      "id": "_duckiesHostileFireGiant_Unit0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Veterancy/UI_Icons_Veterancy_Human_Level_00.UI_Icons_Veterancy_Human_Level_00'"
+    },
+    "_duckiesHostileGaunt_Unit0": {
+      "based_on": "duckiesHostileGaunt_Unit",
+      "id": "_duckiesHostileGaunt_Unit0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_HeroicArmor.UI_Icons_Armor_Celestial_HeroicArmor'"
+    },
+    "_duckiesHostileGaunt_Unit1": {
+      "based_on": "duckiesHostileGaunt_Unit",
+      "id": "_duckiesHostileGaunt_Unit1",
+      "veterancy_given_on_death": 99999
+    },
+    "_duckiesHostileMagmadon_Unit0": {
+      "based_on": "duckiesHostileMagmadon_Unit",
+      "id": "_duckiesHostileMagmadon_Unit0",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_BR15Rifle.UI_Icons_Weapons_BR15Rifle'"
+    },
+    "_duckiesHostileMagmadon_Unit1": {
+      "based_on": "duckiesHostileMagmadon_Unit",
+      "id": "_duckiesHostileMagmadon_Unit1",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Critters/UI_Portrait_Critters_Default_Chicken.UI_Portrait_Critters_Default_Chicken'"
+    },
+    "_duckiesHostileObelisk_Unit0": {
+      "based_on": "duckiesHostileObelisk_Unit",
+      "id": "_duckiesHostileObelisk_Unit0",
+      "weaponList": [
+        "Desolator_Weapon"
+      ]
+    },
+    "_duckiesSpawnerLesserShrine_Unit0": {
+      "based_on": "duckiesSpawnerLesserShrine_Unit",
+      "id": "_duckiesSpawnerLesserShrine_Unit0",
+      "placed_name": "LEFT"
+    },
+    "_duckiesSpawnerLesserShrine_Unit1": {
+      "based_on": "duckiesSpawnerLesserShrine_Unit",
+      "id": "_duckiesSpawnerLesserShrine_Unit1",
+      "placed_name": "RIGHT"
+    },
+    "_duckiesSpawnerPyre0": {
+      "based_on": "duckiesSpawnerPyre",
+      "id": "_duckiesSpawnerPyre0",
+      "unreal_actor": "BP_SD_BarrowFarm_00"
+    }
+  }
+}

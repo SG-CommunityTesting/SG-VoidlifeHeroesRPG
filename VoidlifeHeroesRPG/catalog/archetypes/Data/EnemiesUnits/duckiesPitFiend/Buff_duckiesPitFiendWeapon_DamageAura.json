@@ -1,0 +1,83 @@
+﻿{
+  "__base_type": "Buff",
+  "alignment": "Neutral",
+  "applied_tags": [],
+  "applied_tags_persist": [],
+  "based_on": "Buff",
+  "buff_tags": [],
+  "buff_visuals": "BP_FX_WildFire30",
+  "display_area_effect": "emptyRef",
+  "duration": 10.0,
+  "effect_expire": "Suicide",
+  "effect_periodic": "duckiesPitFiendWeapon_DamageRadius",
+  "flags": {
+    "change_owner_on_polymorph": false,
+    "disable_on_attacking": false,
+    "disable_on_damage_taken": false,
+    "hidden": true,
+    "hide_timer": false,
+    "override_source": false,
+    "pause_while_disabled": false,
+    "persist_on_dead": false,
+    "remove_on_attacking": false,
+    "remove_on_damage_taken": false,
+    "show_progress": false
+  },
+  "height": {
+    "adjust_height": false,
+    "duration": 0.5,
+    "duration_reversed": 0.5,
+    "target_height": 0
+  },
+  "id": "duckiesPitFiendWeapon_DamageAura",
+  "modifiers": [],
+  "name": "pegasus_heroes|UnitData_name_Wildfire_Unit",
+  "periodic_duration": 0.25,
+  "polymorph_actors": [],
+  "power_consumed": 0.0,
+  "priority": 100,
+  "radar": {
+    "radius": 0.0,
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [],
+        "required": []
+      }
+    },
+    "validator": "emptyRef"
+  },
+  "removed_tags": [],
+  "removed_tags_persist": [],
+  "responses": [],
+  "stacks": {
+    "aggregation": "Target",
+    "buff_scope_effect_parent": "none",
+    "decay": 0,
+    "initial": 1,
+    "maximum": 1
+  },
+  "state_flags": {
+    "armor_base_suppressed": false,
+    "armor_negative_mod_suppressed": false,
+    "armor_positive_mod_suppressed": false,
+    "collision_suppressed": false,
+    "detector": false,
+    "grounded": false,
+    "lifted": false,
+    "stealth": false,
+    "stealth_suppressed": false,
+    "uncommandable": false,
+    "unpushable": false,
+    "unselectable": false,
+    "untargetable": false
+  },
+  "validator_disable": "emptyRef",
+  "validator_remove": "emptyRef"
+}

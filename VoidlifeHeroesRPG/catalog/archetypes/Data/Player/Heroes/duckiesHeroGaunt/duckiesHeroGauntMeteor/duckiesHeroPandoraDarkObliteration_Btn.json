@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Gear/UI_Icons_Gear_GrimReaping.UI_Icons_Gear_GrimReaping'",
+    "id": "duckiesHeroPandoraDarkObliteration_Btn",
+    "name": "Dark Oblation",
+    "tooltip": "Kill target enemy and gain <Bold>50%</> of their max life as energy.\n\nHero and Resilient enemies are instead struck for <d ref=\"duckiesHeroPandoraDarkObliteration_ResilientDamage.amount\" style=\"Bold\"/> damage and only give <d ref=\"duckiesHeroPandoraDarkObliteration_ResilientModifyEnergy.energy_mod_flat_amount\" style=\"Bold\"/> energy."
+  },
+  "meta": {}
+}

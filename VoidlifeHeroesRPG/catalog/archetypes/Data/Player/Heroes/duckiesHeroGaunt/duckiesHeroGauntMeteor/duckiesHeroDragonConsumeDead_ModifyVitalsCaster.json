@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectModifyVitals",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "energy_mod_flat_amount": 10.0,
+    "health_mod_expression": {},
+    "health_mod_flat_amount": 50.0,
+    "id": "duckiesHeroDragonConsumeDead_ModifyVitalsCaster"
+  },
+  "meta": {}
+}

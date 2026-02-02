@@ -1,0 +1,237 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "UnitGroup_ForEachUnitInGroup",
+      "guid": "3B70015D46691F8B7E5B80BEF4EEE585",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "8AAFE6A542AB62B54C0E5C8632EDA010",
+              "type": "Variable",
+              "variable": {
+                "guid": "6BF74B4E462BC9D84F9D55BF0155AA1E",
+                "variable_id": "GV_SpawnersObjectives"
+              }
+            }
+          ],
+          "guid": "CA734CF2461B04345DC9358F57DA6DAA",
+          "id": "units"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_Kill",
+              "guid": "2DD3C0424BE0438231BA71B85412C620",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_GetCurrentUnit",
+                        "guid": "0493F60D4536247120C92EBBF8B8D5A4"
+                      },
+                      "guid": "3BA95ACA4D23C7C433257085766547AE",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "BCB5E11B47EC20F50728EAB2AEEF40B9",
+                  "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "General_Wait",
+              "guid": "71A9C23F4EF4C485354A9D8D930D78E9",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "9C158CA446A6B945F2ABD092865B13BD",
+                      "type": "Value",
+                      "value": {
+                        "guid": "023764AE4DE827DA5D4B89BC4E26F231",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "0.25"
+                      }
+                    }
+                  ],
+                  "guid": "380767A8450C23DE236BDBA603179F16",
+                  "id": "duration"
+                }
+              ]
+            }
+          ],
+          "guid": "F83CC2CB41B64D1ADEEE9FAFB82C9DF4",
+          "id": "actions"
+        }
+      ]
+    },
+    {
+      "function_id": "UnitGroup_ForEachUnitInGroup",
+      "guid": "C73069FC410429F0FC99D78BCC870B14",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "410EAA93487D8BBCB800648CB02DE854",
+              "type": "Variable",
+              "variable": {
+                "guid": "C912DE064F952F29E7733F9E97A426BF",
+                "variable_id": "GV_SpawnersSecondary"
+              }
+            }
+          ],
+          "guid": "1C59765C452A97F869BC57ACE621A726",
+          "id": "units"
+        }
+      ],
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Unit_Kill",
+              "guid": "346FADD44B395920E5A378B7CA36F8E0",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "UnitGroup_GetCurrentUnit",
+                        "guid": "131D9E894AD887F0A45C12AAC8556543"
+                      },
+                      "guid": "1C360F0F47B448C58346D086DB6F9882",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "DC0F4FA241A651682EA59296EC8DD869",
+                  "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "General_Wait",
+              "guid": "9DC555914AC6E57615C25AB825D71FEC",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "82B71F9D4B8EA764E819CD8BBE2E6DDB",
+                      "type": "Value",
+                      "value": {
+                        "guid": "FF1E2F6C40708F6A36A1B7868C90EE96",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Time"
+                        },
+                        "value": "0.25"
+                      }
+                    }
+                  ],
+                  "guid": "EACA83454CBB25D9349E729C0A774DDD",
+                  "id": "duration"
+                }
+              ]
+            }
+          ],
+          "guid": "902CF8294515DE75F874E4A82CFC4065",
+          "id": "actions"
+        }
+      ]
+    },
+    {
+      "function_id": "General_Wait",
+      "guid": "660F16CE45AF9A5A33247A9060363D6C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "3C7693C54665CBD8F4A96DB82EFA1FAD",
+              "type": "Value",
+              "value": {
+                "guid": "6321E2644F07AE8C97D6FC9F6688A74D",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "5.0"
+              }
+            }
+          ],
+          "guid": "96C33573420010CEFE6F1BB9B52B40F1",
+          "id": "duration"
+        }
+      ]
+    },
+    {
+      "function_id": "Unit_Kill",
+      "guid": "5902C5C04FC227C94514E980AB8ED783",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "341A61364AA68F1FD1A27C98A1C53288",
+              "type": "Variable",
+              "variable": {
+                "guid": "C5DF07BB4C8DB7E35DAFE1A5A468A8F6",
+                "variable_id": "GV_MainEnemyStructure"
+              }
+            }
+          ],
+          "guid": "876184B24BDB80F6D1116C834AB1FF59",
+          "id": "unit"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "enabled": false,
+  "events": [
+    {
+      "function_id": "Timer_OnTimeElapsed",
+      "guid": "BAECE8D0471C90D01542939925689397",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "E78EC5464AAD7E01CB00139A37DB7FB4",
+              "type": "Value",
+              "value": {
+                "guid": "1964AD514E4D046BABD6B59C6A9980BA",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "5.0"
+              }
+            }
+          ],
+          "guid": "1AC9F4784DC53EB16DFDD2B410FCC642",
+          "id": "duration"
+        }
+      ]
+    }
+  ],
+  "id": "Debug_DestroySpawners"
+}

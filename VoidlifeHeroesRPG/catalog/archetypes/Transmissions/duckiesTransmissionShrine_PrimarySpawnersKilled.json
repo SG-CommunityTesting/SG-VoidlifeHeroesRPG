@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "duckiesCharacter_Shrine",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionShrine_PrimarySpawnersKilled",
+    "pause": 10.0,
+    "text_field": "The conduits that power Warz's assault are no more. Destroy his temple to banish the Infernal Host. Once it's gone, they won't be able to reenter this world again."
+  },
+  "meta": {}
+}

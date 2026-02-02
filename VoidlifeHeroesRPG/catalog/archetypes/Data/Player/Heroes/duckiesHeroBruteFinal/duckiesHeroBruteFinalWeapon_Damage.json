@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 440.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroBruteFinalWeapon_Damage",
+    "impact_fx": "BP_FX_Brute_Impact"
+  },
+  "meta": {}
+}

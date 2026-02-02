@@ -1,0 +1,73 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Source"
+    },
+    "flags": {
+      "channeling": false
+    },
+    "id": "duckiesHostileFireGiantWeapon_StartPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [
+        {
+          "angle": 0.0,
+          "radius": 1.0
+        },
+        {
+          "angle": 0.0,
+          "radius": 3.5
+        },
+        {
+          "angle": 0.0,
+          "radius": 6.0
+        },
+        {
+          "angle": 0.0,
+          "radius": 8.5
+        }
+      ],
+      "variance": {
+        "angle": 0,
+        "radius": 0
+      },
+      "vector_facing_end": {
+        "effect_parent": "origin",
+        "entity_or_point": "Point",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "origin",
+        "entity_or_point": "Point",
+        "target": "Source"
+      }
+    },
+    "periodic": {
+      "count": 4,
+      "durations": [
+        0.2
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHostileFireGiantWeapon_SearchQuad"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    }
+  },
+  "meta": {}
+}

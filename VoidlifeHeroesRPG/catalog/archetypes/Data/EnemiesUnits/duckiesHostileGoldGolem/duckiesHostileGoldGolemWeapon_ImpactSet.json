@@ -1,0 +1,9 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "effects": [
+    "duckiesHostileGoldGolemWeapon_Damage",
+    "duckiesHostileGoldGolemWeapon_StunApplier"
+  ],
+  "id": "duckiesHostileGoldGolemWeapon_ImpactSet"
+}

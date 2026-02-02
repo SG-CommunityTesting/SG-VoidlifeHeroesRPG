@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_InhalePoison.UI_Icons_Abilities_InhalePoison'",
+    "id": "duckiesHeroDragonConsumeDead_Btn",
+    "name": "Consume Dead",
+    "tooltip": "Consume corpses in target area and gain <d ref=\"duckiesHeroDragonConsumeDead_RegenStackBuff.modifiers[0].amount\" style=\"Bold\"/> life and energy regeneration for each corpse consumed. This bonus slowly decays over time."
+  },
+  "meta": {}
+}

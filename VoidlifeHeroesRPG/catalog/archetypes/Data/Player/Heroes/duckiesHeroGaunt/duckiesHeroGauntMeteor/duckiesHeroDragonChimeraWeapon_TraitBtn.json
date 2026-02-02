@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "Chimera_Weapon_ButtonTrait",
+    "id": "duckiesHeroDragonChimeraWeapon_TraitBtn",
+    "name": "Flame Spiral",
+    "tooltip": "Weapon attack launches <d ref=\"duckiesHeroDragonChimeraWeapon_StartPersistent.periodic.count\" style=\"Bold\"/> projectiles that strike random points in the attack area."
+  },
+  "meta": {}
+}

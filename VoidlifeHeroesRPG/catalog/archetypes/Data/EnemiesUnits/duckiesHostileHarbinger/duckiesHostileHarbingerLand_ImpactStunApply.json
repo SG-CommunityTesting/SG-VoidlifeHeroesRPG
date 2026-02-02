@@ -1,0 +1,12 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "BaseGameEffectApplyBuffStun",
+  "buff": "duckiesHostileHarbingerLand_ImpactStun",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHostileHarbingerLand_ImpactStunApply",
+  "stacks_expression": {},
+  "validator": "Valid_TargetNotMorphing"
+}

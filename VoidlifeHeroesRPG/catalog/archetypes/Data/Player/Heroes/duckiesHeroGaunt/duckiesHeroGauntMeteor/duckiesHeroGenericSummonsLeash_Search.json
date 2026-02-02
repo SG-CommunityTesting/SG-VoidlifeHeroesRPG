@@ -1,0 +1,23 @@
+﻿{
+  "based_on": "BaseGameEffectSearchRadius",
+  "game_effect": "duckiesHeroGenericSummonsLeash_TargetRandomCasterLocation",
+  "id": "duckiesHeroGenericSummonsLeash_Search",
+  "radius": 1000.0,
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": false,
+      "neutral": false,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "dead"
+      ],
+      "required": [
+        "attribute_hero"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "applied_tags": [],
+    "based_on": "Buff",
+    "flags": {
+      "change_owner_on_polymorph": false,
+      "disable_on_attacking": false,
+      "disable_on_damage_taken": false,
+      "hidden": true,
+      "hide_timer": false,
+      "override_source": false,
+      "pause_while_disabled": false,
+      "persist_on_dead": false,
+      "remove_on_attacking": false,
+      "remove_on_damage_taken": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_RendingFangs.UI_Icons_Weapons_Stormgates_RendingFangs'",
+    "id": "duckiesHeroCarnivexWeaponAOE_CounterBuff",
+    "modifiers": [],
+    "name": "Swipe Counter 1",
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 0,
+      "initial": 1,
+      "maximum": 100
+    },
+    "tooltip": "This unit is tracking weapon attacks to swipe on its third attack."
+  },
+  "meta": {}
+}

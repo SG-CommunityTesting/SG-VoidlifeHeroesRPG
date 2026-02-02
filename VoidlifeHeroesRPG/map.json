@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "dimensions": [
+    256,
+    256
+  ],
+  "game_mode": "Melee",
+  "gameplay_level_name": "BasicStartingLevel",
+  "id": "afc56357-482e-9b1d-c7b8-b1959e45c3aa",
+  "map_name": "Voidlife Heroes RPG",
+  "map_tags": [
+    "Custom"
+  ],
+  "version": "0.2.0",
+  "visibility": "Hidden"
+}

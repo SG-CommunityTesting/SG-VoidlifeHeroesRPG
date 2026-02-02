@@ -1,0 +1,66 @@
+﻿{
+  "data": {
+    "based_on": "BaseValidator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::Buff::has_buff",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_source",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": ""
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            },
+            {
+              "argument": {
+                "node": "Literal",
+                "type": "Buff",
+                "value": "Trample_BuffPrimary"
+              },
+              "name": "buff",
+              "type": "Buff"
+            },
+            {
+              "argument": {
+                "name": "ExpressionApi::Unit::any",
+                "node": "FunctionCall",
+                "parameters": [],
+                "type": "Unit"
+              },
+              "name": "source",
+              "type": "Unit"
+            }
+          ],
+          "type": "Bool"
+        },
+        "node": "Logical",
+        "operator": "&&",
+        "right": {
+          "node": "Literal",
+          "type": "Bool",
+          "value": true
+        },
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHostileMagmadonTrample_CasterHasBuff"
+  },
+  "meta": {}
+}

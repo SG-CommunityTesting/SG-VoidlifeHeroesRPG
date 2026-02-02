@@ -1,0 +1,22 @@
+﻿{
+  "based_on": "duckiesHostileFiend_Unit",
+  "flags": {
+    "alert_when_attacked": false,
+    "award_victory_points_to_other_team": false,
+    "detector": false,
+    "display_ui_description": false,
+    "has_prime_structure": false,
+    "hologram": false,
+    "overlap_resource_a": false,
+    "receives_veterancy_from_kills": false,
+    "requires_cascade_field": false,
+    "requires_cascade_field_to_morph": false,
+    "seek_and_destroy": true,
+    "stealth": false,
+    "uncommandable": true,
+    "unselectable": false,
+    "untargetable": false,
+    "victory_expansion": false
+  },
+  "id": "duckiesHostileFiend_UnitSuicider"
+}

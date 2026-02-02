@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_JaggedShards.UI_Icons_Weapons_Stormgates_JaggedShards'",
+  "id": "duckiesHostileGoldGolemWeapon_Button",
+  "name": "Crushing Impact",
+  "tooltip": "Attack stuns a non-resilient unit for <d ref=\"duckiesHostileGoldGolemWeapon_Stun.duration\"/> second."
+}

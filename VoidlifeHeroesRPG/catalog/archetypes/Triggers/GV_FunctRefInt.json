@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_FunctRefInt",
+    "initial_values": [
+      {
+        "guid": "92995E3141F87802C36E9894448BE13E",
+        "type": "Value",
+        "value": {
+          "guid": "C227A592460A2CE5E7E123A86FFCEA4E",
+          "type": {
+            "directive": "FunctionType",
+            "implements": "",
+            "inner_type": "",
+            "param_id": "",
+            "sub_directive": "None",
+            "type": "Integer"
+          },
+          "value": "0"
+        }
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Integer"
+    }
+  },
+  "meta": {}
+}

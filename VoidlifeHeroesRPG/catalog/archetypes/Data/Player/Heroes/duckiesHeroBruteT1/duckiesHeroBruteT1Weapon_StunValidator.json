@@ -1,0 +1,29 @@
+﻿{
+  "data": {
+    "based_on": "BaseValidator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::combine_validators_and",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "Array<Validator>",
+              "value": [
+                "Valid_TargetIsNotStructure",
+                "Valid_TargetNotResilient"
+              ]
+            },
+            "name": "validators",
+            "type": "Array<Validator>"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "duckiesHeroBruteT1Weapon_StunValidator"
+  },
+  "meta": {}
+}

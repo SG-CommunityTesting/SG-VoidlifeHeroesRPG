@@ -1,0 +1,45 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "AttackWaveLeaderBase",
+    "behaviors": [
+      "Behavior_SpawnImpEnflamed"
+    ],
+    "build_cost": {
+      "resource_a": 200.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "id": "duckiesHostileBurnedOneLeader_Unit",
+    "name": "pegasus_coop|UnitData_name_AttackWaveLeaderImps",
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "mapobjective_primary",
+      "attribute_resilient",
+      "attribute_biological",
+      "attribute_heavy"
+    ],
+    "unit_button": "BurnedOne_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BurnedOne.UI_Portrait_Demon_Default_BurnedOne'",
+    "unreal_actor": "BP_UD_IMOFleshling_AbyssalGargantuan_00",
+    "veterancy_given_on_death": 250,
+    "vital_health": {
+      "maximum": 600.0,
+      "regen": 0.0,
+      "starting": 600.0
+    },
+    "weaponList": [
+      "AttackWaveLeaderImps_Weapon"
+    ]
+  },
+  "meta": {}
+}

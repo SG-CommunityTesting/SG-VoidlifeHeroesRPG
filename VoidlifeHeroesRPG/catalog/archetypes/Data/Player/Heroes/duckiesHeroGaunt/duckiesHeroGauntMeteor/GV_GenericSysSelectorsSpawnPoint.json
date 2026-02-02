@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_GenericSysSelectorsSpawnPoint",
+  "initial_values": [
+    {
+      "guid": "663889D6437062B2907F23936F27DE71",
+      "type": "Value",
+      "value": {
+        "guid": "579A622D445B422C128E2A94C24AD779",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Vector"
+        },
+        "value": "X=100.000 Y=-100.000"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Vector"
+  }
+}

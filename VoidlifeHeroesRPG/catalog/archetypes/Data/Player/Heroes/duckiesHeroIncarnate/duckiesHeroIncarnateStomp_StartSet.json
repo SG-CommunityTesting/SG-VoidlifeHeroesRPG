@@ -1,0 +1,22 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSet",
+    "based_on": "GameEffectSet",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "effects": [
+      "duckiesHeroIncarnateStomp_StunRadius",
+      "duckiesHeroIncarnateStomp_SlowRadius",
+      "duckiesHeroIncarnateStomp_DamageRadius",
+      "duckiesHeroIncarnateStomp_TreeKillRadius"
+    ],
+    "flags": {
+      "target_becomes_instigator": false
+    },
+    "id": "duckiesHeroIncarnateStomp_StartSet"
+  },
+  "meta": {}
+}

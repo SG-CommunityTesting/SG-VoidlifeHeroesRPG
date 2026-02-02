@@ -1,0 +1,37 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "flags": {
+      "target_becomes_instigator": false,
+      "use_search_location_outer_radius": true
+    },
+    "game_effect": "duckiesGlobalEXPReward_WarzModifyVeterancy",
+    "id": "duckiesGlobalEXPReward_WarzSearchRadius",
+    "radius": 1000.0,
+    "search_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [],
+        "required": [
+          "attribute_hero"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Entity",
+      "target": "Caster"
+    },
+    "target_sorts": [],
+    "tracker": "",
+    "validator": "emptyRef"
+  },
+  "meta": {}
+}

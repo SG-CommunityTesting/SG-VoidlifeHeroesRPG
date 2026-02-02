@@ -1,0 +1,103 @@
+﻿{
+  "data": {
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": true,
+          "enemy": false,
+          "neutral": false,
+          "player": true,
+          "self": true
+        },
+        "tags": {
+          "excluded": [],
+          "required": []
+        }
+      },
+      "autocasts": true,
+      "exclusive_targeting": true,
+      "initially_on": false,
+      "range": 9.0,
+      "required_scan_level": "Defensive",
+      "target_sorts": [],
+      "validator": "Valid_duckiesHeroNaviRadiantMantle_AutocastCheck"
+    },
+    "based_on": "StagedAbilityData",
+    "cast_game_effect": "duckiesHeroNaviRadiantMantle_BuffApply",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 1.0,
+          "name": "RadiantMantle",
+          "scope": "Unit"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 75.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "flags": {
+      "best_unit": true,
+      "channeled": false,
+      "channeling_breaks_on_facing": true,
+      "channeling_breaks_on_range": true,
+      "channeling_breaks_on_vision": true,
+      "preempt": false,
+      "progress_countdown": false,
+      "reapproach": false,
+      "show_progress": false,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": false,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroNaviRadiantMantle_Abil",
+    "range_maximum": 9.0,
+    "range_to_visualize": "range_maximum",
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "dead",
+          "entity_unit_structure",
+          "capturable"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "targeting_type": "Unit",
+    "transient": false
+  },
+  "meta": {}
+}

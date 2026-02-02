@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Detonate.UI_Icons_Abilities_Detonate'",
+    "id": "duckiesHeroIncarnateSporeBlast_Btn",
+    "name": "Miasma Spores",
+    "tooltip": "Bombards target area at random with <d ref=\"duckiesHeroIncarnateSporeBlast_StartPersistent.periodic.count\" style=\"Bold\"/> spores. Spores inflict <d ref=\"duckiesHeroIncarnateSporeBlast_Damage.amount\" style=\"Bold\"/> area damage and poison enemies, reducing their attack and movement speed by <d ref=\"duckiesHeroIncarnateSporeBlast_Debuff.modifiers[0].amount * (-1)\"/>% for <d ref=\"duckiesHeroIncarnateSporeBlast_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

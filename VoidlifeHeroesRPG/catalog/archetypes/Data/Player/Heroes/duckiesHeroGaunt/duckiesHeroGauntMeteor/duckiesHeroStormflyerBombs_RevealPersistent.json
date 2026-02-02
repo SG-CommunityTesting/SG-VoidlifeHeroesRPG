@@ -1,0 +1,28 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_expire_delay": 6.0,
+    "id": "duckiesHeroStormflyerBombs_RevealPersistent",
+    "periodic": {
+      "count": 1,
+      "durations": [
+        8.0
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    },
+    "reveal": {
+      "detector": false,
+      "vision_height": 20.0,
+      "vision_holder": {
+        "effect_parent": "none",
+        "target": "Caster"
+      },
+      "vision_radius": 3.0
+    },
+    "unreal_actor": "BP_EBFX_Amara_FullSalvoLocationWarning"
+  },
+  "meta": {}
+}

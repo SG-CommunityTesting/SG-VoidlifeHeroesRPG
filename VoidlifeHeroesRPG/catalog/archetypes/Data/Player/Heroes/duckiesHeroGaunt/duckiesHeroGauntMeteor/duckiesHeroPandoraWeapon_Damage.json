@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 150.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroPandoraWeapon_Damage",
+    "impact_fx": "BP_FX_Dominari_Attack_Impact"
+  },
+  "meta": {}
+}

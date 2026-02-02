@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroExoBeamNanoswarm_BuffApply",
+      "duckiesHeroExoBeamNanoswarm_DebuffApply",
+      "Nanoswarm_BuffRemoverHealPrimary",
+      "Nanoswarm_BuffRemoverHurtPrimary"
+    ],
+    "id": "duckiesHeroExoBeamNanoswarm_StartSet",
+    "validator": "Valid_TargetIsNotInvulnerableEnemy"
+  },
+  "meta": {}
+}

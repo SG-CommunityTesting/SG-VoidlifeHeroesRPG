@@ -1,0 +1,159 @@
+﻿{
+  "based_on": "DefaultMapSettings",
+  "camera_bounds": {
+    "bottom_offset": 0.0,
+    "left_offset": 0.0,
+    "right_offset": 0.0,
+    "top_offset": 0.0
+  },
+  "description": "The Voidheart Shrine calls upon it's heroes to defeat the Infernal Hexlord Warz who seeks to destroy it.",
+  "id": "InstanceMapSettings",
+  "lighting_settings": "DefaultLightingTOD_Snow",
+  "map_music": "SoundData_Music_Multiplayer",
+  "playable_bounds": {
+    "bottom_offset": 4,
+    "left_offset": 4,
+    "right_offset": 4,
+    "top_offset": 4
+  },
+  "player_slots": [
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          },
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": false,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          },
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": false,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          },
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": false,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          },
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": false,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          },
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": false,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    }
+  ],
+  "tileset": "TerrainTileset_CustomRPG",
+  "time_of_day": {
+    "scale": 1.0
+  },
+  "title": "Voidlife Heroes RPG"
+}

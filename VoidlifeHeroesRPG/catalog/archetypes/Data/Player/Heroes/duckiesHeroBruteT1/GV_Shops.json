@@ -1,0 +1,68 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_Shops",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "UnitGroup_GetUnitsOfType",
+        "guid": "81C685794798866015FEAAB290F654EB",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "7DB58E8240950833F4C3F688D87E1AE7",
+                "type": "Value",
+                "value": {
+                  "guid": "18DDA86148F5700302AB40935D4833A9",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Player"
+                  },
+                  "value": "0"
+                }
+              }
+            ],
+            "guid": "B1DC1E2E4B2E7A6B725F08B0C3F00505",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "224ADADF401D7D210D00A9B07B7B298A",
+                "type": "Value",
+                "value": {
+                  "guid": "8AD9B2E347BD755E2663B68869664CB4",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UnitData"
+                  },
+                  "value": "duckiesShop_Unit"
+                }
+              }
+            ],
+            "guid": "872847A6459143BC044CA8ACF7052594",
+            "id": "unit_type"
+          }
+        ]
+      },
+      "guid": "CC57554A4A133600A9FFDFAEA9D54664",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "UnitGroup"
+  }
+}

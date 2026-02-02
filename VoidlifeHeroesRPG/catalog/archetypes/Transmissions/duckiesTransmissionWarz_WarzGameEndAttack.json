@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_WarzGameEndAttack",
+    "pause": 10.0,
+    "text_field": "The spatial barriers of this realm have ran out. I can now wield my sorcery once more.\n\nYour time, has ceased."
+  },
+  "meta": {}
+}

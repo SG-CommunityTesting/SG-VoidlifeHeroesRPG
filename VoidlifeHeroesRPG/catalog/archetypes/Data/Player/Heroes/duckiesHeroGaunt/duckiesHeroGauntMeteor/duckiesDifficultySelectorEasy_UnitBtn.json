@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Imp.UI_Icons_Units_Demon_Imp'",
+    "id": "duckiesDifficultySelectorEasy_UnitBtn",
+    "name": "EASY MODE",
+    "tooltip": "This mode doesn't have periodic mass attack waves, leaving plenty of time to explore and fight on your own pace. However you will be missing the income that the waves typically provide."
+  },
+  "meta": {}
+}

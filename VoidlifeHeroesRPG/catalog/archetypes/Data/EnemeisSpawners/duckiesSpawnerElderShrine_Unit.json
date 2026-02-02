@@ -1,0 +1,68 @@
+﻿{
+  "data": {
+    "alias_tech": [
+      "_LesserShrine",
+      "_GreaterShrine",
+      "_ElderShrine",
+      "_Stormgate"
+    ],
+    "armor": 15.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "attack_target_priority": 11,
+    "based_on": "BaseUnit_InfernalS",
+    "behaviors": [
+      "duckiesSpawnerElderShrine_SpawnerBehavior"
+    ],
+    "buffs": [
+      "duckiesSpawnerElderShrine_ShieldBuff"
+    ],
+    "build_time": 60.0,
+    "enabled_unit_tech": [
+      {
+        "unit": "FlayedDragon"
+      },
+      {
+        "unit": "Incarnate"
+      },
+      {
+        "unit": "Pandora"
+      }
+    ],
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 6.0,
+      "y": 6.0
+    },
+    "id": "duckiesSpawnerElderShrine_Unit",
+    "name": "Temple of Evil",
+    "outer_radius": 3.4,
+    "selection_alias": "Shrine",
+    "shroud_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "duckiesTagSpawner",
+      "heightplane_ground"
+    ],
+    "subgroup_priority": 62,
+    "supply_add": 10.0,
+    "supply_cost": 0.0,
+    "targeting_participation_alias": [
+      "_ShroudstoneManifestationTargeting"
+    ],
+    "unit_button": "ElderShrine_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ElderShrineV2.UI_Portrait_Demon_Default_ElderShrineV2'",
+    "unreal_actor": "BP_SD_ShrineV2_C_00",
+    "vision_radius": 20.0,
+    "vital_energy": {
+      "maximum": 100.0,
+      "regen": 1.0,
+      "starting": 25.0
+    },
+    "vital_health": {
+      "maximum": 10000.0,
+      "regen": 0.0,
+      "starting": 10000.0
+    }
+  },
+  "meta": {}
+}

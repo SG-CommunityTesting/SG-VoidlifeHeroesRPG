@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Structures/Demon/UI_Icons_Structures_Demon_Obelisk.UI_Icons_Structures_Demon_Obelisk'",
+    "id": "duckiesShopTowerRebuild_Btn",
+    "name": "Rebuild Shroudstones",
+    "tooltip": "Rebuilds a Shroudstone which will provide minor defense to the Voidheart Shrine. Maximum of 5 Shroudstones.\n\nPurchasing over the cap will instead restore 500 health to Voidheart Shrine."
+  },
+  "meta": {}
+}

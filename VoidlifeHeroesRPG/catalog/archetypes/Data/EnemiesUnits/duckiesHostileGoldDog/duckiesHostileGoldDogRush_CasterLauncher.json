@@ -1,0 +1,82 @@
+﻿{
+  "__base_type": "GameEffectLaunchProjectile",
+  "anim_montage_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AnimMontageComponents/AMC_LaunchGroundUnit.AMC_LaunchGroundUnit_C'",
+  "based_on": "GameEffectLaunchProjectile",
+  "cancel_fx": "",
+  "editor_icon": "",
+  "fallback_unit": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "flags": {
+    "channeling": false,
+    "ignore_destructible_tree": false,
+    "landing_spot_find": true,
+    "landing_spot_reserve": true,
+    "mark_exclusive_target": false,
+    "stop_at_unpathable": true
+  },
+  "id": "duckiesHostileGoldDogRush_CasterLauncher",
+  "impact_effect": "emptyRef",
+  "impact_fx": "",
+  "impact_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "launch_fx": "BP_FXS_ShadowRush_Launch",
+  "launch_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Caster"
+  },
+  "movement": {
+    "acceleration_time": 0,
+    "height_offset": 0,
+    "lob": false,
+    "lob_gravity": 30.0,
+    "lock_facing": true,
+    "lock_height_offset": false,
+    "max_speed": 20.0,
+    "socket": "Auto"
+  },
+  "periodic": {
+    "duration": 0.0,
+    "effect": "emptyRef"
+  },
+  "projectile": "emptyRef",
+  "range_max": 8.0,
+  "skillshots": [
+    {
+      "effects": [
+        "duckiesHostileGoldDogRush_Damage"
+      ],
+      "end_projectile": false,
+      "forward_offset": 0.2,
+      "max_targets": -1,
+      "target_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": true,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "status_invulnerable"
+          ],
+          "required": [
+            "heightplane_ground"
+          ]
+        }
+      },
+      "target_validator": "emptyRef",
+      "width": 1.0
+    }
+  ],
+  "tracker": "",
+  "validator": "emptyRef",
+  "validator_chase": "emptyRef",
+  "warning_fx": ""
+}

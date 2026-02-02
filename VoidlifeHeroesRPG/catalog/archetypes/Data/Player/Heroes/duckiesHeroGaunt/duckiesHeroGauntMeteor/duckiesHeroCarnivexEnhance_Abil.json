@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "augmented_ability": "attackData",
+    "based_on": "BaseAugmentAbilityData",
+    "cast_game_effect": "duckiesHeroCarnivexEnhance_BuffApply",
+    "command_visualizer": "None",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 20.0,
+          "name": "Howl",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 150.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "flags": {
+      "activation_requires_target": false,
+      "best_unit": false
+    },
+    "id": "duckiesHeroCarnivexEnhance_Abil",
+    "target_actor": "BP_InstantTargetActor",
+    "targeting_type": "Unit"
+  },
+  "meta": {}
+}

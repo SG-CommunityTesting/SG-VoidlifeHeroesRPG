@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_KineticLifeblades.UI_Icons_Abilities_KineticLifeblades'",
+    "id": "duckiesHeroKriWeapon_TraitBtn",
+    "name": "Kinetic Lifeblades",
+    "tooltip": "<d ref=\"duckiesHeroKriWeapon_Damage.vitals_leech.health.percent\"/>% of attack damage converted to life."
+  },
+  "meta": {}
+}

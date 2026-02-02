@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "FlayedDragon_Weapon_Missile_ImpactSet",
+    "effects": [
+      "FlayedDragonWarz_Weapon_Missile_SearchRadius",
+      "duckiesHostileDragonWeapon_Damage"
+    ],
+    "id": "duckiesHostileDragonWeapon_ImpactSet"
+  },
+  "meta": {}
+}

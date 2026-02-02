@@ -1,0 +1,83 @@
+﻿{
+  "data": {
+    "abilityList": [],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_VoidField.UI_Icons_Armor_Stormgates_VoidField'",
+    "armor_name": "pegasus_core|UnitData_armor_name_StormgateRelicArmor",
+    "based_on": "BaseUnit_VanguardU",
+    "effects": {
+      "birth": "StormgateWarpBuffApplier",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "emptyRef"
+    },
+    "expiration_time": 60.0,
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": true,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "id": "duckiesShrineUpgraderHealing_Unit",
+    "inner_radius": 0.6,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": true,
+      "moving_turn_period": 1.0,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 5.0,
+      "stationary_turn_period": 1.0,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Voidheart Upgrade (Kill to Activate)",
+    "num_corpses": 0,
+    "outer_radius": 1.0,
+    "show_name_on_hover": true,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_light"
+    ],
+    "unit_button": "duckiesShrineUpgraderHealing_Btn",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Totem3.UI_Portrait_Demon_Default_Totem3'",
+    "unreal_actor": "BP_UN_Totem3",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "vital_health": {
+      "maximum": 10.0,
+      "regen": 0.0,
+      "starting": 10.0
+    }
+  },
+  "meta": {}
+}

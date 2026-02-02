@@ -1,0 +1,62 @@
+﻿{
+  "data": {
+    "based_on": "BaseStagedAbility",
+    "cast_game_effect": "duckiesHeroExoBeamNanoswarm_StartSet",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 0.0,
+          "name": "Nanoswarm",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 75.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "finish_duration": 0.5,
+    "id": "duckiesHeroExoBeamNanoswarm_Abil",
+    "range_maximum": 8.0,
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": false,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [
+          "entity_destructible_tree",
+          "dead",
+          "attribute_object",
+          "capturable",
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "targeting_type": "Unit",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Hush.UI_Icons_Abilities_Hush'",
+    "id": "duckiesHeroNaviHush_Btn",
+    "name": "pegasus_heroes|Button_name_SilenceMind_Button",
+    "tooltip": "<Bold>Silences</> and <Bold>Pacifies</> enemies in target area for <d ref=\"duckiesHeroNaviHush_Debuff.duration\" style=\"Bold\"/> seconds, preventing them from attacking and using abilities."
+  },
+  "meta": {}
+}

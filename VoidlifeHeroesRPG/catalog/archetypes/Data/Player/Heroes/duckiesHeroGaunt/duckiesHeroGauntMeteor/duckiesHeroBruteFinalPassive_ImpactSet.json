@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroBruteFinalPassive_RegenBuffApply"
+    ],
+    "id": "duckiesHeroBruteFinalPassive_ImpactSet"
+  },
+  "meta": {}
+}

@@ -1,0 +1,44 @@
+﻿{
+  "data": {
+    "amount": 30.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 3.0
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "id": "duckiesHeroMagmadonTrample_PeriodicDamageRadius",
+    "location_impact_fx": "BP_FX_Magmadon_Trample_Impact",
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_unit_structure"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    },
+    "tag_bonuses": [
+      "Trample_DamageRadius_TagBonusLight"
+    ]
+  },
+  "meta": {}
+}

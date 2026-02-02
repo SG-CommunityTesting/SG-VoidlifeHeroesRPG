@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "amount": 50.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged",
+      "damage_splash"
+    ],
+    "id": "duckiesHeroExoBeamWeapon_SplashDamage",
+    "tag_bonuses": [
+      "duckiesHeroExoBeamWeapon_AOETagBonusStructure"
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_InfernalFury.UI_Icons_Abilities_InfernalFury'",
+    "id": "duckiesHeroBruteT1Weapon_TraitBtn",
+    "name": "pegasus_core|Button_name_ChargeSlam_ButtonTrait",
+    "tooltip": "Attack stuns enemies for <d ref=\"duckiesHeroBruteT1Weapon_StunBuff.duration\"/> second. Heroic and Resilient units are immune to this effect."
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Lash.UI_Icons_Abilities_Lash'",
+    "id": "duckiesHeroBruteFinalLash_Btn",
+    "name": "Lash",
+    "tooltip": "Deals <d ref=\"duckiesHeroBruteFinalLash_InitialDamage.amount\" style=\"Bold\"/> damge to target enemy and pulls them to the location of hero."
+  },
+  "meta": {}
+}

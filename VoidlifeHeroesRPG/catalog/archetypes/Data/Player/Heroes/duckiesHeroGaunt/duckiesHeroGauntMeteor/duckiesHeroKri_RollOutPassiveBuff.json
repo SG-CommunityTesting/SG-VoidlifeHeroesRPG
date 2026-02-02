@@ -1,0 +1,32 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "applied_tags": [
+      "status_weapons_alternate"
+    ],
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_Rollout",
+    "flags": {
+      "hidden": false,
+      "hide_timer": true,
+      "override_source": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_RollOut.UI_Icons_Abilities_RollOut'",
+    "id": "duckiesHeroKri_RollOutPassiveBuff",
+    "modifiers": [
+      {
+        "amount": 30.0,
+        "stat_mod": "SpeedPercentageBonus"
+      },
+      {
+        "amount": 1.0,
+        "stat_mod": "PushPriorityUnscaledBonus"
+      }
+    ],
+    "name": "pegasus_core|Buff_name_RollOut_BuffBonus",
+    "tooltip": "Unit has <d ref=\"duckiesHeroKri_RollOutPassiveBuff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</> bonus movement speed and will push through units. The first attack in Ball Form will deal damage to all surrounding ground enemies and remove this buff.",
+    "validator_disable": "Valid_duckiesHeroKri_RollOutValidateCombine"
+  },
+  "meta": {}
+}

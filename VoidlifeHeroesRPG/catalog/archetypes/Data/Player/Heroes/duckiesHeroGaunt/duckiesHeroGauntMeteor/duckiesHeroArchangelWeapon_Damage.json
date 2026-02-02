@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "amount": 224.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroArchangelWeapon_Damage",
+    "impact_fx": "BP_FXI_Archangel_Impact",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 0,
+      "launch_power": 0.5
+    }
+  },
+  "meta": {}
+}

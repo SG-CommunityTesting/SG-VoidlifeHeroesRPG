@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "amount": 30.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged",
+      "damage_splash"
+    ],
+    "id": "duckiesHeroVulcanWeapon_Damage",
+    "impact_fx": "BP_FXI_LightMech_Impact"
+  },
+  "meta": {}
+}

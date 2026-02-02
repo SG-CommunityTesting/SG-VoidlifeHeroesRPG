@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectApplyBuffStun",
+    "buff": "duckiesHeroBruteFinalWeapon_StunBuff",
+    "id": "duckiesHeroBruteFinalWeapon_StunApply",
+    "validator": "duckiesHeroBruteT1Weapon_StunValidator"
+  },
+  "meta": {}
+}

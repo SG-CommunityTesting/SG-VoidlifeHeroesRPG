@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileGoldHorrorWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileGoldHorrorWeapon_ImpactSet",
+    "launch_fx": "BP_FXS_Aberrant_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 20.0,
+      "socket": "Auto"
+    },
+    "projectile": "OozeReward_Weapon_Projectile"
+  },
+  "meta": {}
+}

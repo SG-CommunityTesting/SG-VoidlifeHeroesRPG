@@ -1,0 +1,39 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectLaunchProjectile",
+    "based_on": "GameEffectLaunchProjectile",
+    "flags": {
+      "channeling": true,
+      "ignore_destructible_tree": false,
+      "landing_spot_find": false,
+      "landing_spot_reserve": false,
+      "mark_exclusive_target": false,
+      "stop_at_unpathable": false
+    },
+    "id": "duckiesHeroNaviCannon_LaunchMissile",
+    "impact_effect": "duckiesHeroNaviCannon_Damage",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Caster"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 20.0,
+      "socket": "Auto"
+    },
+    "projectile": "SovereignsDecree_Projectile",
+    "range_max": 50.0
+  },
+  "meta": {}
+}

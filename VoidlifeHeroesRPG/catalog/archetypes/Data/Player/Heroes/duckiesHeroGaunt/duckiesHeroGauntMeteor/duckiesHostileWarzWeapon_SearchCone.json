@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "angle": 210.0,
+    "based_on": "GameEffectSearchCone",
+    "black_white_list": {
+      "exclude": [],
+      "include": [
+        {
+          "effect_parent": "origin",
+          "target": "Target"
+        }
+      ]
+    },
+    "game_effect": "duckiesHostileWarzWeapon_Damage",
+    "id": "duckiesHostileWarzWeapon_SearchCone",
+    "length": 3.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    }
+  },
+  "meta": {}
+}

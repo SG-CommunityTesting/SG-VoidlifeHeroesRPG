@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Abilities_NanoSwarm.UI_Icons_Abilities_NanoSwarm'",
+    "id": "duckiesHeroExoBeamNanoswarm_Btn",
+    "name": "pegasus_core|Button_Name_Nanoswarm_Button",
+    "tooltip": "A swarm of nanobots will augment a friendly unit increasing their armor by <d ref=\"duckiesHeroExoBeamNanoswarm_Buff.modifiers[0].amount\" style=\"Bold\"/>. Effect is reversed for hostile units.\n\nNanoswarm lasts for <d ref=\"duckiesHeroExoBeamNanoswarm_Buff.duration\"/> seconds."
+  },
+  "meta": {}
+}

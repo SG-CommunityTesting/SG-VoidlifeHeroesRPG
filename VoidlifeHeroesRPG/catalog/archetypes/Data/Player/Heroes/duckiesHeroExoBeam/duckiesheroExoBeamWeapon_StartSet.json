@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesheroExoBeamWeapon_Damage",
+      "duckiesheroExoBeamWeapon_SearchQuad"
+    ],
+    "id": "duckiesheroExoBeamWeapon_StartSet"
+  },
+  "meta": {}
+}

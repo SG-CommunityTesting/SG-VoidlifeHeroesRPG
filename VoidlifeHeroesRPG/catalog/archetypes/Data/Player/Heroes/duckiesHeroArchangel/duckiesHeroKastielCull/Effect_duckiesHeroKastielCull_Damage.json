@@ -1,0 +1,9 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 2500.0,
+  "based_on": "BaseGameEffectDamage",
+  "damage_tags": [
+    "damage_spell"
+  ],
+  "id": "duckiesHeroKastielCull_Damage"
+}

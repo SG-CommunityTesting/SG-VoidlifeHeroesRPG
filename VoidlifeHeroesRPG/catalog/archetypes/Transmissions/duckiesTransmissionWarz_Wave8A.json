@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_Wave8A",
+    "pause": 10.0,
+    "text_field": "Has the shrine's power truly diminished, or was it simply moved elsewhere.\n\nI should know, it is not in the nature of the void to fade away."
+  },
+  "meta": {}
+}

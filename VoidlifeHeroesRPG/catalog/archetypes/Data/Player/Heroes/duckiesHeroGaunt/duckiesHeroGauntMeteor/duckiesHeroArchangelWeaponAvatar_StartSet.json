@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroArchangelWeapon_DamageRadius",
+      "duckiesHeroArchangelWeaponAvatar_PersistentLaunchOffset"
+    ],
+    "id": "duckiesHeroArchangelWeaponAvatar_StartSet"
+  },
+  "meta": {}
+}

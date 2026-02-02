@@ -1,0 +1,17 @@
+﻿{
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroPandoraDarkObliteration_ResilientImpactSet",
+      "case_condition": "Valid_duckiesHeroPandoraDarkObliteration_TargetHeroOrResilient"
+    }
+  ],
+  "default_action": "duckiesHeroPandoraDarkObliteration_DefaultImpactSet",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Entity",
+    "target": "Target"
+  },
+  "id": "duckiesHeroPandoraDarkObliteration_ImpactSwitch",
+  "impact_fx": "BP_FXI_CullTheUnworthy_Impact"
+}

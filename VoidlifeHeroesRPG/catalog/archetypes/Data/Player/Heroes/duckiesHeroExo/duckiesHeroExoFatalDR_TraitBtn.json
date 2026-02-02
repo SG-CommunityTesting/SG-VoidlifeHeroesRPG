@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SurvivalProtocol.UI_Icons_Abilities_SurvivalProtocol'",
+    "id": "duckiesHeroExoFatalDR_TraitBtn",
+    "name": "pegasus_core|Button_name_SurvivalInstinct_ButtonTrait",
+    "tooltip": "Unit negates fatal damage and becomes invulnerable for <d ref=\"duckiesHeroExoFatalDR_InvulnBuff.duration\" style=\"Bold\"/> seconds. Effect has a cooldown of <d ref=\"duckiesHeroExoFatalDR_CDBuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

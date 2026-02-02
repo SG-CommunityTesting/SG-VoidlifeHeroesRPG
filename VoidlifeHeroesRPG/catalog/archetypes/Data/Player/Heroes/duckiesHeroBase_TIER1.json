@@ -1,0 +1,302 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "BaseInventory"
+    ],
+    "based_on": "UnitData",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "expiration_time": -1.0,
+    "id": "duckiesHeroBase_TIER1",
+    "starting_snowtags": [
+      "attribute_hero",
+      "entity_unit",
+      "heightplane_ground"
+    ],
+    "veterancy_data": "HeroVanguardVeterancyData",
+    "veterancy_tiers": [
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 20,
+        "tier_up_effect": "emptyRef",
+        "veterancy_given_on_death_tier_bonus": 0,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 60,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 0,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 140,
+        "tier_up_effect": "emptyRef",
+        "veterancy_given_on_death_tier_bonus": 500,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 300,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 1000,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 550,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 1500,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 850,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 2000,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 1200,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 2500,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 1600,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 3000,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 2050,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 3500,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      },
+      {
+        "stat_modifiers": [
+          {
+            "amount": 10.0,
+            "stat": "HealthMaxPercentageAdditiveMultiplier"
+          },
+          {
+            "amount": 10.0,
+            "stat": "DamagePercentageBonus"
+          },
+          {
+            "amount": 10.0,
+            "stat": "EnergyMaxPercentageAdditiveMultiplier"
+          }
+        ],
+        "threshold": 2550,
+        "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+        "veterancy_given_on_death_tier_bonus": 4000,
+        "visual_fx": "BP_FX_HeroLevelUp"
+      }
+    ],
+    "veterancy_vxp_weight": 1,
+    "vision_radius": 20.0,
+    "vital_energy": {
+      "maximum": 100.0,
+      "regen": 1.0,
+      "starting": 100.0
+    },
+    "vital_health": {
+      "maximum": 50.0,
+      "regen": 1.0,
+      "starting": 50.0
+    },
+    "vital_shield": {
+      "maximum": 0.0,
+      "regen": 0.0,
+      "starting": 0.0
+    }
+  },
+  "meta": {}
+}

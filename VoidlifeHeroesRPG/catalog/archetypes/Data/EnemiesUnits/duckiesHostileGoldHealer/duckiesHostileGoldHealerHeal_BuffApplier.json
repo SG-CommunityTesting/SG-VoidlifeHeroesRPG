@@ -1,0 +1,13 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesHostileGoldHealerHeal_Buff",
+  "effect_target": {
+    "effect_parent": "duckiesHostileGoldHealerHeal_StartPersistent",
+    "target": "Target"
+  },
+  "id": "duckiesHostileGoldHealerHeal_BuffApplier",
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "emptyRef"
+}

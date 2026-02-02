@@ -1,0 +1,180 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHeroArchangelMorphUp_Abil",
+      "BaseInventory",
+      "duckiesHeroArchangelCull_Abil",
+      "duckiesHeroNaviRadiantMantle_Abil"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_BioSynth_Heavy.UI_Icons_Armor_Celestial_BioSynth_Heavy'",
+    "based_on": "duckiesHeroBase_TIER4",
+    "buffs": [],
+    "build_time": 65.0,
+    "cargo_size": "Eight",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroArchangelMorphUp_Abil",
+        "button": "duckiesHeroArchangelMorphUp_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroArchangelCull_Abil",
+        "button": "duckiesHeroArchangelCull_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroNaviRadiantMantle_Abil",
+        "button": "duckiesHeroArchangelRadiantMantle_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      10
+    ],
+    "id": "duckiesHeroArchangel_Unit",
+    "inner_radius": 0.8,
+    "movement": {
+      "acceleration_time": 0.75,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.2,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0.0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.2,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 2,
+      "speed": 5.5,
+      "stationary_turn_period": 0.2,
+      "turn_radius": 0.1,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "JUDICATOR",
+    "outer_radius": 1.3,
+    "selection_alias": "Archangel",
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_heavy",
+      "attribute_melee",
+      "attribute_hero"
+    ],
+    "subgroup_priority": 124,
+    "traits": [
+      "duckiesHeroArchangelWeapon_Trait"
+    ],
+    "unit_button": "Archangel_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Archangel.UI_Portrait_Angel_Default_Archangel'",
+    "unit_name_list": "CelArchangel",
+    "unreal_actor": "BP_UA_Archangel_00",
+    "vision_radius": 14.0,
+    "vital_health": {
+      "maximum": 1600.0,
+      "regen": 4.0,
+      "starting": 1600.0
+    },
+    "weaponList": [
+      "duckiesHeroArchangelWeapon_Wpn",
+      "duckiesHeroArchangelWeaponAvatar_Wpn"
+    ]
+  },
+  "meta": {}
+}

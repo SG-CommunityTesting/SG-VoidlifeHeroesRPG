@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CinderStorm.UI_Icons_Abilities_CinderStorm'",
+  "id": "duckiesHostileHellScribeMeteors_Button",
+  "name": "Meteor Rain",
+  "tooltip": "Strikes an area with <d ref=\"duckiesHostileHellScribeMeteors_TargetRandomLocation.periodic.count\" style=\"Red\"/> meteors, each meteor dealing <d ref=\"duckiesHostileHellScribeMeteors_ImpactDmg.amount\" style=\"Red\"/> area damage."
+}

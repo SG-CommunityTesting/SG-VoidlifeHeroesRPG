@@ -1,0 +1,74 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectPersistent",
+    "based_on": "GameEffectPersistent",
+    "display_effect": "emptyRef",
+    "effect_expire": "duckiesHeroNaviCannon_LaunchMissile",
+    "effect_initial": "duckiesHeroNaviCannon_InitSet",
+    "effect_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "flags": {
+      "channel_execute_event": true,
+      "channeling": true,
+      "mark_exclusive_target": true,
+      "use_attack_speed": false
+    },
+    "id": "duckiesHeroNaviCannon_StartPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [],
+      "periodic_method": "Loop",
+      "variance": {
+        "angle": 0,
+        "radius": 0
+      },
+      "vector_facing_end": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      }
+    },
+    "periodic": {
+      "count": 20,
+      "durations": [
+        0.1
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "emptyRef"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "Valid_CasterNotStunned"
+    },
+    "reveal": {
+      "detector": false,
+      "vision_height": 20.0,
+      "vision_holder": {
+        "effect_parent": "none",
+        "target": "Target"
+      },
+      "vision_radius": 0
+    },
+    "unreal_actor": "BP_EBFX_Ryker_BoomHeadshot"
+  },
+  "meta": {}
+}

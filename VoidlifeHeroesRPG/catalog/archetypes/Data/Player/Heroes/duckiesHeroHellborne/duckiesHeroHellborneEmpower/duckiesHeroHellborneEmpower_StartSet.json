@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "ImbueAvatar_VisualBuffApplier",
+      "duckiesHeroHellborneEmpower_BuffApply"
+    ],
+    "id": "duckiesHeroHellborneEmpower_StartSet",
+    "validator": "Valid_duckiesHeroHellborneEmpower_TargetNotBuffed"
+  },
+  "meta": {}
+}

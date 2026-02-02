@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchRadius",
+    "game_effect": "duckiesVoidheartShrineAura_BuffApplier",
+    "id": "duckiesVoidheartShrineAura_SearchRadius",
+    "outer_radius": 6.0,
+    "radius": 8.0,
+    "search_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,19 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_BVA_Rejuventation",
+    "duration": 10.0,
+    "effect_periodic": "duckiesHeroKriHeal_TickHeal",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SkywardSalvation.UI_Icons_Abilities_SkywardSalvation'",
+    "id": "duckiesHeroKriHeal_Buff",
+    "name": "pegasus_core|Buff_name_Rejuvenation_Buff",
+    "periodic_duration": 0.25,
+    "responses": [],
+    "tooltip": "pegasus_core|Buff_tooltip_Rejuvenation_Buff"
+  },
+  "meta": {}
+}

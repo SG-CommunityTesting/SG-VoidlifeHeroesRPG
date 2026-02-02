@@ -1,0 +1,141 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData"
+    ],
+    "armor": 50.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_DarksoulArmor.UI_Icons_Armor_Stormgates_DarksoulArmor'",
+    "armor_name": "pegasus_core|UnitData_armor_name_ShadowDemonReward",
+    "based_on": "BaseUnit_InfernalU",
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.2,
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "id": "duckiesHostileGoldDemon_Unit",
+    "inner_radius": 1.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": false,
+        "ground_tall": true,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.5,
+      "pathing_mode": "Ground",
+      "push_priority": 3,
+      "push_priority_same_team": 3,
+      "speed": 4.0,
+      "stationary_turn_period": 0.7,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_ShadowDemonReward",
+    "outer_radius": 2.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_heavy",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_resilient"
+    ],
+    "unit_button": "StormgateAbilityCreateTier3ShadowDemon_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ShadowDemonReward.UI_Portrait_Demon_Default_ShadowDemonReward'",
+    "unreal_actor": "BP_UD_ShadowDemonReward_00",
+    "veterancy_given_on_death": 250,
+    "vision_height": 2.0,
+    "vision_radius": 12.0,
+    "vital_health": {
+      "maximum": 2250.0,
+      "regen": 0.0,
+      "starting": 2250.0
+    },
+    "vital_shroud_bonus_health_flat": 0.0,
+    "weaponList": [
+      "duckiesHostileGoldDemonWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

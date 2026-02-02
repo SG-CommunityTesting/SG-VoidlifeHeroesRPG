@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Absorption.UI_Icons_Abilities_Absorption'",
+    "id": "duckiesHeroBruteT1Frenzy_Btn",
+    "name": "Infernal Vigor",
+    "tooltip": "Become frenzied, increasing attack speed by <d ref=\"duckiesHeroBruteT1Frenzy_Buff.modifiers[1].amount\" style=\"Bold\"/><Bold>%</> and movement speed by <d ref=\"duckiesHeroBruteT1Frenzy_Buff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</> for <d ref=\"duckiesHeroBruteT1Frenzy_Buff.duration\"/> seconds."
+  },
+  "meta": {}
+}

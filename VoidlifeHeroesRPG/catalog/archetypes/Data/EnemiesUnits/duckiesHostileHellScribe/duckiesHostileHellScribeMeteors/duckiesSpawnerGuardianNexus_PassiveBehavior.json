@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "based_on": "BehaviorUnitSpawner",
+    "flags": {
+      "change_owner": true,
+      "kill_spawned_on_death": true,
+      "kill_spawned_on_max_amount": false
+    },
+    "id": "duckiesSpawnerGuardianNexus_PassiveBehavior",
+    "spawn_leash_radius": 8.0,
+    "spawn_max_count": 20,
+    "spawn_period": 4.0,
+    "spawn_unit": "duckiesHostileArgent_Unit",
+    "validator": "Valid_CasterNotDisabled"
+  },
+  "meta": {}
+}

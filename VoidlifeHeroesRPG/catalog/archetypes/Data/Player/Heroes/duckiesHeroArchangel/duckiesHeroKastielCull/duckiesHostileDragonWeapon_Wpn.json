@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "FlayedDragon_Weapon",
+    "display_effect_damage": "duckiesHostileDragonWeapon_Damage",
+    "id": "duckiesHostileDragonWeapon_Wpn",
+    "weapon_fire": "duckiesHostileDragonWeapon_LaunchMissile"
+  },
+  "meta": {}
+}

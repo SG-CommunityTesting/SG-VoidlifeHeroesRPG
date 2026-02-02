@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHostileGoldSiegeWalkerWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileGoldSiegeWalkerWeapon_DamageRadius",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "movement": {
+      "acceleration_time": 0.01,
+      "impact_offset": 0,
+      "lob": true,
+      "lob_gravity": 42.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 16.0,
+      "socket": "Auto"
+    },
+    "projectile": "V5RocketLauncherReward_Weapon_Missile",
+    "warning_fx": "BP_EBFX_V5RocketLauncher_MissileWarningLocation"
+  },
+  "meta": {}
+}

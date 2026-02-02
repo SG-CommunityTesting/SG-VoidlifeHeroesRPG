@@ -1,0 +1,35 @@
+﻿{
+  "based_on": "GameEffectPersistent",
+  "effect_initial": "duckiesHostileMagmadonLeaderTrample_WpnMoveCommand",
+  "id": "duckiesHostileMagmadonLeaderTrample_WpnMoveOffset",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 5.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 0,
+      "radius": 0
+    },
+    "vector_facing_end": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Caster"
+    }
+  }
+}

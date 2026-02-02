@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectModifyVitals",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "energy_mod_flat_amount": -20.0,
+    "id": "duckiesHostileGoldRelicAvatarImbue_ModifyEnergy"
+  },
+  "meta": {}
+}

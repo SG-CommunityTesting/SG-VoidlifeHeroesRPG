@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_AberrantReward_Squirm",
+    "duration": 20.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_AbsorptionGreater.UI_Icons_Abilities_AbsorptionGreater'",
+    "id": "duckiesHeroBruteFinalShout_Buff",
+    "modifiers": [
+      {
+        "amount": 75.0,
+        "stat_mod": "SpeedPercentageBonus"
+      },
+      {
+        "amount": 75.0,
+        "stat_mod": "AttackSpeedPercentageAdditiveMultiplier"
+      },
+      {
+        "amount": 10.0,
+        "stat_mod": "PushPriorityUnscaledBonus"
+      }
+    ],
+    "name": "Overpower",
+    "tooltip": "Attack and movement speed increased by <d ref=\"duckiesHeroBruteFinalShout_Buff.modifiers[0].amount\"/>%. Pushes enemies out of his way."
+  },
+  "meta": {}
+}

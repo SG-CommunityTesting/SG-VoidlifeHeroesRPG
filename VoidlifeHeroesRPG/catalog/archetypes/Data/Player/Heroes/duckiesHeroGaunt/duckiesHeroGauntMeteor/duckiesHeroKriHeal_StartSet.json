@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroKriHeal_BuffApply",
+      "duckiesHeroKriHeal_InstantHeal"
+    ],
+    "id": "duckiesHeroKriHeal_StartSet",
+    "impact_fx": "BP_FXS_Rejuventation_Cast",
+    "validator": "Valid_RejuvenationTarget"
+  },
+  "meta": {}
+}

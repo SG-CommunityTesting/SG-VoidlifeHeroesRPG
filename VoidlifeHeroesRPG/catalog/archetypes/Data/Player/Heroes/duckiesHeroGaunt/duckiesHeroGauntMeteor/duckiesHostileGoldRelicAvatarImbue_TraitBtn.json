@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "BaseButton",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ImbueAvatar.UI_Icons_Abilities_Stormgates_ImbueAvatar'",
+    "id": "duckiesHostileGoldRelicAvatarImbue_TraitBtn",
+    "name": "Empower",
+    "tooltip": "Empowers nearby allies.\n\nIncreases random ally's health, attack damage and energy regeneration by <d ref=\"duckiesHostileGoldRelicAvatarImbue_Buff.modifiers[0].amount\" style=\"Bold\"/><Bold>%</>."
+  },
+  "meta": {}
+}

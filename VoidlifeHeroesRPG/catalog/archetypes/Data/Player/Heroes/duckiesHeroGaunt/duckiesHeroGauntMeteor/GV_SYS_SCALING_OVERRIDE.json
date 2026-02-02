@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_SYS_SCALING_OVERRIDE",
+    "initial_values": [
+      {
+        "guid": "1F7FAF92483F6185657484AD42E8D2FC",
+        "type": "Value",
+        "value": {
+          "guid": "46A242044BF73ED6AFC5B1B0E8BB3A82",
+          "type": {
+            "directive": "FunctionType",
+            "implements": "",
+            "inner_type": "",
+            "param_id": "",
+            "sub_directive": "None",
+            "type": "Integer"
+          },
+          "value": "-1"
+        }
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Integer"
+    }
+  },
+  "meta": {}
+}

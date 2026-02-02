@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHostileArgentWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileArgentWeapon_Damage",
+    "launch_fx": "BP_FXS_Argent_Launch",
+    "movement": {
+      "acceleration_time": 0.0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 20.0,
+      "socket": "Auto"
+    },
+    "projectile": "Argent_Weapon_Missile"
+  },
+  "meta": {}
+}

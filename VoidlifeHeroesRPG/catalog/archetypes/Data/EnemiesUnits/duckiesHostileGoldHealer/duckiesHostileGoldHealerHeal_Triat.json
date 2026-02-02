@@ -1,0 +1,7 @@
+﻿{
+  "__base_type": "TraitData",
+  "based_on": "TraitData",
+  "button": "duckiesHostileGoldHealerHeal_Button",
+  "id": "duckiesHostileGoldHealerHeal_Trait",
+  "requirement": "emptyRef"
+}

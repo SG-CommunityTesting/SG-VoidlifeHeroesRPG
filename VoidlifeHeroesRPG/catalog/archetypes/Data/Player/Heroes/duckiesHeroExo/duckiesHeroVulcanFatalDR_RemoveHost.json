@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectRemoveBuff",
+    "buff": "duckiesHeroVulcanFatalDR_HostBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroVulcanFatalDR_RemoveHost"
+  },
+  "meta": {}
+}

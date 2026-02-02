@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TagBonus",
+    "bonus": 28.0,
+    "id": "duckiesHeroKriWeapon_TagBonusLight",
+    "tag": "attribute_light"
+  },
+  "meta": {}
+}

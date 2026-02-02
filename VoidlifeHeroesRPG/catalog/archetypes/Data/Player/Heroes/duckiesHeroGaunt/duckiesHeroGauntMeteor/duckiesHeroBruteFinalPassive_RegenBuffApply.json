@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectApplyBuff",
+    "buff": "duckiesHeroBruteFinalPassive_RegenBuffStack",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroBruteFinalPassive_RegenBuffApply"
+  },
+  "meta": {}
+}

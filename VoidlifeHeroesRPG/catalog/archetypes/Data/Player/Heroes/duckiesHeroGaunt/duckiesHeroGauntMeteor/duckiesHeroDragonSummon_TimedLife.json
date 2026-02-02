@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_BurningBlood",
+    "duration": 20.0,
+    "effect_expire": "Kill",
+    "flags": {
+      "hidden": false,
+      "show_progress": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ChimeraDeath.UI_Icons_Abilities_ChimeraDeath'",
+    "id": "duckiesHeroDragonSummon_TimedLife",
+    "name": "Timed Life",
+    "tooltip": "This units is temporary and will soon expire."
+  },
+  "meta": {}
+}

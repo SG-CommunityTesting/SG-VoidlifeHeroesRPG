@@ -1,0 +1,49 @@
+﻿{
+  "__base_type": "GameEffectDamageRadius",
+  "amount": 62.5,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 2.5
+    }
+  ],
+  "based_on": "GameEffectDamageRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "damage_tags": [
+    "damage_spell"
+  ],
+  "death_type": "Burning_DeathType",
+  "flags": {
+    "alert": true,
+    "damage_response": true,
+    "use_search_location_outer_radius": false
+  },
+  "friendly_fire_percentage": 0.0,
+  "id": "duckiesPitFiendWeapon_DamageRadius",
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": true,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "dead",
+        "status_invulnerable"
+      ],
+      "required": [
+        "heightplane_ground"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  }
+}

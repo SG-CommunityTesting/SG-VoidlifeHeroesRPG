@@ -1,0 +1,24 @@
+﻿{
+  "alignment": "Harmful",
+  "based_on": "Buff",
+  "duration": -1.0,
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Basic/UI_Icons_Basic_Close.UI_Icons_Basic_Close'",
+  "id": "duckiesShop_ClosedBuff",
+  "name": "Closed",
+  "state_flags": {
+    "armor_base_suppressed": false,
+    "armor_negative_mod_suppressed": false,
+    "armor_positive_mod_suppressed": false,
+    "collision_suppressed": false,
+    "detector": false,
+    "grounded": false,
+    "lifted": false,
+    "stealth": false,
+    "stealth_suppressed": false,
+    "uncommandable": true,
+    "unpushable": false,
+    "unselectable": false,
+    "untargetable": false
+  },
+  "tooltip": "Bring hero to Voidheart Shrine to be able to purchase items from here."
+}

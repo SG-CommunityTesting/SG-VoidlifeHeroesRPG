@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "__base_type": "StagedAbilityData",
+    "based_on": "StagedAbilityData",
+    "id": "duckiesGameOverridesSelector_AIActivatorAbil",
+    "range_to_visualize": "None",
+    "target_actor": "BP_InstantTargetActor",
+    "tooltip": ""
+  },
+  "meta": {}
+}

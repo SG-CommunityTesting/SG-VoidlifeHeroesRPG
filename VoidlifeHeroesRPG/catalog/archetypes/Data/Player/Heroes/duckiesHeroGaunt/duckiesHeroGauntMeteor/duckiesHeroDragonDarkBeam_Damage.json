@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 55.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroDragonDarkBeam_Damage",
+    "impact_fx": "BP_FX_ShroudstoneAttack_Impact"
+  },
+  "meta": {}
+}

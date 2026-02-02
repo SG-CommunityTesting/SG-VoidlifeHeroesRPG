@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroBruteFinalShout_Buff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroBruteFinalShout_BuffApply",
+    "impact_fx": "BP_FXS_AberrantHowl_Cast"
+  },
+  "meta": {}
+}

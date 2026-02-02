@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ShadowShift.UI_Icons_Abilities_Stormgates_ShadowShift'",
+  "id": "duckiesHostileGoldDogRush_Button",
+  "name": "Shadow Rush",
+  "tooltip": "Rushes towards a point, inflicting  <d ref=\"duckiesHostileGoldDogRush_Damage.amount\" style=\"Red\"/> damage on collision."
+}

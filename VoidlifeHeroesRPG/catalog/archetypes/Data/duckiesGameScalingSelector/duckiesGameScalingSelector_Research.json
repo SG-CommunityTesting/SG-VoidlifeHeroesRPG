@@ -1,0 +1,46 @@
+﻿{
+  "based_on": "BaseResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T0Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T1Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T2Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T3Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T4Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T5Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T6Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T7Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T8Upgrade"
+    },
+    {
+      "requirement": "emptyRef",
+      "upgrade": "duckiesGameScalingSelector_T9Upgrade"
+    }
+  ],
+  "id": "duckiesGameScalingSelector_Research"
+}

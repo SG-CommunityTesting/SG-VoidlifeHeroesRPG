@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "HOSTILE_PLAYER",
+  "initial_values": [
+    {
+      "guid": "4005E78542A1B3F719894D9591AA9F10",
+      "type": "Value",
+      "value": {
+        "guid": "21C35AD24D4A1A3978E37681928BA1E3",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        },
+        "value": "31"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Integer"
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ReapTheHarvest.UI_Icons_Abilities_ReapTheHarvest'",
+    "id": "duckiesHostileWarzScytheThrow_Btn",
+    "name": "pegasus_heroes|Button_name_ReapTheHarvest_Button",
+    "tooltip": "pegasus_heroes|Button_tooltip_ReapTheHarvest_Button"
+  },
+  "meta": {}
+}

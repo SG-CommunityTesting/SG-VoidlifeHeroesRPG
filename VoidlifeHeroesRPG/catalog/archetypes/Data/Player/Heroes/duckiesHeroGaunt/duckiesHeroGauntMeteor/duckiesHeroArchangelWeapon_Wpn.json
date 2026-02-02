@@ -1,0 +1,37 @@
+﻿{
+  "data": {
+    "backswing": 1.7,
+    "backswing_locked": 0.5,
+    "based_on": "BaseWeapon",
+    "can_use": "Valid_SelfHasNoneWeaponsThatAlternate",
+    "display_effect_damage": "duckiesHeroArchangelWeapon_DamageRadius",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Archangel_MazasMight.UI_Icons_Weapons_Celestials_Archangel_MazasMight'",
+    "id": "duckiesHeroArchangelWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Archangel_Weapon",
+    "period": 2.0,
+    "range_acquire": 7.0,
+    "range_maximum": 1.5,
+    "range_slop": 3.0,
+    "swing": 0.3,
+    "weapon_fire": "duckiesHeroArchangelWeapon_StartSwitch",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

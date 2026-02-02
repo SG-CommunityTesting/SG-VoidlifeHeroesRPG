@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectKill",
+    "death_type": "Burning_DeathType",
+    "id": "duckiesHeroPandoraSummon_RemovvalKill",
+    "validator": "Valid_duckiesHeroPandoraSummon_RemovvalCheck"
+  },
+  "meta": {}
+}

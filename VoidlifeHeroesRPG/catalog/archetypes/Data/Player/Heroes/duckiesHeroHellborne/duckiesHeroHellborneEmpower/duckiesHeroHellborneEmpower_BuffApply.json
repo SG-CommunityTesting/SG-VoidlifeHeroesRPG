@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroHellborneEmpower_Buff",
+    "id": "duckiesHeroHellborneEmpower_BuffApply"
+  },
+  "meta": {}
+}

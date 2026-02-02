@@ -1,0 +1,37 @@
+﻿{
+  "data": {
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesVoidheartShrineHealRateDisplayWpn_Damage",
+    "flags": {
+      "always_visualize_range": true,
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": false,
+      "melee": false,
+      "scan_for_new_targets": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/CampaignHeroProgression/UI_Icons_CampaignTalent_EfficientHealer.UI_Icons_CampaignTalent_EfficientHealer'",
+    "id": "duckiesVoidheartShrineHealRateDisplayWpn_Wpn",
+    "name": "Health Recovery Rate",
+    "period": 1.0,
+    "range_acquire": 0.0,
+    "range_maximum": 8.0,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_fire": "emptyRef",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": false,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

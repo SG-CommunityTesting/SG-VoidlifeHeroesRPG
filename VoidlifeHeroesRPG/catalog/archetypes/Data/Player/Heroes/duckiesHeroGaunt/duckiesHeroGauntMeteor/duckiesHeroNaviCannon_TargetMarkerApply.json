@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectApplyBuff",
+    "based_on": "GameEffectApplyBuff",
+    "buff": "SovereignsDecree_BuffTarget",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHeroNaviCannon_TargetMarkerApply",
+    "stacks": 0
+  },
+  "meta": {}
+}

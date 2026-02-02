@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 50.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroHellborneCorpseBlastHolder_WpnDamage",
+    "impact_fx": "BP_FXI_ShadowDemon_Impact"
+  },
+  "meta": {}
+}

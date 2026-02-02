@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "applied_tags": [
+      "status_stunned"
+    ],
+    "based_on": "BaseDebuff",
+    "buff_visuals": "BP_FX_StunDebuff",
+    "duration": 4.0,
+    "icon": "Texture2D'/Game/Pegasus/Art/ZZZ_OLD/FX_Prototype/Commander02/T_Proto_VFX_Commander02_ThunderClap_Stun.T_Proto_VFX_Commander02_ThunderClap_Stun'",
+    "id": "duckiesHeroIncarnateStomp_Stun",
+    "name": "pegasus_core|Buff_name_ChargeSlam_BuffStun",
+    "tooltip": "pegasus_core|Buff_tooltip_ChargeSlam_BuffStun",
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroCarnivexWeaponPounce_DummyBuff",
+    "effect_target": {
+      "effect_parent": "WeaponPounce_Augment",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_DummyBuffApply"
+  },
+  "meta": {}
+}

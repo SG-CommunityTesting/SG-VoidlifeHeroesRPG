@@ -1,0 +1,71 @@
+﻿{
+  "data": {
+    "augmented_ability": "attackData",
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": false,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "status_invulnerable",
+            "status_sleeping",
+            "dead",
+            "entity_destructible_tree",
+            "entity_unit_structure",
+            "mapobjective"
+          ],
+          "required": [
+            "heightplane_ground"
+          ]
+        }
+      },
+      "autocasts": true,
+      "exclusive_targeting": false,
+      "initially_on": true,
+      "range": 6.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [],
+      "validator": "emptyRef"
+    },
+    "based_on": "BaseAugmentAbilityData",
+    "cast_game_effect": "Trample_BuffApplierPrimary",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 8.0,
+          "name": "Trample",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "flags": {
+      "activation_requires_target": false,
+      "best_unit": false
+    },
+    "id": "duckiesHostileMagmadonTrample_Abil",
+    "target_actor": "BP_InstantTargetActor",
+    "targeting_type": "Unit"
+  },
+  "meta": {}
+}

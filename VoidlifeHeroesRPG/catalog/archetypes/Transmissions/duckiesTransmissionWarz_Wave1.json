@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_Wave1",
+    "pause": 10.0,
+    "text_field": "The Voidheart Shrine bars my powers for now. But can it resist the onslaught of my minions?\n\nLet's see how resilient are it's defenses."
+  },
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroDragonWeapon_DebuffDamage",
+      "duckiesHeroDragonWeapon_DebuffReveal"
+    ],
+    "id": "duckiesHeroDragonWeapon_DebuffPeriodicSet"
+  },
+  "meta": {}
+}

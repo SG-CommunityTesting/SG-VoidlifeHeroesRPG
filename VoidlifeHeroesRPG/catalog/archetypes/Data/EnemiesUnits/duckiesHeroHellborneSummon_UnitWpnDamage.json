@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 10.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroHellborneSummon_UnitWpnDamage",
+    "impact_fx": "BP_FX_Fiend_Impact"
+  },
+  "meta": {}
+}

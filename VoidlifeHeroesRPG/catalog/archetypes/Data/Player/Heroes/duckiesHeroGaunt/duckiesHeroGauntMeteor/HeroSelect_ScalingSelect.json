@@ -1,0 +1,1474 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "General_Switch",
+        "guid": "74F6348F49D6AB91AE495AABA6A64CE5",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Unit_GetTriggeringUpgrade",
+                  "guid": "9F77CFDE446138521E26E98E6E94A3EA"
+                },
+                "guid": "4510D52B411C7B53747F9297715D5B57",
+                "type": "Function"
+              }
+            ],
+            "guid": "C073992F41EA5047B2756B9E422C6AAD",
+            "id": "value"
+          }
+        ],
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "AD74F7464A75C49E936A6098B3716DE6",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "AB587A2C4B994E8B9E2CEEBDE88746E5",
+                        "type": "Value",
+                        "value": {
+                          "guid": "299409F74A3FD27A5264CE86CEB8BC68",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T0Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "2A3201DC433EBDD27C4E0887B49CA2D6",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "BA7B86DC445A05B9D7D2E3BA3D04F299",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "1ABC059E483DC85B795EC08C1A22306D",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "68009DA44C98B4F452D2A6AA34CA0971",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "A213184848B9C6C2116370A9C35EF2A1",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "7688C96B447D594CA9B15888A5F733E6",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "713D0528415FC45155DE3EA2A2A6B898",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "0"
+                                }
+                              }
+                            ],
+                            "guid": "4FCDA5144414597A7E19C5A1419BC5F7",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "793DA719480F391410D1B895F2295315",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "FA4520624D0D0B58C05D059CFBF09AF4",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "D1D1D16B46C0E155CCE1A08C8DADF787",
+                        "type": "Value",
+                        "value": {
+                          "guid": "742912674B78087693821CB3AF12183C",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T1Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "5EF5D7334912594FF70C6D895006C5C6",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "B8B85B6B4CDFB5E8AF53EFB958C9A02F",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "2E76A2994A554F82966AA58D84929E16",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "6C2E641D47E7491A4ACAE4BBB5CCC831",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "0EB7C7E34963D4910E3BC09F1821F5DF",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "020186F04575CC9635FD4D980D0EB767",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "B9E2CFF1426C032801615A9ACAF105CA",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "1"
+                                }
+                              }
+                            ],
+                            "guid": "A8340A8F4F1724068C6F12995CDAD191",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "AF3733DF4744AA4ACBCC94AA8498F5E5",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "5600DDCD4EB07220FD813781DB08CB73",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "B2AE6B934F1E18970089EC9A904B8B76",
+                        "type": "Value",
+                        "value": {
+                          "guid": "76C291064796FFA535EB15A9252D0E4B",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T2Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "0FC32BB34CC3126E2DFCCB9C44EB1D3C",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "23804D40418FE534980E539703119058",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "C6E63DF546899B34140E55AAF5DADE16",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "9F9505B64500F011FFAB609A43CD9A33",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "CEBCEE6744AD1F69766A3C8C472106DD",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "14F7B2A649DF1B98103F87866A260453",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "E52397314328D4F5655674AD2486011C",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "2"
+                                }
+                              }
+                            ],
+                            "guid": "E42382E94A42726521393F988C23091D",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "13DFE4C84B75B1F5406328B4AA09A020",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "6B5EC5B64EEC813349C3948BBC045A19",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "41B44983495320FD631A8A9C6B84D325",
+                        "type": "Value",
+                        "value": {
+                          "guid": "734AED0B46EF059F1609C7A5C3EE11F2",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T3Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "F1D91B58439E8CF55744FFADDE0D4562",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "61ED9D2548083925E603E88EF2851D05",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "F67C0316427312D0194B0187DD7BDA74",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "020F4BDE4F4973359DEB7FAF86D37D27",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "B5E9239843517D05DC34168A1E0F1B41",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "4FC6C1104A28BE625578E48A16E8BA5A",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "E9589BAD47E0E150D50C64AA0A2EC944",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "3"
+                                }
+                              }
+                            ],
+                            "guid": "653BF1F64146A03BDB24B7A3442D3830",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "34112CED42CC408B77042CB87ECC8FA0",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "13EDE4F747AC4B6A3E07FE8CDDB64046",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "C00F8A064ABC42135D60BF94EE9ED96B",
+                        "type": "Value",
+                        "value": {
+                          "guid": "3168CACA429DDD1C9A8D97A6D0FF1260",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T4Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "64ADAD1E4D128457A2C1BBA30F581325",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "D1CDBDDA4C066BA107F82E80FFE00796",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "4A5595104A3B9949EEF2B482354AEA81",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "0E7E2AAD446D6AAA86CB8FBAFA0E1141",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "44F40D76490DB1E628217F8CCBE3D34F",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "729F28C543D0F226FB9BF59FECFABDC2",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "DFADC7454C6A733D774C4C8F2BF03D0F",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "4"
+                                }
+                              }
+                            ],
+                            "guid": "4AB06A5B40102471F8AF4A9CAF656CD9",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "520636B04B61652B56788A9F322AD230",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "FBA64C8C4CB333B42641A3B1A5A47910",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "1CBE6E144355BAF24DC0B299984C5C31",
+                        "type": "Value",
+                        "value": {
+                          "guid": "CE94933E44061B99AACBCEAD4E2CA464",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T5Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "F29A788C493FB80DBB3D9E9090F97AF2",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "01D528E44595961CCF693ABC608DB617",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "F25A3FC048A358CDFDAC6CB33908DE7A",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "B5613E16431F0212DD48109A171456AA",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "DE568A0846222F7F6D083D994E88BF02",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "43EA8B1744C54BB8C63D3C90D4CFAB26",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "1A4AE6C34FE4FA15931E799C99A9ACBE",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "5"
+                                }
+                              }
+                            ],
+                            "guid": "02BC9D5F4C1E9A0A4EEF3A932E731206",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "60F9A0E8425DD138AE58168A10B413EB",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "AEAA2B0E4436C37BEA289AA04F571806",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "4D51B416405D058F8BF43B916425A1BC",
+                        "type": "Value",
+                        "value": {
+                          "guid": "040E60D74F31BEBE4F4887B9E043EC89",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T6Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "9065B3C14CF310FD0E95BC979A8E02F2",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "9173CDF8418863F489569E8EBFD8A1F2",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "76AE391441C3A9B7D910F88D6BF31473",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "B86B874141772EDFEB2F959B84C14D51",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "4F0444864B0AC22C443A3D854F5357D5",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "D3680D5E44BD3A9E54481996FFE05D57",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "48C8029646CFDE5D944FB9B0C59F2B13",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "6"
+                                }
+                              }
+                            ],
+                            "guid": "9641FE1A4E2632C688E38B81422C651C",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "B149D7F0404D2F6963F4DDACC81C0578",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "4E3D96EE4D41B3095AD5A6B65F41FA9E",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "5E7D3A7443013ED4DEF7DC88AD6A0C18",
+                        "type": "Value",
+                        "value": {
+                          "guid": "377580D7411348E81587169D500F042F",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T7Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "3B9A28944F2E0E1538F63692D4E43A3E",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "DD3EE5B949BBFD40E7E6E8ACBF0CDEC2",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "CFDC81A7448CFEEE0F885AA7A043FD40",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "7B7E545C43BBD5E14BDCFE93B171A2BC",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "604AB9224C15FF3B0424FB9D96238348",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "2C7206674D601DF00E92A2828FCF6AED",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "E2A0A0674026C311D6192BB4CFCD8EAB",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "7"
+                                }
+                              }
+                            ],
+                            "guid": "6A758FA54CD1FF55383C2897358514C7",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "9B206D0E449AADD99B9EEB974EC3F1F1",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "2C928FB54508B5598885C9BA21604B2E",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "2FEB7D9E4B23E634BBF3B5837B3FE2F8",
+                        "type": "Value",
+                        "value": {
+                          "guid": "4F42C2E248F6BDFA5B789BAB925992AC",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T8Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "F9059F3142EA9793B9E89981B49519AC",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "3137EBD14FA4530C0F2879927B49BF00",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "EE97EAE94998336D618423AF7B4EB335",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "7C2B4EB341B69886648C01BFA4C1B11A",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "1EE0EA0A4E5291057C5DD48CD6A9E2B0",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "99EF3B4E493861D159DEE5AA9CAC5AC2",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "59D7E31F44861ED251265787B0FFA5FA",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "8"
+                                }
+                              }
+                            ],
+                            "guid": "2347E17340C2018AAE559BA14ACF04CA",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "1FA155BD4CFF598419F2BFB07BE38F6F",
+                    "id": "actions"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_SwitchCase",
+                "guid": "461845F840372E36D1971C91386FF9EE",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "CE9B786B48AE3D204A6E489B16B2D436",
+                        "type": "Value",
+                        "value": {
+                          "guid": "5384C8644D56DD5C9F4E438A83917FA1",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "UpgradeData"
+                          },
+                          "value": "duckiesGameScalingSelector_T9Upgrade"
+                        }
+                      }
+                    ],
+                    "guid": "461FE7004244B5FA51DD379BC5C7D3D2",
+                    "id": "value"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_SetVariable",
+                        "guid": "63A2DD5C486FC4D871DCE9A6B9FDF49F",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "A99EB3854E09B73E6A0EC9B7EF63C204",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "1DEA7C234915867C8115158461A4EF2A",
+                                  "variable_id": "LV_Tier"
+                                }
+                              }
+                            ],
+                            "guid": "1BC79FF64192F48ACA1535AA80F9287B",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "355CE5F544FA9A4974C4E7A0FD396170",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "B718C98D47E80CD8CBA3069390427AD7",
+                                  "type": {
+                                    "directive": "FunctionType",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "Integer"
+                                  },
+                                  "value": "9"
+                                }
+                              }
+                            ],
+                            "guid": "1DC2E8EB4A424521F0E2868EC05C0BD2",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "76F3E30D46AF63068D35819985D9F9D6",
+                    "id": "actions"
+                  }
+                ]
+              }
+            ],
+            "guid": "AB1824B2473BDAFB507F19968E1A736E",
+            "id": "cases"
+          },
+          {
+            "guid": "BC86F7BF4A5F8100B3C4A6885772CB1A",
+            "id": "default"
+          }
+        ]
+      },
+      {
+        "function_id": "UI_SendChatMessage",
+        "guid": "7F3D41DF47FBAE280CDF4B98BDAFF0F6",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_ToText",
+                  "guid": "082BB73C4FF4FBAB3C18F1ADA1A22791",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "String_Concat",
+                            "guid": "59D593DD40DB86A211AD749C208629C0",
+                            "parameters": [
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "34840F7249198F5D673FF18BB6CA220F",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "2F47E5C04EB8B2E106B10F854E9C839D",
+                                      "type": {
+                                        "directive": "FunctionType",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "tags": [
+                                          "to_string"
+                                        ],
+                                        "type": "String"
+                                      },
+                                      "value": "Game parameter override! Scaling  "
+                                    }
+                                  },
+                                  {
+                                    "function": {
+                                      "function_id": "String_ToString",
+                                      "guid": "67D6ABC14E65D48239DC88805E4E4954",
+                                      "parameters": [
+                                        {
+                                          "expressions": [
+                                            {
+                                              "guid": "BF4DC285479B6900DE2FEB854094DC8C",
+                                              "type": "Variable",
+                                              "variable": {
+                                                "guid": "861A34DC41A7A63BBACBA09CF04B5F82",
+                                                "variable_id": "LV_Tier"
+                                              }
+                                            }
+                                          ],
+                                          "guid": "80D3D6A9433D6E8E4AE920B3FF28DB86",
+                                          "id": "value"
+                                        }
+                                      ]
+                                    },
+                                    "guid": "C50A0A324F81E5A7E9A9E796C015218A",
+                                    "type": "Function"
+                                  },
+                                  {
+                                    "guid": "73405D8645B20A8C8117D5A9D60E9606",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "5D17830446A2EC760B71A6984B310F2E",
+                                      "type": {
+                                        "directive": "FunctionType",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "tags": [
+                                          "to_string"
+                                        ],
+                                        "type": "String"
+                                      },
+                                      "value": " selected!"
+                                    }
+                                  }
+                                ],
+                                "guid": "8423635D472DDF7558C3A9BBB9F99CAD",
+                                "id": "strings"
+                              }
+                            ]
+                          },
+                          "guid": "D2DAA77A44ED65805BDD54BA6B20C88F",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "745A0C9746382A9FC141929A0B1000FD",
+                      "id": "value"
+                    }
+                  ]
+                },
+                "guid": "86C28E134CDD634B0DFAFA847E1943FE",
+                "type": "Function"
+              }
+            ],
+            "guid": "133079214E982E917F6D0AA0C092F436",
+            "id": "message"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_GetAllPlayers",
+                  "guid": "6D8CD6514A41EC9C6A9A64B7D60274D0"
+                },
+                "guid": "2580B310421EB19F5753049B9C3DB32F",
+                "type": "Function"
+              }
+            ],
+            "guid": "2CF6937445C9C807F5EBC5A219CA7F29",
+            "id": "group"
+          }
+        ]
+      },
+      {
+        "function_id": "Variable_SetVariable",
+        "guid": "D9D3A82A45840A5D45C7C1BC3B696DC3",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "452C17874E986A2F573B9FBAEF271CA6",
+                "type": "Variable",
+                "variable": {
+                  "guid": "EA037CD64E9B872D62A9C183978DE6DE",
+                  "variable_id": "GV_SYS_SCALING"
+                }
+              }
+            ],
+            "guid": "B56FF8FF40943BF5C7BE1F88D387C9F2",
+            "id": "variable"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "213B6F734FE261A3BA12F3ADABA7361C",
+                "type": "Variable",
+                "variable": {
+                  "guid": "78010434450B655F10967C9BF168BE08",
+                  "variable_id": "LV_Tier"
+                }
+              }
+            ],
+            "guid": "A4B6737D4937FAD7CD520AA05FFCA897",
+            "id": "value"
+          }
+        ]
+      },
+      {
+        "function_id": "Variable_SetVariable",
+        "guid": "B2D4F8504C7B91F7BAEA0E89DB9FE507",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "073448E44BC7867E658882874D7FB175",
+                "type": "Variable",
+                "variable": {
+                  "guid": "F60C5C5248B08D98AE345FA63E413AB8",
+                  "variable_id": "GV_SYS_SCALING_OVERRIDE"
+                }
+              }
+            ],
+            "guid": "0CD8CA62474278DCC11F43861D834F86",
+            "id": "variable"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "19D9F2AE47B4DC5475F760B2BDEDD9D2",
+                "type": "Variable",
+                "variable": {
+                  "guid": "C80785454A09C10782E18A90B0A4A000",
+                  "variable_id": "LV_Tier"
+                }
+              }
+            ],
+            "guid": "16CE652846D6F78AE6B2BEA9B23EB895",
+            "id": "value"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "events": [
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "3281EE8E44DF98CC733E2FB190757EA6",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "A0458ACD419150432A2734BCE9FB644C",
+                "preset": {
+                  "guid": "E97DDB554DAAE7BE87A5B4982F7E7E5D",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "95D3FFBB45B07E09E3A9F8BF17E4037E",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "0E4EB4C34652306E4BF0888B85875309",
+                "type": "Value",
+                "value": {
+                  "guid": "3CA41139495785BFB219C98A141BA79D",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T0Upgrade"
+                }
+              }
+            ],
+            "guid": "00BE44914E943024C12321AB0570DCF5",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "784A1686433241E2192C53A3335001F0",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "129350EC4D6822735021B587ED4992EB",
+                "preset": {
+                  "guid": "17D6B9274964F8D778B64490F45D4A6B",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "647B30BE4A8BAAF5C967DA8108B2B203",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "B572B4744B597E31A57C289BD47B21CD",
+                "type": "Value",
+                "value": {
+                  "guid": "88B238D14469B1FF48A10CA23E8E3C96",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T1Upgrade"
+                }
+              }
+            ],
+            "guid": "DDB8ED8D4401C08EA2E17D920B876A10",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "E2622CE0452E613B1DB757A05B179A03",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "1B81406E441D7940AFA33D8282A8E509",
+                "preset": {
+                  "guid": "068C7CDB40B0DC297889348C5497C602",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "8AB535CB4CB4003EDF3380BAAA58360F",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "F14823774D6CD79B13015F8B1C69FA42",
+                "type": "Value",
+                "value": {
+                  "guid": "8FA70453423A31C5396253B024E8C326",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T2Upgrade"
+                }
+              }
+            ],
+            "guid": "CE75426641B97CCEE9826794313D48EA",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "8C094F404AD3EE3E16E966963C6B3D57",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "927DF6AC474BA092BBE42886B4D7892A",
+                "preset": {
+                  "guid": "C36471FF41FFD98A60652984D352898C",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "56F12F6B4A5DD3C2278E73A7A9CDA663",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "E2237BEA44076C94C4D977B5801F67EE",
+                "type": "Value",
+                "value": {
+                  "guid": "A348D810418DF65ECF7670BBB23F37B4",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T3Upgrade"
+                }
+              }
+            ],
+            "guid": "DDE60B374CEFE972392F4C81B2218DF7",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "7BD43B3F42F98102F4DCBFA59B90C7C6",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "25C4220E457BF875358D78A2B5AB86C3",
+                "preset": {
+                  "guid": "F0B4AE364790D42C086400A1EDDE6A3E",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "1BB5E8CF48120B25B79493A2123E8DA4",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "0EAB994046CB4B4DB74F91852964F8E9",
+                "type": "Value",
+                "value": {
+                  "guid": "DBC8365A47B9B3D4DFE4DFAADD92D047",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T4Upgrade"
+                }
+              }
+            ],
+            "guid": "5400B8C543009218F5B26C857DF2BC1E",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "498AF22F454BC6DFBAAE8AA3F943B026",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "EAFD81DC47C6FC7B4D199BA41186DEFF",
+                "preset": {
+                  "guid": "FCBDDEBB4F67AD966D8C9F9C8F2E5448",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "4627F78F444F75CC8769ADA8609150B7",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "32CA0043498869B7B62B08A2771395F7",
+                "type": "Value",
+                "value": {
+                  "guid": "8A5A81974F06603B21222E9F63306C50",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T5Upgrade"
+                }
+              }
+            ],
+            "guid": "84735EFC45893D3B8648FBACA7E12CAA",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "1C4F94094936010EBFF539823FC76C9A",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "6B0F24D24C96997B818156A86D98E4D3",
+                "preset": {
+                  "guid": "B470632544451869A8F09795C440F537",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "E76446CA4EF57A6F401AE4AE00F05B34",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "F1FDB87445037E3DC499C1B828FF629F",
+                "type": "Value",
+                "value": {
+                  "guid": "A57AFB154AA736285435EF90EA384D10",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T6Upgrade"
+                }
+              }
+            ],
+            "guid": "433AF971434386E8076903B35FE72705",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "FC86C68948734F5A6DEA6BBE8D3200AB",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "DED18E8A4C03205E591D20979894811C",
+                "preset": {
+                  "guid": "9779D0D94CA67318C0D79B80918EFAF7",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "A873BD8E4D705BD33FC3B5958370C4AA",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "F5E6A76D49490B07B197E693F842FA06",
+                "type": "Value",
+                "value": {
+                  "guid": "F3F9C1414A102433E7C814902B572CDD",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T7Upgrade"
+                }
+              }
+            ],
+            "guid": "2ACA71C14C6EC7E9FD85B59ED9F914F6",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "B575B02B40764CE99831038D4EBB82A7",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "EE53B20B41616803FC7965A9F0415B0A",
+                "preset": {
+                  "guid": "6137AD9247572AA4650823948344286B",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "BC5BCD1541695F79B3B6EEAB8386FF0F",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "B3AB628D4DD2F96BB07AD9A994163620",
+                "type": "Value",
+                "value": {
+                  "guid": "0EBB30484566050F46C39EA71EB4B022",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T8Upgrade"
+                }
+              }
+            ],
+            "guid": "A86BC17A4B26BF694CC145839E40384C",
+            "id": "upgrade"
+          }
+        ]
+      },
+      {
+        "function_id": "Player_OnPlayerResearchesUpgrade",
+        "guid": "A557D935481621187D79D28513A16BDF",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "D3FD89FF49D110A608609485213EA045",
+                "preset": {
+                  "guid": "52C90FB943F29DA44A1D0DB622BA90C1",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "D8D4634746A46BC9214FCDA59FCD1F05",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "78AEF8624FFBF5111F8118915AEFEFEC",
+                "type": "Value",
+                "value": {
+                  "guid": "4CDFF911471B17F5E16C6FBC94F6E773",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UpgradeData"
+                  },
+                  "value": "duckiesGameScalingSelector_T9Upgrade"
+                }
+              }
+            ],
+            "guid": "A77CE7A147091767D9FD538FE91745A6",
+            "id": "upgrade"
+          }
+        ]
+      }
+    ],
+    "id": "HeroSelect_ScalingSelect",
+    "variables": [
+      {
+        "guid": "94B46A684562B23364723B942B6AA6E7",
+        "id": "LV_Tier",
+        "initial_values": [
+          {
+            "guid": "AF455A054CF3754EAF21F49F74278B83",
+            "type": "Value",
+            "value": {
+              "guid": "EFB4AB7C410D7A5F87E2919E44ECD94E",
+              "type": {
+                "directive": "FunctionType",
+                "implements": "",
+                "inner_type": "",
+                "param_id": "",
+                "sub_directive": "None",
+                "type": "Integer"
+              },
+              "value": "0"
+            }
+          }
+        ],
+        "name": "LV_Tier",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        }
+      }
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,22 @@
+﻿{
+  "based_on": "BaseUpgradeData",
+  "create_alert_on_complete": false,
+  "flags": {
+    "shared_with_team": true
+  },
+  "id": "duckiesShrineUpgraderHealing_Upgrade",
+  "set_values": [
+    {
+      "target_archetype": "duckiesVoidheartShrineAura_ImpactHeal",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 3.125
+    },
+    {
+      "target_archetype": "duckiesVoidheartShrineHealRateDisplayWpn_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 12.5
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::entity_is_unit_of_type",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "name": "ExpressionApi::effect_target",
+              "node": "FunctionCall",
+              "parameters": [
+                {
+                  "argument": {
+                    "node": "Literal",
+                    "type": "Name",
+                    "value": ""
+                  },
+                  "name": "effect_parent",
+                  "type": "Name"
+                }
+              ],
+              "type": "Entity"
+            },
+            "name": "entity",
+            "type": "Entity"
+          },
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "UnitData",
+              "value": "duckiesHeroPandoraSummon_Unit"
+            },
+            "name": "unit_type",
+            "type": "UnitData"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroPandoraSummon_RemovvalCheck"
+  },
+  "meta": {}
+}

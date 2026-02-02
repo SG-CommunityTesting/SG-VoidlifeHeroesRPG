@@ -1,0 +1,21 @@
+﻿{
+  "data": {
+    "based_on": "DestructibleTree",
+    "footprint": {
+      "angled": false,
+      "clumpable": false,
+      "snap": false,
+      "unbuildable": false,
+      "vision_block_height": 0,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "duckiesDestructibleDeadTree_Unit",
+    "name": "pegasus_core|Destructible_name_DestructibleDeadTree",
+    "radius": 0.5,
+    "selectable": false,
+    "smart_command_targetable": false,
+    "unreal_actor": "BP_Randomized_Destructible_DeadTree"
+  },
+  "meta": {}
+}

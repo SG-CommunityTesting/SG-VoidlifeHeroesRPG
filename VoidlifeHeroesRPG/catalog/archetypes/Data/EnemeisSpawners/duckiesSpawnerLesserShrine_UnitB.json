@@ -1,0 +1,75 @@
+﻿{
+  "data": {
+    "alias_tech": [
+      "_LesserShrine"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Building_0.UI_Icons_Armor_Infernals_Building_0'",
+    "based_on": "BaseUnit_InfernalS",
+    "build_cost": {
+      "resource_a": 0.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 75.0,
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "InfernalShroudConstructBuffApplier",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Imp"
+      },
+      {
+        "unit": "TributePyre"
+      },
+      {
+        "unit": "IronVault"
+      },
+      {
+        "unit": "Conclave"
+      }
+    ],
+    "footprint": {
+      "vision_block_height": 0,
+      "x": 6.0,
+      "y": 6.0
+    },
+    "id": "duckiesSpawnerLesserShrine_UnitB",
+    "inner_radius": 0.375,
+    "name": "pegasus_core|UnitData_Name_LesserShrine",
+    "outer_radius": 3.4,
+    "selection_alias": "Shrine",
+    "shroud_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "heightplane_ground",
+      "status_invulnerable",
+      "duckiesTagSpawner"
+    ],
+    "subgroup_priority": 60,
+    "supply_add": 10.0,
+    "targeting_participation_alias": [
+      "_ShroudstoneManifestationTargeting"
+    ],
+    "ui_kind": "unit",
+    "unit_button": "LesserShrine_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_LesserShrineV2.UI_Portrait_Demon_Default_LesserShrineV2'",
+    "unreal_actor": "BP_SD_ShrineV2_A_00",
+    "vision_radius": 20.0,
+    "vital_energy": {
+      "maximum": 100.0,
+      "regen": 0.25,
+      "starting": 50.0
+    },
+    "vital_health": {
+      "maximum": 2500.0,
+      "regen": 0.0,
+      "starting": 2500.0
+    }
+  },
+  "meta": {}
+}

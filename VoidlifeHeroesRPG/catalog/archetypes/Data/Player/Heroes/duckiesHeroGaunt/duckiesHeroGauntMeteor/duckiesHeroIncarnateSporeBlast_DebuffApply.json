@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroIncarnateSporeBlast_Debuff",
+    "id": "duckiesHeroIncarnateSporeBlast_DebuffApply"
+  },
+  "meta": {}
+}

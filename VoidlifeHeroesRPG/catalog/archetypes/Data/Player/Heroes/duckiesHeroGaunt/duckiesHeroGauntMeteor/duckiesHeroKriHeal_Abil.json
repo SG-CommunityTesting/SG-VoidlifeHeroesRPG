@@ -1,0 +1,110 @@
+﻿{
+  "data": {
+    "arc": 180.0,
+    "based_on": "StagedAbilityData",
+    "cast_game_effect": "duckiesHeroKriHeal_StartSet",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 2.0,
+          "name": "duckiesHeroKriHeal",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 50.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "finish_duration": 0.5,
+    "flags": {
+      "best_unit": false,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": false,
+      "channeling_breaks_on_facing": true,
+      "channeling_breaks_on_range": true,
+      "channeling_breaks_on_vision": true,
+      "channeling_resists_push": true,
+      "count_as_attack": true,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "increment_worker_count": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": true,
+      "reapproach": false,
+      "requires_vision": false,
+      "show_progress": false,
+      "silenceable": true,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": false,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroKriHeal_Abil",
+    "range_maximum": 10.0,
+    "smart": {
+      "priority": 101,
+      "smart_filter": {
+        "alliance": {
+          "ally": true,
+          "enemy": false,
+          "neutral": false,
+          "player": true,
+          "self": false
+        },
+        "tags": {
+          "excluded": [],
+          "required": [
+            "entity_unit"
+          ]
+        }
+      }
+    },
+    "stage_sounds": [],
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": false,
+        "neutral": false,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure",
+          "dead"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "targeting_type": "Unit",
+    "unreal_component": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Channel_Work.AC_Ability_Channel_Work_C'"
+  },
+  "meta": {}
+}

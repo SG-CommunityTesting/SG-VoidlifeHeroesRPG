@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroExoFatalDR_ApplyInvuln",
+      "duckiesHeroExoFatalDR_RemoveHost"
+    ],
+    "id": "duckiesHeroExoFatalDR_ActivateSet"
+  },
+  "meta": {}
+}

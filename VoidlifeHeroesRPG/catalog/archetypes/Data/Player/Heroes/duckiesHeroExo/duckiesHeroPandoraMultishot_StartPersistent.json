@@ -1,0 +1,65 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Source"
+    },
+    "flags": {
+      "channel_execute_event": false,
+      "channeling": false,
+      "mark_exclusive_target": false,
+      "use_attack_speed": false
+    },
+    "id": "duckiesHeroPandoraMultishot_StartPersistent",
+    "offsets": {
+      "expire": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "final": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "initial": {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      "periodic": [
+        {
+          "angle": 0.0,
+          "radius": 3.0
+        }
+      ],
+      "periodic_method": "Loop",
+      "variance": {
+        "angle": 45.0,
+        "radius": 2.0
+      },
+      "vector_facing_end": {
+        "effect_parent": "none",
+        "entity_or_point": "EntityOrPoint",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "Entity",
+        "target": "Caster"
+      }
+    },
+    "periodic": {
+      "count": 5,
+      "durations": [
+        0.12
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesHeroPandoraMultishot_LauncMissileInitial"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_BouncingGlaives.UI_Icons_Abilities_BouncingGlaives'",
+    "id": "duckiesHeroGauntWeapon_BounceTraitBtn",
+    "name": "Bound Chakrams",
+    "tooltip": "Attack bounces twice to nearby enemies."
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Ascend.UI_Icons_Abilities_Ascend'",
+    "id": "duckiesHeroBase_EvolveBtn",
+    "name": "Evolve",
+    "tooltip": "Transform this hero into a stronger form."
+  },
+  "meta": {}
+}

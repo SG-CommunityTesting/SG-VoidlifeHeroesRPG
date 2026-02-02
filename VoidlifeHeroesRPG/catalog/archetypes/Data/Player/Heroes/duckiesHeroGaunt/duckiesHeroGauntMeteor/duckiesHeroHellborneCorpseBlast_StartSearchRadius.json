@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchRadius",
+    "game_effect": "duckiesHeroHellborneCorpseBlast_CorpseSet",
+    "id": "duckiesHeroHellborneCorpseBlast_StartSearchRadius",
+    "impact_fx": "BP_FXS_Auralanna_Hush_AOEIndicator",
+    "radius": 5.0,
+    "search_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [],
+        "required": [
+          "dead"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

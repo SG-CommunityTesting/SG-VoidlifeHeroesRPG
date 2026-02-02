@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "based_on": "Buff",
+    "duration": 60.0,
+    "effect_final": "duckiesHeroVulcanFatalDR_ApplyHost",
+    "flags": {
+      "change_owner_on_polymorph": false,
+      "disable_on_attacking": false,
+      "disable_on_damage_taken": false,
+      "hidden": false,
+      "hide_timer": false,
+      "override_source": false,
+      "pause_while_disabled": false,
+      "remove_on_attacking": false,
+      "remove_on_damage_taken": false,
+      "show_progress": false
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SurvivalProtocol.UI_Icons_Abilities_SurvivalProtocol'",
+    "id": "duckiesHeroVulcanFatalDR_CDBuff",
+    "name": "pegasus_core|Buff_name_SurvivalInstinct_BuffCooldown",
+    "tooltip": "pegasus_core|Buff_tooltip_SurvivalInstinct_BuffCooldown",
+    "validator_remove": "Valid_TargetIsNotInvulnerable"
+  },
+  "meta": {}
+}

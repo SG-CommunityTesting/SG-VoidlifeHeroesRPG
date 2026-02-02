@@ -1,0 +1,23 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_BVA_NanoswarmHeal",
+    "duration": 20.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Abilities_NanoSwarm.UI_Icons_Abilities_NanoSwarm'",
+    "id": "duckiesHeroExoBeamNanoswarm_Buff",
+    "modifiers": [
+      {
+        "amount": 100.0,
+        "stat_mod": "ArmorScaledAdditiveBonus"
+      }
+    ],
+    "name": "pegasus_core|Buff_name_Nanoswarm_BuffHealPrimary",
+    "tooltip": "Armor increased by <d ref=\"duckiesHeroExoBeamNanoswarm_Buff.modifiers[0].amount\"/>.",
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

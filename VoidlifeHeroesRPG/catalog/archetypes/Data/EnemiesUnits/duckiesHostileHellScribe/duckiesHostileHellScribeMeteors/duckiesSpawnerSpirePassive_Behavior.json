@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "based_on": "BehaviorUnitSpawner",
+    "flags": {
+      "change_owner": true,
+      "kill_spawned_on_death": true,
+      "kill_spawned_on_max_amount": false
+    },
+    "id": "duckiesSpawnerSpirePassive_Behavior",
+    "spawn_leash_radius": 1000.0,
+    "spawn_max_count": 6,
+    "spawn_period": 4.0,
+    "spawn_unit": "duckiesHostileSpriggan_Unit",
+    "validator": "Valid_CasterNotDisabled"
+  },
+  "meta": {}
+}

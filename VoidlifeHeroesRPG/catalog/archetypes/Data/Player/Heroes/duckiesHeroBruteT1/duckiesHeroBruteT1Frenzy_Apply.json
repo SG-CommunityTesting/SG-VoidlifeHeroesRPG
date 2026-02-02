@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroBruteT1Frenzy_Buff",
+    "id": "duckiesHeroBruteT1Frenzy_Apply",
+    "impact_fx": "BP_FXS_AberrantHowl_Cast"
+  },
+  "meta": {}
+}

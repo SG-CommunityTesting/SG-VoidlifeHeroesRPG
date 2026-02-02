@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "BaseGameEffectApplyBuffStun",
+  "buff": "duckiesHostileGoldGolemWeapon_Stun",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHostileGoldGolemWeapon_StunApplier",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "Valid_TargetNotResilient"
+}

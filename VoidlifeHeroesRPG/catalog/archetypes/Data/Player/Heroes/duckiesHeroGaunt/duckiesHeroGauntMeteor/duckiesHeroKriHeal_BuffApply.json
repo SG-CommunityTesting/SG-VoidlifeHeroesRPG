@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroKriHeal_Buff",
+    "id": "duckiesHeroKriHeal_BuffApply",
+    "impact_fx": "BP_FXS_Rejuvenation_Impact"
+  },
+  "meta": {}
+}

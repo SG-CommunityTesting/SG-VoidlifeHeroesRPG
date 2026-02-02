@@ -1,0 +1,49 @@
+﻿{
+  "data": {
+    "based_on": "BaseStagedAbilityNoTarget",
+    "cast_game_effect": "duckiesHeroStormflyerDisrupt_Search",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "",
+          "recharge_duration": 0.0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 10.0,
+          "name": "SonarDisruption",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 100.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "NoRequirement"
+      }
+    ],
+    "display_effect_area": "duckiesHeroStormflyerDisrupt_Search",
+    "finish_duration": 0.5,
+    "id": "duckiesHeroStormflyerDisrupt_Abil",
+    "range_indicator": "SimplePips",
+    "range_maximum": 7.0,
+    "range_minimum": 0.0,
+    "range_slop": 1.0,
+    "range_to_visualize": "range_maximum",
+    "target_actor": "BlueprintGeneratedClass'/Game/Pegasus/Blueprints/Targeting/BP_BaseTargetActor.BP_BaseTargetActor_C'",
+    "targeting_type": "Location",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellB.AC_Ability_Cast_SpellB_C'"
+  },
+  "meta": {}
+}

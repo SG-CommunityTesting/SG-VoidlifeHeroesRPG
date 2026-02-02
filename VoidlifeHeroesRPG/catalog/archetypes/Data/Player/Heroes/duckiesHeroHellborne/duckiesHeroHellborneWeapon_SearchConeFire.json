@@ -1,0 +1,36 @@
+﻿{
+  "data": {
+    "angle": 360.0,
+    "based_on": "GameEffectSearchCone",
+    "directional_offset": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Caster"
+    },
+    "game_effect": "duckiesHeroHellborneWeapon_DebuffApply",
+    "id": "duckiesHeroHellborneWeapon_SearchConeFire",
+    "impact_fx": "BP_FXI_PitFiend_ConeImpact",
+    "length": 3.0,
+    "polar_offset": {
+      "angle": 180.0,
+      "radius": 0.0
+    },
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "validator": "Valid_TargetIsNotAirUnit"
+  },
+  "meta": {}
+}

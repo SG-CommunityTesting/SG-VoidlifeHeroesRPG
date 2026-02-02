@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_SpawnerUniqueSelectorGroup",
+    "initial_values": [
+      {
+        "function": {
+          "function_id": "UnitGroup_GetNewUnitGroup",
+          "guid": "3D7043B64B7DE2733E2C59AE350705A1"
+        },
+        "guid": "ED3732D444233C5D42A6F3A32BCE46B0",
+        "type": "Function"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "UnitGroup"
+    }
+  },
+  "meta": {}
+}

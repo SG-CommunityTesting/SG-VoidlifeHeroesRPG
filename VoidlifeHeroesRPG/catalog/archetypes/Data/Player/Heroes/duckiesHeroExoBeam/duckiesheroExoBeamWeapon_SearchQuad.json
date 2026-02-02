@@ -1,0 +1,44 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchQuad",
+    "black_white_list": {
+      "exclude": [
+        {
+          "effect_parent": "none",
+          "target": "Target"
+        }
+      ],
+      "include": []
+    },
+    "game_effect": "duckiesHeroExoBeamWeapon_SplashDamage",
+    "id": "duckiesheroExoBeamWeapon_SearchQuad",
+    "impact_fx": "BP_FXI_Saber_Impact",
+    "length": 1.0,
+    "polar_offset": {
+      "angle": 0.0,
+      "radius": -0.5
+    },
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "width": 4.0
+  },
+  "meta": {}
+}

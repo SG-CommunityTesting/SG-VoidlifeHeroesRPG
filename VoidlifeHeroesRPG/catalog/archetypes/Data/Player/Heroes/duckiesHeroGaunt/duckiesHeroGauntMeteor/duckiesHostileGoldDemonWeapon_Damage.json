@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "amount": 300.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHostileGoldDemonWeapon_Damage",
+    "impact_fx": "BP_FXI_DemonReward_Impact",
+    "tag_bonuses": [
+      "duckiesHostileGoldDemonWeapon_TagBonusHeavy"
+    ]
+  },
+  "meta": {}
+}

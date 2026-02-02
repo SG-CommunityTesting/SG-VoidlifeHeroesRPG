@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ArchangelAscend.UI_Icons_Abilities_ArchangelAscend'",
+    "id": "duckiesHeroArchangelMorphUp_Btn",
+    "name": "pegasus_core|Button_Name_ArchangelAscend_Button",
+    "tooltip": "Launch into the skies, allowing the hero to attack air units, use the <Bold>Meteor Strike</> and <Bold>Aether Slash</> abilities."
+  },
+  "meta": {}
+}

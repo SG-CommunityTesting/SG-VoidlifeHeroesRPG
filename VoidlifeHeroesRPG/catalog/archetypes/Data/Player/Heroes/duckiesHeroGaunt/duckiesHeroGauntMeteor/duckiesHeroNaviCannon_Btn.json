@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_KingsWatch.UI_Icons_Abilities_KingsWatch'",
+    "icon_secondary": "",
+    "id": "duckiesHeroNaviCannon_Btn",
+    "name": "Sovereigns Decree",
+    "tooltip": "The Navi locks on to an enemy and after channelling for 2 seconds, fires a blast that does <d ref=\"duckiesHeroNaviCannon_Damage.amount\" style=\"Bold\"/> damage."
+  },
+  "meta": {}
+}

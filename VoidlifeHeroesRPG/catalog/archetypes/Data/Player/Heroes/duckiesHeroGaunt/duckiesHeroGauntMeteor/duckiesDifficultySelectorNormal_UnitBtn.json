@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_BruteV2.UI_Icons_Units_Demon_BruteV2'",
+    "id": "duckiesDifficultySelectorNormal_UnitBtn",
+    "name": "NORMAL MODE (RECOMMENDED)",
+    "tooltip": "The standard experience. It's recommended to fill missing players with AI, either in lobby or by using override during hero select phase."
+  },
+  "meta": {}
+}

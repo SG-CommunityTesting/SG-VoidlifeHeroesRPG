@@ -1,0 +1,10 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "effects": [
+    "duckiesHeroKastielCull_ImpactSwitch",
+    "duckiesHeroKastielCull_SetCD"
+  ],
+  "id": "duckiesHeroKastielCull_SetInitial",
+  "impact_fx": "BP_FXS_CullTheUnworthy_Sacrifice"
+}

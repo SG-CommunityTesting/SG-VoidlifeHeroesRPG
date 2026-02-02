@@ -1,0 +1,30 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::combine_validators_and",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "Array<Validator>",
+              "value": [
+                "Valid_TargetDamagedInLast1Second",
+                "Valid_TargetIsFriendly",
+                "Valid_duckiesHeroNaviRadiantMantle_TargetNoBuff"
+              ]
+            },
+            "name": "validators",
+            "type": "Array<Validator>"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroNaviRadiantMantle_AutocastCheck"
+  },
+  "meta": {}
+}

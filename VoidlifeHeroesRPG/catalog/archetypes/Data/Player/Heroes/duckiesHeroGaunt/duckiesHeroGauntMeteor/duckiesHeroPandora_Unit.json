@@ -1,0 +1,185 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHeroPandoraCondemn_Abil",
+      "duckiesHeroPandoraDarkObliteration_Abil",
+      "BaseInventory",
+      "duckiesHeroPandoraEvolve_Abil",
+      "duckiesHeroPandoraSummon_Abil",
+      "duckiesHeroPandoraMeteors_Abil",
+      "duckiesHeroPandoraPandemonium_Abil",
+      "duckiesHeroPandoraMultishot_Abil"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Light.UI_Icons_Armor_Infernals_Army_Light'",
+    "based_on": "duckiesHeroBase_TIER3",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroPandoraDarkObliteration_Abil",
+        "button": "duckiesHeroPandoraDarkObliteration_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroPandoraEvolve_Abil",
+        "button": "duckiesHeroBase_EvolveBtn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroPandoraPandemonium_Abil",
+        "button": "duckiesHeroPandoraPandemonium_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroPandoraMultishot_Abil",
+        "button": "duckiesHeroPandoraMultishot_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "id": "duckiesHeroPandora_Unit",
+    "movement": {
+      "acceleration_time": 5.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.5,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.3,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 6.5,
+      "stationary_turn_period": 0.3,
+      "turn_radius": 0.25,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Dominari",
+    "outer_radius": 1.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_hero"
+    ],
+    "unit_button": "Dominari_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Pandora.UI_Icons_Units_Demon_Pandora'",
+    "unreal_actor": "BP_UD_Pandora",
+    "vital_energy": {
+      "maximum": 400.0,
+      "regen": 4.0,
+      "starting": 400.0
+    },
+    "vital_health": {
+      "maximum": 600.0,
+      "regen": 10.0,
+      "starting": 600.0
+    },
+    "weaponList": [
+      "duckiesHeroPandoraWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

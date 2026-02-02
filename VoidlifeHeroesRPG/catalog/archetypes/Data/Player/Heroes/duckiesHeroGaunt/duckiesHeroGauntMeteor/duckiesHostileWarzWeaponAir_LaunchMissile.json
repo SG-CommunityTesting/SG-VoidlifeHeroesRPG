@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileWarzWeaponAir_LaunchMissile",
+    "impact_effect": "duckiesHostileWarzWeaponAir_Damage",
+    "launch_fx": "BP_FXS_ShadowRush_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "max_speed": 24.0
+    },
+    "projectile": "ShadowDemon_Weapon_Missile",
+    "projectile_movement_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/ProjectileMovementComponents/PMC_Default.PMC_Default_C'"
+  },
+  "meta": {}
+}

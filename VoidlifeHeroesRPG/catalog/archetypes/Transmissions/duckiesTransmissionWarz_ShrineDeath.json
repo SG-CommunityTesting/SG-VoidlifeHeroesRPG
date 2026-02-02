@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_ShrineDeath",
+    "pause": 10.0,
+    "text_field": "The shrine has fallen. The strength of Voidheart is now mine to wield.\n\nWith it's power the Infernal Host shall reign supreme for all eternity."
+  },
+  "meta": {}
+}

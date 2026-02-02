@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "__base_type": "Validator",
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "name": "ExpressionApi::combine_validators_and",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "Array<Validator>",
+              "value": [
+                "Valid_duckiesHeroKri_NoRollOutCDBuff",
+                "Valid_duckiesHeroKri_CasterIsKri"
+              ]
+            },
+            "name": "validators",
+            "type": "Array<Validator>"
+          }
+        ],
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "error_string": "",
+    "id": "Valid_duckiesHeroKri_RollOutValidateCombine"
+  },
+  "meta": {}
+}

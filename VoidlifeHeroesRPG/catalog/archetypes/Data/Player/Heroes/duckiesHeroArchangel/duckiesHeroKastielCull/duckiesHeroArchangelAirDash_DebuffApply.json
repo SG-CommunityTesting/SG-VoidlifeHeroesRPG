@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroArchangelAirDash_Debuff",
+    "id": "duckiesHeroArchangelAirDash_DebuffApply",
+    "validator": "Valid_TargetIsNotCapturable"
+  },
+  "meta": {}
+}

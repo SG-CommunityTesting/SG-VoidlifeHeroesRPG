@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Overkill.UI_Icons_Abilities_Overkill'",
+    "id": "duckiesHeroDragonDarkBeam_Btn",
+    "name": "Dark Reign",
+    "tooltip": "Blasts target area with dark energy, hitting enemies at random and dealing <d ref=\"duckiesHeroDragonDarkBeam_Damage.amount\" style=\"Bold\"/> damage per hit.\n\nTotal of 48 strikes over 3 seconds. Same enemy cannot be hit more than <d ref=\"duckiesHeroDragonDarkBeam_StartPersistent.periodic.count\"/> times. Doesn't target structures."
+  },
+  "meta": {}
+}

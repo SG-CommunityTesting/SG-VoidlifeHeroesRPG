@@ -1,0 +1,59 @@
+﻿{
+  "data": {
+    "__base_type": "WeaponData",
+    "arc_slop": 25.0,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHeroHellborneWeapon_Damage",
+    "flags": {
+      "always_visualize_range": false,
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": false,
+      "melee": false,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_FocusedHatred.UI_Icons_Weapons_FocusedHatred'",
+    "id": "duckiesHeroHellborneWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_PitFiend_Weapon",
+    "period": 1.3,
+    "range_acquire": 12.0,
+    "range_maximum": 10.0,
+    "range_slop": 2.0,
+    "swing": 0.7,
+    "swing_reacquire_range": 3.0,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Montage_Primary.AC_Weapon_Montage_Primary_C'",
+    "weapon_acquire_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_sleeping"
+        ],
+        "required": []
+      }
+    },
+    "weapon_fire": "duckiesHeroHellborneWeapon_LaunchMissile",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

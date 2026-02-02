@@ -1,0 +1,22 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_PlayerAI_HeroUnits",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "UnitGroup_GetNewUnitGroup",
+        "guid": "62B1E2B544E253631A8172A25F8B1CA3"
+      },
+      "guid": "129FF2444437D0A222507AA0FEE47673",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "UnitGroup"
+  }
+}

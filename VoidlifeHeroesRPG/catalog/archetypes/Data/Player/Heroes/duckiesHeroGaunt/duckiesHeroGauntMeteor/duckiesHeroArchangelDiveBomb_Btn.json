@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MeteorStrike.UI_Icons_Abilities_MeteorStrike'",
+    "id": "duckiesHeroArchangelDiveBomb_Btn",
+    "name": "pegasus_core|Button_Name_DiveBomb_Button",
+    "tooltip": "Divebombs a target location, dealing <d ref=\"duckiesHeroArchangelDiveBomb_DamageRadius.amount\" style=\"Bold\"/> area damage and slowing nearby enemies for <d ref=\"duckiesHeroArchangelDiveBomb_Debuff.modifiers[0].amount * (-1)\"/>% for <d ref=\"duckiesHeroArchangelDiveBomb_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PulseShield.UI_Icons_Abilities_PulseShield'",
+    "id": "duckiesHeroCarnivexEnhance_Btn",
+    "name": "Radiance",
+    "tooltip": "Turns resilient and reduces damage done to the hero by <d ref=\"(1-duckiesHeroCarnivexEnhance_DRResponse.modify_fraction)*100\" style=\"Bold\"/><Bold>%</> for <d ref=\"duckiesHeroCarnivexEnhance_Buff.duration\"/> seconds.\n\nWhile effect is active every attack is a cleave."
+  },
+  "meta": {}
+}

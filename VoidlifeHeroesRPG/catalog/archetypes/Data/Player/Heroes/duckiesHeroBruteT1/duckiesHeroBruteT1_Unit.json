@@ -1,0 +1,182 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHeroBruteT1Thunderclap_Abil",
+      "duckiesHeroBruteT1Frenzy_Abil",
+      "duckiesheroBruteT1Evolve_Abil",
+      "BaseInventory"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "duckiesHeroBase_TIER1",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroBruteT1Thunderclap_Abil",
+        "button": "duckiesHeroBruteT1Thunderclap_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": true,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroBruteT1Frenzy_Abil",
+        "button": "duckiesHeroBruteT1Frenzy_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesheroBruteT1Evolve_Abil",
+        "button": "duckiesheroBruteT1Evolve_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "id": "duckiesHeroBruteT1_Unit",
+    "inner_radius": 0.375,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.26,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 1,
+      "speed": 5.0,
+      "stationary_turn_period": 0.26,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Hellspawn",
+    "outer_radius": 0.8,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_heavy",
+      "attribute_melee",
+      "attribute_hero"
+    ],
+    "subgroup_priority": 119,
+    "traits": [
+      "duckiesHeroBruteT1Weapon_Trait"
+    ],
+    "unit_button": "Brute_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BruteV2.UI_Portrait_Demon_Default_BruteV2'",
+    "unit_name_list": "InfBipedes",
+    "unreal_actor": "BP_UD_BruteV2_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "vital_energy": {
+      "maximum": 100.0,
+      "regen": 1.0,
+      "starting": 100.0
+    },
+    "vital_health": {
+      "maximum": 500.0,
+      "regen": 1.0,
+      "starting": 500.0
+    },
+    "vital_shield": {
+      "maximum": 0.0,
+      "regen": 0.0,
+      "starting": 0.0
+    },
+    "weaponList": [
+      "duckiesHeroBruteT1Weapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

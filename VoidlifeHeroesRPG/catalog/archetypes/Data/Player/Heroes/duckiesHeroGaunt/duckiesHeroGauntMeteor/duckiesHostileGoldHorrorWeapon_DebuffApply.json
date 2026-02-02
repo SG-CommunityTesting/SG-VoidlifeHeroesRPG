@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHostileGoldHorrorWeapon_Debuff",
+    "id": "duckiesHostileGoldHorrorWeapon_DebuffApply",
+    "validator": "Valid_TargetIsNotStructure"
+  },
+  "meta": {}
+}

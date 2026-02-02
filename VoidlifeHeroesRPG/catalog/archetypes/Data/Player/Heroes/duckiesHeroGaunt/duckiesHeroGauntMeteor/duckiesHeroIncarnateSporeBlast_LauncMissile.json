@@ -1,0 +1,29 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectLaunchProjectile",
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHeroIncarnateSporeBlast_LauncMissile",
+    "impact_effect": "duckiesHeroIncarnateSporeBlast_DamageRadius",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Caster"
+    },
+    "movement": {
+      "acceleration_time": 3.0,
+      "impact_offset": 0,
+      "lob": true,
+      "lob_gravity": 10.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 5.0,
+      "socket": "Auto"
+    },
+    "periodic": {
+      "duration": 0.1,
+      "effect": "emptyRef"
+    },
+    "projectile": "Incarnate_Weapon_Missile"
+  },
+  "meta": {}
+}

@@ -1,0 +1,32 @@
+﻿{
+  "data": {
+    "amount": 250.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 3.0
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_impact_fx": "BP_FXI_Warz_Impact",
+    "friendly_fire_percentage": 0.0,
+    "id": "duckiesHostileWarzScytheThrow_DamageRadius",
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "dead"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

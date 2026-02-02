@@ -1,0 +1,178 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "BaseInventory",
+      "duckiesHeroHellborneEvolve_Abil",
+      "duckiesHeroHellborneEmpower_Abil",
+      "duckiesHeroHellborneCorpseBlast_Abil",
+      "duckiesHeroHellborneSummon_Abil"
+    ],
+    "armor": 10.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "duckiesHeroBase_TIER2",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroHellborneEvolve_Abil",
+        "button": "duckiesHeroBase_EvolveBtn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroHellborneEmpower_Abil",
+        "button": "duckiesHeroHellborneEmpower_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroHellborneSummon_Abil",
+        "button": "duckiesHeroHellborneSummon_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "id": "duckiesHeroHellborne_Unit",
+    "inner_radius": 0.8,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.25,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 2,
+      "speed": 5.5,
+      "stationary_turn_period": 0.25,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_Name_PitFiend",
+    "outer_radius": 1.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_ranged",
+      "attribute_hero"
+    ],
+    "traits": [
+      "duckiesHeroHellborneWeapon_Trait"
+    ],
+    "unit_button": "PitFiend_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Hellborne.UI_Portrait_Demon_Default_Hellborne'",
+    "unit_name_list": "InfBeasts",
+    "unreal_actor": "BP_UD_Hellborne_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "vision_radius": 12.0,
+    "vital_energy": {
+      "maximum": 200.0,
+      "regen": 2.0,
+      "starting": 200.0
+    },
+    "vital_health": {
+      "maximum": 300.0,
+      "regen": 2.0,
+      "starting": 300.0
+    },
+    "weaponList": [
+      "duckiesHeroHellborneWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 250.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "id": "duckiesHostileWarzScytheThrow_DamageTravel",
+    "impact_fx": "BP_FXI_Warz_Impact"
+  },
+  "meta": {}
+}

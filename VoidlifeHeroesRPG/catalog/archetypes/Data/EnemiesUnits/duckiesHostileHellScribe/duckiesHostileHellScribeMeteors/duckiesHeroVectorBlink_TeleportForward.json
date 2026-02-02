@@ -1,0 +1,28 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectTeleport",
+    "effect_location": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "effect_origin": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Caster"
+    },
+    "flags": {
+      "find_placement": true,
+      "set_facing": true
+    },
+    "id": "duckiesHeroVectorBlink_TeleportForward",
+    "impact_fx": "BP_FXS_GhostBlink_TeleportIn",
+    "range_max": 11.0,
+    "teleport_effect": "duckiesHeroVectorBlink_SetTeleport",
+    "teleporting_unit": {
+      "effect_parent": "none",
+      "target": "Source"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,79 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Light.UI_Icons_Armor_Infernals_Army_Light'",
+    "based_on": "BaseUnit_InfernalU",
+    "build_cost": {
+      "resource_a": 1.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.0,
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "id": "duckiesHostileFiend_Unit",
+    "inner_radius": 0.375,
+    "minimap_icon_size": 20.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.2,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 8.25,
+      "stationary_turn_period": 0.2,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_Name_Fiend",
+    "outer_radius": 0.45,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_light",
+      "attribute_biological",
+      "attribute_melee"
+    ],
+    "subgroup_priority": 102,
+    "supply_cost": 1.0,
+    "unit_button": "Fiend_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_FiendV2.UI_Portrait_Demon_Default_FiendV2'",
+    "unreal_actor": "BP_UD_FiendV2_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "veterancy_given_on_death": 1,
+    "vital_health": {
+      "maximum": 60.0,
+      "regen": 0.0,
+      "starting": 60.0
+    },
+    "weaponList": [
+      "duckiesHostileFiendWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

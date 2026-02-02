@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroHellborneCorpseBlast_CreateUnit",
+      "Remove"
+    ],
+    "id": "duckiesHeroHellborneCorpseBlast_CorpseSet"
+  },
+  "meta": {}
+}

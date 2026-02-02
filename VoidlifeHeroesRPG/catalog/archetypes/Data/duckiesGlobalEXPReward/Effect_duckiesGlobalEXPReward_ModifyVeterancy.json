@@ -1,0 +1,8 @@
+﻿{
+  "__base_type": "GameEffectModifyVeterancy",
+  "amount": 500.0,
+  "based_on": "BaseGameEffectModifyVeterancy",
+  "id": "duckiesGlobalEXPReward_ModifyVeterancy",
+  "impact_fx": "BP_FXS_Promote",
+  "validator": "Valid_TargetCanBePromoted"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_HastebotAura.UI_Icons_Abilities_HastebotAura'",
+    "id": "duckiesHeroStormflyer_TraitBtn",
+    "name": "Rapid Research",
+    "tooltip": "This unit is passively gaining <d ref=\"duckiesHeroStormflyer_TraitModifyVet.amount\"/> experience per second."
+  },
+  "meta": {}
+}

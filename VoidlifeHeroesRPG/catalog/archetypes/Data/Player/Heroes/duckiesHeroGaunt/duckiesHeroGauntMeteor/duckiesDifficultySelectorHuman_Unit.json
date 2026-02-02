@@ -1,0 +1,62 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "moveData",
+      "stopData",
+      "holdPositionData"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Vanguard_Infantry_Light.UI_Icons_Armor_Vanguard_Infantry_Light'",
+    "armor_name": "pegasus_core|ArmorName_VanguardInfantryArmor",
+    "based_on": "BaseUnit_VanguardU",
+    "expiration_time": 0.0,
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "id": "duckiesDifficultySelectorHuman_Unit",
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "item": false,
+        "worker": true
+      },
+      "deceleration_time": 0.0,
+      "moving_turn_period": 0.13,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "speed": 3.5,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false
+    },
+    "name": "SELECT DIFFICULTY",
+    "outer_radius": 0.45,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "status_invulnerable"
+    ],
+    "unit_button": "Worker_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Worker.UI_Portrait_Human_Default_Worker'",
+    "unreal_actor": "BP_UH_Worker_00",
+    "vision_radius": 1.0
+  },
+  "meta": {}
+}

@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "applied_tags": [
+      "status_stunned"
+    ],
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_BVA_Van04MonolithAnimusSiphon",
+    "duration": 8.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_DevourSouls.UI_Icons_Abilities_DevourSouls'",
+    "id": "duckiesHeroPandoraMultishot_Stunned",
+    "name": "pegasus_core|Buff_name_RocketCharge_BuffStun",
+    "tooltip": "pegasus_core|Buff_tooltip_RocketCharge_BuffStun",
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

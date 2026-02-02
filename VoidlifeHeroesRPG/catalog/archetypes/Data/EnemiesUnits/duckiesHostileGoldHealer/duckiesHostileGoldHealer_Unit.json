@@ -1,0 +1,179 @@
+﻿{
+  "__base_type": "UnitData",
+  "abilityList": [
+    "attackData",
+    "moveData",
+    "stopData",
+    "holdPositionData",
+    "duckiesHostileGoldHealerHeal_Abil"
+  ],
+  "additional_black_mask_vision_radius": 5.0,
+  "alias_tech": [
+    "_MedTech"
+  ],
+  "armor": 10.0,
+  "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Armor/UI_Icons_Armor_Stormgates_Wildskin.UI_Icons_Armor_Stormgates_Wildskin'",
+  "armor_name": "pegasus_core|UnitData_armor_name_CombatMedicCreepReward",
+  "based_on": "BaseUnit_VanguardU",
+  "behaviors": [],
+  "buffs": [],
+  "build_cost": {
+    "resource_a": 20.0,
+    "resource_b": 0.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "commandList": [
+    {
+      "ability": "attackData",
+      "button": "AttackButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "stopData",
+      "button": "StopButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "holdPositionData",
+      "button": "HoldPositionButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "moveData",
+      "button": "MoveButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "moveData",
+      "button": "PatrolButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHostileGoldHealerHeal_Abil",
+      "button": "duckiesHostileGoldHealerHeal_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "effects": {
+    "birth": "emptyRef",
+    "constructed": "emptyRef",
+    "creation": "emptyRef",
+    "death": "emptyRef",
+    "revenge": "ResourcePickupRefund"
+  },
+  "footprint": {
+    "angled": false,
+    "clumpable": false,
+    "snap": true,
+    "unbuildable": false,
+    "vision_block_height": 0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "height": 0.0,
+  "id": "duckiesHostileGoldHealer_Unit",
+  "inner_radius": 0.9,
+  "movement": {
+    "acceleration_time": 0.0,
+    "collision": {
+      "air": false,
+      "burrowed": false,
+      "ground": true,
+      "ground_tall": false,
+      "item": false,
+      "worker": false
+    },
+    "deceleration_time": 0.0,
+    "flocking": {
+      "separation_delay": 0.5,
+      "separation_radius": 0,
+      "separation_strength": 1.5
+    },
+    "idle_pushable": false,
+    "lock_facing": false,
+    "moving_turn_period": 0.4,
+    "pathing_mode": "Ground",
+    "push_priority": 0,
+    "push_priority_same_team": 0,
+    "speed": 5.0,
+    "stationary_turn_period": 0.4,
+    "turn_radius": 0.0,
+    "turn_without_slowing": false,
+    "unpushable": false
+  },
+  "name": "pegasus_core|UnitData_name_CombatMedicCreepReward",
+  "outer_radius": 1.0,
+  "show_name_on_hover": false,
+  "starting_snowtags": [
+    "entity_unit",
+    "heightplane_ground",
+    "attribute_biological",
+    "attribute_light",
+    "attribute_ranged"
+  ],
+  "traits": [
+    "duckiesHostileGoldHealerHeal_Trait"
+  ],
+  "unit_button": "StormgateAbilityCreateTier1Healer_Button",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_ForestCreature.UI_Portrait_Demon_Default_ForestCreature'",
+  "unreal_actor": "BP_UN_ForestCreature",
+  "veterancy_given_on_death": 50,
+  "vision_radius": 11.0,
+  "vital_energy": {
+    "maximum": 100.0,
+    "regen": 0.5,
+    "starting": 100.0
+  },
+  "vital_health": {
+    "maximum": 225.0,
+    "regen": 0.0,
+    "starting": 225.0
+  },
+  "vitals_force_hide": false,
+  "weaponList": [
+    "duckiesHostileGoldHealerWeapon_Wpn"
+  ]
+}

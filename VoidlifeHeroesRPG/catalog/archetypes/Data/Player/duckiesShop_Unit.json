@@ -1,0 +1,177 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "duckiesShopHealPot_Abil",
+      "duckiesShopTowerRebuild_Abil",
+      "duckiesShopHealPotT2_Abil",
+      "duckiesShopArmor_Abil",
+      "duckiesShopTeleport_Abil",
+      "duckiesShopHealPotT3_Abil",
+      "duckiesShopWeapon_Abil"
+    ],
+    "additional_black_mask_vision_radius": 0.0,
+    "armor": 0.0,
+    "based_on": "BaseUnit_CelestialS",
+    "commandList": [
+      {
+        "ability": "duckiesShopHealPot_Abil",
+        "button": "duckiesShopHealPot_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesShopTowerRebuild_Abil",
+        "button": "duckiesShopTowerRebuild_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesShopHealPotT2_Abil",
+        "button": "duckiesShopHealPotT2_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesShopArmor_Abil",
+        "button": "duckiesShopArmor_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesShopTeleport_Abil",
+        "button": "duckiesShopTeleport_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesShopHealPotT3_Abil",
+        "button": "duckiesShopHealPotT3_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesShopWeapon_Abil",
+        "button": "duckiesShopWeapon_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": true,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": true,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "footprint": {
+      "angled": false,
+      "clumpable": false,
+      "snap": true,
+      "unbuildable": false,
+      "vision_block_height": 0,
+      "x": 2.0,
+      "y": 2.0
+    },
+    "id": "duckiesShop_Unit",
+    "minimap_icon_size": 20.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": true,
+      "moving_turn_period": 0.0,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 0.0,
+      "stationary_turn_period": 0.0,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "Shop",
+    "outer_radius": 1.1,
+    "show_name_on_hover": true,
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "subgroup_priority": 20,
+    "unit_button": "LinkNode_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Default_GraceLight_Node.UI_Portrait_Default_GraceLight_Node'",
+    "unreal_actor": "BP_SA_PowerBank_00",
+    "vision_radius": 4.0,
+    "vital_health": {
+      "maximum": 1000.0,
+      "regen": 0.0,
+      "starting": 1000.0
+    },
+    "vitals_force_hide": true
+  },
+  "meta": {}
+}

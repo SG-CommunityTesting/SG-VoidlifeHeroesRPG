@@ -1,0 +1,7 @@
+﻿{
+  "__base_type": "TraitData",
+  "based_on": "TraitData",
+  "button": "duckiesHostileGoldDogRush_Button",
+  "id": "duckiesHostileGoldDogRush_Triat",
+  "requirement": "emptyRef"
+}

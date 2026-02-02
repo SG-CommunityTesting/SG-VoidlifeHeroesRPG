@@ -1,0 +1,21 @@
+﻿{
+  "data": {
+    "arc": 120.0,
+    "arc_slop": 11.25,
+    "backswing": 0.9,
+    "based_on": "BaseWeapon",
+    "can_use": "Valid_CasterNotDisabled",
+    "display_effect_damage": "duckiesAlliedObeliskWeapon_Damage",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_InfernoSoulflare.UI_Icons_Weapons_InfernoSoulflare'",
+    "id": "duckiesAlliedObeliskWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Obelisk_Weapon",
+    "period": 1.3,
+    "range_acquire": 10.0,
+    "range_maximum": 10.0,
+    "swing": 0.1,
+    "turret": "Turret_Obelisk",
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_fire": "duckiesAlliedObeliskWeapon_Damage"
+  },
+  "meta": {}
+}

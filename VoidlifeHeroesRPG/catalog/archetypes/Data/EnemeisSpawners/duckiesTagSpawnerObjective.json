@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "based_on": "SnowTag",
+    "display_name": "Primary Spawner",
+    "display_name_noun_phrase": "Noun Phrase",
+    "flags": {
+      "display_as_attribute": true,
+      "display_as_callout": true
+    },
+    "id": "duckiesTagSpawnerObjective"
+  },
+  "meta": {}
+}

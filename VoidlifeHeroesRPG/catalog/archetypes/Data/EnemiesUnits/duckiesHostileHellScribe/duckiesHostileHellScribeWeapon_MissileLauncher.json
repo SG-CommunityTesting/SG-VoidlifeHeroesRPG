@@ -1,0 +1,79 @@
+﻿{
+  "__base_type": "GameEffectLaunchProjectile",
+  "based_on": "GameEffectLaunchProjectile",
+  "fallback_unit": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "channeling": false,
+    "ignore_destructible_tree": false,
+    "landing_spot_find": false,
+    "landing_spot_reserve": false,
+    "mark_exclusive_target": false,
+    "stop_at_unpathable": true
+  },
+  "id": "duckiesHostileHellScribeWeapon_MissileLauncher",
+  "impact_effect": "duckiesHostileHellScribeWeapon_Damage",
+  "impact_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "launch_fx": "BP_FXS_Maloc_Launch",
+  "launch_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  },
+  "movement": {
+    "acceleration_time": 0.0,
+    "height_offset": 0,
+    "lob": false,
+    "lob_gravity": 30.0,
+    "lock_facing": false,
+    "lock_height_offset": false,
+    "max_speed": 12.0,
+    "socket": "Auto"
+  },
+  "periodic": {
+    "duration": 0.0,
+    "effect": "emptyRef"
+  },
+  "projectile": "BloodScribe_Weapon_Missile",
+  "range_max": 20.0,
+  "skillshots": [
+    {
+      "effects": [
+        "duckiesHostileHellScribeWeapon_Damage"
+      ],
+      "end_projectile": true,
+      "forward_offset": 2,
+      "max_targets": 1,
+      "target_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": true,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "status_invulnerable",
+            "dead"
+          ],
+          "required": [
+            "entity_unit",
+            "heightplane_ground"
+          ]
+        }
+      },
+      "target_validator": "emptyRef",
+      "width": 0.1
+    }
+  ],
+  "tracker": "",
+  "validator": "emptyRef",
+  "validator_chase": "emptyRef"
+}

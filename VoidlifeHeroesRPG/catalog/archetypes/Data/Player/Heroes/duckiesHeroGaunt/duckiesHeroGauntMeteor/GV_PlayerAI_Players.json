@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_PlayerAI_Players",
+    "initial_values": [
+      {
+        "function": {
+          "function_id": "PlayerGroup_GetNewPlayerGroup",
+          "guid": "C45326334A89D51DD7149FA64CF5BBBE"
+        },
+        "guid": "5BD1F8704F223D44306CA2A1DC5C18E0",
+        "type": "Function"
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "tags": [],
+      "type": "PlayerGroup"
+    }
+  },
+  "meta": {}
+}

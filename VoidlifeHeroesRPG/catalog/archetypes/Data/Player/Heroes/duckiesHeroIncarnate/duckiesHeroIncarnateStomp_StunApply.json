@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectApplyBuff",
+    "based_on": "BaseGameEffectApplyBuffStun",
+    "buff": "duckiesHeroIncarnateStomp_Stun",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHeroIncarnateStomp_StunApply",
+    "stacks": 0,
+    "stacks_expression": {},
+    "tracker": "",
+    "validator": "Valid_TargetNotResilient"
+  },
+  "meta": {}
+}

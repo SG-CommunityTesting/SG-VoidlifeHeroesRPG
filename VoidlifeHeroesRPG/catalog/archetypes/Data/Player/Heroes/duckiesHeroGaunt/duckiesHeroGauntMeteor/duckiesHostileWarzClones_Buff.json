@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "applied_tags_persist": [
+      "attribute_summoned"
+    ],
+    "based_on": "BaseBuff",
+    "buff_visuals": "BP_BVA_SpectralWarriors",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SpectralWarrior.UI_Icons_Abilities_SpectralWarrior'",
+    "id": "duckiesHostileWarzClones_Buff",
+    "name": "Spectral Warrior",
+    "removed_tags_persist": [
+      "attribute_hero"
+    ],
+    "tooltip": "A simulacrum created by Warz's sorcery."
+  },
+  "meta": {}
+}

@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "UseUITint": false,
+    "__base_type": "Button",
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/CampaignHeroProgression/UI_Icons_CampaignTalent_Invigoration.UI_Icons_CampaignTalent_Invigoration'",
+    "id": "duckiesShopHealPotT2_Btn",
+    "name": "Greater Healing Potion",
+    "tooltip": "Purchase a greater healing potion which will heal the hero for <d ref=\"duckiesItemsHealingPotionT2Use_Heal.amount\" style=\"Green\"/> and restore <d ref=\"duckiesItemsHealingPotionT2Use_EnergyModify.energy_mod_flat_amount\" style=\"Blue\"/> energy on use."
+  },
+  "meta": {}
+}

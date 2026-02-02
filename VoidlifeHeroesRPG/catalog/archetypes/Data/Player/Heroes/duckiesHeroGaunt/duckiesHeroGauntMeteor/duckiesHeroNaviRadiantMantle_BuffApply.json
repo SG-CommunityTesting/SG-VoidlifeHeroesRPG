@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroNaviRadiantMantle_Buff",
+    "id": "duckiesHeroNaviRadiantMantle_BuffApply"
+  },
+  "meta": {}
+}

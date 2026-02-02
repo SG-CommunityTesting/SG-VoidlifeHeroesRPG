@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_PrimeStructure",
+    "duration": -1.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Resources/UI_Icons_Resources_PowerProduced.UI_Icons_Resources_PowerProduced'",
+    "id": "duckiesShop_OpenBuff",
+    "name": "Open",
+    "tooltip": "While hero is next to Voidheart Shrine they may purhcase items from here."
+  },
+  "meta": {}
+}

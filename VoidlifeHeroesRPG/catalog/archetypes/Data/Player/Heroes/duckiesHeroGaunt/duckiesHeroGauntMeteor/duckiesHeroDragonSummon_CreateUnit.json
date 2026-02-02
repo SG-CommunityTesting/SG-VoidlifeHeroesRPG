@@ -1,0 +1,34 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectCreateUnit",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Caster"
+    },
+    "facing": {
+      "vector_facing_end": {
+        "effect_parent": "origin",
+        "entity_or_point": "Point",
+        "target": "Target"
+      },
+      "vector_facing_start": {
+        "effect_parent": "none",
+        "entity_or_point": "Point",
+        "target": "Caster"
+      }
+    },
+    "flags": {
+      "find_placement": false
+    },
+    "id": "duckiesHeroDragonSummon_CreateUnit",
+    "impact_fx": "BP_FXS_Wildfire_Cast",
+    "spawn_effect": "duckiesHeroDragonSummon_SummonedFatePersistent",
+    "spawn_owner": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "spawn_unit": "duckiesHeroDragonChimera_Unit"
+  },
+  "meta": {}
+}

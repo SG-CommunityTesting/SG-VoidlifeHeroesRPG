@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHostileEliteImpWeapon_Damage",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_GreenGoop.UI_Icons_Weapons_GreenGoop'",
+    "id": "duckiesHostileEliteImpWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_FlayedDragon_Weapon",
+    "period": 2.2,
+    "range_acquire": 8.0,
+    "range_maximum": 6.0,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+    "weapon_fire": "duckiesHostileEliteImpWeapon_LaunchMissile",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

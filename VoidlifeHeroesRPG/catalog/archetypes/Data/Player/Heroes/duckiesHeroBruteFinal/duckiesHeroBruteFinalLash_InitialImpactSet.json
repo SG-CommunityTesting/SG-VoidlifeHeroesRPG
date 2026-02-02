@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroBruteFinalLash_InitialDamage",
+      "AbyssalLash_MissileLauncherYoink"
+    ],
+    "id": "duckiesHeroBruteFinalLash_InitialImpactSet"
+  },
+  "meta": {}
+}

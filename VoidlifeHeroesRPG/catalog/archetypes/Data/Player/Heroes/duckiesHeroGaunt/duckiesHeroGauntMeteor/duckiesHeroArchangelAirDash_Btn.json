@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "BaseButton",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_WingedDash.UI_Icons_Abilities_WingedDash'",
+    "id": "duckiesHeroArchangelAirDash_Btn",
+    "name": "Aether Dash",
+    "tooltip": "Dashes towards a target location, dealing <d ref=\"duckiesHeroArchangelAirDash_Damage.amount\" style=\"Bold\"/> damage to enemy air units in its path and slowing them by <d ref=\"duckiesHeroArchangelAirDash_Debuff.modifiers[0].amount * (-1)\"/>% for <d ref=\"duckiesHeroArchangelAirDash_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

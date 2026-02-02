@@ -1,0 +1,46 @@
+﻿{
+  "data": {
+    "arc_slop": 25.0,
+    "backswing": 0.5,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHostilePitFiendWeaponAir_Damage",
+    "flags": {
+      "always_visualize_range": false,
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": false,
+      "melee": false,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_FocusedHatred.UI_Icons_Weapons_FocusedHatred'",
+    "id": "duckiesHostilePitFiendWeaponAir_Wpn",
+    "name": "pegasus_core|WeaponData_name_PitFiend_Weapon",
+    "period": 1.3,
+    "range_acquire": 12.0,
+    "range_maximum": 8.0,
+    "range_slop": 2.0,
+    "swing": 0.7,
+    "swing_reacquire_range": 3.0,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Montage_Primary.AC_Weapon_Montage_Primary_C'",
+    "weapon_fire": "duckiesHostilePitFiendWeaponAir_LaunchMissile",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_air"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "extended_tooltips": [],
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PhaseGhost.UI_Icons_Abilities_PhaseGhost'",
+    "id": "duckiesHeroExoBlink_Btn",
+    "name": "Delta Jump",
+    "tooltip": "Teleports to a nearby target location.\n\nEnemies next to original location have their attack and movement speed reduced by <d ref=\"(-1) * duckiesHeroExoBlink_Debuff.modifiers[0].amount\"/>% and will take extra <d ref=\"duckiesHeroExoBlink_DebuffDamageResponse.modify_amount\"/> damage each time they're attacked.\n\nThis effect will persist for <d ref=\"duckiesHeroExoBlink_Debuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

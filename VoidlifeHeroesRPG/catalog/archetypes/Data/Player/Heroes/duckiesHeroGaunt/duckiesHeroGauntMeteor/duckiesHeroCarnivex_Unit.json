@@ -1,0 +1,183 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "duckiesHeroCarnivexWeaponPounce_AugmentAbil",
+      "BaseInventory",
+      "duckiesHeroCarnivexEnhance_Abil",
+      "duckiesHeroCarnivexEvolve_Abil"
+    ],
+    "armor": 10.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_Mecha_Light.UI_Icons_Armor_Celestial_Mecha_Light'",
+    "armor_name": "pegasus_core|ArmorName_CelestialArmor",
+    "based_on": "duckiesHeroBase_TIER2",
+    "build_time": 38.0,
+    "cargo_size": "Four",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroCarnivexEnhance_Abil",
+        "button": "duckiesHeroCarnivexEnhance_Btn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "duckiesHeroCarnivexEvolve_Abil",
+        "button": "duckiesHeroBase_EvolveBtn",
+        "commandIndex": 0,
+        "hotkey_should_hide": false,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 1,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      10
+    ],
+    "flags": {
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false
+    },
+    "id": "duckiesHeroCarnivex_Unit",
+    "movement": {
+      "acceleration_time": 0.2,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.2,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "inner_radius": 0.8,
+      "lock_facing": false,
+      "moving_turn_period": 0.2,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 2,
+      "speed": 5.5,
+      "stationary_turn_period": 0.2,
+      "turn_radius": 0.1,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_Carnivex",
+    "outer_radius": 1.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_mechanical",
+      "attribute_heavy",
+      "attribute_melee",
+      "attribute_hero",
+      "attribute_biological"
+    ],
+    "subgroup_priority": 103,
+    "supply_add": 0.0,
+    "traits": [
+      "duckiesHeroCarnivexWeaponPounce_Trait",
+      "duckiesHeroCarnivexWeaponAOE_Trait",
+      "Carnivex_WeaponVitalsLeech_Trait"
+    ],
+    "unit_button": "Carnivex_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_Carnivex.UI_Portrait_Angel_Default_Carnivex'",
+    "unreal_actor": "BP_UA_CarnivexV2_00",
+    "vital_energy": {
+      "maximum": 200.0,
+      "regen": 2.0,
+      "starting": 200.0
+    },
+    "vital_health": {
+      "maximum": 400.0,
+      "regen": 0.0,
+      "starting": 400.0
+    },
+    "weaponList": [
+      "duckiesHeroCarnivexWeapon_Wpn",
+      "duckiesHeroCarnivexWeaponAOE_Wpn"
+    ]
+  },
+  "meta": {}
+}

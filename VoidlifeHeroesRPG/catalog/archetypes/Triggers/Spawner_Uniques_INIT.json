@@ -1,0 +1,542 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "General_RepeatForever",
+        "guid": "819846794A8DB35025B5FFBF546E3CC1",
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "General_Wait",
+                "guid": "F7A8AB2C44D983DF579F1A82622C72FA",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "8E054BE0492F573FEA4EA499C74DC2F4",
+                        "type": "Value",
+                        "value": {
+                          "guid": "75FB41B34A6FE3CF3DF3D082E649F73D",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "55.0"
+                        }
+                      }
+                    ],
+                    "guid": "FC5D55764B26B2A6A687BF850E939B0D",
+                    "id": "duration"
+                  }
+                ]
+              },
+              {
+                "function_id": "Variable_SetVariable",
+                "guid": "D51B3F7748F634A3C83F5786B26AD3D0",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "54E1CE194B498311305168AACC6DAB30",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "C0F7057944E35CC57391D4B02C48779A",
+                          "variable_id": "LV_Count"
+                        }
+                      }
+                    ],
+                    "guid": "C1C6ABE44FCCAEC454642DB7873C2AE7",
+                    "id": "variable"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "88B649EC40964B1110E73F9659A4B4E8",
+                        "type": "Value",
+                        "value": {
+                          "guid": "DC2071F9420A140B0B58BE960368FE24",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Integer"
+                          },
+                          "value": "1"
+                        }
+                      }
+                    ],
+                    "guid": "C8DCCFB14249B1C572721D9409A7B5E6",
+                    "id": "value"
+                  }
+                ]
+              },
+              {
+                "function_id": "Variable_SetVariable",
+                "guid": "AC5206A64851706C7C60A79CC7A162C2",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "E92AF6964050F447DCB6FBBA934ABC89",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "CCC01848487D0A1D4E620C9C254A32BB",
+                          "variable_id": "LV_SelectedUnitType"
+                        }
+                      }
+                    ],
+                    "guid": "AA33D60744677654EEA901B715CDD25D",
+                    "id": "variable"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetRandomUnit",
+                          "guid": "CCEDF5424A4D3F2B6683A3AD6CE70314",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "54B14BF44ABD529C1BA73DB9539B2DE9",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "83D92B5D4824D59A233F47969F0ECCD0",
+                                    "variable_id": "GV_SpawnerUniqueSelectorGroup"
+                                  }
+                                }
+                              ],
+                              "guid": "A0D934B9429F705F6ABB33A64ED2483A",
+                              "id": "group"
+                            }
+                          ]
+                        },
+                        "guid": "01771D4146CF6BD2B846C39294D0D9E9",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "48129A1F439017FFF3D0F4B8B59A3681",
+                    "id": "value"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_IfThenElse",
+                "guid": "5AF293EB4D397D952A0E4A8F56721C28",
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "UnitGroup_ContainsUnit",
+                        "guid": "0F69540E4EAC9A8C972541AB802B9CB5",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "A584170B4F0D20C3A84082B0446350FF",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "C59483BB479878692E98C0BF18639594",
+                                  "variable_id": "GV_SpawnerUniqueSelectorGroupTier1"
+                                }
+                              }
+                            ],
+                            "guid": "9F6B802C468B1276240A6CA50ABC5C6F",
+                            "id": "group"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "3010E2C0442FAB6769A042BAAF98D3CC",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "1BA0F2AE426EB3D89CC5CD9D882CCA38",
+                                  "variable_id": "LV_SelectedUnitType"
+                                }
+                              }
+                            ],
+                            "guid": "D94F4FFD413DB445A4C852A3181D7158",
+                            "id": "unit"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "16EA886A4F567BAB70E66BA9E3269951",
+                    "id": "if"
+                  },
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Variable_ModifyVariable",
+                        "guid": "ABFF6564458684D5193A6CA203A9F89F",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "7B5D71124B51CCBEA1C76080330D3DB8",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "0CEFF0EA447C1FE09E2B2F966DDC238C",
+                                  "variable_id": "LV_Count"
+                                }
+                              }
+                            ],
+                            "guid": "38D1BE4742028880C73DF8BADE23D3DE",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "B69C4FD34FF33CEDD223DB95BFB7076B",
+                                "preset": {
+                                  "guid": "E8DA37EC450313C8DE7355A38C043E07",
+                                  "preset_id": "Math_ArithmeticOperator",
+                                  "value_id": "plus"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "434C577B490FD0DC2C2D9FB4F6EF7D70",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "B5D2781F47E4FABB60DD949DD404FA25",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "5357B7E541E5E8B6A7DC1BB3CAA58311",
+                                  "variable_id": "GV_SpawnerUnique_Tier1CountAddition"
+                                }
+                              }
+                            ],
+                            "guid": "3BA7E678493F8A876154A8807C8E34FB",
+                            "id": "value"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "4EAB282E4BE04EF0D22554A3CF3EC12A",
+                    "id": "then"
+                  },
+                  {
+                    "guid": "91ECCE3345C1BC1A47B6DEBA0B480E55",
+                    "id": "else"
+                  }
+                ]
+              },
+              {
+                "function_id": "Unit_CreateUnit",
+                "guid": "8B74FC6F40471F909E4E8BAA7BF08709",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "CBBEA3DB46F4B9F95F1805B7CF4479E2",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "41F920F24739566804BB778A39C1AC54",
+                          "variable_id": "LV_Count"
+                        }
+                      }
+                    ],
+                    "guid": "4D336346475702C2A31941B6F55D4044",
+                    "id": "count"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetType",
+                          "guid": "872AF84540D3092448DF5F80E3CB60FF",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "7088F7C14A7D025A772B5DA58912E00F",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "08494034435B39A6761BB28BCAFE49B8",
+                                    "variable_id": "LV_SelectedUnitType"
+                                  }
+                                }
+                              ],
+                              "guid": "FBC07518482E576708663E95E6DF967E",
+                              "id": "unit"
+                            }
+                          ]
+                        },
+                        "guid": "09D22F6F4614FBB7C3F10CA1962B8B38",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "F52720A24357C6AFA47E53975564D539",
+                    "id": "unit_data"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "A9EDB82D477A6A99CB58EF8BC9E2EF71",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "3B8F90D54D843FD6109B69ACAF5CFE0A",
+                          "variable_id": "HOSTILE_PLAYER"
+                        }
+                      }
+                    ],
+                    "guid": "66E00DFE45902FED162D32A217040CCF",
+                    "id": "player"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Actor_GetPosition",
+                          "guid": "DDEEFC5B4B9AE4A18F9517B018FC8E6F",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "UnitGroup_GetRandomUnit",
+                                    "guid": "04C597ED48BA5A6F92B487836ACB6584",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "guid": "B5FEBC04447D7316A1A73BAC2E03388D",
+                                            "type": "Variable",
+                                            "variable": {
+                                              "guid": "8794CEA64E238CF448C379AB53E5F12D",
+                                              "variable_id": "MassAttackAllSawners"
+                                            }
+                                          }
+                                        ],
+                                        "guid": "B352355B4F473767E570C0A587BFB7DA",
+                                        "id": "group"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "03FA8BA3491924AD0C99F8909CF6D5E3",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "4CE163C349CCE8517B6A468853E45144",
+                              "id": "actor"
+                            }
+                          ]
+                        },
+                        "guid": "2C61335F4D514035090783A0A1C02E04",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "DB58D8FE46AF28EA7084D394173D12B1",
+                    "id": "position"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "0889EE1F425C805E8FE2F6BB8CC8F3EF",
+                        "type": "Value",
+                        "value": {
+                          "guid": "536D12E84D16FBBC2771C7BDFBBE342B",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Boolean"
+                          },
+                          "value": "false"
+                        }
+                      }
+                    ],
+                    "guid": "04EBDF734609FBE7E823FEB8BD11815C",
+                    "id": "force_position"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "5683BBF7495A888D938AA08EBBDE3C07",
+                        "type": "Value",
+                        "value": {
+                          "guid": "130A05F8405ED56072682DB531146B2A",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Degrees"
+                          },
+                          "value": "0"
+                        }
+                      }
+                    ],
+                    "guid": "3E9CF64D40AA7B321705D58C304B827E",
+                    "id": "facing"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "5EA2DEBF4BE6B9825EB5BFBE85F06802",
+                        "type": "Value",
+                        "value": {
+                          "guid": "C8FD6162432BCE89C02D69AEAEB99EB1",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Boolean"
+                          },
+                          "value": "true"
+                        }
+                      }
+                    ],
+                    "guid": "74DA2533498B5E1AD0B6748EA29D8CCD",
+                    "id": "birth"
+                  }
+                ]
+              },
+              {
+                "function_id": "UnitGroup_ForEachUnitInGroup",
+                "guid": "62E5783C4E2FE8139BC99DBCA15857AE",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetLastCreatedUnits",
+                          "guid": "E19953F34B536BC7EEA977A01254E43E"
+                        },
+                        "guid": "911AD59D40172D6F5A3B858858884B57",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "3958448742F8AB05BC085C9795CDEFED",
+                    "id": "units"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Unit_SetSeekAndDestroy",
+                        "guid": "2C5B8FC145BEAEE086C78D89A1CA0EF6",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "UnitGroup_GetCurrentUnit",
+                                  "guid": "F33DFCF942829533A01895A451F40D47"
+                                },
+                                "guid": "3EB0FE164D9DC83DD3DD78B4B74D6146",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "605791784512275776FDF7A8BCC4EE10",
+                            "id": "unit"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "B3BDD0544CEC6EA4925576879C66A96E",
+                                "preset": {
+                                  "guid": "A2AA05CA41ACB9A0312141BB54D2ADA5",
+                                  "preset_id": "Preset_OnOff",
+                                  "value_id": "on"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "5A8B4862406AF296E7ADE69C59D2617A",
+                            "id": "on"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "3DB247E048962DE046C09E80B72395DB",
+                    "id": "actions"
+                  }
+                ]
+              }
+            ],
+            "guid": "0B998FD242D5C968B0D648B2D7ABE31B",
+            "id": "actions"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "id": "Spawner_Uniques_INIT",
+    "variables": [
+      {
+        "guid": "BAF1E5194328E3426DEAFF852206B0B4",
+        "id": "LV_Count",
+        "initial_values": [
+          {
+            "guid": "A873AF504547069E2665C79314880D34",
+            "type": "Value",
+            "value": {
+              "guid": "CF236C704EE2F54DB9625A81048B8A7E",
+              "type": {
+                "directive": "FunctionType",
+                "implements": "",
+                "inner_type": "",
+                "param_id": "",
+                "sub_directive": "None",
+                "type": "Integer"
+              },
+              "value": "1"
+            }
+          }
+        ],
+        "name": "LV_Count",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Integer"
+        }
+      },
+      {
+        "guid": "57D1E4C24584EE83BDD02CAAB1125D2B",
+        "id": "LV_SelectedUnitType",
+        "initial_values": [
+          {
+            "guid": "F1AE414F46AF3080172339B4EE3AAF41",
+            "preset": {
+              "guid": "F5120709428249D48127868298C8164F",
+              "preset_id": "Unit_NoUnit",
+              "value_id": "none"
+            },
+            "type": "Preset"
+          }
+        ],
+        "name": "LV_SelectedUnitType",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Unit"
+        }
+      }
+    ]
+  },
+  "meta": {}
+}

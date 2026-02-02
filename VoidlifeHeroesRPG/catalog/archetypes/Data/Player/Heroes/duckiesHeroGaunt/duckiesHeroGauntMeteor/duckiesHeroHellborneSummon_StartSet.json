@@ -1,0 +1,9 @@
+﻿{
+  "based_on": "GameEffectSet",
+  "effects": [
+    "duckiesHeroHellborneSummon_RemovvalSearch",
+    "duckiesHeroHellborneSummon_CreateUnit"
+  ],
+  "id": "duckiesHeroHellborneSummon_StartSet",
+  "impact_fx": "BP_FXS_MassShroudweave_TeleportIn"
+}

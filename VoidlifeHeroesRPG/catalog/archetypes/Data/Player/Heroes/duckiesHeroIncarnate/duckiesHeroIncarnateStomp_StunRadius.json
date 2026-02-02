@@ -1,0 +1,44 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "effect_no_target_found ": "emptyRef",
+    "flags": {
+      "target_becomes_instigator": false,
+      "use_search_location_outer_radius": false
+    },
+    "game_effect": "duckiesHeroIncarnateStomp_StunApply",
+    "id": "duckiesHeroIncarnateStomp_StunRadius",
+    "max_targets": -1,
+    "radius": 4.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure",
+          "status_invulnerable",
+          "capturable"
+        ],
+        "required": [
+          "entity_unit",
+          "heightplane_ground"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Caster"
+    },
+    "target_sorts": [],
+    "tracker": "",
+    "validator": "emptyRef"
+  },
+  "meta": {}
+}

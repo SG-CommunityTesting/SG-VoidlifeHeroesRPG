@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "TintColor": {
+      "b": 255,
+      "g": 255,
+      "r": 255
+    },
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Shrike_ShrikeWeapon.UI_Icons_Weapons_Celestials_Shrike_ShrikeWeapon'",
+    "id": "duckiesHeroExoWeapon_TraitBtn",
+    "name": "Triple Shot",
+    "tooltip": "This unit fires three shots with each attack."
+  },
+  "meta": {}
+}

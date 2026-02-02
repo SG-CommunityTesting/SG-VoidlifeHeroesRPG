@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_SpawnersKilledCount",
+    "initial_values": [
+      {
+        "guid": "8D70CFB146E965B6DF4331BA4455FC71",
+        "type": "Value",
+        "value": {
+          "guid": "24041AE94C49EB1754E8A79D2A8126C3",
+          "type": {
+            "directive": "FunctionType",
+            "implements": "",
+            "inner_type": "",
+            "param_id": "",
+            "sub_directive": "None",
+            "type": "Integer"
+          },
+          "value": "0"
+        }
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Integer"
+    }
+  },
+  "meta": {}
+}

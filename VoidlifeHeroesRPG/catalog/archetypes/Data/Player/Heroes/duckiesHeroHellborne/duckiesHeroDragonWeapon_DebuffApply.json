@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroDragonWeapon_Debuff",
+    "id": "duckiesHeroDragonWeapon_DebuffApply"
+  },
+  "meta": {}
+}

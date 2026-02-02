@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Ability/UI_Icons_Abilities_LightMechAOE.UI_Icons_Abilities_LightMechAOE'",
+    "id": "duckiesHeroVulcanWeapon_TraitBtn",
+    "name": "Area Damage",
+    "tooltip": "When attacking ground enemies weapon deals area damage in a line. Additionally can attack trees."
+  },
+  "meta": {}
+}

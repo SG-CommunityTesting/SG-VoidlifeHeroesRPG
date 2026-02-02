@@ -1,0 +1,86 @@
+﻿{
+  "data": {
+    "alias_tech": [
+      "_Phantom"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Light.UI_Icons_Armor_Infernals_Army_Light'",
+    "based_on": "BaseUnit_InfernalU",
+    "buffs": [],
+    "build_cost": {
+      "resource_a": 1.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 0.0,
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "height": 0.0,
+    "id": "duckiesHostilePhantom",
+    "minimap_icon_size": 20.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.5
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.2,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 4.0,
+      "stationary_turn_period": 0.2,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
+    "name": "pegasus_core|UnitData_name_Phantom",
+    "num_corpses": 0,
+    "outer_radius": 0.5,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_light",
+      "attribute_biological",
+      "attribute_melee"
+    ],
+    "subgroup_priority": 102,
+    "supply_cost": 0.0,
+    "traits": [],
+    "unit_button": "Phantom_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Phantom.UI_Portrait_Demon_Default_Phantom'",
+    "unreal_actor": "BP_UD_Phantom_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "veterancy_given_on_death": 1,
+    "vision_radius": 8.0,
+    "vital_health": {
+      "maximum": 40.0,
+      "regen": 0.0,
+      "starting": 40.0
+    },
+    "weaponList": [
+      "Phantom_Weapon"
+    ]
+  },
+  "meta": {}
+}

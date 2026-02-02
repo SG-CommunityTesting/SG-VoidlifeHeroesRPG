@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "Gaunt_WeaponOnShroud_Set1",
+    "effects": [
+      "duckiesHeroGauntWeapon_Damage",
+      "duckiesHeroGauntWeapon_DebuffApply"
+    ],
+    "id": "duckiesHeroGauntWeapon_Bounce2ImpactSet"
+  },
+  "meta": {}
+}

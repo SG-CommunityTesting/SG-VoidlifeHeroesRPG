@@ -1,0 +1,97 @@
+﻿{
+  "data": {
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": true,
+          "enemy": true,
+          "neutral": true,
+          "player": true,
+          "self": true
+        },
+        "tags": {
+          "excluded": [],
+          "required": [
+            "attribute_hero"
+          ]
+        }
+      },
+      "autocasts": true,
+      "exclusive_targeting": false,
+      "initially_on": true,
+      "range": 2.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [],
+      "validator": "NoValidator"
+    },
+    "based_on": "StagedAbilityData",
+    "flags": {
+      "best_unit": true,
+      "cast_on_spawner": false,
+      "cast_while_concealed": false,
+      "channeled": false,
+      "channeling_breaks_on_facing": false,
+      "channeling_breaks_on_range": false,
+      "channeling_breaks_on_vision": false,
+      "channeling_resists_push": false,
+      "count_as_attack": false,
+      "harvest_on_game_start": false,
+      "homogenous_interruption": false,
+      "increment_worker_count": false,
+      "preempt": false,
+      "prevent_activation": false,
+      "progress_countdown": false,
+      "reactive": false,
+      "reapproach": false,
+      "requires_vision": false,
+      "show_progress": false,
+      "silenceable": false,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": false,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroSelectorUse_Abil",
+    "range_maximum": 1.0,
+    "smart": {
+      "priority": 100,
+      "smart_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": false,
+          "neutral": true,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [],
+          "required": [
+            "attribute_hero"
+          ]
+        }
+      }
+    },
+    "target_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": false,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [],
+        "required": [
+          "attribute_hero"
+        ]
+      }
+    },
+    "targeting_type": "Unit",
+    "transient": true,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Spell_Main.AC_Ability_Spell_Main_C'"
+  },
+  "meta": {}
+}

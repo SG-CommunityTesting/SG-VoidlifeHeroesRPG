@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroDragonChimeraWeapon_LaunchMissile",
+    "impact_effect": "duckiesHeroDragonChimeraWeapon_DamageRadius",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_Chimera_Launch",
+    "movement": {
+      "acceleration_time": 0.0,
+      "impact_offset": 0.0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 15.0,
+      "socket": "Auto"
+    },
+    "projectile": "Chimera_Weapon_Missile"
+  },
+  "meta": {}
+}

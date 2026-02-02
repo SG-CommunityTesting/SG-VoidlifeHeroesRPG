@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "id": "duckiesVoidheartShrine_Btn",
+    "name": "Voidheart Shrine",
+    "tooltip": "Restores health and energy nearby allies."
+  },
+  "meta": {}
+}

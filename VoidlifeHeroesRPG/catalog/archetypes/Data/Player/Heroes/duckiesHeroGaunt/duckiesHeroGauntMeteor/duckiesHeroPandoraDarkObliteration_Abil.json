@@ -1,0 +1,110 @@
+﻿{
+  "data": {
+    "action_state": "StagedAbility",
+    "alias_snowbot": "Consume",
+    "arc": 180.0,
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": false,
+          "neutral": false,
+          "player": true,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "dead"
+          ],
+          "required": []
+        }
+      },
+      "autocasts": false,
+      "exclusive_targeting": true,
+      "initially_on": true,
+      "range": 5.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [],
+      "validator": "emptyRef"
+    },
+    "based_on": "BaseStagedAbility",
+    "cast_duration": 0.3,
+    "cast_game_effect": "duckiesHeroPandoraDarkObliteration_StartPersistent",
+    "commands": [
+      {
+        "charges": {
+          "max_count": 0,
+          "name": "default",
+          "recharge_duration": 0,
+          "starting_count": 0
+        },
+        "cooldown": {
+          "duration": 32.0,
+          "name": "DarkOblation",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "finish_duration": 1.6,
+    "flags": {
+      "best_unit": true,
+      "channeled": false,
+      "preempt": false,
+      "progress_countdown": false,
+      "reapproach": false,
+      "requires_vision": true,
+      "show_progress": false,
+      "silenceable": true,
+      "uninterruptible_stages": {
+        "approach": false,
+        "cast": false,
+        "channel": false,
+        "finish": false,
+        "prepare": false
+      }
+    },
+    "id": "duckiesHeroPandoraDarkObliteration_Abil",
+    "name": "Dark Oblation",
+    "range_maximum": 8.0,
+    "range_to_visualize": "range_maximum",
+    "target_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": false,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "entity_unit_structure",
+          "dead",
+          "status_invulnerable"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "targeting_type": "Unit",
+    "transient": false,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AbilityComponents/AC_Ability_Cast_SpellA.AC_Ability_Cast_SpellA_C'"
+  },
+  "meta": {}
+}

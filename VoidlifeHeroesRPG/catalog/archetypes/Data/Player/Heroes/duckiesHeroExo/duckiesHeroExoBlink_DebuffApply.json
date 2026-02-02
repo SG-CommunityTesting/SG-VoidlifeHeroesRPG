@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroExoBlink_Debuff",
+    "id": "duckiesHeroExoBlink_DebuffApply"
+  },
+  "meta": {}
+}

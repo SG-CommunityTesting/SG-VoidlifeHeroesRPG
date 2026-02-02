@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroPandoraMultishot_SortingMarkApply",
+      "duckiesHeroPandoraMultishot_LaunchMissile"
+    ],
+    "id": "duckiesHeroPandoraMultishot_TargetSetSecondary"
+  },
+  "meta": {}
+}

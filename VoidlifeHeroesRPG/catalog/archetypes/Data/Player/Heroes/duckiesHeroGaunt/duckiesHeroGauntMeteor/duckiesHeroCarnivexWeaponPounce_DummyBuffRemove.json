@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectRemoveBuff",
+    "buff": "duckiesHeroCarnivexWeaponPounce_DummyBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroCarnivexWeaponPounce_DummyBuffRemove"
+  },
+  "meta": {}
+}

@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHostileGoldRelicAvatarImbue_Buff",
+    "id": "duckiesHostileGoldRelicAvatarImbue_BuffApply"
+  },
+  "meta": {}
+}

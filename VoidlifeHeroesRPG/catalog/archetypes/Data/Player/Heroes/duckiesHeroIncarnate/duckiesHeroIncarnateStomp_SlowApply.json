@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectApplyBuff",
+    "based_on": "BaseGameEffectApplyBuff",
+    "buff": "StunningStomp_BuffSlow",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHeroIncarnateStomp_SlowApply",
+    "stacks": 0,
+    "stacks_expression": {},
+    "tracker": "",
+    "validator": "Valid_TargetIsNotWithinRange4"
+  },
+  "meta": {}
+}

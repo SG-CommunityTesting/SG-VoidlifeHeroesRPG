@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectPersistent",
+    "based_on": "BaseGameEffectPersistent",
+    "effect_expire_delay": 3.0,
+    "effect_initial": "duckiesHeroStormflyerBombs_ImpactDamageRadius",
+    "effect_initial_delay": 1.3,
+    "id": "duckiesHeroStormflyerBombs_ImpactPersistent",
+    "unreal_actor": "BP_EBFX_Amara_FullSalvoImpact"
+  },
+  "meta": {}
+}

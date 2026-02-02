@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 112.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "id": "duckiesHeroNaviWeapon_Damage",
+    "impact_fx": "BP_FXI_Auralanna_Impact"
+  },
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_Wave6",
+    "pause": 10.0,
+    "text_field": "Every moment my power grows and the Shrine's presence wanes.\n\nThe outcome can be stalled but never denied."
+  },
+  "meta": {}
+}

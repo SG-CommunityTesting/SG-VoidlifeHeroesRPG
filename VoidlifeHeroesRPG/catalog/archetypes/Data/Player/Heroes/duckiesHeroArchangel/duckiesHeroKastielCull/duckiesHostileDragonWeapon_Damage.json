@@ -1,0 +1,21 @@
+﻿{
+  "data": {
+    "amount": 200.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_ranged"
+    ],
+    "friendly_fire_percentage": 100.0,
+    "id": "duckiesHostileDragonWeapon_Damage",
+    "impact_fx": "BP_FX_FlayedDragon_Impact",
+    "ragdoll": {
+      "enable_chance": true,
+      "launch_angle": 0,
+      "launch_power": 0.3
+    },
+    "tag_bonuses": [
+      "duckiesHostileDragonWeapon_BonusTagDamage"
+    ]
+  },
+  "meta": {}
+}

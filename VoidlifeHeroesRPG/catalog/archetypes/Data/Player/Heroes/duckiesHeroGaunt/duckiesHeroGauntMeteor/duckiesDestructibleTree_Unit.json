@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "Tree",
+    "build_time": 10.0,
+    "footprint": {
+      "angled": false,
+      "clumpable": true,
+      "snap": false,
+      "unbuildable": false,
+      "vision_block_height": 2,
+      "x": 0.0,
+      "y": 0.0
+    },
+    "id": "duckiesDestructibleTree_Unit",
+    "name": "pegasus_core|Destructible_name_AuralannaDestructibleTree",
+    "radius": 0.5,
+    "selectable": false,
+    "smart_command_targetable": false,
+    "starting_snowtags": [
+      "entity_destructible_tree",
+      "heightplane_ground",
+      "attribute_light"
+    ],
+    "unreal_actor": "BP_Randomized_Destructible_AuralannaTree"
+  },
+  "meta": {}
+}

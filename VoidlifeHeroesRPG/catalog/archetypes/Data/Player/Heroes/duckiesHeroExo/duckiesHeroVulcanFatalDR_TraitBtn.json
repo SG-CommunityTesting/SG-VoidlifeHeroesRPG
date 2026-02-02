@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SurvivalProtocol.UI_Icons_Abilities_SurvivalProtocol'",
+    "id": "duckiesHeroVulcanFatalDR_TraitBtn",
+    "name": "pegasus_core|Button_name_SurvivalInstinct_ButtonTrait",
+    "tooltip": "When taking fatal damage unit heals for <d ref=\"duckiesHeroVulcanFatalDR_Heal.amount\" style=\"Bold\"/> and becomes invulnerable for <d ref=\"duckiesHeroVulcanFatalDR_InvulnBuff.duration\" style=\"Bold\"/> seconds. Effect has a cooldown of <d ref=\"duckiesHeroVulcanFatalDR_CDBuff.duration\"/> seconds."
+  },
+  "meta": {}
+}

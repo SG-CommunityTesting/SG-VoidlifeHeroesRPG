@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectApplyBuff",
+    "buff": "duckiesHeroDragonConsumeDead_RegenStackBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHeroDragonConsumeDead_RegenBuffApply"
+  },
+  "meta": {}
+}

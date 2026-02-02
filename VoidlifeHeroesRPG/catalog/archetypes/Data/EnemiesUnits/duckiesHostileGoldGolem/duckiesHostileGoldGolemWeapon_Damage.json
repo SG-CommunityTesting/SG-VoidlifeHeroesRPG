@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 12.0,
+  "based_on": "GameEffectDamage",
+  "damage_tags": [
+    "damage_ranged"
+  ],
+  "friendly_fire_percentage": 100.0,
+  "id": "duckiesHostileGoldGolemWeapon_Damage",
+  "impact_fx": "BP_FXI_SkyHunter_Air_Impact"
+}

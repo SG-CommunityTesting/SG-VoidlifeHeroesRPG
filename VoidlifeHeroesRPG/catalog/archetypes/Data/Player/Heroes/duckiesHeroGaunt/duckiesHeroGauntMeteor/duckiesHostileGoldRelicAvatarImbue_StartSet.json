@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHostileGoldRelicAvatarImbue_BuffApply",
+      "duckiesHostileGoldRelicAvatarImbue_ModifyEnergy"
+    ],
+    "id": "duckiesHostileGoldRelicAvatarImbue_StartSet",
+    "validator": "Valid_duckiesHostileGoldRelicAvatarImbue_NoBuff"
+  },
+  "meta": {}
+}

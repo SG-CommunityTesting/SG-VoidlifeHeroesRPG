@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "amount": 1.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_spell"
+    ],
+    "flags": {
+      "alert": false,
+      "damage_response": false
+    },
+    "id": "duckiesHeroGauntWeapon_DebuffDamage"
+  },
+  "meta": {}
+}

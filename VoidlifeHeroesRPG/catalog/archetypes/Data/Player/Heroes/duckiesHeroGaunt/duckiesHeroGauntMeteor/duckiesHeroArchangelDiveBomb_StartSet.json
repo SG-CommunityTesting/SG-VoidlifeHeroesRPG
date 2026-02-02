@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroArchangelDiveBomb_LauncMissile"
+    ],
+    "id": "duckiesHeroArchangelDiveBomb_StartSet",
+    "validator": "Valid_DivebombLocation"
+  },
+  "meta": {}
+}

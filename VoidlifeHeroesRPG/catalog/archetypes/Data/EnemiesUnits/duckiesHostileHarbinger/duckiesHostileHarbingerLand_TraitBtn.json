@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SeismicSlam.UI_Icons_Abilities_SeismicSlam'",
+    "id": "duckiesHostileHarbingerLand_TraitBtn",
+    "name": "pegasus_core|Button_name_HarbingerStunUpgrade_ButtonTrait",
+    "tooltip": "When descending stuns surrounding enemy ground units for <d ref=\"duckiesHostileHarbingerLand_ImpactStun.duration\"/> seconds."
+  },
+  "meta": {}
+}

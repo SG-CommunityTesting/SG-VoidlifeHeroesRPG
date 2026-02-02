@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Gaunt_WeaponOnShroud_SearchRadius1",
+    "game_effect": "duckiesHeroGauntWeapon_Bounce2LaunchMissile",
+    "id": "duckiesHeroGauntWeapon_Bounce2Search",
+    "max_targets": 1,
+    "radius": 6.0
+  },
+  "meta": {}
+}

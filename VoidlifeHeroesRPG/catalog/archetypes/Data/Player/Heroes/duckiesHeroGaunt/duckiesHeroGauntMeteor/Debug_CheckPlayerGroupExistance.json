@@ -1,0 +1,567 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "General_RepeatForever",
+        "guid": "0857831E453C0668855C148A466E120C",
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "UI_SendChatMessage",
+                "guid": "2D97C81A4D0A765E1718FFB6707256AD",
+                "is_enabled": false,
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Text_ToText",
+                          "guid": "C37940B54C3F8F455EE281BCB1883787",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "String_Concat",
+                                    "guid": "DD766FBA4A1E63119341569C4F27316C",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "String_ToString",
+                                              "guid": "C8AB6AF54CCFD82CF25A3EAE78E8A580",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "Time_GetCurrentGameTime",
+                                                        "guid": "9038CC894C74ACD54D800B88E2C6B20A"
+                                                      },
+                                                      "guid": "1A3FDF23410B8C9E16FD9B89B36E468C",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "95264CB84BF72A7B48A5B6BF7DD347CE",
+                                                  "id": "value"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "5F9E2A874BE95385A0A9F9932FDA8C82",
+                                            "type": "Function"
+                                          },
+                                          {
+                                            "guid": "FF79CBC1473B1AAD73FBCCA577DABD94",
+                                            "type": "Value",
+                                            "value": {
+                                              "guid": "2758C52A4BD67D400CBF358302534C8A",
+                                              "type": {
+                                                "directive": "FunctionType",
+                                                "implements": "",
+                                                "inner_type": "",
+                                                "param_id": "",
+                                                "sub_directive": "None",
+                                                "tags": [
+                                                  "to_string"
+                                                ],
+                                                "type": "String"
+                                              },
+                                              "value": "//AI Players Detected: "
+                                            }
+                                          },
+                                          {
+                                            "function": {
+                                              "function_id": "String_ToString",
+                                              "guid": "154D12694B74EF258A35EFBBB7C422A8",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "PlayerGroup_CountPlayers",
+                                                        "guid": "8843F0B54423B5B0319AC1988603B34E",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "005578B94D9E5DA0B8A8B8A756D2B838",
+                                                                "type": "Variable",
+                                                                "variable": {
+                                                                  "guid": "12D9B7194354E3916982289657B42812",
+                                                                  "variable_id": "GV_PlayerAI_Players"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "1E6165894B32AC89C68C5A8A47C56AE7",
+                                                            "id": "group"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "guid": "C1532D8C4586129689122BA179E03E02",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "A20209AA4DAA921D4C964A87E4EFE707",
+                                                  "id": "value"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "34F02B15424CF0B5A273618064D2583E",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "B07E8E064F1D711B2A0E4289E54B208E",
+                                        "id": "strings"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "3CD6ECC44D6809B1F0C9A7BC90CF634B",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "76707AE44CEA67FC9B23CE8A7833B2A2",
+                              "id": "value"
+                            }
+                          ]
+                        },
+                        "guid": "B11DE51947D2A346B0CAADB85022144E",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "C7C406A74C2C3B0898D1F68B84C0C942",
+                    "id": "message"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "PlayerGroup_GetAllPlayers",
+                          "guid": "CDED46DB41E4F62ED66CDF8DAB6E0ABD"
+                        },
+                        "guid": "3963BAD14D977DBA05547E865E997743",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "6DB13CEE464A7264E3CF12999803046F",
+                    "id": "group"
+                  }
+                ]
+              },
+              {
+                "function_id": "UI_SendChatMessage",
+                "guid": "43EB122D42CC1019B9D48991C4AF1104",
+                "is_enabled": false,
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Text_ToText",
+                          "guid": "6030F73245466D19F41F7E9F730224B1",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "String_Concat",
+                                    "guid": "CB9D91A14F7827E8F16839B135D336C2",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "String_ToString",
+                                              "guid": "1FCAA3FC461685AF1007938A8983F46A",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "Time_GetCurrentGameTime",
+                                                        "guid": "03261E844AF9520415A8588687357AA6"
+                                                      },
+                                                      "guid": "F21E2C7B4D6A956916283E83D4AC2829",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "EE1992D444224BA3DDFB3E9E9732240C",
+                                                  "id": "value"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "B544D7E04FA22430F7E8B59C111B109F",
+                                            "type": "Function"
+                                          },
+                                          {
+                                            "guid": "0E7C08A54BAD638BFF8FF2842B350A88",
+                                            "type": "Value",
+                                            "value": {
+                                              "guid": "872F38EF452DADBD18B8D9ABBD243D19",
+                                              "type": {
+                                                "directive": "FunctionType",
+                                                "implements": "",
+                                                "inner_type": "",
+                                                "param_id": "",
+                                                "sub_directive": "None",
+                                                "tags": [
+                                                  "to_string"
+                                                ],
+                                                "type": "String"
+                                              },
+                                              "value": "//AI in BB: "
+                                            }
+                                          },
+                                          {
+                                            "function": {
+                                              "function_id": "String_ToString",
+                                              "guid": "7C56C2C8460A0927200C7C89C5790DF0",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "PlayerGroup_CountPlayers",
+                                                        "guid": "381D151A45E9C0955117E39EC597E736",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "function": {
+                                                                  "function_id": "Blackboard_GetValue_PlayerGroup",
+                                                                  "guid": "D30B5A13401962C360408C91314763F7",
+                                                                  "parameters": [
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "function": {
+                                                                            "function_id": "Blackboard_GetBlackboardOfPlayer",
+                                                                            "guid": "493295414917A1157FA70A986E8F1B77",
+                                                                            "parameters": [
+                                                                              {
+                                                                                "expressions": [
+                                                                                  {
+                                                                                    "guid": "A8663CB14338667928E80FB25D1C46A5",
+                                                                                    "type": "Value",
+                                                                                    "value": {
+                                                                                      "guid": "4AA1F1BD4A357BBF36E71C8AFAA92B55",
+                                                                                      "type": {
+                                                                                        "directive": "FunctionType",
+                                                                                        "implements": "",
+                                                                                        "inner_type": "",
+                                                                                        "param_id": "",
+                                                                                        "sub_directive": "None",
+                                                                                        "type": "Player"
+                                                                                      },
+                                                                                      "value": "0"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "guid": "14259C5A44697468D76E05BE7A18F15A",
+                                                                                "id": "player"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "guid": "312330E94DD9EC837A2A4890E985C165",
+                                                                          "type": "Function"
+                                                                        }
+                                                                      ],
+                                                                      "guid": "0D2E40714EFB3E4290F0FF960DE94642",
+                                                                      "id": "blackboard"
+                                                                    },
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "guid": "43ADE1274070B7BB84F6BC93695E354A",
+                                                                          "type": "Value",
+                                                                          "value": {
+                                                                            "guid": "2186C74848AEEF1A80AB1186E905F384",
+                                                                            "type": {
+                                                                              "directive": "FunctionType",
+                                                                              "implements": "",
+                                                                              "inner_type": "",
+                                                                              "param_id": "",
+                                                                              "sub_directive": "None",
+                                                                              "type": "String"
+                                                                            },
+                                                                            "value": "AI_Inactive"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "guid": "B41BB48849AC0529E3D1BCB3F935D806",
+                                                                      "id": "key"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "guid": "4535C9884CD0263C9B5DF2B2A004D808",
+                                                                "type": "Function"
+                                                              }
+                                                            ],
+                                                            "guid": "091EF9144450383F1371B4BA63713526",
+                                                            "id": "group"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "guid": "17508ED545DE783336173D968941EFB8",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "1B4D6B704A05806650616889E73ABEBE",
+                                                  "id": "value"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "14BA65D847732E7E4FE0F5A9EAFB83FA",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "BBC4EA4742DC003BA06A04A7899387E8",
+                                        "id": "strings"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "7FBEED3D4BF31967AC0BFA9B8031D7B3",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "7737E3F64173543D5B1EA8BA8E68C408",
+                              "id": "value"
+                            }
+                          ]
+                        },
+                        "guid": "AB6F3BC54D94A53710423BA373374558",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "FE94B6EE4C7BDB40EACA45AEB3C5D014",
+                    "id": "message"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "PlayerGroup_GetAllPlayers",
+                          "guid": "B756D62A400BC90CC13672B18BB48B1E"
+                        },
+                        "guid": "3242424A40FDE61F2C8E008CFCCB512C",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "5F94FCD044A4CA313B4744AC94A8CE20",
+                    "id": "group"
+                  }
+                ]
+              },
+              {
+                "function_id": "UI_SendChatMessage",
+                "guid": "1721FDEB4FDBF87278943C8796FCE111",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Text_ToText",
+                          "guid": "33FC3564400BBDCF11284683E9E163D0",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "String_Concat",
+                                    "guid": "7FECAA8445D1BF676040948B2629EAE2",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "String_ToString",
+                                              "guid": "D4D0FEA7419639D343CC2986D0CE3C01",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "Time_GetCurrentGameTime",
+                                                        "guid": "E33970684C0D1A85A2BF3882C6C3396E"
+                                                      },
+                                                      "guid": "442F51914C4D108429BDF1B9FCA66E2F",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "291251CB44F273B1C70843BA0B48E806",
+                                                  "id": "value"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "22CE2B4546EFBE8720687997F51AA180",
+                                            "type": "Function"
+                                          },
+                                          {
+                                            "guid": "5B1EE5B247F8FC82F149B5948D536421",
+                                            "type": "Value",
+                                            "value": {
+                                              "guid": "2BCE7A4C43BA72C4B2350CB13E66D433",
+                                              "type": {
+                                                "directive": "FunctionType",
+                                                "implements": "",
+                                                "inner_type": "",
+                                                "param_id": "",
+                                                "sub_directive": "None",
+                                                "tags": [
+                                                  "to_string"
+                                                ],
+                                                "type": "String"
+                                              },
+                                              "value": "// Players on team 0:"
+                                            }
+                                          },
+                                          {
+                                            "function": {
+                                              "function_id": "String_ToString",
+                                              "guid": "476F8ECB47A0A80870E08CAFF43CFBE5",
+                                              "parameters": [
+                                                {
+                                                  "expressions": [
+                                                    {
+                                                      "function": {
+                                                        "function_id": "PlayerGroup_CountPlayers",
+                                                        "guid": "1335684F4B90CAD07721E29A8F3926F1",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "function": {
+                                                                  "function_id": "PlayerGroup_GetTeamPlayers",
+                                                                  "guid": "DE6F5D534726DCD5E2BC0EB5479D46A3",
+                                                                  "parameters": [
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "guid": "8560001A420ADAD47F251596F1E73119",
+                                                                          "type": "Value",
+                                                                          "value": {
+                                                                            "guid": "FC258B514A20DB792292CFB19B63A6DA",
+                                                                            "type": {
+                                                                              "directive": "FunctionType",
+                                                                              "implements": "",
+                                                                              "inner_type": "",
+                                                                              "param_id": "",
+                                                                              "sub_directive": "None",
+                                                                              "type": "Integer"
+                                                                            },
+                                                                            "value": "0"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "guid": "6700ADCF4BC1581844184FB22E595880",
+                                                                      "id": "team"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "guid": "271AF61C43BC16FC70DE69B438E65588",
+                                                                "type": "Function"
+                                                              }
+                                                            ],
+                                                            "guid": "D91158FA4E307CBD14D1B281454EA2C7",
+                                                            "id": "group"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "guid": "73403E8040C7089B21E4C4959A2503D0",
+                                                      "type": "Function"
+                                                    }
+                                                  ],
+                                                  "guid": "A3D3FEF54623E9B6BE78B186D70530FB",
+                                                  "id": "value"
+                                                }
+                                              ]
+                                            },
+                                            "guid": "162FC4D341A7B03F143A42988043BDEE",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "FBBC0A31471B5C38F93395B13E2DB2BC",
+                                        "id": "strings"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "3BD2763B48E5DDD8DAF0F09F6311221D",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "E833998A45CA01274936CEAF0B557108",
+                              "id": "value"
+                            }
+                          ]
+                        },
+                        "guid": "D846934141DC5D7A4D8E2FBDDD0970A3",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "F36B4BAC4A45CD72654FC7B4459A5BB4",
+                    "id": "message"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "PlayerGroup_GetAllPlayers",
+                          "guid": "CD8DF2F7400349789E895FB6CA25AD7D"
+                        },
+                        "guid": "A7ED532D4B96056C8C46E08D6905C21E",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "706FF0A645A90B51C710B98EF0AB9A0E",
+                    "id": "group"
+                  }
+                ]
+              },
+              {
+                "function_id": "General_Wait",
+                "guid": "66BA55E2405F8713B0AB5D960469D11C",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "06F2296D477ACF3F53FF7D9D4CCC8F47",
+                        "type": "Value",
+                        "value": {
+                          "guid": "88D92123422CD1F08C80FAB488E70275",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Time"
+                          },
+                          "value": "1.0"
+                        }
+                      }
+                    ],
+                    "guid": "6CF22B9147B533B2BFC52AA3062E701D",
+                    "id": "duration"
+                  }
+                ]
+              }
+            ],
+            "guid": "6EBA0804435376F4F037CCAB47BC5970",
+            "id": "actions"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "enabled": false,
+    "events": [
+      {
+        "function_id": "Game_OnMapInitialization",
+        "guid": "B5BFF4E94DEDEF8024B072B1BD84B19E"
+      }
+    ],
+    "id": "Debug_CheckPlayerGroupExistance"
+  },
+  "meta": {}
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectModifyVeterancy",
+    "amount": 10000.0,
+    "based_on": "BaseGameEffectModifyVeterancy",
+    "id": "duckiesGlobalEXPReward_WarzModifyVeterancy",
+    "impact_fx": "BP_FXS_Promote",
+    "validator": "Valid_TargetCanBePromoted"
+  },
+  "meta": {}
+}

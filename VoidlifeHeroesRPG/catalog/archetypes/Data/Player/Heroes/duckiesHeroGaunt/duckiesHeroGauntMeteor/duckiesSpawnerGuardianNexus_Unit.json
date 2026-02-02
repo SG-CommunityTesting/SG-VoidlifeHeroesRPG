@@ -1,0 +1,71 @@
+﻿{
+  "data": {
+    "based_on": "BaseUnit_CelestialS",
+    "behaviors": [
+      "duckiesSpawnerGuardianNexus_PassiveBehavior"
+    ],
+    "build_cost": {
+      "resource_a": 100.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "build_time": 50.0,
+    "cascade_field_radius": 15,
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "duckiesGlobalEXPReward_RevengeSet"
+    },
+    "enabled_unit_tech": [
+      {
+        "unit": "Animancer"
+      },
+      {
+        "unit": "ArcshipTier3Flying"
+      }
+    ],
+    "flags": {
+      "detector": false,
+      "display_ui_description": false,
+      "has_prime_structure": false,
+      "requires_cascade_field": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false
+    },
+    "footprint": {
+      "angled": false,
+      "snap": true,
+      "vision_block_height": 0,
+      "x": 4.0,
+      "y": 4.0
+    },
+    "id": "duckiesSpawnerGuardianNexus_Unit",
+    "name": "pegasus_core|UnitData_name_GuardianNexus",
+    "outer_radius": 2.2,
+    "power_consumed": 8.0,
+    "starting_snowtags": [
+      "entity_unit_structure",
+      "duckiesTagSpawner",
+      "heightplane_ground",
+      "duckiesTagSpawnerObjective"
+    ],
+    "subgroup_priority": 51,
+    "traits": [
+      "CascadeField_Trait"
+    ],
+    "unit_button": "GuardianNexus_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Angel/UI_Portrait_Angel_Default_AscensionChamber.UI_Portrait_Angel_Default_AscensionChamber'",
+    "unreal_actor": "BP_SA_Haven_00",
+    "vision_radius": 13.0,
+    "vital_health": {
+      "maximum": 2500.0,
+      "regen": 0.0,
+      "starting": 2500.0
+    }
+  },
+  "meta": {}
+}

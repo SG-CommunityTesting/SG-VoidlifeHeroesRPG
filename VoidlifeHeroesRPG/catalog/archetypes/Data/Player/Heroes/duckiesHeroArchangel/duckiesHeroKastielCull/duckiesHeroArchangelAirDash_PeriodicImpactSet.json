@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroArchangelAirDash_DebuffApply",
+      "duckiesHeroArchangelAirDash_Damage"
+    ],
+    "id": "duckiesHeroArchangelAirDash_PeriodicImpactSet",
+    "validator": "Valid_TargetNotTracked"
+  },
+  "meta": {}
+}

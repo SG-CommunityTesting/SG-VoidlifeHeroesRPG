@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Absorption.UI_Icons_Abilities_Absorption'",
+    "id": "duckiesHeroBruteFinalShout_Btn",
+    "name": "Overpower",
+    "tooltip": "Increases attack and movement speed by <d ref=\"duckiesHeroBruteFinalShout_Buff.modifiers[0].amount\" style=\"Bold\"/>% and allows hero to push through enemies. Lasts <d ref=\"duckiesHeroBruteFinalShout_Buff.duration\"/> seconds."
+  },
+  "meta": {}
+}

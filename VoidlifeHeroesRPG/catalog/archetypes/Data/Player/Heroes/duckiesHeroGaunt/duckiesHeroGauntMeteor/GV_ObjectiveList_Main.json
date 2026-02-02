@@ -1,0 +1,109 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_ObjectiveList_Main",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "Objectives_List_Create",
+        "guid": "E12D3F04494CB6618C0E8C85EB820E63",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Text_ToText",
+                  "guid": "5EADCFFF457AFF9FDC44B2B253E63CF4",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "guid": "985CD0424BB0C42772991D8BC83CF596",
+                          "type": "Value",
+                          "value": {
+                            "guid": "CCA1FEE144A9B229F62924B1BA63EF4E",
+                            "type": {
+                              "directive": "FunctionType",
+                              "implements": "",
+                              "inner_type": "",
+                              "param_id": "",
+                              "sub_directive": "None",
+                              "tags": [
+                                "to_text"
+                              ],
+                              "type": "String"
+                            },
+                            "value": "Voidlife Heroes RPG"
+                          }
+                        }
+                      ],
+                      "guid": "C5775B7041CD4812657CB4A1BE5FDBB8",
+                      "id": "value"
+                    }
+                  ]
+                },
+                "guid": "D1E1386145F0C7EE0A1946BA6E3FE3D2",
+                "type": "Function"
+              }
+            ],
+            "guid": "BEBC86AB4452F3B0B6E5078AF200C1D2",
+            "id": "title"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "D4F0AB054C78015986FE0980ECD1E73F",
+                "preset": {
+                  "guid": "B1CEEB374B1C46CACCB45C8C953D47F8",
+                  "preset_id": "General_EnableDisable",
+                  "value_id": "enable"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "4000E18649F47635A006359471724125",
+            "id": "enabled"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "359B74484F31EE648144489C5CEDCD83",
+                "preset": {
+                  "guid": "F29438EA4A90B46CF100B095D51E0F74",
+                  "preset_id": "General_Visible",
+                  "value_id": "visible"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "5847F7B2460694B260376B9204C3FFFB",
+            "id": "visible"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_GetAllPlayers",
+                  "guid": "C74DD128488E357C9556AC91175989E2"
+                },
+                "guid": "FA2A02D049020BCD0BEB96BBC76C0FF5",
+                "type": "Function"
+              }
+            ],
+            "guid": "7919F8C240325278E009F7ADF7FBB589",
+            "id": "player_group"
+          }
+        ]
+      },
+      "guid": "E9E8C70A45A10CBB8367F19398BAE0E7",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "ObjectivesList"
+  }
+}

@@ -1,0 +1,142 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "moveData",
+      "stopData",
+      "holdPositionData",
+      "BaseInventory"
+    ],
+    "armor": 0.0,
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "duckiesHeroBase_TIER2",
+    "build_time": 0.5,
+    "cargo_size": "Two",
+    "commandList": [
+      {
+        "ability": "attackData",
+        "button": "AttackButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 1,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "stopData",
+        "button": "StopButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 2,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "holdPositionData",
+        "button": "HoldPositionButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 3,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "MoveButton",
+        "commandIndex": 0,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 4,
+        "submenu": 0,
+        "targetSubmenu": -1
+      },
+      {
+        "ability": "moveData",
+        "button": "PatrolButton",
+        "commandIndex": 1,
+        "panel": "CommandPanel",
+        "repeatable": false,
+        "row": 2,
+        "slot": 5,
+        "submenu": 0,
+        "targetSubmenu": -1
+      }
+    ],
+    "default_control_groups": [
+      10
+    ],
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "emptyRef",
+      "death": "VoidBruteDeath_SetInitial",
+      "revenge": "emptyRef"
+    },
+    "expiration_time": 60.0,
+    "id": "duckiesHeroBruteVoid_Unit",
+    "inner_radius": 0.6,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "moving_turn_period": 0.26,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "speed": 4.0,
+      "stationary_turn_period": 0.26,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false
+    },
+    "name": "pegasus_heroes|UnitData_name_VoidBrute",
+    "outer_radius": 0.9,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "attribute_biological",
+      "attribute_heavy",
+      "attribute_melee",
+      "attribute_hero"
+    ],
+    "subgroup_priority": 120,
+    "supply_cost": 3.0,
+    "unit_button": "VoidBrute_Button",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Brute_Void.UI_Portrait_Demon_Default_Brute_Void'",
+    "unreal_actor": "BP_UD_VoidBrute_00",
+    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "veterancy_given_on_death": 200,
+    "vision_radius": 11.0,
+    "vital_energy": {
+      "maximum": 200.0,
+      "regen": 2.0,
+      "starting": 200.0
+    },
+    "vital_health": {
+      "maximum": 1000.0,
+      "regen": 2.0,
+      "starting": 1000.0
+    },
+    "vital_shield": {
+      "maximum": 0.0,
+      "regen": 0.0,
+      "starting": 0.0
+    },
+    "weaponList": [
+      "duckiesHeroBruteVoidWeapon_Wpn"
+    ]
+  },
+  "meta": {}
+}

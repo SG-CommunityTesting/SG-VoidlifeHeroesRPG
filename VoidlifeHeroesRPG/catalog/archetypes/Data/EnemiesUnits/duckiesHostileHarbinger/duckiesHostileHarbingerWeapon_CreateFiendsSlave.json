@@ -1,0 +1,43 @@
+﻿{
+  "__base_type": "GameEffectCreateUnit",
+  "based_on": "GameEffectCreateUnit",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Caster"
+  },
+  "facing": {
+    "force_spawn_facing": false,
+    "force_spawn_facing_angle": 1.0,
+    "vector_facing_end": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    }
+  },
+  "fallback_unit": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "find_placement": true,
+    "follow_source_rally": false
+  },
+  "id": "duckiesHostileHarbingerWeapon_CreateFiendsSlave",
+  "should_birth_on_creation": true,
+  "spawn_count": 2,
+  "spawn_effect": "emptyRef",
+  "spawn_owner": {
+    "effect_parent": "none",
+    "target": "Source"
+  },
+  "spawn_range": 5.0,
+  "spawn_unit": "duckiesHostileFiend_UnitSuicider",
+  "tracker": "",
+  "validator": "emptyRef"
+}

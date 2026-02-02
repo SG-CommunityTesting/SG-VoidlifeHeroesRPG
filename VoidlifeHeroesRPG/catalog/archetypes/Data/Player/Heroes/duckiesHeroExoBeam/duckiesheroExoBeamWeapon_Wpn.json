@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "backswing": 0.667,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesheroExoBeamWeapon_Damage",
+    "flags": {
+      "always_visualize_range": true,
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": false,
+      "melee": false,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Saber_SaberWeapon.UI_Icons_Weapons_Celestials_Saber_SaberWeapon'",
+    "id": "duckiesheroExoBeamWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Saber_Weapon",
+    "period": 2.0,
+    "range_acquire": 13.0,
+    "range_maximum": 14.0,
+    "swing": 0.0,
+    "swing_reacquire_range": 3.0,
+    "weapon_fire": "duckiesheroExoBeamWeapon_StartSet",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

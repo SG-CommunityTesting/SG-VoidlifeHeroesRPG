@@ -1,0 +1,19 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "applied_tags": [
+      "status_stunned"
+    ],
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_FX_StunDebuff",
+    "duration": 0.2,
+    "icon": "Texture2D'/Game/Pegasus/Art/ZZZ_OLD/FX_Prototype/Commander02/T_Proto_VFX_Commander02_ThunderClap_Stun.T_Proto_VFX_Commander02_ThunderClap_Stun'",
+    "id": "duckiesHostileMagmadonLeaderTrample_StunBuff",
+    "name": "pegasus_coop|Buff_name_AbyssalTrample_BuffStun",
+    "tooltip": "pegasus_coop|Buff_tooltip_AbyssalTrample_BuffStun"
+  },
+  "meta": {}
+}

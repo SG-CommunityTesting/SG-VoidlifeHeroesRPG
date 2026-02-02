@@ -1,0 +1,25 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "applied_tags": [
+      "status_slowed"
+    ],
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_BVA_SkymineDetonate_Slow",
+    "duration": 5.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MeteorStrike.UI_Icons_Abilities_MeteorStrike'",
+    "id": "duckiesHeroArchangelDiveBomb_Debuff",
+    "modifiers": [
+      {
+        "amount": -60.0,
+        "stat_mod": "SpeedPercentageBonus"
+      }
+    ],
+    "name": "Meteor Strike Slow",
+    "tooltip": "pegasus_core|Buff_tooltip_SkymineDetonate_BuffSlow"
+  },
+  "meta": {}
+}

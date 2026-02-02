@@ -1,0 +1,40 @@
+﻿{
+  "data": {
+    "backswing": 1.3,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHeroExoWeapon_Damage",
+    "flags": {
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "hide_weapon": false,
+      "melee": false,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Shrike_ShrikeWeapon.UI_Icons_Weapons_Celestials_Shrike_ShrikeWeapon'",
+    "id": "duckiesHeroExoWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Shrike_Weapon",
+    "period": 1.3,
+    "range_acquire": 7.0,
+    "range_maximum": 4.0,
+    "swing": 0.0,
+    "weapon_fire": "duckiesHeroExoWeapon_StartPersistent",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": []
+      }
+    }
+  },
+  "meta": {}
+}

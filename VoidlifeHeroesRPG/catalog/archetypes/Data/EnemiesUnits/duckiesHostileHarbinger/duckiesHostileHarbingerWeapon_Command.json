@@ -1,0 +1,15 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "duckiesHostileHarbingerLand_Morph",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "effect_target": {
+    "effect_parent": "none",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "id": "duckiesHostileHarbingerWeapon_Command"
+}

@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectCommand",
+    "ability": "moveData",
+    "based_on": "GameEffectCommand",
+    "commanded_target": {
+      "effect_parent": "",
+      "target": "Caster"
+    },
+    "effect_target": {
+      "effect_parent": "",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "id": "duckiesHostileMagmadonLeaderTrample_WpnMoveCommand"
+  },
+  "meta": {}
+}

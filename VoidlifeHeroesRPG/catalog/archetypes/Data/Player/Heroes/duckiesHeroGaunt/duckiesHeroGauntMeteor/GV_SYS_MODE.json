@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "based_on": "GlobalVariable",
+    "id": "GV_SYS_MODE",
+    "initial_values": [
+      {
+        "guid": "56EE7AA64937CF6ED10E9D8681BA6F0D",
+        "type": "Value",
+        "value": {
+          "guid": "F3FD09FC40BCAC3EBFF89D9C9DFBDEF9",
+          "type": {
+            "directive": "FunctionType",
+            "implements": "",
+            "inner_type": "",
+            "param_id": "",
+            "sub_directive": "None",
+            "type": "Integer"
+          },
+          "value": "1"
+        }
+      }
+    ],
+    "type": {
+      "directive": "FunctionType",
+      "implements": "",
+      "inner_type": "",
+      "param_id": "",
+      "sub_directive": "None",
+      "type": "Integer"
+    }
+  },
+  "meta": {}
+}

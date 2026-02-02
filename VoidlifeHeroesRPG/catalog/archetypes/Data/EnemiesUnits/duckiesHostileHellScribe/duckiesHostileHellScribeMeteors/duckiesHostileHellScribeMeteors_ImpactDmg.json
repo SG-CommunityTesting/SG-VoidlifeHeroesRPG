@@ -1,0 +1,46 @@
+﻿{
+  "__base_type": "GameEffectDamageRadius",
+  "amount": 250.0,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 2.0
+    }
+  ],
+  "based_on": "GameEffectDamageRadius",
+  "damage_tags": [
+    "damage_spell",
+    "damage_splash"
+  ],
+  "death_type": "Burning_DeathType",
+  "flags": {
+    "alert": true,
+    "damage_response": true,
+    "use_search_location_outer_radius": false
+  },
+  "friendly_fire_percentage": 0.0,
+  "id": "duckiesHostileHellScribeMeteors_ImpactDmg",
+  "location_impact_fx": "BP_FX_CinderStorm_Impact",
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": true,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_invulnerable"
+      ],
+      "required": [
+        "entity_unit"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Target"
+  }
+}

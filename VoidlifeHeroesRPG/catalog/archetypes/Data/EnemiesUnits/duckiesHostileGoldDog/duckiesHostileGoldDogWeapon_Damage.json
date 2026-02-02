@@ -1,0 +1,36 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 35.0,
+  "amount_expression": {},
+  "based_on": "GameEffectDamage",
+  "damage_tags": [
+    "damage_melee"
+  ],
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "alert": true,
+    "damage_response": true
+  },
+  "friendly_fire_percentage": 100.0,
+  "id": "duckiesHostileGoldDogWeapon_Damage",
+  "impact_fx": "BP_FXI_ShadowMastiff_Impact",
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

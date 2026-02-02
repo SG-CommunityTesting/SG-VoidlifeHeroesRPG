@@ -1,0 +1,8 @@
+﻿{
+  "__base_type": "Button",
+  "based_on": "Button",
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Structures/Demon/UI_Icons_Structures_Demon_TributePyre.UI_Icons_Structures_Demon_TributePyre'",
+  "id": "duckiesGlobalEXPReward_Button",
+  "name": "Global EXP Reward",
+  "tooltip": "Periodically spawn enemies.\n Killing this structure grants <d ref=\"duckiesGlobalEXPReward_ModifyVeterancy.amount\" style=\"Yellow\"/> experience to all heroes."
+}

@@ -1,0 +1,150 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "Unit_Kill",
+        "guid": "A5D62DA34D156F8B5986579749896384",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "1357BBAB46F0C715A2C601B86281B8A0",
+                "type": "Variable",
+                "variable": {
+                  "guid": "66B70558495CB6AC4ADEFDB966F51797",
+                  "variable_id": "GV_MainWarz"
+                }
+              }
+            ],
+            "guid": "824ACF6A42F720D71FC66ABDFD6ACD94",
+            "id": "unit"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "conditions": [
+      {
+        "function_id": "Logic_Comparison",
+        "guid": "4038047C48C864A82BCFE09ED8586423",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_CountPlayers",
+                  "guid": "53B6D71048C34DE8859A8A871288D75E",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "PlayerGroup_GetActivePlayers",
+                            "guid": "E6ECCF0A48F33ACDD2531F94FD147515"
+                          },
+                          "guid": "5CB3DC8A40DAF6B79758C4960A2A6596",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "72F5D049436DC83D1046F98A6B24F312",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "88FBF74C4CCD83765691FA9622265072",
+                "type": "Function"
+              }
+            ],
+            "guid": "950C74E3420E0AD9DAA56482F179ACCE",
+            "id": "value1"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "CBF60E074945858EE271228ED149D7A8",
+                "preset": {
+                  "guid": "F65825F44BE22BE7226FDAA439D3FC8F",
+                  "preset_id": "Logic_ComparisonOperator",
+                  "value_id": "eq"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "A79DAADE42A5F71CA45A3EB805A5200E",
+            "id": "op"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "BC93057440B787CB44389EBB8AADD28F",
+                "type": "Value",
+                "value": {
+                  "guid": "44EC0ADC495825FBD3DE72A850C071AE",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Player"
+                  },
+                  "value": "1"
+                }
+              }
+            ],
+            "guid": "785313D84D6CA567C5E58998D00B824F",
+            "id": "value2"
+          }
+        ]
+      }
+    ],
+    "enabled": false,
+    "events": [
+      {
+        "function_id": "Player_OnPlayerSendsChatMessage",
+        "guid": "B21B744646258CB58BD9929126903974",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "0DC8C1BB437849DF200B248F8A437A22",
+                "preset": {
+                  "guid": "3A6FAE874753E568931849919BDFA355",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "27B075CC4BEFB2872035329C3CC0D68B",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "3E4368AD44EB3FC77BD4718F6606256A",
+                "type": "Value",
+                "value": {
+                  "guid": "780FCB08477AC771FD655897BAC564AB",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "String"
+                  },
+                  "value": "!Warz"
+                }
+              }
+            ],
+            "guid": "A4B4DC084DD8902C62CB1CA80CDF4BC6",
+            "id": "message"
+          }
+        ]
+      }
+    ],
+    "id": "Debug_ActivateWarz"
+  },
+  "meta": {}
+}

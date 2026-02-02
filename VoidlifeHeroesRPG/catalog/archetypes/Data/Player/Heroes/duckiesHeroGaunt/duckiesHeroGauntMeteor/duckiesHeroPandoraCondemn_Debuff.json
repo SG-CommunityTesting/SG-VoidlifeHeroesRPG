@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_Pandemonium_Glyph",
+    "duration": 5.0,
+    "effect_final": "duckiesHeroPandoraCondemn_DamageRadius",
+    "flags": {
+      "change_owner_on_polymorph": false,
+      "disable_on_attacking": false,
+      "disable_on_damage_taken": false,
+      "hidden": false,
+      "hide_timer": false,
+      "override_source": false,
+      "pause_while_disabled": false,
+      "persist_on_dead": false,
+      "remove_on_attacking": false,
+      "remove_on_damage_taken": false,
+      "show_progress": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Overkill.UI_Icons_Abilities_Overkill'",
+    "id": "duckiesHeroPandoraCondemn_Debuff",
+    "name": "Condemned",
+    "tooltip": "When the glyph expires/is removed, it will explode for <d ref=\"duckiesHeroPandoraCondemn_DamageRadius.amount\"/> area damage."
+  },
+  "meta": {}
+}

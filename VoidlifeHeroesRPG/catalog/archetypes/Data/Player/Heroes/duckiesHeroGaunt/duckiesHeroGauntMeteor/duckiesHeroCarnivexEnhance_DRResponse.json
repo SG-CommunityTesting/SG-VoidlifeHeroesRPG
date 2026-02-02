@@ -1,0 +1,36 @@
+﻿{
+  "data": {
+    "based_on": "ResponseDamage",
+    "id": "duckiesHeroCarnivexEnhance_DRResponse",
+    "modify_fraction": 0.5,
+    "shared": {
+      "chance": 1.0,
+      "charges": -1,
+      "cooldown": {
+        "duration": 0.0,
+        "name": "",
+        "scope": "Ability"
+      },
+      "location": "defender",
+      "priority": 100,
+      "required_effect": "emptyRef",
+      "response_effect": "emptyRef",
+      "response_fx": "",
+      "target_filter": {
+        "alliance": {
+          "ally": true,
+          "enemy": true,
+          "neutral": true,
+          "player": true,
+          "self": true
+        },
+        "tags": {
+          "excluded": [],
+          "required": []
+        }
+      },
+      "validator": "emptyRef"
+    }
+  },
+  "meta": {}
+}

@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHeroExoBeamNanoswarm_Debuff",
+    "id": "duckiesHeroExoBeamNanoswarm_DebuffApply",
+    "validator": "Valid_TargetIsEnemy"
+  },
+  "meta": {}
+}

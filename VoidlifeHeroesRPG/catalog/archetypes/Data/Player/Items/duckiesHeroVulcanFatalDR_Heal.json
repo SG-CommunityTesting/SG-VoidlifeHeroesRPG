@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "amount": 1000.0,
+    "based_on": "GameEffectHeal",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Source"
+    },
+    "id": "duckiesHeroVulcanFatalDR_Heal",
+    "impact_fx": "BP_FXS_Revitalize_Target"
+  },
+  "meta": {}
+}

@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHeroArchangelDiveBomb_DamageRadius",
+      "duckiesHeroArchangelDiveBomb_DebuffSearch",
+      "DiveBomb_SearchRadiusTree",
+      "duckiesHeroArchangelDiveBomb_MorphToGround",
+      "DiveBomb_BuffApplierLanding"
+    ],
+    "id": "duckiesHeroArchangelDiveBomb_AreaImpactSet"
+  },
+  "meta": {}
+}

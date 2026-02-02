@@ -1,0 +1,33 @@
+﻿{
+  "data": {
+    "abilityList": [
+      "attackData",
+      "stopData",
+      "holdPositionData"
+    ],
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "armor_name": "pegasus_core|ArmorName_InfernalHeroicArmor",
+    "based_on": "BaseUnit",
+    "effects": {
+      "birth": "emptyRef",
+      "constructed": "emptyRef",
+      "creation": "duckiesHeroHellborneCorpseBlast_VoidRiftPersistent",
+      "death": "emptyRef",
+      "revenge": "emptyRef"
+    },
+    "height": 3.0,
+    "id": "duckiesHeroHellborneCorpseBlastHolder_Unit",
+    "inner_radius": 0.0,
+    "name": "UnitData_name_Unit_BloodScribe",
+    "outer_radius": 0.0,
+    "starting_snowtags": [
+      "entity_unit",
+      "status_invulnerable"
+    ],
+    "unreal_actor": "None",
+    "weaponList": [
+      "duckiesHeroHellborneCorpseBlastHolder_Wpn"
+    ]
+  },
+  "meta": {}
+}

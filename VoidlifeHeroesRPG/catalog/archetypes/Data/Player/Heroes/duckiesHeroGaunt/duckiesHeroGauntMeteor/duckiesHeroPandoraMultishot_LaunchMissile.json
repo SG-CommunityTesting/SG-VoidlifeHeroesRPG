@@ -1,0 +1,30 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHeroPandoraMultishot_LaunchMissile",
+    "impact_effect": "duckiesHeroPandoraMultishot_ImpactSet",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_ShadowDemon_Launch",
+    "launch_location": {
+      "effect_parent": "duckiesHeroPandoraMultishot_Search",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": false,
+      "lob_gravity": 30.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 11.0,
+      "socket": "Auto"
+    },
+    "projectile": "duckiesHeroPandoraMultishot_Missile"
+  },
+  "meta": {}
+}

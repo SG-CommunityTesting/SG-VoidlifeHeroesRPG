@@ -1,0 +1,30 @@
+﻿{
+  "data": {
+    "alignment": "Harmful",
+    "applied_tags": [],
+    "based_on": "Buff",
+    "buff_tags": [
+      "dispel_technological"
+    ],
+    "buff_visuals": "BP_BVA_Debilitate",
+    "duration": 5.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_PhaseGhost.UI_Icons_Abilities_PhaseGhost'",
+    "id": "duckiesHeroExoBlink_Debuff",
+    "modifiers": [
+      {
+        "amount": -50.0,
+        "stat_mod": "AttackSpeedPercentageAdditiveMultiplier"
+      },
+      {
+        "amount": -50.0,
+        "stat_mod": "SpeedPercentageBonus"
+      }
+    ],
+    "name": "Delta Debilitation",
+    "responses": [
+      "duckiesHeroExoBlink_DebuffDamageResponse"
+    ],
+    "tooltip": "This unit's attack and movement speed has been reduced by <d ref=\"(-1) * duckiesHeroExoBlink_Debuff.modifiers[0].amount\"/>% and it takes extra <d ref=\"duckiesHeroExoBlink_DebuffDamageResponse.modify_amount\"/> damage each time it's attacked."
+  },
+  "meta": {}
+}

@@ -1,0 +1,31 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_Stormgate_Activating",
+    "duration": 20.0,
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ImbueAvatar.UI_Icons_Abilities_Stormgates_ImbueAvatar'",
+    "id": "duckiesHeroHellborneEmpower_Buff",
+    "modifiers": [
+      {
+        "amount": 50.0,
+        "stat_mod": "DamagePercentageBonus"
+      },
+      {
+        "amount": 20.0,
+        "stat_mod": "HealthRegenScaledAdditiveBonus"
+      }
+    ],
+    "name": "Empowered",
+    "stacks": {
+      "aggregation": "Target",
+      "buff_scope_effect_parent": "none",
+      "decay": 0,
+      "initial": 1,
+      "maximum": 1
+    },
+    "tooltip": "Damage increased by <d ref=\"duckiesHeroHellborneEmpower_Buff.modifiers[0].amount\"/>%. Life regeneration increased by <d ref=\"duckiesHeroHellborneEmpower_Buff.modifiers[1].amount\"/>.",
+    "visual_fx": "None"
+  },
+  "meta": {}
+}

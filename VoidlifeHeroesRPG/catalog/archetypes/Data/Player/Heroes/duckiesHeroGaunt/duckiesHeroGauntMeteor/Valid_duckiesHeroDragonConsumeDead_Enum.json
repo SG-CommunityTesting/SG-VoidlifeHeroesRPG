@@ -1,0 +1,66 @@
+﻿{
+  "data": {
+    "based_on": "BaseValidator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::enumerate_area_radius",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target_point",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": "duckiesHeroDragonConsumeDead_StartSearch"
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Vector"
+              },
+              "name": "location",
+              "type": "Vector"
+            },
+            {
+              "argument": {
+                "node": "Literal",
+                "type": "Distance",
+                "value": 6.0
+              },
+              "name": "radius",
+              "type": "Distance"
+            },
+            {
+              "argument": {
+                "node": "Literal",
+                "type": "Validator",
+                "value": "Valid_TargetIsDead"
+              },
+              "name": "validator",
+              "type": "Validator"
+            }
+          ],
+          "type": "Count"
+        },
+        "node": "Logical",
+        "operator": ">",
+        "right": {
+          "node": "Literal",
+          "type": "Count",
+          "value": 0
+        },
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "error_string": "No corpses in target area.",
+    "id": "Valid_duckiesHeroDragonConsumeDead_Enum"
+  },
+  "meta": {}
+}

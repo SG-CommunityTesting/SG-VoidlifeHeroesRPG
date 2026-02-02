@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_expire": "duckiesItemsTeleport_TeleportSearch",
+    "effect_expire_delay": 3.0,
+    "effect_initial": "AllyPortal_PersistentTarget",
+    "expire_fx": "BP_FXS_PhaseJump_ChannelTarget",
+    "flags": {
+      "channeling": true
+    },
+    "id": "duckiesItemsTeleport_StartPersistent",
+    "initial_fx": "BP_FXS_PhaseJump_ChannelCaster",
+    "unreal_actor": "BP_EBFX_PhaseJump_ChannelTarget"
+  },
+  "meta": {}
+}

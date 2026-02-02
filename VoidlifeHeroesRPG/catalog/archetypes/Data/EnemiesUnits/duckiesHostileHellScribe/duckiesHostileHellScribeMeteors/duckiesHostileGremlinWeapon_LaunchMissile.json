@@ -1,0 +1,30 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectLaunchProjectile",
+    "id": "duckiesHostileGremlinWeapon_LaunchMissile",
+    "impact_effect": "duckiesHostileGremlinWeapon_Damage",
+    "impact_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    },
+    "launch_fx": "BP_FXS_Imp_Launch",
+    "launch_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Source"
+    },
+    "movement": {
+      "acceleration_time": 0,
+      "impact_offset": 0,
+      "lob": true,
+      "lob_gravity": 50.0,
+      "lock_facing": false,
+      "lock_height_offset": false,
+      "max_speed": 20.0,
+      "socket": "Auto"
+    },
+    "projectile": "Gremlin_Weapon_Missile"
+  },
+  "meta": {}
+}

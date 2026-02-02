@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesGlobalEXPReward_SearchRadius",
+  "game_effect": "duckiesGlobalEXPReward_ModifyVeterancy_Barracks",
+  "id": "duckiesGlobalEXPReward_SearchRadius_Barracks"
+}

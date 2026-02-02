@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "GameEffectSet",
+  "id": "duckiesHeroHellborneSummon_SummonSet",
+  "impact_fx": "BP_FXS_JusticeJump_TeleportIn"
+}

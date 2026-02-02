@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectApplyBuffStun",
+    "buff": "duckiesHeroStormflyerDisrupt_StunBuff",
+    "id": "duckiesHeroStormflyerDisrupt_StunApply",
+    "validator": "duckiesHeroBruteT1Weapon_StunValidator"
+  },
+  "meta": {}
+}

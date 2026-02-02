@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "based_on": "BaseGameEffectLaunchProjectile",
+    "id": "duckiesHeroExoWeapon_LaunchMissile",
+    "impact_effect": "duckiesHeroExoWeapon_Damage",
+    "launch_fx": "BP_FXS_Shrike_Launch",
+    "movement": {
+      "acceleration_time": 0.3,
+      "max_speed": 22.0
+    },
+    "projectile": "Shrike_Weapon_Missile"
+  },
+  "meta": {}
+}

@@ -1,0 +1,24 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectPersistent",
+    "effect_finish": "duckiesHeroVectorBlink_SetFinal",
+    "effect_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Source"
+    },
+    "id": "duckiesHeroVectorBlink_Persistent",
+    "periodic": {
+      "count": 136,
+      "durations": [
+        0.125
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [],
+      "effects_method": "RepeatLast",
+      "validator": "Valid_CasterHasGhostBlinkBuff"
+    },
+    "unreal_actor": "BP_EBFX_GhostBlink"
+  },
+  "meta": {}
+}

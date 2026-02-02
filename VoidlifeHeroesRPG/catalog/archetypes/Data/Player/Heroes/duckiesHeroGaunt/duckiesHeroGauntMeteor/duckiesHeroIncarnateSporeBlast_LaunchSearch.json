@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectSearchRadius",
+    "based_on": "GameEffectSearchRadius",
+    "black_white_list": {
+      "exclude": [],
+      "include": []
+    },
+    "effect_no_target_found ": "duckiesHeroIncarnateSporeBlast_TargetRandomLocation",
+    "flags": {
+      "target_becomes_instigator": false,
+      "use_search_location_outer_radius": false
+    },
+    "game_effect": "duckiesHeroIncarnateSporeBlast_LauncMissile",
+    "id": "duckiesHeroIncarnateSporeBlast_LaunchSearch",
+    "max_targets": 1,
+    "radius": 5.0,
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "entity_destructible_tree"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "search_num": 1,
+    "target_sorts": [
+      "TS_NonStructuresBeforeStructures",
+      "TS_Random"
+    ]
+  },
+  "meta": {}
+}

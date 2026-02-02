@@ -1,0 +1,67 @@
+﻿{
+  "data": {
+    "based_on": "Validator",
+    "check": {
+      "root": {
+        "left": {
+          "name": "ExpressionApi::Vector::get_distance_sq_e2e",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_source",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": ""
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "a",
+              "type": "Entity"
+            },
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": ""
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "b",
+              "type": "Entity"
+            }
+          ],
+          "type": "Distance (Squared)"
+        },
+        "node": "Logical",
+        "operator": ">=",
+        "right": {
+          "node": "Literal",
+          "type": "Distance (Squared)",
+          "value": 36.0
+        },
+        "type": "Bool"
+      },
+      "type": "Bool"
+    },
+    "id": "Valid_duckiesHeroGenericSummonsLeash_DistanceCheck"
+  },
+  "meta": {}
+}

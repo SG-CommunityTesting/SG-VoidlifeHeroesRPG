@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Wildfire.UI_Icons_Abilities_Wildfire'",
+  "id": "duckiesPitFiendWeapon_Button",
+  "name": "Infernal Cyclone",
+  "tooltip": "Summons a fire cyclone that deals <d ref=\"duckiesPitFiendWeapon_DamageRadius.amount/duckiesPitFiendWeapon_DamageAura.periodic_duration\" style=\"Red\"/> area damage per second."
+}
