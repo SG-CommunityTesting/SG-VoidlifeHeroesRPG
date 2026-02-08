@@ -11,14 +11,15 @@
       "find_placement": false
     },
     "id": "duckiesHostileBruteDeathrattle_CreateUnit",
+    "impact_fx": "BP_FXS_BruteDeath",
     "should_birth_on_creation": true,
     "spawn_count": 2,
-    "spawn_effect": "BruteDeath_SetSpawn",
     "spawn_owner": {
       "effect_parent": "none",
       "target": "Caster"
     },
-    "spawn_unit": "Fiend"
+    "spawn_unit": "duckiesHostileFiend_UnitSuicider",
+    "validator": "Valid_duckiesGameParam_IsHardMode"
   },
   "meta": {}
 }

@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "based_on": "Buff",
+    "buff_visuals": "BP_FX_Magmadon_TrampleBuff",
+    "duration": 6.0,
+    "effect_initial": "Trample_BuffApplierStunner",
+    "effect_periodic": "duckiesHostileMagmadonTrample_PeriodicSet",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_DemonhoofTremors.UI_Icons_Abilities_DemonhoofTremors'",
+    "id": "duckiesHostileMagmadonTrample_CasterBuff",
+    "modifiers": [
+      {
+        "amount": 1.0,
+        "stat_mod": "PushPriorityUnscaledBonus"
+      }
+    ],
+    "name": "pegasus_core|Buff_name_Trample_Buff",
+    "periodic_duration": 0.4,
+    "state_flags": {
+      "stealth_suppressed": true
+    },
+    "tooltip": "pegasus_core|Buff_tooltip_Trample_Buff",
+    "validator_disable": "Valid_SourceIsNotCargo",
+    "validator_remove": "Valid_SourceNotStunned"
+  },
+  "meta": {}
+}

@@ -3,5 +3,5 @@
   "based_on": "TraitData",
   "button": "duckiesHostileGoldGolemWeapon_Button",
   "id": "duckiesHostileGoldGolemWeapon_Trait",
-  "requirement": "emptyRef"
+  "requirement": "duckiesGameParam_IsHardModeRequirement"
 }

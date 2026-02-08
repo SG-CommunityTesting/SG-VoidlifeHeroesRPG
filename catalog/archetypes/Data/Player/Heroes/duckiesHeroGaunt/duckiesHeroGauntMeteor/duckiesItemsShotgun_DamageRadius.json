@@ -1,0 +1,42 @@
+﻿{
+  "data": {
+    "amount": 50.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 2.0
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_spell",
+      "weapon"
+    ],
+    "death_type": "Burning_DeathType",
+    "friendly_fire_percentage": 100.0,
+    "id": "duckiesItemsShotgun_DamageRadius",
+    "location_impact_fx": "BP_FX_Magmadon_Trample_Impact",
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "dead",
+          "status_invulnerable"
+        ],
+        "required": []
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Entity",
+      "target": "Target"
+    }
+  },
+  "meta": {}
+}

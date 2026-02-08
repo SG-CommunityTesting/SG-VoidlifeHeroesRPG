@@ -3,7 +3,8 @@
     "amount": 1.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_spell"
+      "damage_spell",
+      "weapon"
     ],
     "flags": {
       "alert": false,

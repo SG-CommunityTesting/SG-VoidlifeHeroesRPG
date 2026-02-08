@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "BaseGameEffectApplyBuffStun",
+  "buff": "duckiesHostileGoldGolemWeapon_Debuff",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHostileGoldGolemWeapon_DebuffApply",
+  "validator": "Valid_TargetNotResilient"
+}

@@ -1,0 +1,38 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
+    "based_on": "BaseUnit_InfernalU",
+    "flags": {
+      "alert_when_attacked": true,
+      "award_victory_points_to_other_team": false,
+      "detector": false,
+      "display_ui_description": true,
+      "has_prime_structure": false,
+      "hologram": false,
+      "overlap_resource_a": false,
+      "receives_veterancy_from_kills": true,
+      "requires_cascade_field": false,
+      "requires_cascade_field_to_morph": true,
+      "seek_and_destroy": false,
+      "stealth": false,
+      "uncommandable": false,
+      "unselectable": false,
+      "untargetable": false,
+      "victory_expansion": false
+    },
+    "id": "duckiesDifficultySelectorHard_Unit",
+    "inner_radius": 0.5,
+    "name": "HARD MODE (In Development)",
+    "outer_radius": 1.0,
+    "show_name_on_hover": true,
+    "starting_snowtags": [
+      "entity_unit",
+      "heightplane_ground",
+      "status_invulnerable"
+    ],
+    "unit_button": "duckiesDifficultySelectorHard_UnitBtn",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Default_BloodScribe.UI_Portrait_Default_BloodScribe'",
+    "unreal_actor": "BP_UD_BloodScribe_00"
+  },
+  "meta": {}
+}

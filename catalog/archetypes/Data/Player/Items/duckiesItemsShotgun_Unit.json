@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsShotgun_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_ShockPulse.UI_Icons_Weapons_ShockPulse'",
+    "id": "duckiesItemsShotgun_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 1,
+    "name": "Ripwave Charge",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "Weapon attack additionally inflicts <d ref=\"duckiesItemsShotgun_DamageRadius.amount\" style=\"Bold\"/> area damage. This effect has a <d ref=\"duckiesItemsShotgun_WeaponDamageResponse.shared.cooldown.duration\"/> second cooldown.\n\n<UnitName>Unique effect, doesn't stack.</>",
+    "unreal_actor": "BP_EpicItem"
+  },
+  "meta": {}
+}

@@ -5,7 +5,7 @@
       "moveData",
       "stopData",
       "holdPositionData",
-      "ChargeSlam_Agument"
+      "duckiesHostileBruteCharge_Augment"
     ],
     "armor": 5.0,
     "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
@@ -16,8 +16,6 @@
       "resource_c": 0.0,
       "resource_d": 0.0
     },
-    "build_time": 0.2,
-    "cargo_size": "Two",
     "commandList": [
       {
         "ability": "attackData",
@@ -128,14 +126,11 @@
         "targetSubmenu": -1
       }
     ],
-    "default_control_groups": [
-      10
-    ],
     "effects": {
       "birth": "emptyRef",
       "constructed": "emptyRef",
       "creation": "emptyRef",
-      "death": "emptyRef",
+      "death": "duckiesHostileBruteDeathrattle_CreateUnit",
       "revenge": "ResourcePickupRefund"
     },
     "expiration_time": 60.0,
@@ -178,16 +173,14 @@
       "attribute_heavy",
       "attribute_melee"
     ],
-    "subgroup_priority": 119,
-    "supply_cost": 3.0,
     "traits": [
-      "ChargeSlam_Trait"
+      "duckiesHostileBruteCharge_Trait",
+      "duckiesHostileBruteDeathrattle_Trait"
     ],
     "unit_button": "Brute_Button",
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_BruteV2.UI_Portrait_Demon_Default_BruteV2'",
     "unit_name_list": "InfBipedes",
     "unreal_actor": "BP_UD_BruteV2_00",
-    "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
     "veterancy_given_on_death": 10,
     "vision_radius": 11.0,
     "vital_health": {
@@ -195,7 +188,6 @@
       "regen": 0.0,
       "starting": 200.0
     },
-    "vital_shroud_bonus_health_flat": 2.0,
     "weaponList": [
       "duckiesHostileBruteWeapon_Wpn"
     ]

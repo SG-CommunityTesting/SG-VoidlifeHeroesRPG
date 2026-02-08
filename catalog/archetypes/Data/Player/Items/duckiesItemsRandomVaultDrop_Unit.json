@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsArmor_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_BastionArmor.UI_Icons_Items_BastionArmor'",
+    "id": "duckiesItemsRandomVaultDrop_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 10,
+    "name": "Random Item",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "At the start of the game this preplaced unit is replaced with a random item.",
+    "unreal_actor": "BP_RareItem"
+  },
+  "meta": {}
+}

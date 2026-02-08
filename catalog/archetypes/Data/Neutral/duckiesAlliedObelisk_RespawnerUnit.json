@@ -22,6 +22,34 @@
   },
   "id": "duckiesAlliedObelisk_RespawnerUnit",
   "inner_radius": 0.0,
+  "movement": {
+    "acceleration_time": 0.0,
+    "collision": {
+      "air": true,
+      "burrowed": false,
+      "ground": false,
+      "ground_tall": false,
+      "item": false,
+      "worker": false
+    },
+    "deceleration_time": 0.0,
+    "flocking": {
+      "separation_delay": 0.5,
+      "separation_radius": 0,
+      "separation_strength": 1.5
+    },
+    "idle_pushable": false,
+    "lock_facing": false,
+    "moving_turn_period": 0.13,
+    "pathing_mode": "Flying",
+    "push_priority": 0,
+    "push_priority_same_team": 0,
+    "speed": 0.0,
+    "stationary_turn_period": 0.13,
+    "turn_radius": 0.0,
+    "turn_without_slowing": false,
+    "unpushable": false
+  },
   "outer_radius": 0.0,
   "starting_snowtags": [
     "status_invulnerable"

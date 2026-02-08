@@ -3,7 +3,8 @@
     "amount": 12.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_ranged"
+      "damage_ranged",
+      "weapon"
     ],
     "id": "duckiesHeroExoWeapon_Damage",
     "impact_fx": "BP_FXI_Shrike_Impact",

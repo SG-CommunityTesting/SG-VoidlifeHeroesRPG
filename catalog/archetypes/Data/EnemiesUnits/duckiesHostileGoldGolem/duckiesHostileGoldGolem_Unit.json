@@ -56,6 +56,7 @@
     "attribute_heavy"
   ],
   "traits": [
+    "duckiesHostileGoldGolemWeapon_DebuffTrait",
     "duckiesHostileGoldGolemWeapon_Trait"
   ],
   "unit_button": "StormgateAbilityCreateTier2AntiAir_Button",

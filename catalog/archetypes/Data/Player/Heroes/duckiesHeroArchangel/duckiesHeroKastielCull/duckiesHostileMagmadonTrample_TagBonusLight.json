@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "based_on": "TagBonus",
+    "bonus": 20,
+    "id": "duckiesHostileMagmadonTrample_TagBonusLight",
+    "tag": "attribute_light"
+  },
+  "meta": {}
+}

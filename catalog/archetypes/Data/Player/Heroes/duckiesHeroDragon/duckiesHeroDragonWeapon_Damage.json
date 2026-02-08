@@ -3,7 +3,8 @@
     "amount": 200.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_ranged"
+      "damage_ranged",
+      "weapon"
     ],
     "friendly_fire_percentage": 100.0,
     "id": "duckiesHeroDragonWeapon_Damage",

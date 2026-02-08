@@ -4,7 +4,8 @@
     "based_on": "GameEffectDamage",
     "damage_tags": [
       "damage_ranged",
-      "damage_splash"
+      "damage_splash",
+      "weapon"
     ],
     "id": "duckiesHeroVulcanWeapon_Damage",
     "impact_fx": "BP_FXI_LightMech_Impact"

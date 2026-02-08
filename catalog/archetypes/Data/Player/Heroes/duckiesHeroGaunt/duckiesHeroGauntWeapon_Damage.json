@@ -3,7 +3,8 @@
     "amount": 16.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_ranged"
+      "damage_ranged",
+      "weapon"
     ],
     "id": "duckiesHeroGauntWeapon_Damage",
     "impact_fx": "BP_FX_Gaunt_Impact"

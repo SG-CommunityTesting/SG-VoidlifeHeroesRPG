@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "amount": 7.5,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 2.0
+      }
+    ],
+    "based_on": "BurnedOne_S_Death_DamageRadius",
+    "id": "duckiesItemsGoldDamageOrb_LavaDamageRadius"
+  },
+  "meta": {}
+}

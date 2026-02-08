@@ -1,0 +1,27 @@
+﻿{
+  "data": {
+    "based_on": "ItemData",
+    "buffs": [
+      "duckiesItemsGoldDamageOrb_Buff"
+    ],
+    "flags": {
+      "activate_when_acquired": false,
+      "drop_on_carrier_death": false,
+      "is_consumable": false,
+      "is_consumed_when_acquired": false,
+      "is_droppable": true,
+      "is_perishable": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_WitheringDeath.UI_Icons_Weapons_Stormgates_WitheringDeath'",
+    "id": "duckiesItemsGoldDamageOrb_Unit",
+    "initial_stacks": 1,
+    "max_stacks": 1,
+    "name": "Molten Oculus",
+    "starting_snowtags": [
+      "status_invulnerable"
+    ],
+    "tooltip": "Increases life regeneration by <d ref=\"duckiesItemsGoldDamageOrb_Buff.modifiers[0].amount\" style=\"Bold\"/>.\n\nEnemies killed by weapon attack burst into a pool of magma, igniting the land for <d ref=\"duckiesItemsGoldDamageOrb_LavaPoolPersistent.periodic.durations[0] * duckiesItemsGoldDamageOrb_LavaPoolPersistent.periodic.count\" style=\"Bold\"/> seconds. Ground enemies that pass ignited area take <d ref=\"duckiesItemsGoldDamageOrb_LavaDamageRadius.amount / duckiesItemsGoldDamageOrb_LavaPoolPersistent.periodic.durations[0]\" style=\"Bold\"/> damage per second.\n\n<UnitName>Unique effect, doesn't stack.</>",
+    "unreal_actor": "BP_EpicItem"
+  },
+  "meta": {}
+}

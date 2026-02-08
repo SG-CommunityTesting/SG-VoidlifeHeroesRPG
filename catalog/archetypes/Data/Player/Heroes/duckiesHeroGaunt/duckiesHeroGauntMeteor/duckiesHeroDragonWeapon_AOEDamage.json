@@ -2,6 +2,10 @@
   "data": {
     "amount": 10.0,
     "based_on": "FlayedDragon_Weapon_Damage",
+    "damage_tags": [
+      "damage_ranged",
+      "weapon"
+    ],
     "id": "duckiesHeroDragonWeapon_AOEDamage",
     "tag_bonuses": []
   },

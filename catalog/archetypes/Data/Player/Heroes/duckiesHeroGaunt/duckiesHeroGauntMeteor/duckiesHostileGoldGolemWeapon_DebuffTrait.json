@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "TraitData",
+    "button": "duckiesHostileGoldGolemWeapon_DebuffTraitBtn",
+    "id": "duckiesHostileGoldGolemWeapon_DebuffTrait"
+  },
+  "meta": {}
+}

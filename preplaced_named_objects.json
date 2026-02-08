@@ -939,12 +939,12 @@
     ]
   },
   "14BBBBCF-405E-B631-0234-8EAA3631AFD6": {
-    "facing": 33293305,
+    "facing": 1392485501,
     "kind": "duckiesDifficultySelectorEasy_Unit",
     "player": 0,
     "position": [
-      1771127,
-      1946151
+      1970038,
+      1807419
     ]
   },
   "1500BE7B-4587-27EB-5D4C-22A4C0F923E7": {
@@ -969,6 +969,15 @@
     "position": [
       -81920,
       1310720
+    ]
+  },
+  "153A11F0-40C2-5DF3-C993-209CF911BD47": {
+    "facing": 2115042338,
+    "kind": "PitFiend",
+    "player": 0,
+    "position": [
+      -1998144,
+      1328035
     ]
   },
   "153FED55-4F3B-0C44-CA42-C3802B811F2C": {
@@ -1647,12 +1656,12 @@
     ]
   },
   "22D9851D-4CB3-42B0-2495-63B1BF3AA220": {
-    "facing": 536870882,
+    "facing": 536870852,
     "kind": "duckiesAlliedCrediter_DuckyUnit",
     "player": 0,
     "position": [
       1196913,
-      1922552
+      1886816
     ]
   },
   "22DA70FB-4AEF-FC16-076D-CAA89A386B7C": {
@@ -2828,6 +2837,15 @@
       482018
     ]
   },
+  "4056D86C-4EF5-AFC9-E1BB-5A964D84EEE5": {
+    "facing": 336013262,
+    "kind": "BotPersonaVokurkaPhantom",
+    "player": 0,
+    "position": [
+      -1975375,
+      1634202
+    ]
+  },
   "41654318-41E1-CBB3-DDF8-5794FF8EE53C": {
     "data": {
       "seed": 23853
@@ -3113,6 +3131,15 @@
       1218554
     ]
   },
+  "47E8B6CD-4D83-CE3F-CE69-98B6E90D2043": {
+    "facing": 536870822,
+    "kind": "duckiesItemsGoldDamageOrb_Unit",
+    "player": 1,
+    "position": [
+      -1870840,
+      1599747
+    ]
+  },
   "4832E819-45FB-286E-1C65-38AA072C31A8": {
     "facing": 1747112044,
     "kind": "duckiesHostileGoldGolem_Unit",
@@ -3237,6 +3264,15 @@
     "position": [
       43218,
       1563451
+    ]
+  },
+  "4B4F1FF7-438F-F947-22F4-5B959AA900DF": {
+    "facing": 273555552,
+    "kind": "FiendWarz",
+    "player": 0,
+    "position": [
+      -1953011,
+      1591136
     ]
   },
   "4B531FE7-4B36-02FF-ED59-E8A1D4C6DF1C": {
@@ -3573,12 +3609,12 @@
     ]
   },
   "51B44A37-433A-2DBB-373B-519155AAAFD9": {
-    "facing": 1387896245,
+    "facing": 1997971412,
     "kind": "duckiesDifficultySelectorNormal_Unit",
     "player": 0,
     "position": [
-      1979656,
-      1942978
+      1770709,
+      1947562
     ]
   },
   "5210E280-4408-88B2-3664-4F84F04C8155": {
@@ -4025,6 +4061,15 @@
       567228
     ]
   },
+  "5BC9B42B-4A93-7D2F-B4DC-21B1A4A03BF4": {
+    "facing": 1012430947,
+    "kind": "Gaunt",
+    "player": 0,
+    "position": [
+      -2000735,
+      1548627
+    ]
+  },
   "5BEAB522-4DC3-6F5A-D19B-66919B0B3C4E": {
     "data": {
       "seed": 2070
@@ -4245,6 +4290,15 @@
     "position": [
       1512931,
       1733447
+    ]
+  },
+  "6126C0C6-419B-37EB-0BEC-E09842CFDF27": {
+    "facing": 1325506070,
+    "kind": "VoidBrute",
+    "player": 0,
+    "position": [
+      -1961279,
+      1501088
     ]
   },
   "61635EFC-43B4-57B3-9E9D-1F8100E975DC": {
@@ -5324,6 +5378,15 @@
       -114688
     ]
   },
+  "79FE389B-4867-DA07-A34A-FCB48E67FC9D": {
+    "facing": 2038887193,
+    "kind": "FiendMaloch",
+    "player": 0,
+    "position": [
+      -1976328,
+      1600734
+    ]
+  },
   "7A4FA5F3-4C6E-B7CC-3796-598E5144F105": {
     "facing": 536870717,
     "kind": "_WorldPointRed0",
@@ -5385,6 +5448,15 @@
     "position": [
       -950272,
       1982464
+    ]
+  },
+  "7BCF9957-4A09-4305-2CF6-E59356E2813C": {
+    "facing": 440218713,
+    "kind": "Harbinger",
+    "player": 0,
+    "position": [
+      -1987331,
+      1430706
     ]
   },
   "7BE4D299-4581-7861-6349-47870BD9308C": {
@@ -6032,6 +6104,15 @@
       1188504
     ]
   },
+  "87B91930-49B8-FDDD-0F35-45BC5474A27A": {
+    "facing": 1393075732,
+    "kind": "WarzGaunt",
+    "player": 0,
+    "position": [
+      -1938251,
+      1539207
+    ]
+  },
   "87F1E355-4CDA-097B-40B4-5CACE2C80C57": {
     "data": {
       "seed": 31162
@@ -6626,6 +6707,15 @@
       851968
     ]
   },
+  "91104BE2-4017-FB17-0D1C-58B21582D7C2": {
+    "facing": 41092350,
+    "kind": "GauntMaloc",
+    "player": 0,
+    "position": [
+      -1971717,
+      1544622
+    ]
+  },
   "912186A5-4D5C-EF24-84C5-37B62FDBB11D": {
     "data": {
       "seed": 22236
@@ -7005,6 +7095,15 @@
     "position": [
       -348106,
       216282
+    ]
+  },
+  "9AB5A33B-420C-4B1B-6B6E-CCB9FE87BA67": {
+    "facing": 297673573,
+    "kind": "HarbingerDeployed",
+    "player": 0,
+    "position": [
+      -1949696,
+      1441792
     ]
   },
   "9ABFD069-4784-02BE-F8CA-BBAB53E8CCC7": {
@@ -8321,6 +8420,15 @@
       495849
     ]
   },
+  "B52CF5B5-4B1A-0BC3-7825-12A7E6468139": {
+    "facing": 384708085,
+    "kind": "Brute",
+    "player": 0,
+    "position": [
+      -2002261,
+      1504063
+    ]
+  },
   "B5CC7C8F-40BF-DE41-724F-71AEE1DB27A6": {
     "facing": 1973152612,
     "kind": "duckiesHostileGoldHorror_Unit",
@@ -8751,6 +8859,15 @@
     "position": [
       1815375,
       -364279
+    ]
+  },
+  "BE1AF63B-4FB5-8AEF-51BC-C3926A127B7A": {
+    "facing": 536870822,
+    "kind": "duckiesItemsShotgun_Unit",
+    "player": 1,
+    "position": [
+      -1849786,
+      1600399
     ]
   },
   "BE27D890-401F-2F11-E729-D28BB7BADEAB": {
@@ -9788,6 +9905,15 @@
       1214928
     ]
   },
+  "D44CC4A8-4420-7DDC-58B7-C18167D45803": {
+    "facing": 1187090000,
+    "kind": "Magmadon",
+    "player": 0,
+    "position": [
+      -1975913,
+      1386114
+    ]
+  },
   "D4B4DAA4-4AF0-9373-7C56-1BBB04010DB9": {
     "facing": 536870837,
     "kind": "duckiesHostileHellScribe_Unit",
@@ -10115,6 +10241,15 @@
       1101409
     ]
   },
+  "DD3E796C-4712-82A6-B5D0-0F8867B4BC68": {
+    "facing": 1336739360,
+    "kind": "duckiesDifficultySelectorHard_Unit",
+    "player": 0,
+    "position": [
+      1975378,
+      1936080
+    ]
+  },
   "DD401F85-4609-0776-168E-DF91F62469EB": {
     "data": {
       "seed": 14074
@@ -10221,6 +10356,15 @@
     "position": [
       1032192,
       -1039251
+    ]
+  },
+  "DF31AAF9-462F-7BAF-D95D-C8B5FF16493B": {
+    "facing": 989754740,
+    "kind": "Phantom",
+    "player": 0,
+    "position": [
+      -2000900,
+      1636494
     ]
   },
   "DFA7F7E0-486B-7BE7-B03C-24AE8C7CB65B": {
@@ -10383,6 +10527,15 @@
     "position": [
       -1376256,
       393216
+    ]
+  },
+  "E4C90F0D-49EC-8AFB-E2F2-BBBDB05DBBDF": {
+    "facing": 57673466,
+    "kind": "Fiend",
+    "player": 0,
+    "position": [
+      -2001050,
+      1597277
     ]
   },
   "E4DE726C-4A11-582F-C7FB-9EB736F76CF1": {

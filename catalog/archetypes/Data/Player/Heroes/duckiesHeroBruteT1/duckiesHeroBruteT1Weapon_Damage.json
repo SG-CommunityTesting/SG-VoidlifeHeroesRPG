@@ -3,7 +3,8 @@
     "amount": 55.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_melee"
+      "damage_melee",
+      "weapon"
     ],
     "id": "duckiesHeroBruteT1Weapon_Damage",
     "impact_fx": "BP_FX_Brute_Impact"

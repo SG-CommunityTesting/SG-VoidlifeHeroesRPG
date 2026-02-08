@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ParalyticPoison.UI_Icons_Abilities_Stormgates_ParalyticPoison'",
+    "id": "duckiesHostileGoldGolemWeapon_DebuffTraitBtn",
+    "name": "pegasus_core|Button_name_AntiAirStun_ButtonTrait",
+    "tooltip": "Attack disables a non-resilient unit's movement for <d ref=\"duckiesHostileGoldGolemWeapon_Debuff.duration\"/> second."
+  },
+  "meta": {}
+}

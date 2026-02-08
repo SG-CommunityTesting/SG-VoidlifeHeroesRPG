@@ -83,7 +83,7 @@
       },
       {
         "ability": "duckiesHostileMagmadonTrample_Abil",
-        "button": "Trample_Button",
+        "button": "duckiesHostileMagmadonTrample_Btn",
         "commandIndex": 0,
         "hotkey_should_hide": false,
         "panel": "CommandPanel",
@@ -159,6 +159,9 @@
     ],
     "subgroup_priority": 122,
     "supply_cost": 6.0,
+    "traits": [
+      "duckiesHostileMagmadonTrample_Trait"
+    ],
     "unit_button": "Magmadon_Button",
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Magmadon.UI_Portrait_Demon_Default_Magmadon'",
     "unit_name_list": "InfBeasts",

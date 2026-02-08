@@ -462,6 +462,152 @@
                       ]
                     },
                     {
+                      "function_id": "UnitGroup_AddUnits",
+                      "guid": "C1C3EC4F4B4814C09884BABA6BF6CC98",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "6D1FD5164FED67A2073453BABE4C65B8",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "5FCBE6DA4BF70657DA0194A85C5E8B57",
+                                "variable_id": "LV_ScanGroup"
+                              }
+                            }
+                          ],
+                          "guid": "C8DBAEDE4E910A3AAE58AABA908701BC",
+                          "id": "destination"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetUnitsOfType",
+                                "guid": "C268E5504D2491C0B846ED9F1F0440C4",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "BFF308044B28CE445038CAAD6EC68233",
+                                        "preset": {
+                                          "guid": "3CD875674D02EF75D4A7B49838959CD4",
+                                          "preset_id": "Player_AnyPlayer",
+                                          "value_id": "any"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "95C6D3074012C99EA25CFBB08F8DF36E",
+                                    "id": "player"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "6F36DC684B3E9D53AB0B29AE4EDA4878",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "23DBFDDA42BC269A89BC5294B116EB28",
+                                          "type": {
+                                            "directive": "TypeRef",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "UnitData"
+                                          },
+                                          "value": "duckiesShrineUpgraderDefenses_Unit"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "61F1C0B14F87E09E8DD0299BEB9E0FA7",
+                                    "id": "unit_type"
+                                  }
+                                ]
+                              },
+                              "guid": "74E6FC47457253C0070C64AE1018206F",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "CD9D0AE54D7E02BE3BA382886B78C5B1",
+                          "id": "source"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "UnitGroup_AddUnits",
+                      "guid": "3923BCDF49694A819DB040874697B627",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "69C890374C45AC1CF27F64912E8F7936",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "302613DD4F50D5B98059D98A0A15E3A6",
+                                "variable_id": "LV_ScanGroup"
+                              }
+                            }
+                          ],
+                          "guid": "0800528A4775D5365185EFBF4F39D230",
+                          "id": "destination"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "UnitGroup_GetUnitsOfType",
+                                "guid": "5BDD71484175CC3FD1F103BE5246D3EF",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "3DA69A3B4FFA334041ACC89B35234BC5",
+                                        "preset": {
+                                          "guid": "3A7E070F4917680AB463B19976913BFE",
+                                          "preset_id": "Player_AnyPlayer",
+                                          "value_id": "any"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "47B095B44E797C5E785DBE807824633B",
+                                    "id": "player"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "9046F4324219E7E540A1BEA6E737C25F",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "C26F3D6D4A9DE4A5D209D9A8D88BD77B",
+                                          "type": {
+                                            "directive": "TypeRef",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "UnitData"
+                                          },
+                                          "value": "duckiesShrineUpgraderHealing_Unit"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "57B546834C2A0C8C854F0AA3C643FD83",
+                                    "id": "unit_type"
+                                  }
+                                ]
+                              },
+                              "guid": "148010E74D4DC361B47044BAD1ECDB9C",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "096155224824D866D56EE1A185F062CE",
+                          "id": "source"
+                        }
+                      ]
+                    },
+                    {
                       "function_id": "General_IfThenElse",
                       "guid": "683C60FE46ACACD971F94A96609D78A6",
                       "sub_functions": [

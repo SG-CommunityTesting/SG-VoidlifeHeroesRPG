@@ -2958,6 +2958,7 @@
       {
         "function_id": "TechTree_SetRequirementsEnabled",
         "guid": "D0FEBB3D4A589824F09F3CB601B6CD6D",
+        "is_enabled": false,
         "parameters": [
           {
             "expressions": [

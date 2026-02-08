@@ -3,7 +3,8 @@
     "amount": 110.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_melee"
+      "damage_melee",
+      "weapon"
     ],
     "id": "duckiesHeroMagmadonWeapon_Damage",
     "impact_fx": "BP_FX_Magmadon_Impact",

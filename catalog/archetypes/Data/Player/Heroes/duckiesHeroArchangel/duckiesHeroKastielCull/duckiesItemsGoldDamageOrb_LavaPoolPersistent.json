@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "based_on": "BurnedOne_S_Death_Persistent",
+    "id": "duckiesItemsGoldDamageOrb_LavaPoolPersistent",
+    "periodic": {
+      "count": 24,
+      "durations": [
+        0.25
+      ],
+      "durations_method": "RepeatLast",
+      "effects": [
+        "duckiesItemsGoldDamageOrb_LavaDamageRadius"
+      ],
+      "effects_method": "RepeatLast",
+      "validator": "NoValidator"
+    },
+    "unreal_actor": "BP_EBFX_BurnedOne_DeathEffect_M"
+  },
+  "meta": {}
+}

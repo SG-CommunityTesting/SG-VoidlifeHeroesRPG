@@ -33,7 +33,7 @@
       "validator": "emptyRef"
     },
     "based_on": "BaseAugmentAbilityData",
-    "cast_game_effect": "Trample_BuffApplierPrimary",
+    "cast_game_effect": "duckiesHostileMagmadonTrample_CasterApply",
     "commands": [
       {
         "cooldown": {

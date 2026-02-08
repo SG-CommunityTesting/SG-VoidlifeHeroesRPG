@@ -2,6 +2,142 @@
   "data": {
     "actions": [
       {
+        "function_id": "General_IfThenElse",
+        "guid": "641A51C24F3DD9FF9DB6048A1901D1FD",
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "Logic_Comparison",
+                "guid": "5BC1AC784C05E41F628556A6E55CF11F",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "A4E4B4774641CAA4B94EECB65B52A230",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "4E340BCC4372D95620B1C086491F0902",
+                          "variable_id": "GV_SYS_MODE"
+                        }
+                      }
+                    ],
+                    "guid": "A6111C2C43ADBF13F724219F3AA53FE7",
+                    "id": "value1"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "B9CA1A7A428FF6C41F7594B8E39E6739",
+                        "preset": {
+                          "guid": "FA9A7F8940ACB06EE762538672F56FC9",
+                          "preset_id": "Logic_ComparisonOperator",
+                          "value_id": "eq"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "194061BD4EE1F2AEB3DDEA99D8AAC0DA",
+                    "id": "op"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "6136E77443D9491EAE901896C6F026CD",
+                        "type": "Value",
+                        "value": {
+                          "guid": "FDFC56424EBF9D6C398098AE9FF2B963",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Player"
+                          },
+                          "value": "2"
+                        }
+                      }
+                    ],
+                    "guid": "DBBDEFB84AD36F003B6200A5E6FCD4D3",
+                    "id": "value2"
+                  }
+                ]
+              }
+            ],
+            "guid": "45193AE345FC802BEC2A9398FAD83719",
+            "id": "if"
+          },
+          {
+            "functions": [
+              {
+                "function_id": "Variable_ModifyVariable",
+                "guid": "F4788516409F919F0F74578A71EA859A",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "A987AF2C409DA80234898AA782751192",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "91ED56E34C91A1D2AA8CC39B15CC847D",
+                          "variable_id": "GV_SpawnerUnique_Tier1CountAddition"
+                        }
+                      }
+                    ],
+                    "guid": "D5E6C691401EDBF1A4920DA7A8AE078C",
+                    "id": "variable"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "671D83C54987E7A6A0B2BEAEFD136297",
+                        "preset": {
+                          "guid": "92EF7256421A72958985EEA980DF562D",
+                          "preset_id": "Math_ArithmeticOperator",
+                          "value_id": "plus"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "5EB4B5E84011FE8B4BFA3D933EC30604",
+                    "id": "op"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "33F8B85940102840B2C583BB07884AFA",
+                        "type": "Value",
+                        "value": {
+                          "guid": "9B45C68046DE702BB326C289C0B93619",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Integer"
+                          },
+                          "value": "1"
+                        }
+                      }
+                    ],
+                    "guid": "4B226A3146766A617CBCAA824F7EB7F2",
+                    "id": "value"
+                  }
+                ]
+              }
+            ],
+            "guid": "8D1F66C54C430DD2C3C7E78DCD276BFC",
+            "id": "then"
+          },
+          {
+            "guid": "364284FB4625BC3B10E29EA9941246EC",
+            "id": "else"
+          }
+        ]
+      },
+      {
         "function_id": "Unit_CreateUnit",
         "guid": "FF6783794FBCC0FE385E3DA677F930F8",
         "parameters": [
