@@ -169,9 +169,9 @@
       "starting": 800.0
     },
     "vital_health": {
-      "maximum": 2700.0,
+      "maximum": 1700.0,
       "regen": 4.0,
-      "starting": 2700.0
+      "starting": 1700.0
     },
     "weaponList": [
       "duckiesHeroDragonWeapon_Wpn"

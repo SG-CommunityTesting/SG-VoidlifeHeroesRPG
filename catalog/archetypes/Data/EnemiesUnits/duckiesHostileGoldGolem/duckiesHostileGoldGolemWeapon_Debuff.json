@@ -1,0 +1,35 @@
+﻿{
+  "__base_type": "Buff",
+  "alignment": "Harmful",
+  "applied_tags": [],
+  "based_on": "Buff",
+  "buff_tags": [
+    "dispel_technological"
+  ],
+  "buff_visuals": "BP_FX_SlowDebuff",
+  "duration": 0.5,
+  "flags": {
+    "change_owner_on_polymorph": false,
+    "disable_on_attacking": false,
+    "disable_on_damage_taken": false,
+    "hidden": false,
+    "hide_timer": false,
+    "override_source": false,
+    "pause_while_disabled": false,
+    "persist_on_dead": false,
+    "remove_on_attacking": false,
+    "remove_on_damage_taken": false,
+    "show_progress": true
+  },
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Abilities/UI_Icons_Abilities_Stormgates_ParalyticPoison.UI_Icons_Abilities_Stormgates_ParalyticPoison'",
+  "id": "duckiesHostileGoldGolemWeapon_Debuff",
+  "modifiers": [
+    {
+      "amount": -100.0,
+      "stat_mod": "SpeedPercentageBonus"
+    }
+  ],
+  "name": "Paralytic Poison",
+  "tooltip": "Unit is rooted in place and can not move.",
+  "visual_fx": "None"
+}

@@ -1,0 +1,194 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "Player_SetPropertyValue",
+        "guid": "F38BBD104AA01A930F000EA00D01AC14",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Player_GetTriggeringPlayer",
+                  "guid": "840A93824082B24F35D1DEA1FB9FF482"
+                },
+                "guid": "8847375D411717826C8DA2B9AB5881F7",
+                "type": "Function"
+              }
+            ],
+            "guid": "C81857CE4802960B3EFD298F55BAE490",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "B28B308A40052CA59A08DD8DABF6AA0A",
+                "type": "Value",
+                "value": {
+                  "guid": "5B215ADA467FC6353E40929874F43C65",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "PlayerProperty"
+                  },
+                  "value": "PlayerProperty_ResourceA"
+                }
+              }
+            ],
+            "guid": "74F8546745F04060A1E05198443CAF9E",
+            "id": "property"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "9270402E4E95BEE9DB4FED996DAF7C72",
+                "type": "Value",
+                "value": {
+                  "guid": "F08568CB48F99ED163056FA5C6E13F45",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Value"
+                  },
+                  "value": "10000.0"
+                }
+              }
+            ],
+            "guid": "E40635A24FA9FD64DA34138260C23D97",
+            "id": "value"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "conditions": [
+      {
+        "function_id": "Logic_Comparison",
+        "guid": "4038047C48C864A82BCFE09ED8586423",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_CountPlayers",
+                  "guid": "53B6D71048C34DE8859A8A871288D75E",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "PlayerGroup_GetActivePlayers",
+                            "guid": "E6ECCF0A48F33ACDD2531F94FD147515"
+                          },
+                          "guid": "5CB3DC8A40DAF6B79758C4960A2A6596",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "72F5D049436DC83D1046F98A6B24F312",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "88FBF74C4CCD83765691FA9622265072",
+                "type": "Function"
+              }
+            ],
+            "guid": "950C74E3420E0AD9DAA56482F179ACCE",
+            "id": "value1"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "CBF60E074945858EE271228ED149D7A8",
+                "preset": {
+                  "guid": "F65825F44BE22BE7226FDAA439D3FC8F",
+                  "preset_id": "Logic_ComparisonOperator",
+                  "value_id": "eq"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "A79DAADE42A5F71CA45A3EB805A5200E",
+            "id": "op"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "BC93057440B787CB44389EBB8AADD28F",
+                "type": "Value",
+                "value": {
+                  "guid": "44EC0ADC495825FBD3DE72A850C071AE",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Player"
+                  },
+                  "value": "1"
+                }
+              }
+            ],
+            "guid": "785313D84D6CA567C5E58998D00B824F",
+            "id": "value2"
+          }
+        ]
+      }
+    ],
+    "enabled": false,
+    "events": [
+      {
+        "function_id": "Player_OnPlayerSendsChatMessage",
+        "guid": "B21B744646258CB58BD9929126903974",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "0DC8C1BB437849DF200B248F8A437A22",
+                "preset": {
+                  "guid": "3A6FAE874753E568931849919BDFA355",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "27B075CC4BEFB2872035329C3CC0D68B",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "66D6DA22415E34CC8D78DABBD20586DF",
+                "type": "Value",
+                "value": {
+                  "guid": "C1659D5C473C828776B0F9BC32211D44",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "String"
+                  },
+                  "value": "!gold"
+                }
+              }
+            ],
+            "guid": "A4B4DC084DD8902C62CB1CA80CDF4BC6",
+            "id": "message"
+          }
+        ]
+      }
+    ],
+    "id": "Debug_GOLD_Cheat"
+  },
+  "meta": {}
+}

@@ -3,7 +3,8 @@
     "amount": 64.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_ranged"
+      "damage_ranged",
+      "weapon"
     ],
     "id": "duckiesHeroHellborneWeapon_Damage",
     "impact_fx": "BP_FXI_PitFiend_Impact",

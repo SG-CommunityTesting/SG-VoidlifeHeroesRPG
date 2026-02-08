@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "TraitData",
+    "button": "ChargeSlam_ButtonTrait",
+    "id": "duckiesHostileBruteCharge_Trait"
+  },
+  "meta": {}
+}

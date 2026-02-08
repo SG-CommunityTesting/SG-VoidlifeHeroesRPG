@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "UpgradeData",
+  "create_alert_on_complete": false,
+  "id": "duckiesGameParam_IsHardModeUpgrade"
+}

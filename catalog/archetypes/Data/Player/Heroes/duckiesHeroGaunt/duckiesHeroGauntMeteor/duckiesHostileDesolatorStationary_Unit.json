@@ -1,5 +1,6 @@
 ﻿{
   "data": {
+    "armor": 250.0,
     "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Infernals_Army_Heavy.UI_Icons_Armor_Infernals_Army_Heavy'",
     "based_on": "BaseUnit_InfernalU",
     "height": 0.0,
@@ -40,7 +41,8 @@
     "starting_snowtags": [
       "entity_unit",
       "heightplane_ground",
-      "attribute_resilient"
+      "attribute_resilient",
+      "attribute_hero"
     ],
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Desolator.UI_Portrait_Demon_Default_Desolator'",
     "unreal_actor": "BP_UD_DesolatorCampaign",

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHostileMagmadonTrample_DamageRadius",
+      "Trample_SearchRadiusTree"
+    ],
+    "id": "duckiesHostileMagmadonTrample_PeriodicSet"
+  },
+  "meta": {}
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Gear/UI_Icons_Gear_GlyphsOfSummoning.UI_Icons_Gear_GlyphsOfSummoning'",
+    "id": "duckiesHostileHellScribeWeapon_TraitBtn",
+    "name": "Scriptures of Anguish",
+    "tooltip": "Unit generates <d ref=\"duckiesHostileHellScribeWeaponA_ModifyEnergy.energy_mod_flat_amount\" style=\"Bold\"/> energy when it attacks."
+  },
+  "meta": {}
+}

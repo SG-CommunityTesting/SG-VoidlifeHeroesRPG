@@ -1,10 +1,10 @@
 ﻿{
   "data": {
     "based_on": "Button",
-    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MoreFiends.UI_Icons_Abilities_MoreFiends'",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SunderSoul.UI_Icons_Abilities_SunderSoul'",
     "id": "duckiesHostileBruteDeathrattle_TraitBtn",
-    "name": "Obsidian Horde",
-    "tooltip": "This unit will spawn double the amount of fiends when it perishes or uses <Bold>Sundered Soul</>. \r\n Gives +10 Armor to <UnitName>Brutes</>."
+    "name": "pegasus_core|Button_Name_SunderSoul_Button",
+    "tooltip": "This unit will spawn <d ref=\"duckiesHostileBruteDeathrattle_CreateUnit.spawn_count\" style=\"Bold\"/> <UnitName>Fiends</> when killed."
   },
   "meta": {}
 }

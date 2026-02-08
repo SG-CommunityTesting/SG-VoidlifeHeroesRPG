@@ -95,6 +95,16 @@
       "id": "_duckiesHostileFiend_Unit3",
       "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Faction/UI_Icons_Faction_Loading_Celestials.UI_Icons_Faction_Loading_Celestials'"
     },
+    "_duckiesHostileFiend_Unit4": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit4",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ExpandedCargo.UI_Icons_Abilities_ExpandedCargo'"
+    },
+    "_duckiesHostileFiend_Unit5": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit5",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CelestialHyperDrive.UI_Icons_Abilities_CelestialHyperDrive'"
+    },
     "_duckiesHostileFireGiant_Unit0": {
       "based_on": "duckiesHostileFireGiant_Unit",
       "id": "_duckiesHostileFireGiant_Unit0",

@@ -5,7 +5,8 @@
     "amount_expression": {},
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_spell"
+      "damage_spell",
+      "weapon"
     ],
     "death_type": "Normal_DeathType",
     "effect_target": {

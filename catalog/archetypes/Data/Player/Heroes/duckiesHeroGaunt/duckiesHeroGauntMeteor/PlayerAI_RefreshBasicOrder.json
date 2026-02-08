@@ -6892,6 +6892,611 @@
                                                     "id": "queue_order"
                                                   }
                                                 ]
+                                              },
+                                              {
+                                                "function_id": "General_IfThenElse",
+                                                "guid": "0941751A4DF332E96FC256B3775CCE1B",
+                                                "sub_functions": [
+                                                  {
+                                                    "functions": [
+                                                      {
+                                                        "function_id": "Logic_AndOrConditions",
+                                                        "guid": "B19B3BB1484B21C5D5F6CC9D7D85796C",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "1B7828984F348B460C6C13A5281F6A2D",
+                                                                "preset": {
+                                                                  "guid": "6826AFEF4090A264C2572EB0841C6C2D",
+                                                                  "preset_id": "Logic_AndOrOperator",
+                                                                  "value_id": "or"
+                                                                },
+                                                                "type": "Preset"
+                                                              }
+                                                            ],
+                                                            "guid": "96F1B4AF47B65D4A9FA9D9B95D0EFE87",
+                                                            "id": "op"
+                                                          }
+                                                        ],
+                                                        "sub_functions": [
+                                                          {
+                                                            "functions": [
+                                                              {
+                                                                "function_id": "Logic_Comparison",
+                                                                "guid": "BB0A5D03495CEEFCD81575BF63D1C9A5",
+                                                                "parameters": [
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "function": {
+                                                                          "function_id": "Unit_IsType",
+                                                                          "guid": "06055C804607CB6CF0F4D58945617A9F",
+                                                                          "parameters": [
+                                                                            {
+                                                                              "expressions": [
+                                                                                {
+                                                                                  "function": {
+                                                                                    "function_id": "Blackboard_GetValue_Unit",
+                                                                                    "guid": "FBD4E16146E1D736F750D397EC5DE90C",
+                                                                                    "parameters": [
+                                                                                      {
+                                                                                        "expressions": [
+                                                                                          {
+                                                                                            "guid": "0FDB0A684871EE38C19853A2AABA8C9D",
+                                                                                            "type": "Variable",
+                                                                                            "variable": {
+                                                                                              "guid": "E7ED265848A041B315A8528560A6758F",
+                                                                                              "variable_id": "LV_Blackboard"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "guid": "15AF888D47D4A20CE0E499A754D8973F",
+                                                                                        "id": "blackboard"
+                                                                                      },
+                                                                                      {
+                                                                                        "expressions": [
+                                                                                          {
+                                                                                            "guid": "AEA55869426D4AE1B22229978E63A332",
+                                                                                            "type": "Value",
+                                                                                            "value": {
+                                                                                              "guid": "D0C6E7524BAD47A5C6F9C3B248007B00",
+                                                                                              "type": {
+                                                                                                "directive": "FunctionType",
+                                                                                                "implements": "",
+                                                                                                "inner_type": "",
+                                                                                                "param_id": "",
+                                                                                                "sub_directive": "None",
+                                                                                                "type": "String"
+                                                                                              },
+                                                                                              "value": "AttackTarget"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "guid": "5F1AF5D54A0A39BF327D45A61CA65DEC",
+                                                                                        "id": "key"
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  "guid": "52420C3A461AFE0599B800BA4B48317E",
+                                                                                  "type": "Function"
+                                                                                }
+                                                                              ],
+                                                                              "guid": "6D84A91E4452D80A93F6319FCD78DF75",
+                                                                              "id": "unit"
+                                                                            },
+                                                                            {
+                                                                              "expressions": [
+                                                                                {
+                                                                                  "guid": "38B76D4C4A996D7A676366B231FBF26E",
+                                                                                  "type": "Value",
+                                                                                  "value": {
+                                                                                    "guid": "DD4E782F4EC78BB8CF4C5DB2339564CB",
+                                                                                    "type": {
+                                                                                      "directive": "TypeRef",
+                                                                                      "implements": "",
+                                                                                      "inner_type": "",
+                                                                                      "param_id": "",
+                                                                                      "sub_directive": "None",
+                                                                                      "type": "UnitData"
+                                                                                    },
+                                                                                    "value": "duckiesShrineUpgraderDefenses_Unit"
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "guid": "83ABCD454F292BDD42B6D5A3DC860316",
+                                                                              "id": "type"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "guid": "951259524F463B5B5A2F7790F612EA77",
+                                                                        "type": "Function"
+                                                                      }
+                                                                    ],
+                                                                    "guid": "2A719BBD4849A8EEB2C6F5ADBA403961",
+                                                                    "id": "value1"
+                                                                  },
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "9FDD454F41CF717FA2C4C781B3D512C6",
+                                                                        "preset": {
+                                                                          "guid": "65D23BB242A56A47F77B7C84147B9AEF",
+                                                                          "preset_id": "Logic_ComparisonOperator",
+                                                                          "value_id": "eq"
+                                                                        },
+                                                                        "type": "Preset"
+                                                                      }
+                                                                    ],
+                                                                    "guid": "E3CC7C0B47992CD87056A4A4CEDEB78B",
+                                                                    "id": "op"
+                                                                  },
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "EFDF17F941D85D8DCFE36A88D8A385BE",
+                                                                        "type": "Value",
+                                                                        "value": {
+                                                                          "guid": "9D83A17743C3B53A6B9601B0AAC9F911",
+                                                                          "type": {
+                                                                            "directive": "FunctionType",
+                                                                            "implements": "",
+                                                                            "inner_type": "",
+                                                                            "param_id": "",
+                                                                            "sub_directive": "None",
+                                                                            "type": "Boolean"
+                                                                          },
+                                                                          "value": "true"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "guid": "A449F3584ABE14084A5022B7E9D82F89",
+                                                                    "id": "value2"
+                                                                  }
+                                                                ]
+                                                              },
+                                                              {
+                                                                "function_id": "Logic_Comparison",
+                                                                "guid": "16478FED408CAD5485D61CA76238D584",
+                                                                "parameters": [
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "function": {
+                                                                          "function_id": "Unit_IsType",
+                                                                          "guid": "E485B03641CC30AE696666994B7EF4AB",
+                                                                          "parameters": [
+                                                                            {
+                                                                              "expressions": [
+                                                                                {
+                                                                                  "function": {
+                                                                                    "function_id": "Blackboard_GetValue_Unit",
+                                                                                    "guid": "38975C05487B94E8198B66BDA7568E94",
+                                                                                    "parameters": [
+                                                                                      {
+                                                                                        "expressions": [
+                                                                                          {
+                                                                                            "guid": "229566CA473F0CAA2B653891AAE4732F",
+                                                                                            "type": "Variable",
+                                                                                            "variable": {
+                                                                                              "guid": "28D050BF45907626317368B9AE1DB7B7",
+                                                                                              "variable_id": "LV_Blackboard"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "guid": "19DD900B4AE14ACC1FB79EA13BE97517",
+                                                                                        "id": "blackboard"
+                                                                                      },
+                                                                                      {
+                                                                                        "expressions": [
+                                                                                          {
+                                                                                            "guid": "21A142BB4A6324B378E17B9A699A249A",
+                                                                                            "type": "Value",
+                                                                                            "value": {
+                                                                                              "guid": "DC76FFD343A5CAE85E619286B18A55A7",
+                                                                                              "type": {
+                                                                                                "directive": "FunctionType",
+                                                                                                "implements": "",
+                                                                                                "inner_type": "",
+                                                                                                "param_id": "",
+                                                                                                "sub_directive": "None",
+                                                                                                "type": "String"
+                                                                                              },
+                                                                                              "value": "AttackTarget"
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "guid": "3431CD72410481B62A3BE9857B74D276",
+                                                                                        "id": "key"
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  "guid": "D1434EB147C7462B8575A0BD87252ABE",
+                                                                                  "type": "Function"
+                                                                                }
+                                                                              ],
+                                                                              "guid": "1149B7A1494C42AE995AD2B23492924A",
+                                                                              "id": "unit"
+                                                                            },
+                                                                            {
+                                                                              "expressions": [
+                                                                                {
+                                                                                  "guid": "5B041B4641356DA92D173CAE7C30C1E5",
+                                                                                  "type": "Value",
+                                                                                  "value": {
+                                                                                    "guid": "E0A5B9CE4A86B1ABBA070F898FADF12E",
+                                                                                    "type": {
+                                                                                      "directive": "TypeRef",
+                                                                                      "implements": "",
+                                                                                      "inner_type": "",
+                                                                                      "param_id": "",
+                                                                                      "sub_directive": "None",
+                                                                                      "type": "UnitData"
+                                                                                    },
+                                                                                    "value": "duckiesShrineUpgraderHealing_Unit"
+                                                                                  }
+                                                                                }
+                                                                              ],
+                                                                              "guid": "D36B2DAA4E9D5EAB973040AC258891D7",
+                                                                              "id": "type"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        "guid": "2CD6F8E540B1BAA4563031A14D420A58",
+                                                                        "type": "Function"
+                                                                      }
+                                                                    ],
+                                                                    "guid": "4251011E430CD1A33AAC9E99B5FB9E16",
+                                                                    "id": "value1"
+                                                                  },
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "F3E06E0A4148371B95346E8D0E159C13",
+                                                                        "preset": {
+                                                                          "guid": "09EE3B1F43D06D1B82B761A8D91988AC",
+                                                                          "preset_id": "Logic_ComparisonOperator",
+                                                                          "value_id": "eq"
+                                                                        },
+                                                                        "type": "Preset"
+                                                                      }
+                                                                    ],
+                                                                    "guid": "01E9CEEC4BB285345EDF92810636D92F",
+                                                                    "id": "op"
+                                                                  },
+                                                                  {
+                                                                    "expressions": [
+                                                                      {
+                                                                        "guid": "A78D03C64F6924551FB187A0D2B64BA2",
+                                                                        "type": "Value",
+                                                                        "value": {
+                                                                          "guid": "56F5F4E24C985ED8E6ACD0B8541EDA0B",
+                                                                          "type": {
+                                                                            "directive": "FunctionType",
+                                                                            "implements": "",
+                                                                            "inner_type": "",
+                                                                            "param_id": "",
+                                                                            "sub_directive": "None",
+                                                                            "type": "Boolean"
+                                                                          },
+                                                                          "value": "true"
+                                                                        }
+                                                                      }
+                                                                    ],
+                                                                    "guid": "548D4E78457157F8702B998A547FABB7",
+                                                                    "id": "value2"
+                                                                  }
+                                                                ]
+                                                              }
+                                                            ],
+                                                            "guid": "4F901EFD45DAEFFBED6F3EA3A01E331F",
+                                                            "id": "conditions"
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "function_id": "Logic_Comparison",
+                                                        "guid": "1F41A5BF41A6A7A58AFF1DB28E4DD58A",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "function": {
+                                                                  "function_id": "Vector_GetDistance",
+                                                                  "guid": "99154555450DF905989B83A86C7CBA98",
+                                                                  "parameters": [
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "function": {
+                                                                            "function_id": "Actor_GetPosition",
+                                                                            "guid": "BA7D22ED45B384249B73F5B1A85D2AFE",
+                                                                            "parameters": [
+                                                                              {
+                                                                                "expressions": [
+                                                                                  {
+                                                                                    "guid": "5D7E2A28403EB861B17FB2B5E98C6106",
+                                                                                    "type": "Variable",
+                                                                                    "variable": {
+                                                                                      "guid": "0302043946F162D740A562A42734F1C3",
+                                                                                      "variable_id": "LV_HERO"
+                                                                                    }
+                                                                                  }
+                                                                                ],
+                                                                                "guid": "559A4E6F4665B7D8F9BD46B90CA7B8E3",
+                                                                                "id": "actor"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "guid": "7C78FFD44FFB7A0CCF2A71AD11BC450B",
+                                                                          "type": "Function"
+                                                                        }
+                                                                      ],
+                                                                      "guid": "F69ECA8743002CA2376DE898C47E1F2B",
+                                                                      "id": "a"
+                                                                    },
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "function": {
+                                                                            "function_id": "Actor_GetPosition",
+                                                                            "guid": "3CD7500C456939425F5A03B69C5AE927",
+                                                                            "parameters": [
+                                                                              {
+                                                                                "expressions": [
+                                                                                  {
+                                                                                    "function": {
+                                                                                      "function_id": "Blackboard_GetValue_Unit",
+                                                                                      "guid": "37704F1C48C0E3C2082AD1A949AC8768",
+                                                                                      "parameters": [
+                                                                                        {
+                                                                                          "expressions": [
+                                                                                            {
+                                                                                              "guid": "F42BF04C44E7889FC1890DACAEB76A6B",
+                                                                                              "type": "Variable",
+                                                                                              "variable": {
+                                                                                                "guid": "B7E12F9849C33BA11AFA459EB0E00255",
+                                                                                                "variable_id": "LV_Blackboard"
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "guid": "6F4469F84CA31BD0C4919387942F56FD",
+                                                                                          "id": "blackboard"
+                                                                                        },
+                                                                                        {
+                                                                                          "expressions": [
+                                                                                            {
+                                                                                              "guid": "8252B43C44FE86BDBBDD199ECA780B02",
+                                                                                              "type": "Value",
+                                                                                              "value": {
+                                                                                                "guid": "8D924A6E495F781CDD83D49CBB3521A4",
+                                                                                                "type": {
+                                                                                                  "directive": "FunctionType",
+                                                                                                  "implements": "",
+                                                                                                  "inner_type": "",
+                                                                                                  "param_id": "",
+                                                                                                  "sub_directive": "None",
+                                                                                                  "type": "String"
+                                                                                                },
+                                                                                                "value": "AttackTarget"
+                                                                                              }
+                                                                                            }
+                                                                                          ],
+                                                                                          "guid": "61DB35394889E056C0C557A7FC5D7EFC",
+                                                                                          "id": "key"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    "guid": "0A8C5D9F4121C89C1363F1BCD3A5F23A",
+                                                                                    "type": "Function"
+                                                                                  }
+                                                                                ],
+                                                                                "guid": "A5BB2203403D063CBC414EA851D5CCC1",
+                                                                                "id": "actor"
+                                                                              }
+                                                                            ]
+                                                                          },
+                                                                          "guid": "2741920C4CD3039534FE2690966C2084",
+                                                                          "type": "Function"
+                                                                        }
+                                                                      ],
+                                                                      "guid": "A0ADD8344D9CC7DEEA725E8F27E211F4",
+                                                                      "id": "b"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "guid": "8B751BD443700D7508B0DAB05DB16A1F",
+                                                                "type": "Function"
+                                                              }
+                                                            ],
+                                                            "guid": "D929740443AEB53A333269B6110BC38B",
+                                                            "id": "value1"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "2FFAAF4E43A8278B9F23A6AFE5689681",
+                                                                "preset": {
+                                                                  "guid": "831E0A304C97DED7983F0783831649C4",
+                                                                  "preset_id": "Logic_ComparisonOperator",
+                                                                  "value_id": "lt"
+                                                                },
+                                                                "type": "Preset"
+                                                              }
+                                                            ],
+                                                            "guid": "5B95F04F48BD1268FAE6D39C4EFA9BA0",
+                                                            "id": "op"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "4511A0894858C624E7A6029B516C36A7",
+                                                                "type": "Value",
+                                                                "value": {
+                                                                  "guid": "7C648F2E472978B2E0EBF88EBAB0A224",
+                                                                  "type": {
+                                                                    "directive": "FunctionType",
+                                                                    "implements": "",
+                                                                    "inner_type": "",
+                                                                    "param_id": "",
+                                                                    "sub_directive": "None",
+                                                                    "type": "Distance"
+                                                                  },
+                                                                  "value": "3.0"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "6200ABF346358283EFF3A784D06ADCCC",
+                                                            "id": "value2"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "guid": "69AE109F4285EF2FF99739A09146AB27",
+                                                    "id": "if"
+                                                  },
+                                                  {
+                                                    "functions": [
+                                                      {
+                                                        "function_id": "Unit_IssueOrderTargetingEntity",
+                                                        "guid": "ED78C8C74F26228EE428C6BD0B97314B",
+                                                        "parameters": [
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "3987FE9B4976CD813D9189BEB01A7835",
+                                                                "type": "Variable",
+                                                                "variable": {
+                                                                  "guid": "D0B3C80640F6751C6584DF898385300E",
+                                                                  "variable_id": "LV_HERO"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "7D31865F4A669389800DD3A9E1A51B7C",
+                                                            "id": "unit"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "function": {
+                                                                  "function_id": "Blackboard_GetValue_Unit",
+                                                                  "guid": "87BE03BD435ACDD6FA27E8AC732F53C4",
+                                                                  "parameters": [
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "guid": "29D0EA5F4FAA081E3E48B1B0155D580B",
+                                                                          "type": "Variable",
+                                                                          "variable": {
+                                                                            "guid": "3E1A4AED4BB6627D082E92BB40A3142C",
+                                                                            "variable_id": "LV_Blackboard"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "guid": "BB0CA4C04FAA69B1291735BDA522AF53",
+                                                                      "id": "blackboard"
+                                                                    },
+                                                                    {
+                                                                      "expressions": [
+                                                                        {
+                                                                          "guid": "ECF760614DED31C9670DE381CF6AD616",
+                                                                          "type": "Value",
+                                                                          "value": {
+                                                                            "guid": "2C215C0943D5B500F216E6AEA93CCF09",
+                                                                            "type": {
+                                                                              "directive": "FunctionType",
+                                                                              "implements": "",
+                                                                              "inner_type": "",
+                                                                              "param_id": "",
+                                                                              "sub_directive": "None",
+                                                                              "type": "String"
+                                                                            },
+                                                                            "value": "AttackTarget"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "guid": "08662EB94CB1E35E6F743193A38B53FC",
+                                                                      "id": "key"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                "guid": "93B1B537465E12A918A146BD2A3928F6",
+                                                                "type": "Function"
+                                                              }
+                                                            ],
+                                                            "guid": "B24C78EE4C9B3B254CAB14B13F7CD5B7",
+                                                            "id": "target_entity"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "174626244BFF6B799245DE945B376F0B",
+                                                                "type": "Value",
+                                                                "value": {
+                                                                  "guid": "637A5EF74DB124EE26C5D4AFF90E2B11",
+                                                                  "type": {
+                                                                    "directive": "TypeRef",
+                                                                    "implements": "ability_data",
+                                                                    "inner_type": "",
+                                                                    "param_id": "",
+                                                                    "sub_directive": "None",
+                                                                    "type": ""
+                                                                  },
+                                                                  "value": "attackData"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "2D5214E24CA183A8E3DD019DD502D7B6",
+                                                            "id": "order"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "99FDA69241FDDD2E91F49DBA256088C3",
+                                                                "type": "Value",
+                                                                "value": {
+                                                                  "guid": "12975E504CBF2E43A34013B91EFF7B00",
+                                                                  "type": {
+                                                                    "directive": "FunctionType",
+                                                                    "implements": "",
+                                                                    "inner_type": "",
+                                                                    "param_id": "",
+                                                                    "sub_directive": "None",
+                                                                    "type": "Integer"
+                                                                  },
+                                                                  "value": "0"
+                                                                }
+                                                              }
+                                                            ],
+                                                            "guid": "2673B04C4F5BF4B1FBD3BDAADD454181",
+                                                            "id": "order_index"
+                                                          },
+                                                          {
+                                                            "expressions": [
+                                                              {
+                                                                "guid": "8BAD4516430BB9881A7A5D8D135FB250",
+                                                                "preset": {
+                                                                  "guid": "7071F99A43E23514F318F58AE2E4C056",
+                                                                  "preset_id": "Unit_OrderQueueOptions",
+                                                                  "value_id": "replace"
+                                                                },
+                                                                "type": "Preset"
+                                                              }
+                                                            ],
+                                                            "guid": "273557B04C595FAD745DF292ADBC37D7",
+                                                            "id": "queue_order"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "guid": "2BFF79164E44AAB3E8CFE3999DEA13FB",
+                                                    "id": "then"
+                                                  },
+                                                  {
+                                                    "guid": "632FE0F442EB828A9174E89FC03E26F1",
+                                                    "id": "else"
+                                                  }
+                                                ]
                                               }
                                             ],
                                             "guid": "8F2EABE94E2561B808E9CCB1F7E2F80E",

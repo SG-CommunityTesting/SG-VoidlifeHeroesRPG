@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHostileGoldGolemWeapon_StunApplier",
+      "case_condition": "Valid_duckiesGameParam_IsHardMode"
+    }
+  ],
+  "default_action": "duckiesHostileGoldGolemWeapon_DebuffApply",
+  "id": "duckiesHostileGoldGolemWeapon_ImpactDebuffSwitch"
+}

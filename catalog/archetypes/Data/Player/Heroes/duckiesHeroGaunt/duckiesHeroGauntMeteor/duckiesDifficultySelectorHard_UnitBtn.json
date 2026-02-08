@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Dagon.UI_Icons_Units_Demon_Dagon'",
+    "id": "duckiesDifficultySelectorHard_UnitBtn",
+    "name": "HARD MODE",
+    "tooltip": "Currently in development, but can select to play with implemented features. Some enemies will have extra traits. Slightly more special enemies in mass attack waves."
+  },
+  "meta": {}
+}

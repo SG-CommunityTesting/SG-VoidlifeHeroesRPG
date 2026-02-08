@@ -1,0 +1,71 @@
+﻿{
+  "data": {
+    "augmented_ability": "attackData",
+    "autocast": {
+      "autocast_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": false,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "status_invulnerable",
+            "status_sleeping",
+            "dead",
+            "capturable"
+          ],
+          "required": [
+            "heightplane_ground"
+          ]
+        }
+      },
+      "autocasts": true,
+      "exclusive_targeting": true,
+      "initially_on": true,
+      "range": 10.0,
+      "required_scan_level": "Offensive",
+      "target_sorts": [
+        "TS_ChargeSlamStunnableBeforeUnstunnable"
+      ],
+      "validator": "emptyRef"
+    },
+    "based_on": "AugmentAbilityData",
+    "cast_game_effect": "ChargeSlam_BuffApplier",
+    "commands": [
+      {
+        "cooldown": {
+          "duration": 20.0,
+          "name": "ChargeSlamCooldown",
+          "scope": "Ability"
+        },
+        "cost_power": 0.0,
+        "cost_resources": {
+          "resource_a": 0.0,
+          "resource_b": 0.0,
+          "resource_c": 0.0,
+          "resource_d": 0.0
+        },
+        "cost_vitals": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "cost_vitals_percentage": {
+          "energy": 0.0,
+          "health": 0.0
+        },
+        "requirement": "emptyRef"
+      }
+    ],
+    "flags": {
+      "activation_requires_target": true,
+      "best_unit": false
+    },
+    "id": "duckiesHostileBruteCharge_Augment",
+    "target_actor": "BP_InstantTargetActor",
+    "targeting_type": "Unit"
+  },
+  "meta": {}
+}

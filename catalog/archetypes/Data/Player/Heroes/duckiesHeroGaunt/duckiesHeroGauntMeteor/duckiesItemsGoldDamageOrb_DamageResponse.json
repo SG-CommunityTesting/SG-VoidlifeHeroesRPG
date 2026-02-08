@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "based_on": "ResponseDeath",
+    "id": "duckiesItemsGoldDamageOrb_DamageResponse",
+    "shared": {
+      "chance": 1.0,
+      "charges": -1,
+      "cooldown": {
+        "duration": 0.0,
+        "name": "duckiesItemsGoldDamageOrb",
+        "scope": "Unit"
+      },
+      "location": "attacker",
+      "priority": 100,
+      "required_effect": "emptyRef",
+      "response_effect": "duckiesItemsGoldDamageOrb_LavaPoolPersistent",
+      "response_fx": "None",
+      "target_filter": {
+        "alliance": {
+          "ally": true,
+          "enemy": true,
+          "neutral": true,
+          "player": true,
+          "self": true
+        },
+        "tags": {
+          "excluded": [],
+          "required": []
+        }
+      },
+      "validator": "Valid_DamageIsFromWeapon"
+    }
+  },
+  "meta": {}
+}

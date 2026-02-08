@@ -243,6 +243,55 @@
                         ]
                       },
                       {
+                        "function_id": "Variable_ModifyVariable",
+                        "guid": "A91B106143637E4987F2FBBE28FD18F4",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "DD562961418B5EA991C756822EDDF7AE",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "E42B56BC48C4A06595B1C9A51B3BE045",
+                                  "variable_id": "LV_Count"
+                                }
+                              }
+                            ],
+                            "guid": "5DAF15D24168B5B6C0FA77985FB375EC",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "803ACC2445D7D1F576830296616DCB40",
+                                "preset": {
+                                  "guid": "AD6AE0944CD6628FA8A97DAD6BE70717",
+                                  "preset_id": "Math_ArithmeticOperator",
+                                  "value_id": "mult"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "03CE561F49784D9F42E959BBD70B45CA",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "9865105641749A63B83C00B06615663E",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "89C346F347E5AB6E151896B1D89F91C5",
+                                  "variable_id": "GV_SYS_MODE"
+                                }
+                              }
+                            ],
+                            "guid": "BFA8C8B849207E654C29A3928314A341",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      {
                         "function_id": "Unit_CreateUnit",
                         "guid": "B6F783C3476B0F8AFA9F38896A97686A",
                         "parameters": [
@@ -791,6 +840,55 @@
                         ]
                       },
                       {
+                        "function_id": "Variable_ModifyVariable",
+                        "guid": "1B1B482E47086947EC67169B9FCB12EE",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "3D5FBA1C4F74D21A4E3D2BBB25CE0857",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "2CAC7B1F467784B3A5146BBBF6020F2E",
+                                  "variable_id": "LV_Count"
+                                }
+                              }
+                            ],
+                            "guid": "5452E28940CFD3774871818D9AF9A01D",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "0D9C549B4307DA2BF40861BCD7BE9AC4",
+                                "preset": {
+                                  "guid": "F44E533B422A690AE86EEFB94821F95C",
+                                  "preset_id": "Math_ArithmeticOperator",
+                                  "value_id": "mult"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "A306C70D44B4CC7EEFF7F69B2DD006D8",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "5192869A407B08F4B4C338BCB93FCB77",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "3E0ACF87494C4603B92B0A83CD3BA3BB",
+                                  "variable_id": "GV_SYS_MODE"
+                                }
+                              }
+                            ],
+                            "guid": "F38A1FC04CED990F2633078E325FAD3A",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      {
                         "function_id": "Unit_CreateUnit",
                         "guid": "A1E714C64D418DC4438466AEA02D3D0E",
                         "parameters": [
@@ -1194,6 +1292,55 @@
                         ]
                       },
                       {
+                        "function_id": "Variable_ModifyVariable",
+                        "guid": "80F4E1DF440F1D8193B6B2BB6D8DBF2B",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "040BFD514E88A1DBBA1AC2A83E56E972",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "005C763D47AACC02A9F0BC9426FE8BCA",
+                                  "variable_id": "LV_Count"
+                                }
+                              }
+                            ],
+                            "guid": "36F4811C45BDDE7870B08D8E1B9FADBA",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "8615E73D4FD28F23E1A8BE8B93B16B51",
+                                "preset": {
+                                  "guid": "F522689D49F8FC01D38CEA909E9959EB",
+                                  "preset_id": "Math_ArithmeticOperator",
+                                  "value_id": "mult"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "4803EDD145F4D76A0851B590DC52B860",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "9A3F8FB0425444869F0CE29CFDDE4E00",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "AFCCC306497AB3D6809F939F71910A2B",
+                                  "variable_id": "GV_SYS_MODE"
+                                }
+                              }
+                            ],
+                            "guid": "60397471471AF484421DE8937F8AD300",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      {
                         "function_id": "Unit_CreateUnit",
                         "guid": "CC969D79426E8CE6A851558ADAFDD7AB",
                         "parameters": [
@@ -1428,10 +1575,10 @@
                           {
                             "expressions": [
                               {
-                                "guid": "1D4DDAD94AEB24F2E3A5F08D7DCBED63",
+                                "guid": "A5C43CE24A75A259EF679A832785F8DD",
                                 "type": "Value",
                                 "value": {
-                                  "guid": "5882E03E496C552583E57D991936A7FB",
+                                  "guid": "98A347F64DAF4EE1544D54B96B44E59B",
                                   "type": {
                                     "directive": "FunctionType",
                                     "implements": "",
@@ -1440,7 +1587,7 @@
                                     "sub_directive": "None",
                                     "type": "Integer"
                                   },
-                                  "value": "1"
+                                  "value": "2"
                                 }
                               }
                             ],
@@ -1592,6 +1739,55 @@
                               }
                             ],
                             "guid": "47626CCA4787C72AE4020FAD6C413DEA",
+                            "id": "value"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "Variable_ModifyVariable",
+                        "guid": "2E94585941036CEFBC9263BD91EB422D",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "guid": "3894927D43AE279423A0D3955CADB6B4",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "852848B64E868ABB16C2C8B7930C5BEC",
+                                  "variable_id": "LV_Count"
+                                }
+                              }
+                            ],
+                            "guid": "B180E00B4CAB1DCD839CD9A0B90E7B94",
+                            "id": "variable"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "A50AA1A84899494192D384A5D75023D0",
+                                "preset": {
+                                  "guid": "3D75924748C698EF690520A1DC8A1254",
+                                  "preset_id": "Math_ArithmeticOperator",
+                                  "value_id": "mult"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "AEAB96614F885B4531682F8BB61A1D67",
+                            "id": "op"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "B7A9E95D4D2C196E85313D8F6781F627",
+                                "type": "Variable",
+                                "variable": {
+                                  "guid": "7CD0203F40948D8CD0EA27B2677A1067",
+                                  "variable_id": "GV_SYS_MODE"
+                                }
+                              }
+                            ],
+                            "guid": "7555148944A91D3748315FB9F52BCF73",
                             "id": "value"
                           }
                         ]

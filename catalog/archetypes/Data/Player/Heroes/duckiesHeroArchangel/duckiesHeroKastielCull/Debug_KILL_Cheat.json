@@ -1,0 +1,194 @@
+﻿{
+  "data": {
+    "actions": [
+      {
+        "function_id": "UnitGroup_ForEachUnitInGroup",
+        "guid": "DCB7255C4B42D3F6C28E5695CDBBCA73",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "Player_CurrentlySelectedUnits",
+                  "guid": "F9B7C9174E919CF0CFE567BDF121A3D4",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "Player_GetTriggeringPlayer",
+                            "guid": "2250E04E427D01F817B62983E5EE2DCB"
+                          },
+                          "guid": "8C6F6A0B44BBC5E2B5B3A3844EE7724F",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "A629FA18456212F733EEFAA5794817C7",
+                      "id": "player"
+                    }
+                  ]
+                },
+                "guid": "D8C1B089491980B55734F4BB92BBB08A",
+                "type": "Function"
+              }
+            ],
+            "guid": "62F63FBE4673D520E2044C9A11A93419",
+            "id": "units"
+          }
+        ],
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "Unit_Kill",
+                "guid": "06C04375457382C6FC911EA9DF49FEC7",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetCurrentUnit",
+                          "guid": "CF254E9244EDE5600281F3B8FEA39110"
+                        },
+                        "guid": "FBCB6D97479A181B461B048BF8EF6E6E",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "0381E3D1432662686D3180B83D9A1123",
+                    "id": "unit"
+                  }
+                ]
+              }
+            ],
+            "guid": "A5B9987A45633A49636262A911C5E9DA",
+            "id": "actions"
+          }
+        ]
+      }
+    ],
+    "based_on": "Trigger",
+    "conditions": [
+      {
+        "function_id": "Logic_Comparison",
+        "guid": "4038047C48C864A82BCFE09ED8586423",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "PlayerGroup_CountPlayers",
+                  "guid": "53B6D71048C34DE8859A8A871288D75E",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "PlayerGroup_GetActivePlayers",
+                            "guid": "E6ECCF0A48F33ACDD2531F94FD147515"
+                          },
+                          "guid": "5CB3DC8A40DAF6B79758C4960A2A6596",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "72F5D049436DC83D1046F98A6B24F312",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "88FBF74C4CCD83765691FA9622265072",
+                "type": "Function"
+              }
+            ],
+            "guid": "950C74E3420E0AD9DAA56482F179ACCE",
+            "id": "value1"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "CBF60E074945858EE271228ED149D7A8",
+                "preset": {
+                  "guid": "F65825F44BE22BE7226FDAA439D3FC8F",
+                  "preset_id": "Logic_ComparisonOperator",
+                  "value_id": "eq"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "A79DAADE42A5F71CA45A3EB805A5200E",
+            "id": "op"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "BC93057440B787CB44389EBB8AADD28F",
+                "type": "Value",
+                "value": {
+                  "guid": "44EC0ADC495825FBD3DE72A850C071AE",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Player"
+                  },
+                  "value": "1"
+                }
+              }
+            ],
+            "guid": "785313D84D6CA567C5E58998D00B824F",
+            "id": "value2"
+          }
+        ]
+      }
+    ],
+    "enabled": false,
+    "events": [
+      {
+        "function_id": "Player_OnPlayerSendsChatMessage",
+        "guid": "B21B744646258CB58BD9929126903974",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "0DC8C1BB437849DF200B248F8A437A22",
+                "preset": {
+                  "guid": "3A6FAE874753E568931849919BDFA355",
+                  "preset_id": "Player_AnyPlayer",
+                  "value_id": "any"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "27B075CC4BEFB2872035329C3CC0D68B",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "8D9E430745FB1B80F030199378AAFED6",
+                "type": "Value",
+                "value": {
+                  "guid": "CE86FAD34E9D8DBCD4B6A28693444285",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "String"
+                  },
+                  "value": "!kill"
+                }
+              }
+            ],
+            "guid": "A4B4DC084DD8902C62CB1CA80CDF4BC6",
+            "id": "message"
+          }
+        ]
+      }
+    ],
+    "id": "Debug_KILL_Cheat"
+  },
+  "meta": {}
+}

@@ -28,7 +28,7 @@
       "alliance": {
         "ally": false,
         "enemy": true,
-        "neutral": false,
+        "neutral": true,
         "player": false,
         "self": false
       },

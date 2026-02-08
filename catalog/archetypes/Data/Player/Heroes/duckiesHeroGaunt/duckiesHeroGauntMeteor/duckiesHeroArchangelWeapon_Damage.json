@@ -3,7 +3,8 @@
     "amount": 224.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_melee"
+      "damage_melee",
+      "weapon"
     ],
     "id": "duckiesHeroArchangelWeapon_Damage",
     "impact_fx": "BP_FXI_Archangel_Impact",

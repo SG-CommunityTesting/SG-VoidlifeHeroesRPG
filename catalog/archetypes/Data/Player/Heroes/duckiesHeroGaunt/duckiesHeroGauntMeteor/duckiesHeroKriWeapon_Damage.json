@@ -3,7 +3,8 @@
     "amount": 28.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_melee"
+      "damage_melee",
+      "weapon"
     ],
     "id": "duckiesHeroKriWeapon_Damage",
     "impact_fx": "BP_FXI_Kri_Impact",

@@ -144,7 +144,8 @@
     ],
     "subgroup_priority": 200,
     "traits": [
-      "duckiesHostileHellscribeMeteors_Trait"
+      "duckiesHostileHellscribeMeteors_Trait",
+      "duckiesHostileHellScribeWeapon_Trait"
     ],
     "unit_button": "BloodScribe_Button",
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Default_BloodScribe.UI_Portrait_Default_BloodScribe'",

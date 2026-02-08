@@ -3,7 +3,8 @@
     "amount": 100.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
-      "damage_ranged"
+      "damage_ranged",
+      "weapon"
     ],
     "id": "duckiesheroExoBeamWeapon_Damage",
     "ragdoll": {

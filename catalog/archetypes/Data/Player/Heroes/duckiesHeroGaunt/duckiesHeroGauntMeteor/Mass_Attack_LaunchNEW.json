@@ -1492,6 +1492,99 @@
           {
             "functions": [
               {
+                "function_id": "UnitGroup_IssueOrderTargetingPos",
+                "guid": "3F0B74F6415C594C29F976ADEF5F35D2",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "CD33F2ED4F46DDFA535E089897208B48",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "E34B6E254DA53D333255FEB2405D18B9",
+                          "variable_id": "GV_MassAttackSpawnedUnitsGroup"
+                        }
+                      }
+                    ],
+                    "guid": "18D4DDCC4B233B7CB8C327B90A26A20D",
+                    "id": "unit_group"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "7ABFD48144F75A64D74D57998FEBC6BB",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "8DB1A8704F736432A37021B176A6826D",
+                          "variable_id": "GV_MassAttack_AttackPoint"
+                        }
+                      }
+                    ],
+                    "guid": "FFCFA9214F0E5A65A901049E25AB3DB4",
+                    "id": "target_pos"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "CE7725A1431CC3ECA63E20A35CDF8801",
+                        "type": "Value",
+                        "value": {
+                          "guid": "4DBD33EE4F955C9E53C5A793014A6A3D",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "ability_data",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": ""
+                          },
+                          "value": "attackData"
+                        }
+                      }
+                    ],
+                    "guid": "C11158B84A354B28CF7915A79E6EEA51",
+                    "id": "order"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "0BA31FC349D93E17BA0B5EBDE06BC294",
+                        "type": "Value",
+                        "value": {
+                          "guid": "7E1C9AD74BA8E38731D91C8EC05F6E73",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Integer"
+                          },
+                          "value": "0"
+                        }
+                      }
+                    ],
+                    "guid": "2D5F56CB4B4E2426B78AEE8EB68EAF33",
+                    "id": "order_index"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "B2D569C44E19DF489CA241942FD3EE20",
+                        "preset": {
+                          "guid": "E3B90AC34F442529211171AB35740529",
+                          "preset_id": "Unit_OrderQueueOptions",
+                          "value_id": "replace"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "4020167F436EE7383FD7ABB5A31C77D1",
+                    "id": "queue_order"
+                  }
+                ]
+              },
+              {
                 "function_id": "Variable_ModifyVariable",
                 "guid": "4FDF35CB499E3A74282493816C1DDA39",
                 "parameters": [
@@ -1583,8 +1676,201 @@
         ]
       },
       {
+        "function_id": "General_IfThenElse",
+        "guid": "F22D21024D276D97601E2CAAA69158B6",
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "Logic_Comparison",
+                "guid": "1E44CDB34BA834A5355F478D2C77120B",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_CountUnits",
+                          "guid": "9040CA5C405384B6D1751B87B1C08186",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "guid": "DA8EE4914012F7F730C1149EC1FFD631",
+                                  "type": "Variable",
+                                  "variable": {
+                                    "guid": "12A9624E4FA087FFE60D3EB31A94B1F9",
+                                    "variable_id": "GV_MassAttackSpawnedUnitsGroup"
+                                  }
+                                }
+                              ],
+                              "guid": "7EB4189F42938BD4995434B8C0FB42DF",
+                              "id": "group"
+                            }
+                          ]
+                        },
+                        "guid": "96D139B943F498609876EDAF844E6DDC",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "2F6A2BB04A26C6AB7F4E439C7A364E34",
+                    "id": "value1"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "A6C3946D4B4E4D587970CCBE5DA72E7D",
+                        "preset": {
+                          "guid": "3F8844DF42BDC3CEA213F388D149D5B8",
+                          "preset_id": "Logic_ComparisonOperator",
+                          "value_id": "gr"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "EDE282DB48BA0B6446A0DEB9F7525B86",
+                    "id": "op"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "922B3BAD49A3CE0F868C26A25938898A",
+                        "type": "Value",
+                        "value": {
+                          "guid": "388C52F44C25C5F32AF3C68D83C06519",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Player"
+                          },
+                          "value": "0"
+                        }
+                      }
+                    ],
+                    "guid": "CD95BF8743E2A230C0B298B0DF9B793E",
+                    "id": "value2"
+                  }
+                ]
+              }
+            ],
+            "guid": "5B483D37453DC79EAD8B368AE7B85C4D",
+            "id": "if"
+          },
+          {
+            "functions": [
+              {
+                "function_id": "UnitGroup_ForEachUnitInGroup",
+                "guid": "DB0658174B899E0E42AD998EBCC511C7",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "6A1D40AC4EC93C46693CADA80E527A10",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "57813F834D9FCF725A39058825FCC2C7",
+                          "variable_id": "GV_MassAttackSpawnedUnitsGroup"
+                        }
+                      }
+                    ],
+                    "guid": "741C80B94C38D30D09E26885564CA48C",
+                    "id": "units"
+                  }
+                ],
+                "sub_functions": [
+                  {
+                    "functions": [
+                      {
+                        "function_id": "Unit_SetSeekAndDestroy",
+                        "guid": "E3C297D0434B65C5DBD1B18998A28E0E",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "UnitGroup_GetCurrentUnit",
+                                  "guid": "CE2A55EB4423BCFF7725CA97010AD7A6"
+                                },
+                                "guid": "7A27FD0C449CF41AF8C7658FFB493FD6",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "BDC9A36A4AE197C013D4A1AF9EE0FC73",
+                            "id": "unit"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "236412174134C2F08DB5DAB7CCE99B30",
+                                "preset": {
+                                  "guid": "C0802435487E370F5F4F5DBB01F46A3A",
+                                  "preset_id": "Preset_OnOff",
+                                  "value_id": "on"
+                                },
+                                "type": "Preset"
+                              }
+                            ],
+                            "guid": "2093F3BD45E0F1F5D075A580D8803C3F",
+                            "id": "on"
+                          }
+                        ]
+                      }
+                    ],
+                    "guid": "BC39796045DD73F5440C7087F2406195",
+                    "id": "actions"
+                  }
+                ]
+              }
+            ],
+            "guid": "E04A4ED4478E653FBA3342A2B0B5F2F3",
+            "id": "then"
+          },
+          {
+            "guid": "181B211B4537D9B4FB0176ACCFD9E4FC",
+            "id": "else"
+          }
+        ]
+      },
+      {
+        "function_id": "Variable_SetVariable",
+        "guid": "EB27043144B71D0D33E57399EDD418C1",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "35BD334341F810022B57DDB05786DA2B",
+                "type": "Variable",
+                "variable": {
+                  "guid": "4B4B77EB46329B3F6806F190548148AF",
+                  "variable_id": "GV_MassAttackSpawnedUnitsGroup"
+                }
+              }
+            ],
+            "guid": "CFED5ECF4EBE176F8FFD1AAB5E59E442",
+            "id": "variable"
+          },
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "UnitGroup_GetNewUnitGroup",
+                  "guid": "1373DB204E8D83B37E97C88B78C33516"
+                },
+                "guid": "E8348BD347C90D989A8E7FBA8C1307E1",
+                "type": "Function"
+              }
+            ],
+            "guid": "E0B9AADE412C2112DBE112A460408B70",
+            "id": "value"
+          }
+        ]
+      },
+      {
         "function_id": "UnitGroup_Clear",
         "guid": "F46E573F4934E900831AC483EEB35F71",
+        "is_enabled": false,
         "parameters": [
           {
             "expressions": [

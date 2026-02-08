@@ -1,0 +1,60 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_ItemDroppers",
+  "initial_values": [
+    {
+      "function": {
+        "function_id": "UnitGroup_GetUnitsOfType",
+        "guid": "2EF0697D47F120C99B802684FAF38B05",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "A2EE1B2D48F3A5B04376B18A46262EAD",
+                "type": "Variable",
+                "variable": {
+                  "guid": "39884E294648B83D7B7A4B943C1C22B1",
+                  "variable_id": "HOSTILE_PLAYER"
+                }
+              }
+            ],
+            "guid": "067063C34EA9B22B304AE6BFAF327354",
+            "id": "player"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "E3B6D40F4D179462912CE6AFF685A3E1",
+                "type": "Value",
+                "value": {
+                  "guid": "0B37920B4F144301181D3A987AD34016",
+                  "type": {
+                    "directive": "TypeRef",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "UnitData"
+                  },
+                  "value": "duckiesHostileGoldDemon_Unit"
+                }
+              }
+            ],
+            "guid": "DBBEEF764C121CFC237454931374D474",
+            "id": "unit_type"
+          }
+        ]
+      },
+      "guid": "5800C565475C4C6CAD88758D5F612C74",
+      "type": "Function"
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "UnitGroup"
+  }
+}

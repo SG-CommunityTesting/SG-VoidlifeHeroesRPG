@@ -79,7 +79,8 @@
       "tags": {
         "excluded": [
           "status_invulnerable",
-          "entity_unit_structure"
+          "entity_unit_structure",
+          "attribute_hero"
         ],
         "required": [
           "entity_unit"
