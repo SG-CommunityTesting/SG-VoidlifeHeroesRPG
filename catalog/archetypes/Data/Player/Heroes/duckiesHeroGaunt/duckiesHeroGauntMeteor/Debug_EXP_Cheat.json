@@ -95,6 +95,198 @@
                     "id": "adjust_player_score"
                   }
                 ]
+              },
+              {
+                "function_id": "Item_CreateItemForUnit",
+                "guid": "828127704537A6F1D903DF82B87D4F25",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "56EABACD4ED7D0477D0992B5664BEDDE",
+                        "type": "Value",
+                        "value": {
+                          "guid": "98BC8CE54642EE552A374FB96BBCE3F8",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Integer"
+                          },
+                          "value": "10"
+                        }
+                      }
+                    ],
+                    "guid": "3FAD98F146EAF4B16893FCA691DA4FBD",
+                    "id": "count"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "5E5C2ED842CE9AF3FE22668ECE483B5F",
+                        "type": "Value",
+                        "value": {
+                          "guid": "A3A48D56405E11BD5677FFBC93017978",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "ItemData"
+                          },
+                          "value": "duckiesItemsArmorT2_Unit"
+                        }
+                      }
+                    ],
+                    "guid": "CB23861D4FC3C9C7DA1721BE6457CD31",
+                    "id": "type"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetCurrentUnit",
+                          "guid": "720BD4114DA95D2737671DBF59491832"
+                        },
+                        "guid": "D0C6C90641370350FD21D6BA38899A1F",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "59C59C7542A91D40F831F3BD99A892A8",
+                    "id": "unit"
+                  }
+                ]
+              },
+              {
+                "function_id": "Item_CreateItemForUnit",
+                "guid": "DC4E3D2D450B25244227A69C1F77F226",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "66BEADFB4F7588C2574665BABFE73AE7",
+                        "type": "Value",
+                        "value": {
+                          "guid": "613EF9914F14882C9E63FDB7583B1F5E",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Integer"
+                          },
+                          "value": "10"
+                        }
+                      }
+                    ],
+                    "guid": "1174C56341D3F644141E249A2A182C11",
+                    "id": "count"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "466D6F0A42EEE49D448A51BE0C55A016",
+                        "type": "Value",
+                        "value": {
+                          "guid": "E11948BA4A20ECDB85F5778FE9318FCD",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "ItemData"
+                          },
+                          "value": "duckiesItemsWeaponT2_Unit"
+                        }
+                      }
+                    ],
+                    "guid": "2B6DE2334D0F3B4437B7E3B8480081D0",
+                    "id": "type"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetCurrentUnit",
+                          "guid": "45D8D21A451FD716E7A3D089CC3A0114"
+                        },
+                        "guid": "AD07AEDA4DE0FD9B762CE7A622639315",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "B2113BAA41BED7FC548E0CA9B1539158",
+                    "id": "unit"
+                  }
+                ]
+              },
+              {
+                "function_id": "Item_CreateItemForUnit",
+                "guid": "073D23744E4E37F2EDE3F8A38A3E6E15",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "guid": "F14ED8F74B60DCF81BE307BF7D96DA71",
+                        "type": "Value",
+                        "value": {
+                          "guid": "05B1686C403A27C6BEEAD7A4235C558B",
+                          "type": {
+                            "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "Integer"
+                          },
+                          "value": "6"
+                        }
+                      }
+                    ],
+                    "guid": "B04BAC724F14B10CD8F9209739A13659",
+                    "id": "count"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "EFA4813C4861992B84B5B09F80144920",
+                        "type": "Value",
+                        "value": {
+                          "guid": "AE63B86D4DD7C05C0F3A149EE349D630",
+                          "type": {
+                            "directive": "TypeRef",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
+                            "type": "ItemData"
+                          },
+                          "value": "duckiesItemsGoldenRing_Unit"
+                        }
+                      }
+                    ],
+                    "guid": "0C707A534A763B74BCFB6BABAEC99684",
+                    "id": "type"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetCurrentUnit",
+                          "guid": "319C72BD47B7E482CC16E8BCC4D58D02"
+                        },
+                        "guid": "674409144809280C3ED344BD744BAF2A",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "BAD34A3C410DBDC550C33CAA59C95E47",
+                    "id": "unit"
+                  }
+                ]
               }
             ],
             "guid": "D2903CF24B7C818CE17E929C492396A1",
@@ -177,9 +369,65 @@
             "id": "value2"
           }
         ]
+      },
+      {
+        "function_id": "Logic_Comparison",
+        "guid": "C4AB237E4D797BD152644B88CC7C37C8",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "C6D28DDD46E38CCAAA21F3A4B2DD5BCE",
+                "type": "Variable",
+                "variable": {
+                  "guid": "2AF09BED4F0F186E239CA280753E03D2",
+                  "variable_id": "GV_CheatsEnabled"
+                }
+              }
+            ],
+            "guid": "2CCE6BBA4EC48BBFFC8BFC9420BABFDA",
+            "id": "value1"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "154AA59242526644283EAEB5EF0AC9F4",
+                "preset": {
+                  "guid": "74BAA7924E6B798DC9FAC7ADAE5B196D",
+                  "preset_id": "Logic_ComparisonOperator",
+                  "value_id": "eq"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "FA8ECFC94043CDA5BAC113A608FBBA83",
+            "id": "op"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "88390303421437953D976AB60494E9AB",
+                "type": "Value",
+                "value": {
+                  "guid": "33BFA11C4453397C28C71292F3068227",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Boolean"
+                  },
+                  "value": "true"
+                }
+              }
+            ],
+            "guid": "8CCC3277431A39365E39F8BC77BF18A2",
+            "id": "value2"
+          }
+        ]
       }
     ],
-    "enabled": false,
     "events": [
       {
         "function_id": "Player_OnPlayerSendsChatMessage",

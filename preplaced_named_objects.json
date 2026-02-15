@@ -1107,12 +1107,12 @@
     ]
   },
   "17901E7C-43E2-7BB7-A9A9-528CE084DD13": {
-    "facing": 1684018884,
+    "facing": 1684018908,
     "kind": "duckiesHostileObelisk_Unit",
     "player": 31,
     "position": [
-      1785856,
-      -98304
+      1788244,
+      -112393
     ]
   },
   "17AC499F-4464-6FBB-A4BF-11BD124DF87A": {
@@ -1305,6 +1305,15 @@
     "position": [
       -1196032,
       688128
+    ]
+  },
+  "1BD3782F-48C8-4727-21B6-B8877E52E6D6": {
+    "facing": 1765659274,
+    "kind": "Habitat",
+    "player": 0,
+    "position": [
+      -1851392,
+      786432
     ]
   },
   "1BF0956C-4892-508A-9073-7691E94D4E16": {
@@ -2069,6 +2078,15 @@
       1044710
     ]
   },
+  "2CA1F614-4A52-F280-E94D-84BD65CF0ED3": {
+    "facing": 434779123,
+    "kind": "ArtilleryMech",
+    "player": 0,
+    "position": [
+      -1842322,
+      1103857
+    ]
+  },
   "2CB12635-486E-33A4-B44F-3F8C55AE7351": {
     "data": {
       "seed": 15313
@@ -2726,6 +2744,15 @@
       1881576
     ]
   },
+  "3B7A21F9-415A-BBC3-969B-23B094BEE806": {
+    "facing": 1657783751,
+    "kind": "WellspringBruiser",
+    "player": 0,
+    "position": [
+      -1877005,
+      925665
+    ]
+  },
   "3BD9F05E-45D2-6C90-63F8-018BCD7E6D70": {
     "data": {
       "seed": 17424
@@ -3131,15 +3158,6 @@
       1218554
     ]
   },
-  "47E8B6CD-4D83-CE3F-CE69-98B6E90D2043": {
-    "facing": 536870822,
-    "kind": "duckiesItemsGoldDamageOrb_Unit",
-    "player": 1,
-    "position": [
-      -1870840,
-      1599747
-    ]
-  },
   "4832E819-45FB-286E-1C65-38AA072C31A8": {
     "facing": 1747112044,
     "kind": "duckiesHostileGoldGolem_Unit",
@@ -3387,6 +3405,15 @@
     "position": [
       1090563,
       1665303
+    ]
+  },
+  "4D42FC57-4F65-E0D4-0EC5-A3AF6874C750": {
+    "facing": 1548662928,
+    "kind": "Firestarter",
+    "player": 0,
+    "position": [
+      -1907896,
+      1110918
     ]
   },
   "4D6610F0-4B52-61DE-6D77-DD96CBE2B6D8": {
@@ -3761,6 +3788,15 @@
       -1320063
     ]
   },
+  "54D92AA8-45FB-AFC0-3378-37A32494410D": {
+    "facing": 543965424,
+    "kind": "MedTechEchelon",
+    "player": 0,
+    "position": [
+      -2013631,
+      1012345
+    ]
+  },
   "5512073C-4C90-AF82-5C8D-C4A943B92AE7": {
     "data": {
       "seed": 15362
@@ -3849,6 +3885,15 @@
     "position": [
       -147456,
       1196032
+    ]
+  },
+  "578CAE27-4ABA-9C9D-33F5-3191D32B1C7D": {
+    "facing": 449983859,
+    "kind": "Crusader",
+    "player": 0,
+    "position": [
+      -1905425,
+      998831
     ]
   },
   "57B2899F-430D-5F30-D1EA-2AADB5DDFBC8": {
@@ -4110,6 +4155,24 @@
     "position": [
       904775,
       987507
+    ]
+  },
+  "5CBCC39E-4AE2-6C11-3714-3FADE6E046DD": {
+    "facing": 836199272,
+    "kind": "MissileJeep",
+    "player": 0,
+    "position": [
+      -1962028,
+      1110163
+    ]
+  },
+  "5D7AC58C-4FE4-1AFC-64BE-B199EB816C8B": {
+    "facing": 2045572058,
+    "kind": "Scrapyard",
+    "player": 0,
+    "position": [
+      -1949696,
+      557056
     ]
   },
   "5D9B0CC1-4979-825E-E8A3-E498C726E263": {
@@ -4772,6 +4835,15 @@
       -1359872
     ]
   },
+  "6AA704DE-4BC0-074C-A6BC-579B47828475": {
+    "facing": 1305320343,
+    "kind": "HQTier1",
+    "player": 0,
+    "position": [
+      -1933312,
+      671744
+    ]
+  },
   "6ABDF29F-47D4-1EE8-976F-2587043BC87B": {
     "facing": 13276750,
     "kind": "duckiesSpawnerPyre",
@@ -4791,6 +4863,15 @@
     "position": [
       1747792,
       1120271
+    ]
+  },
+  "6AF74A0F-45FA-E113-1154-EC878567CEA2": {
+    "facing": 2016407651,
+    "kind": "VanguardAutoHarvester",
+    "player": 0,
+    "position": [
+      -2013022,
+      1152251
     ]
   },
   "6B6892FE-4B98-24BE-7899-A28CF438D6F6": {
@@ -5156,6 +5237,15 @@
       560305
     ]
   },
+  "7331E06E-4291-8816-559F-6BA1195394C0": {
+    "facing": 1996025332,
+    "kind": "SentryPost",
+    "player": 0,
+    "position": [
+      -1867776,
+      540672
+    ]
+  },
   "739FFA51-49FD-8DB4-F187-F4B9A5D6620B": {
     "data": {
       "seed": 31442
@@ -5298,6 +5388,15 @@
     "position": [
       -1248722,
       1060613
+    ]
+  },
+  "7819BD0A-4197-9BAA-9631-D59E6B7F4828": {
+    "facing": 511327473,
+    "kind": "Outrunner",
+    "player": 0,
+    "position": [
+      -1908883,
+      1196118
     ]
   },
   "781F99E5-439C-F6AF-4C3F-0C914E896A00": {
@@ -5790,6 +5889,15 @@
     "position": [
       499543,
       1875644
+    ]
+  },
+  "8138900E-4A39-B2BF-1F8D-F6B090071BB8": {
+    "facing": 50791934,
+    "kind": "Barracks",
+    "player": 0,
+    "position": [
+      -1933312,
+      802816
     ]
   },
   "8141E8AA-45C5-5700-F55E-EAAE51A0EFC4": {
@@ -6515,6 +6623,15 @@
       -483381
     ]
   },
+  "8E67E8BE-419D-A9AE-23E4-45872DD1ECC4": {
+    "facing": 94505853,
+    "kind": "Hoplite",
+    "player": 0,
+    "position": [
+      -1942207,
+      1000600
+    ]
+  },
   "8E6B77D9-43F0-55CC-0A64-76AF8FCC8A98": {
     "facing": 536870882,
     "kind": "duckiesHostileBrute_Unit",
@@ -6852,6 +6969,15 @@
     "position": [
       -1156433,
       1910702
+    ]
+  },
+  "94D0D56E-4633-172E-4AEF-2D8819A123D1": {
+    "facing": 1385342293,
+    "kind": "LancerEchelon",
+    "player": 0,
+    "position": [
+      -1874555,
+      1003356
     ]
   },
   "94ED6BB6-41A1-E7F1-7F74-5584F42C2195": {
@@ -7386,6 +7512,15 @@
     "position": [
       217627,
       1827140
+    ]
+  },
+  "A0E6BF0F-4EFC-E186-7C8F-7CBED1908E57": {
+    "facing": 371534965,
+    "kind": "MechaScout",
+    "player": 0,
+    "position": [
+      -1990744,
+      1011025
     ]
   },
   "A12C930A-469E-86FC-7962-CB881AA5275D": {
@@ -8861,15 +8996,6 @@
       -364279
     ]
   },
-  "BE1AF63B-4FB5-8AEF-51BC-C3926A127B7A": {
-    "facing": 536870822,
-    "kind": "duckiesItemsShotgun_Unit",
-    "player": 1,
-    "position": [
-      -1849786,
-      1600399
-    ]
-  },
   "BE27D890-401F-2F11-E729-D28BB7BADEAB": {
     "facing": 1956478289,
     "kind": "duckiesHostileFireGiant_Unit",
@@ -9675,6 +9801,15 @@
     "position": [
       1966080,
       589824
+    ]
+  },
+  "CFB26720-4503-700D-1F04-0FBF60094B46": {
+    "facing": 30475135,
+    "kind": "WellspringCleaver",
+    "player": 0,
+    "position": [
+      -1929345,
+      940724
     ]
   },
   "CFBD54C8-4919-A621-94D7-469C04B14435": {
@@ -11190,6 +11325,15 @@
     "position": [
       81920,
       1163264
+    ]
+  },
+  "F18574EA-4A27-79A4-620E-41932DDF0FB4": {
+    "facing": 2134572662,
+    "kind": "Worker",
+    "player": 0,
+    "position": [
+      -2010704,
+      1107627
     ]
   },
   "F1BCBE7A-48FF-C490-0DC2-609E8EE00F2A": {

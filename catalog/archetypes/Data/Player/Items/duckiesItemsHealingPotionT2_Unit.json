@@ -19,7 +19,7 @@
     "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/CampaignHeroProgression/UI_Icons_CampaignTalent_Invigoration.UI_Icons_CampaignTalent_Invigoration'",
     "id": "duckiesItemsHealingPotionT2_Unit",
     "initial_stacks": 1,
-    "max_stacks": 5,
+    "max_stacks": 99,
     "name": "Greater Healing Potion",
     "starting_snowtags": [
       "status_invulnerable"

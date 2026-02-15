@@ -6,10 +6,24 @@ Voidlife Heores RPG is a custom 5 player cooperative hero map for Stormgate wher
 
 The game supports AI players (activated either in lobby or with override setting during hero select) and 2 difficulty modes.
 
+PATCH NOTES 0.3.1
+
+GENERAL:
+
+- Potion and Recall item max stacks increased to 99;
+- Reduced Molten Oculus drop rate from vaults;
+- Added 1 more vault item (Hyperloop);
+- Warz kill is now required for winning;
+- Improved hard mode attack waves;
+
+ENEMIES:
+- Warp Golem range reduced to 7 (from 10), added shattering trait;
+- Horror damage increased to 24+24vs heavy (from 8+8vs heavy).
 
 
 
 PATCH NOTES 0.3
+
 GENERAL:
 - Added Hard Mode into difficulty selection. This mode is in development and is treated as preview of features as they get implemented;
 - Fixed enemies in mass attack waves not continuing their attack move if they were stopped/interrupted midway;
@@ -39,4 +53,5 @@ ITEMS:
 
 
 PATCH NOTES 0.2
+
 INITIAL GITHUB UPLOAD

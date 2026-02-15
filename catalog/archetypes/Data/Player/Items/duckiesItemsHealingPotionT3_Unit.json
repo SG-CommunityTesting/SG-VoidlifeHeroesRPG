@@ -19,7 +19,7 @@
     "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Items/UI_Icons_Items_MarkOfLife.UI_Icons_Items_MarkOfLife'",
     "id": "duckiesItemsHealingPotionT3_Unit",
     "initial_stacks": 1,
-    "max_stacks": 5,
+    "max_stacks": 99,
     "name": "Final Healing Potion",
     "starting_snowtags": [
       "status_invulnerable"

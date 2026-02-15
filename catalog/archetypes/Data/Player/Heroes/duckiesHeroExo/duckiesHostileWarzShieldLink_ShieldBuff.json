@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "alignment": "Helpful",
+    "applied_tags": [
+      "status_invulnerable"
+    ],
+    "based_on": "Buff",
+    "buff_visuals": "BP_BVA_InfernalTrainingWarp",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_Warz.UI_Icons_Units_Demon_Warz'",
+    "id": "duckiesHostileWarzShieldLink_ShieldBuff",
+    "name": "pegasus_core|Buff_name_SurvivalInstinct_BuffInvulnerability",
+    "tooltip": "pegasus_core|Buff_tooltip_SurvivalInstinct_BuffInvulnerability"
+  },
+  "meta": {}
+}

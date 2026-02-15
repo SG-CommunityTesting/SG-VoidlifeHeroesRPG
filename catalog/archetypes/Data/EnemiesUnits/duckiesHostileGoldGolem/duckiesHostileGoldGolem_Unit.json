@@ -56,6 +56,7 @@
     "attribute_heavy"
   ],
   "traits": [
+    "duckiesHostileGoldGolemWeapon_DebuffStackingTrait",
     "duckiesHostileGoldGolemWeapon_DebuffTrait",
     "duckiesHostileGoldGolemWeapon_Trait"
   ],

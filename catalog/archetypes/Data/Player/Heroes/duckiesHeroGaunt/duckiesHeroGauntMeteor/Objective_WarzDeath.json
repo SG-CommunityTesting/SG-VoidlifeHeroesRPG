@@ -245,6 +245,150 @@
           "id": "state"
         }
       ]
+    },
+    {
+      "function_id": "Actor_RemoveBuff",
+      "guid": "D33AF591429986967EB97F88D7D8A55A",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "208FF7BD4D091700BF14EBAF277FDFD9",
+              "type": "Value",
+              "value": {
+                "guid": "D6C2087042B75E028798C9A6D22D1BAD",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Buff"
+                },
+                "value": "duckiesHostileWarzShieldLink_HostBuff"
+              }
+            }
+          ],
+          "guid": "27CE78AC42C6988B3F29D19912DEF417",
+          "id": "buff"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "137705694AB356185EAA79BD38EBF9AD",
+              "preset": {
+                "guid": "4883016942ECBE52D1DC44961F2639FF",
+                "preset_id": "Integer_MaxStacks",
+                "value_id": "max"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "892891D94F8FCCE583CD5683A2B3B6DB",
+          "id": "stacks"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "AC6A4F4B49AFAE1F0A3AF3A6AF293C27",
+              "type": "Variable",
+              "variable": {
+                "guid": "0CADD43C42475A96D6037F8B685B0C6E",
+                "variable_id": "GV_MainEnemyStructure"
+              }
+            }
+          ],
+          "guid": "D78768CE41047B37247D85A136202507",
+          "id": "target"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "1E1A0AEB405AE3AC03D0F78F2512CEE7",
+              "preset": {
+                "guid": "2444AE094C94139A7945C09C3838CBB6",
+                "preset_id": "Actor_AnyActor",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "AB862F9547663081E0C25C8F79AC8BE8",
+          "id": "source"
+        }
+      ]
+    },
+    {
+      "function_id": "Actor_RemoveBuff",
+      "guid": "FA3AE3C840F9EC7718B6E0B023157C61",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "2E982B08400DA41E2CD1E999EDBF8BDE",
+              "type": "Value",
+              "value": {
+                "guid": "1F85D66E42DF47FCA8804E87B28F9DD4",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Buff"
+                },
+                "value": "duckiesHostileWarzShieldLink_ShieldBuff"
+              }
+            }
+          ],
+          "guid": "3653F6564DB62D213CFCEB83E24FCAD8",
+          "id": "buff"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "F56463494E713CD0FC2C9BA4FCBC914D",
+              "preset": {
+                "guid": "9552AB8543DED858750CDA8F9A347419",
+                "preset_id": "Integer_MaxStacks",
+                "value_id": "max"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "991129AB47D9F318AAA4BA8EF76E1B06",
+          "id": "stacks"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D8106B5547BFE5FBDEB553A8C1A60A90",
+              "type": "Variable",
+              "variable": {
+                "guid": "3316563D432AFE35A291AF929F51BA51",
+                "variable_id": "GV_MainEnemyStructure"
+              }
+            }
+          ],
+          "guid": "C99B03704F76B157369DB5B9EC2C359A",
+          "id": "target"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D735CE6846A76CC764934F996709F21D",
+              "preset": {
+                "guid": "871F4479452796539D4BBBB5C9EA35B7",
+                "preset_id": "Actor_AnyActor",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "239152184738C3E609323A9AA7FB009F",
+          "id": "source"
+        }
+      ]
     }
   ],
   "based_on": "Trigger",

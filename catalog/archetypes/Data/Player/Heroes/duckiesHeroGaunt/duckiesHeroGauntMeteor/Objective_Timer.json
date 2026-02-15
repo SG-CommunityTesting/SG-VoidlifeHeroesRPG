@@ -1483,6 +1483,271 @@
                   "id": "details"
                 }
               ]
+            },
+            {
+              "function_id": "General_IfThenElse",
+              "guid": "38D27FF045B223CE327D52B9793ED9D1",
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Entity_HasBuff",
+                      "guid": "16222399469AD8C9612E33B393F7E7E0",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "4FA0DD5F47EA481F1AD2688620D8208B",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "66D9CCF54C7DFFBB308EA3BBCC6DAECD",
+                                "variable_id": "GV_MainEnemyStructure"
+                              }
+                            }
+                          ],
+                          "guid": "CEB2A86B473C5FBFB6CFD880B29BAD76",
+                          "id": "entity"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "17E0951444FE3070A2AEC4998FF540D6",
+                              "type": "Value",
+                              "value": {
+                                "guid": "7E9003D249087B64C9700D9F8806A48C",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Buff"
+                                },
+                                "value": "duckiesHostileWarzShieldLink_ShieldBuff"
+                              }
+                            }
+                          ],
+                          "guid": "F84A323A40953D35ECE2428EFB8667F1",
+                          "id": "buff"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "5A5A168644E871A1126D048DD04660C6",
+                              "preset": {
+                                "guid": "CD46748C4CEC0A038870B89D8BD2AC6C",
+                                "preset_id": "Buff_AnySource",
+                                "value_id": "none"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "9AC29BE04348F837EC8788B0ECCF414A",
+                          "id": "source"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Entity_HasBuff",
+                      "guid": "6FF42DBF4420CEB98F1422B34D532BA7",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "2BD4FCD84D456CF0E31529ABC1B2C74E",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "80F00CF14EB71D2B1D86D9BD4E6BB355",
+                                "variable_id": "GV_MainEnemyStructure"
+                              }
+                            }
+                          ],
+                          "guid": "3DD8037A4290573DF1D85B84AF06249B",
+                          "id": "entity"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "34E861394E4AA1A5C6F925928CBA3E01",
+                              "type": "Value",
+                              "value": {
+                                "guid": "C3F761F744DD49A1356134AA39F9B57F",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Buff"
+                                },
+                                "value": "duckiesHostileWarzShieldLink_HostBuff"
+                              }
+                            }
+                          ],
+                          "guid": "142308814992B134B3B39099BC2D5E6D",
+                          "id": "buff"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "E8FC889246D61470E35D79994E527325",
+                              "preset": {
+                                "guid": "3B1D9D1540A5D5DCA100DCB8E8CD069A",
+                                "preset_id": "Buff_AnySource",
+                                "value_id": "none"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "2AD550934A7F9D9AF4B887B9F6211EE4",
+                          "id": "source"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "02BC0B344C735CB5E71C9B9F09593ADC",
+                  "id": "if"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "Actor_RemoveBuff",
+                      "guid": "6F6C9A93488488A4D9CD2B8EC1B7E395",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "AB3BFA554B0876CFFAF66D9D4C00D695",
+                              "type": "Value",
+                              "value": {
+                                "guid": "ED63A40A4C2842FB008DEAB903EC7DBA",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Buff"
+                                },
+                                "value": "duckiesHostileWarzShieldLink_HostBuff"
+                              }
+                            }
+                          ],
+                          "guid": "B7A981AA40823171E90C47BC1C33E648",
+                          "id": "buff"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "717FE8E146BE1640917BFC9E383F0B35",
+                              "preset": {
+                                "guid": "84B0913540CB3A328D9F3D802C29E226",
+                                "preset_id": "Integer_MaxStacks",
+                                "value_id": "max"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "B3708CB04D0E5884CFB161A2E1010815",
+                          "id": "stacks"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "6081E3FA44D1618B3756ABAF5F94D405",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "B00154334FE604FC16C8B18C75AA4D9A",
+                                "variable_id": "GV_MainEnemyStructure"
+                              }
+                            }
+                          ],
+                          "guid": "D2B06F824F107D5EE6A550B2971D597C",
+                          "id": "target"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "C014CEB24E826CE5AA9B26A8AF1B9EC4",
+                              "preset": {
+                                "guid": "2A2C72DB4A82DFB226A3F0A25EEE57A1",
+                                "preset_id": "Actor_AnyActor",
+                                "value_id": "any"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "A315146D434E3887C24910A5C64F36D9",
+                          "id": "source"
+                        }
+                      ]
+                    },
+                    {
+                      "function_id": "Transmission_PlayTransmission",
+                      "guid": "BD683BBD4B446F018247BAB8D3F8D770",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "182CD4DB4F9B3E47E735FFA59F31A401",
+                              "preset": {
+                                "guid": "959C3F174DD2CB12FE9ABBA1F09E1FE0",
+                                "preset_id": "Transmission_TransmissionPlayers",
+                                "value_id": "comms"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "097A59524370542669F771B1B3C40BC5",
+                          "id": "player"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "36FEE7B44BE3BDBA40D37288EE85AA97",
+                              "type": "Value",
+                              "value": {
+                                "guid": "95E0625A47667A6152117E905324A27A",
+                                "type": {
+                                  "directive": "TypeRef",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Transmission"
+                                },
+                                "value": "duckiesTransmissionWarz_WarzTempleShield"
+                              }
+                            }
+                          ],
+                          "guid": "5D8627BE4F7DAA5A78A0A98832A1637D",
+                          "id": "transmission"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "function": {
+                                "function_id": "PlayerGroup_GetAllPlayers",
+                                "guid": "68082BB44C76BE33DDB55D94373F86B2"
+                              },
+                              "guid": "08DC37E9474B248546FEB995559C5531",
+                              "type": "Function"
+                            }
+                          ],
+                          "guid": "D63B3A764AEA1BF4C3A649B62CE94A57",
+                          "id": "player_group"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "D971914043B2A61FCCE09B9C07EF41EA",
+                  "id": "then"
+                },
+                {
+                  "guid": "3FD757F74C4A65D34FCBB1B332FDB86D",
+                  "id": "else"
+                }
+              ]
             }
           ],
           "guid": "E8C4ACCE40D43A3B7D9B47A5020278CB",

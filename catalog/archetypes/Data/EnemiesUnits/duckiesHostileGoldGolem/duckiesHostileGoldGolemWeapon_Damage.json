@@ -1,6 +1,65 @@
 ﻿{
   "__base_type": "GameEffectDamage",
   "amount": 12.0,
+  "amount_expression": {
+    "root": {
+      "left": {
+        "name": "ExpressionApi::Buff::get_stack_count",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "name": "ExpressionApi::effect_target",
+              "node": "FunctionCall",
+              "parameters": [
+                {
+                  "argument": {
+                    "node": "Literal",
+                    "type": "Name",
+                    "value": ""
+                  },
+                  "name": "effect_parent",
+                  "type": "Name"
+                }
+              ],
+              "type": "Entity"
+            },
+            "name": "entity",
+            "type": "Entity"
+          },
+          {
+            "argument": {
+              "node": "Literal",
+              "type": "Buff",
+              "value": "duckiesHostileGoldGolemWeapon_DebuffStacking"
+            },
+            "name": "buff",
+            "type": "Buff"
+          },
+          {
+            "argument": {
+              "name": "ExpressionApi::Entity::any",
+              "node": "FunctionCall",
+              "parameters": [],
+              "type": "Entity"
+            },
+            "name": "source",
+            "type": "Entity"
+          }
+        ],
+        "type": "Count"
+      },
+      "node": "Math",
+      "operator": "*",
+      "right": {
+        "node": "Literal",
+        "type": "Count",
+        "value": 1
+      },
+      "type": "Count"
+    },
+    "type": "Value"
+  },
   "based_on": "GameEffectDamage",
   "damage_tags": [
     "damage_ranged"

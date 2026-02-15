@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "__base_type": "GameEffectApplyBuff",
+    "based_on": "BaseGameEffectApplyBuffStun",
+    "buff": "duckiesHostileGoldGolemWeapon_DebuffStacking",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "id": "duckiesHostileGoldGolemWeapon_DebuffStackingApply",
+    "validator": "Valid_TargetIsNotStructure"
+  },
+  "meta": {}
+}

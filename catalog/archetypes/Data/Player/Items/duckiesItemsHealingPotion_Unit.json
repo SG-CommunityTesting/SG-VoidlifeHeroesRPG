@@ -19,7 +19,7 @@
     "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_RevitalizationRadiance.UI_Icons_Abilities_RevitalizationRadiance'",
     "id": "duckiesItemsHealingPotion_Unit",
     "initial_stacks": 1,
-    "max_stacks": 5,
+    "max_stacks": 99,
     "name": "Healing Potion",
     "starting_snowtags": [
       "status_invulnerable"

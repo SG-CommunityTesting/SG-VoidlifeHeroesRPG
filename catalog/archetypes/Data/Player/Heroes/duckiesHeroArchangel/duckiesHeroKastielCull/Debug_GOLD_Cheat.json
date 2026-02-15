@@ -140,9 +140,65 @@
             "id": "value2"
           }
         ]
+      },
+      {
+        "function_id": "Logic_Comparison",
+        "guid": "ED6F79FB4F992B78AA51DEAFA31EDA14",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "guid": "EDA7D95640F0482C6945A1850B076B73",
+                "type": "Variable",
+                "variable": {
+                  "guid": "43CB701740543515E7DE398B13587C8C",
+                  "variable_id": "GV_CheatsEnabled"
+                }
+              }
+            ],
+            "guid": "07A285AD48A101632CB266AC6DDC637E",
+            "id": "value1"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "8C86A8654A2C19BB5FA5C6B1BB585A11",
+                "preset": {
+                  "guid": "3DFF2DF7437CD6011225A983FFBA0806",
+                  "preset_id": "Logic_ComparisonOperator",
+                  "value_id": "eq"
+                },
+                "type": "Preset"
+              }
+            ],
+            "guid": "5110A18148EE9E78D6B8F0B13D552508",
+            "id": "op"
+          },
+          {
+            "expressions": [
+              {
+                "guid": "DB273B274F1D5604CD39328AC582D5B1",
+                "type": "Value",
+                "value": {
+                  "guid": "B80C569E4707119092A82D908561D1AB",
+                  "type": {
+                    "directive": "FunctionType",
+                    "implements": "",
+                    "inner_type": "",
+                    "param_id": "",
+                    "sub_directive": "None",
+                    "type": "Boolean"
+                  },
+                  "value": "true"
+                }
+              }
+            ],
+            "guid": "9BAD55424FAF2C66F7CC969960008AE2",
+            "id": "value2"
+          }
+        ]
       }
     ],
-    "enabled": false,
     "events": [
       {
         "function_id": "Player_OnPlayerSendsChatMessage",

@@ -833,19 +833,11 @@
         {
           "expressions": [
             {
-              "guid": "786646E040B30A3B51CE828EFD28B385",
-              "type": "Value",
-              "value": {
-                "guid": "8B91471044DA0887978094800C8DA877",
-                "type": {
-                  "directive": "FunctionType",
-                  "implements": "",
-                  "inner_type": "",
-                  "param_id": "",
-                  "sub_directive": "None",
-                  "type": "Integer"
-                },
-                "value": "1"
+              "guid": "566F3EF840555C376DA1A2943A60C043",
+              "type": "Variable",
+              "variable": {
+                "guid": "6E5C230E4FE50ED3EE271895FE6B9ECD",
+                "variable_id": "LV_BaseSpawnWeight"
               }
             }
           ],
@@ -953,19 +945,11 @@
         {
           "expressions": [
             {
-              "guid": "F4D39C9D43141C18AEA6999B9DCF663A",
-              "type": "Value",
-              "value": {
-                "guid": "71B95CAC4D2E141FE66D49B6CAB71FAC",
-                "type": {
-                  "directive": "FunctionType",
-                  "implements": "",
-                  "inner_type": "",
-                  "param_id": "",
-                  "sub_directive": "None",
-                  "type": "Integer"
-                },
-                "value": "1"
+              "guid": "09A23A4642871EE375B411B933F422D4",
+              "type": "Variable",
+              "variable": {
+                "guid": "32CF395D4571359DCC9854A2451F6050",
+                "variable_id": "LV_BaseSpawnWeight"
               }
             }
           ],
@@ -1062,6 +1046,118 @@
             }
           ],
           "guid": "FFA145724EA774F371217DA51D9F4EE3",
+          "id": "item"
+        }
+      ]
+    },
+    {
+      "function_id": "Item_CreateItem",
+      "guid": "2C211F5E4ADA566B4134A5826CC88396",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "1AD7901047D8C341A537A28D3ECF774B",
+              "type": "Variable",
+              "variable": {
+                "guid": "B69558DF4E637E13996DCAAB3D1F8F76",
+                "variable_id": "LV_BaseSpawnWeight"
+              }
+            }
+          ],
+          "guid": "7ED215E6457F2E1A591E79BBCD8BECE3",
+          "id": "count"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "C7702DD9436FE51E13584CA99A5CE9CD",
+              "type": "Value",
+              "value": {
+                "guid": "75E4FF3A4615E7229F2EEEA1B707BF82",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "ItemData"
+                },
+                "value": "duckiesItemsGoldenRing_Unit"
+              }
+            }
+          ],
+          "guid": "58ABC16E46099870CB8E8FA52FB12665",
+          "id": "type"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "A340646349130F0E913EBBB3F47A003A",
+              "type": "Variable",
+              "variable": {
+                "guid": "65B43A874FED5584924BA0984875D2BE",
+                "variable_id": "LV_SpawnPoint"
+              }
+            }
+          ],
+          "guid": "413E0BE143B65CB1C9D4A8B0F09F1785",
+          "id": "position"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "0357BD064D249F029F0F27BD0D886BF1",
+              "type": "Value",
+              "value": {
+                "guid": "025CB8854164FFD6D091528CDF480EFD",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Degrees"
+                },
+                "value": "0"
+              }
+            }
+          ],
+          "guid": "5BB55218421689BC9878F083DCAD0FF1",
+          "id": "facing"
+        }
+      ]
+    },
+    {
+      "function_id": "ItemGroup_AddItem",
+      "guid": "E4E373E845945673E7674FB0F6764AB2",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "37D27A0F498A82FA9ED53FBDA1E9DDFA",
+              "type": "Variable",
+              "variable": {
+                "guid": "51F26ED341654DAE3F4754ACCD2A76DE",
+                "variable_id": "LV_ItemsPoolVault"
+              }
+            }
+          ],
+          "guid": "1F4F99C64D03272B72D04CB4A68D343F",
+          "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Item_GetLastCreatedItem",
+                "guid": "906EC53F487989F8D88FDC88F78F6E7E"
+              },
+              "guid": "807F53DC44CD39CD3B1F6CBB2BF28878",
+              "type": "Function"
+            }
+          ],
+          "guid": "7F0F6935441B19467B14DCB4CA3D439F",
           "id": "item"
         }
       ]
@@ -2392,10 +2488,10 @@
       "id": "LV_BaseSpawnWeight",
       "initial_values": [
         {
-          "guid": "77D5210141DA1416EEDF928E5A46DD45",
+          "guid": "8B98C9AA4B0B9D9DE0E8E6AAC4D549D7",
           "type": "Value",
           "value": {
-            "guid": "E7D446DD47A19B5BF23E03BB6348FC80",
+            "guid": "86538FAF4E2C3DDC293E8297E3F0CA3F",
             "type": {
               "directive": "FunctionType",
               "implements": "",
@@ -2404,7 +2500,7 @@
               "sub_directive": "None",
               "type": "Integer"
             },
-            "value": "3"
+            "value": "4"
           }
         }
       ],

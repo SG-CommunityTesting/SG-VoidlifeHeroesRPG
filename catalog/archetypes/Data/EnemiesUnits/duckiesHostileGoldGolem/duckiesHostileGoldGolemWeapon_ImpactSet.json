@@ -3,7 +3,8 @@
   "based_on": "GameEffectSet",
   "effects": [
     "duckiesHostileGoldGolemWeapon_Damage",
-    "duckiesHostileGoldGolemWeapon_ImpactDebuffSwitch"
+    "duckiesHostileGoldGolemWeapon_ImpactDebuffSwitch",
+    "duckiesHostileGoldGolemWeapon_DebuffStackingApply"
   ],
   "id": "duckiesHostileGoldGolemWeapon_ImpactSet"
 }

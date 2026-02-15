@@ -21,7 +21,7 @@
   "name": "pegasus_core|WeaponData_name_AntiAirReward_WeaponAir",
   "period": 2,
   "range_acquire": 12.0,
-  "range_maximum": 10.0,
+  "range_maximum": 7.0,
   "range_slop": 2.0,
   "swing": 0.5,
   "swing_reacquire_range": 3.0,
