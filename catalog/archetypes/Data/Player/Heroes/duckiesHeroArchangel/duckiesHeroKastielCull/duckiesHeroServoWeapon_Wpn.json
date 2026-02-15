@@ -1,0 +1,41 @@
+﻿{
+  "data": {
+    "backswing": 1.0,
+    "based_on": "BaseWeapon",
+    "display_effect_damage": "duckiesHeroServoWeapon_Damage",
+    "flags": {
+      "can_attack_location": false,
+      "channeled": false,
+      "fires_passively": false,
+      "melee": true,
+      "scan_for_new_targets": true
+    },
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Vanguard_BOB_ServoFist.UI_Icons_Weapons_Vanguard_BOB_ServoFist'",
+    "id": "duckiesHeroServoWeapon_Wpn",
+    "name": "pegasus_core|WeaponData_name_Worker_Weapon",
+    "period": 1.5,
+    "range_maximum": 0.1,
+    "range_minimum": 0.0,
+    "swing": 0.25,
+    "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_StateAlternateA.AC_Weapon_StateAlternateA_C'",
+    "weapon_fire": "duckiesHeroServoWeapon_Damage",
+    "weapon_target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable"
+        ],
+        "required": [
+          "heightplane_ground"
+        ]
+      }
+    }
+  },
+  "meta": {}
+}

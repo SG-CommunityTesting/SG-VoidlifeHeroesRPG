@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_JaggedShards.UI_Icons_Weapons_Stormgates_JaggedShards'",
+    "id": "duckiesHostileGoldGolemWeapon_DebuffStackingTraitBtn",
+    "name": "Shattering",
+    "tooltip": "Unit's weapon slowly breaks target's defenses, causing them to take increased damage from Warp Golem's attack."
+  },
+  "meta": {}
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectApplyBuff",
+    "buff": "duckiesHostileWarzShieldLink_ShieldBuff",
+    "effect_target": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "id": "duckiesHostileWarzShieldLink_ApplyInvuln"
+  },
+  "meta": {}
+}

@@ -149,7 +149,7 @@
     "unit_button": "StormgateAbilityCreateTier1Ooze_Button",
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_OozeReward.UI_Portrait_Demon_Default_OozeReward'",
     "unreal_actor": "BP_UN_AberrantReward",
-    "veterancy_given_on_death": 50,
+    "veterancy_given_on_death": 25,
     "vision_radius": 11.0,
     "vital_health": {
       "maximum": 340.0,

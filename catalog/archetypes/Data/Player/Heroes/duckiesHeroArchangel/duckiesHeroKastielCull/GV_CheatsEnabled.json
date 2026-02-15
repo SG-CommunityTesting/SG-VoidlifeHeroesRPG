@@ -1,0 +1,30 @@
+﻿{
+  "based_on": "GlobalVariable",
+  "id": "GV_CheatsEnabled",
+  "initial_values": [
+    {
+      "guid": "03BB831442479220E17581A0A4BEFE00",
+      "type": "Value",
+      "value": {
+        "guid": "474CB9404624DA35963290A46955D715",
+        "type": {
+          "directive": "FunctionType",
+          "implements": "",
+          "inner_type": "",
+          "param_id": "",
+          "sub_directive": "None",
+          "type": "Boolean"
+        },
+        "value": "false"
+      }
+    }
+  ],
+  "type": {
+    "directive": "FunctionType",
+    "implements": "",
+    "inner_type": "",
+    "param_id": "",
+    "sub_directive": "None",
+    "type": "Boolean"
+  }
+}

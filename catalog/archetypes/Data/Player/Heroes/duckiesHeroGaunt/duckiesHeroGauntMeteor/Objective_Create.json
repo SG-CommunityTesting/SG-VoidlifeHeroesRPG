@@ -80,10 +80,10 @@
                                   {
                                     "expressions": [
                                       {
-                                        "guid": "A9E4E14B488CA75A36C2B2826721B1BE",
+                                        "guid": "6F16340946F45B3C6C7A3A99D9544670",
                                         "type": "Value",
                                         "value": {
-                                          "guid": "BD28F9704F5EBE14E0C43CA0F5118A7A",
+                                          "guid": "6B74B7F6442E29B1844DDFBB281B207E",
                                           "type": {
                                             "directive": "FunctionType",
                                             "implements": "",
@@ -95,7 +95,7 @@
                                             ],
                                             "type": "String"
                                           },
-                                          "value": "Voidlife Heroes RPG v0.3 (EASY)"
+                                          "value": "Voidlife Heroes RPG v0.3.1 (EASY)"
                                         }
                                       }
                                     ],
@@ -177,10 +177,10 @@
                                   {
                                     "expressions": [
                                       {
-                                        "guid": "9E0704A54E9167B6E7707EB5AB1724CB",
+                                        "guid": "A56F42B34D990EA3FACD118390CAD82D",
                                         "type": "Value",
                                         "value": {
-                                          "guid": "A413BE33431EB42319BD719BE357AF6C",
+                                          "guid": "14EFA6EC40BC1F2237275C904524A558",
                                           "type": {
                                             "directive": "FunctionType",
                                             "implements": "",
@@ -192,7 +192,7 @@
                                             ],
                                             "type": "String"
                                           },
-                                          "value": "Voidlife Heroes RPG v0.3 (NORMAL)"
+                                          "value": "Voidlife Heroes RPG v0.3.1 (NORMAL)"
                                         }
                                       }
                                     ],
@@ -274,10 +274,10 @@
                                   {
                                     "expressions": [
                                       {
-                                        "guid": "DAF14B7A40DBA038D68EAA90E485271B",
+                                        "guid": "CC70542043F07A3EE76524971AFC738E",
                                         "type": "Value",
                                         "value": {
-                                          "guid": "57732BA843999791B649EAB7A06ECD7E",
+                                          "guid": "6B14533C44A4B5428B71D382542B1D77",
                                           "type": {
                                             "directive": "FunctionType",
                                             "implements": "",
@@ -289,7 +289,7 @@
                                             ],
                                             "type": "String"
                                           },
-                                          "value": "Voidlife Heroes RPG v0.3 (HARD)"
+                                          "value": "Voidlife Heroes RPG v0.3.1 (HARD)"
                                         }
                                       }
                                     ],
@@ -1396,6 +1396,84 @@
           ],
           "guid": "7FB6115947ECBE05487EC097A5BF7276",
           "id": "details"
+        }
+      ]
+    },
+    {
+      "function_id": "Actor_ApplyBuff",
+      "guid": "411C97064ED8899BA02E68AB7F27921E",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "2956751940E0BC3C086EDA892B2AB905",
+              "type": "Value",
+              "value": {
+                "guid": "89BBD33C4CA6B51E767EE1913CB518C6",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Buff"
+                },
+                "value": "duckiesHostileWarzShieldLink_HostBuff"
+              }
+            }
+          ],
+          "guid": "E6AA4AF74BA13A2376DE89BAF61C85CA",
+          "id": "buff"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "B312535E4A19AD5FE14E93BE310FA038",
+              "type": "Value",
+              "value": {
+                "guid": "D046732B41CE5E2761FB07A53C4C4E1E",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "38F32FF24D1C87D4153D7DB3CCA9BE46",
+          "id": "stacks"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "F94F4B284A695E0B2C5062B22430D8B9",
+              "type": "Variable",
+              "variable": {
+                "guid": "B459133042CAA5A12A70F1B721FBB575",
+                "variable_id": "GV_MainEnemyStructure"
+              }
+            }
+          ],
+          "guid": "7BE68E274F1E75375760EA8FF2E91B61",
+          "id": "target"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "EC6928E345E1C23AEFF0E4800E34CAE7",
+              "type": "Variable",
+              "variable": {
+                "guid": "A64FF3584EB5E15F6FA9F08CAE8D6DD8",
+                "variable_id": "GV_MainWarz"
+              }
+            }
+          ],
+          "guid": "530CF9804DA2C016C47C909C66391E9F",
+          "id": "source"
         }
       ]
     }

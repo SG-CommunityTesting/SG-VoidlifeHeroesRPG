@@ -183,6 +183,7 @@
     {
       "function_id": "Unit_Kill",
       "guid": "5902C5C04FC227C94514E980AB8ED783",
+      "is_enabled": false,
       "parameters": [
         {
           "expressions": [
@@ -199,9 +200,146 @@
           "id": "unit"
         }
       ]
+    },
+    {
+      "function_id": "Actor_ApplyBuff",
+      "guid": "5BA1BDF6429A073243956B87E9F2D295",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "553FD2664218A2345F67268CF182105E",
+              "type": "Value",
+              "value": {
+                "guid": "EF77484841BB1FC2BD9EDC827FD7E701",
+                "type": {
+                  "directive": "TypeRef",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Buff"
+                },
+                "value": "duckiesVoidheartShrine_InvulnBuff"
+              }
+            }
+          ],
+          "guid": "0C022EE040D56C2A8DBC1F872DB007FB",
+          "id": "buff"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "9B3886164FDDB0B2CB43DB8F22F6CD58",
+              "type": "Value",
+              "value": {
+                "guid": "3C3F6C38453C1E4049E4399000F46E83",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Integer"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "7951D37249103621A836D2BACE05E38E",
+          "id": "stacks"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "CE751CEF4DA396CB5457FEB89C3C0A4B",
+              "type": "Variable",
+              "variable": {
+                "guid": "3478ACEB4297258715E8729979768CE6",
+                "variable_id": "GV_MainHealer"
+              }
+            }
+          ],
+          "guid": "8FFA5DF248B18E4AF7E02A84F10FD59E",
+          "id": "target"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "0E8EE0C441283A38FF44E28D8B042DC3",
+              "type": "Variable",
+              "variable": {
+                "guid": "9917A5A341D5481F29B83BBBB6AD5DA0",
+                "variable_id": "GV_MainHealer"
+              }
+            }
+          ],
+          "guid": "7A14A399487F5EF96543F7B991EC6DD9",
+          "id": "source"
+        }
+      ]
     }
   ],
   "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Logic_Comparison",
+      "guid": "6478C9884FE6BAC12D5A7D912286F499",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "A0AA3DFA440CA88456ACB1B7205DA5FD",
+              "type": "Variable",
+              "variable": {
+                "guid": "833E0B42419C258900E8F59C3D25BE46",
+                "variable_id": "GV_CheatsEnabled"
+              }
+            }
+          ],
+          "guid": "A794DB3A45C68AA7D61C058B1B34032F",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D51D85044D79A9F177C63BB2275A8E22",
+              "preset": {
+                "guid": "AEBF4F6C464E140AF6B0B8BE015E2A6C",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "eq"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "B4EE765F488B484FDE2623BAFCEA512E",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "7840CF85443AE572BA715CB8B85A9562",
+              "type": "Value",
+              "value": {
+                "guid": "1EA128824FF0E52E7A9BB89BA04D2B4C",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Boolean"
+                },
+                "value": "true"
+              }
+            }
+          ],
+          "guid": "C05CD7ED4CC817DB532E688C49B95CD8",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
   "enabled": false,
   "events": [
     {

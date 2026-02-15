@@ -144,7 +144,8 @@
       "heightplane_ground",
       "attribute_biological",
       "attribute_ranged",
-      "attribute_hero"
+      "attribute_hero",
+      "attribute_light"
     ],
     "subgroup_priority": 103,
     "traits": [

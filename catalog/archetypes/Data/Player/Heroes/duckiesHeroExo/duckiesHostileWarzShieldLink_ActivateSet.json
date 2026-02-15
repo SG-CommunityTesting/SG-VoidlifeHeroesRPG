@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSet",
+    "effects": [
+      "duckiesHostileWarzShieldLink_ApplyInvuln",
+      "duckiesHostileWarzShieldLink_RemoveHost"
+    ],
+    "id": "duckiesHostileWarzShieldLink_ActivateSet"
+  },
+  "meta": {}
+}

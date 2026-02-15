@@ -1083,6 +1083,119 @@
             },
             {
               "function_id": "General_IfThenElse",
+              "guid": "FB93619B4B444207314863831276C93F",
+              "sub_functions": [
+                {
+                  "functions": [
+                    {
+                      "function_id": "Logic_Comparison",
+                      "guid": "4E90F2564F925ACC0B31D0826F71A2E3",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "EDDB06C44EB50DE00FFD9A8E4E4B926F",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "AE69EFD64844FA9910052782AA307DDE",
+                                "variable_id": "GV_SpawnersKilledCount"
+                              }
+                            }
+                          ],
+                          "guid": "6DE7B9C34AC6ADB0867910B6607563B3",
+                          "id": "value1"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "8CB7B51F48758747B538CDB064C1FE7D",
+                              "preset": {
+                                "guid": "5E9751364342E1BA741EAC8FA3F0382E",
+                                "preset_id": "Logic_ComparisonOperator",
+                                "value_id": "gre"
+                              },
+                              "type": "Preset"
+                            }
+                          ],
+                          "guid": "D912F9C148901D461E20E2B087C975B0",
+                          "id": "op"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "63350C68496570FD4688448042AC7BA1",
+                              "type": "Value",
+                              "value": {
+                                "guid": "08D61298410F0CDDE219D1A774E2196A",
+                                "type": {
+                                  "directive": "FunctionType",
+                                  "implements": "",
+                                  "inner_type": "",
+                                  "param_id": "",
+                                  "sub_directive": "None",
+                                  "type": "Player"
+                                },
+                                "value": "30"
+                              }
+                            }
+                          ],
+                          "guid": "2BD031DB49DD4D1453658E80E6A178A1",
+                          "id": "value2"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "362F410E4034651377107183335E0D98",
+                  "id": "if"
+                },
+                {
+                  "functions": [
+                    {
+                      "function_id": "Variable_SetVariable",
+                      "guid": "91857C4F4374433C694BE3BAE7A74089",
+                      "parameters": [
+                        {
+                          "expressions": [
+                            {
+                              "guid": "FF02C2C04C4C8105B365BD948E1D6538",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "3D1B860648EDE2BDB724C9BDBF7CD24C",
+                                "variable_id": "LV_SpawnType"
+                              }
+                            }
+                          ],
+                          "guid": "BC75208641983067A21B52ABC710BADB",
+                          "id": "variable"
+                        },
+                        {
+                          "expressions": [
+                            {
+                              "guid": "2796408744B877E9331B9B97C668E49C",
+                              "type": "Variable",
+                              "variable": {
+                                "guid": "D0C6F5B247AF84606CA9F5B021793B88",
+                                "variable_id": "GV_SpawnersCurrentType"
+                              }
+                            }
+                          ],
+                          "guid": "66B93B894C522950D90244BDAF91A5F6",
+                          "id": "value"
+                        }
+                      ]
+                    }
+                  ],
+                  "guid": "3E1D1E7F4FC22D621D3CCF9C5609492C",
+                  "id": "then"
+                },
+                {
+                  "guid": "1B8D625B4F30B8381894CE8478D96FAF",
+                  "id": "else"
+                }
+              ]
+            },
+            {
+              "function_id": "General_IfThenElse",
               "guid": "765F848640E50F09A98F9EBBB2EE63F1",
               "sub_functions": [
                 {

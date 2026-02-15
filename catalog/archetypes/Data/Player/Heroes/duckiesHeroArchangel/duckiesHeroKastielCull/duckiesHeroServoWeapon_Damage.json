@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 50.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_melee"
+    ],
+    "id": "duckiesHeroServoWeapon_Damage",
+    "impact_fx": "BP_FXI_Worker_Impact"
+  },
+  "meta": {}
+}

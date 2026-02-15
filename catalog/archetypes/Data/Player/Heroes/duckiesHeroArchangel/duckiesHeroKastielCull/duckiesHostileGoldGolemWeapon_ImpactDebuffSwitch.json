@@ -7,5 +7,6 @@
     }
   ],
   "default_action": "duckiesHostileGoldGolemWeapon_DebuffApply",
-  "id": "duckiesHostileGoldGolemWeapon_ImpactDebuffSwitch"
+  "id": "duckiesHostileGoldGolemWeapon_ImpactDebuffSwitch",
+  "validator": "Valid_duckiesHostileGoldGolemWeapon_TargetValidateCombine"
 }

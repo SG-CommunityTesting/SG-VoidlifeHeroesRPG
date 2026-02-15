@@ -18,7 +18,7 @@
     },
     "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Teleport.UI_Icons_Abilities_Teleport'",
     "id": "duckiesItemsTeleport_Unit",
-    "max_stacks": 10,
+    "max_stacks": 99,
     "name": "Recall Stone",
     "starting_snowtags": [
       "status_invulnerable"

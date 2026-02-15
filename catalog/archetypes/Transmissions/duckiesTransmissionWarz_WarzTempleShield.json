@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "based_on": "BaseTransmission",
+    "character": "Character_Warz",
+    "communication_style": "CommStyle_Serious",
+    "id": "duckiesTransmissionWarz_WarzTempleShield",
+    "pause": 10.0,
+    "text_field": "I don’t think so. Your strategy is in vain. I myself am enough to maintain the temple's presence.\n\nCome now and die at my hand!"
+  },
+  "meta": {}
+}
