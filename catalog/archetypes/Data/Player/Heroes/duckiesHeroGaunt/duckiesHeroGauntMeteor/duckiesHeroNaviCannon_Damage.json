@@ -1,7 +1,7 @@
 ﻿{
   "data": {
     "__base_type": "GameEffectDamage",
-    "amount": 1000.0,
+    "amount": 1400.0,
     "based_on": "GameEffectDamage",
     "damage_tags": [
       "damage_spell",

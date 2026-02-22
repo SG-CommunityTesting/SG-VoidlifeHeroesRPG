@@ -91,7 +91,7 @@
       },
       {
         "ability": "duckiesHeroKriEvolve_Abil",
-        "button": "duckiesHeroBase_EvolveBtn",
+        "button": "duckiesHeroKriEvolve_Btn",
         "commandIndex": 0,
         "hotkey_should_hide": false,
         "panel": "CommandPanel",

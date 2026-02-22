@@ -1,0 +1,42 @@
+﻿{
+  "data": {
+    "based_on": "GameEffectSearchQuad",
+    "directional_offset": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Caster"
+    },
+    "game_effect": "duckiesHostileFireGiantBossWeapon_Damage",
+    "id": "duckiesHostileFireGiantBoss_SearchQuad",
+    "impact_fx": "BP_FXS_FireGiant_Impact",
+    "length": 2.5,
+    "polar_offset": {
+      "angle": -180.0,
+      "radius": 0.0
+    },
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "entity_destructible_tree"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "width": 2.5
+  },
+  "meta": {}
+}

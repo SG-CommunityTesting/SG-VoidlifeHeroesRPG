@@ -3,6 +3,34 @@
     "based_on": "UnitData",
     "expiration_time": -1.0,
     "id": "duckiesHeroBase_TIER5",
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "ground_tall": false,
+        "item": false,
+        "worker": false
+      },
+      "deceleration_time": 0.0,
+      "flocking": {
+        "separation_delay": 0.5,
+        "separation_radius": 0,
+        "separation_strength": 1.0
+      },
+      "idle_pushable": false,
+      "lock_facing": false,
+      "moving_turn_period": 0.0,
+      "pathing_mode": "Ground",
+      "push_priority": 0,
+      "push_priority_same_team": 0,
+      "speed": 5.0,
+      "stationary_turn_period": 0.13,
+      "turn_radius": 0.0,
+      "turn_without_slowing": false,
+      "unpushable": false
+    },
     "starting_snowtags": [
       "attribute_hero",
       "entity_unit",

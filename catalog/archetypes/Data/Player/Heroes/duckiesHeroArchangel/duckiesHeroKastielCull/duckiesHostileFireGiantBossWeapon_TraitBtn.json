@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_FireWave.UI_Icons_Abilities_FireWave'",
+    "id": "duckiesHostileFireGiantBossWeapon_TraitBtn",
+    "name": "pegasus_commanders|Button_Name_FireGiantWeapon_ButtonTrait",
+    "tooltip": "This unit's attack combusts <Bold>6</> times in a straight line."
+  },
+  "meta": {}
+}

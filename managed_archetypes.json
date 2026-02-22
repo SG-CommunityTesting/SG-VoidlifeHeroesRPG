@@ -105,6 +105,11 @@
       "id": "_duckiesHostileFiend_Unit5",
       "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CelestialHyperDrive.UI_Icons_Abilities_CelestialHyperDrive'"
     },
+    "_duckiesHostileFiend_Unit6": {
+      "based_on": "duckiesHostileFiend_Unit",
+      "id": "_duckiesHostileFiend_Unit6",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Home/UI_Home_TopNav_StormgateSymbol.UI_Home_TopNav_StormgateSymbol'"
+    },
     "_duckiesHostileFireGiant_Unit0": {
       "based_on": "duckiesHostileFireGiant_Unit",
       "id": "_duckiesHostileFireGiant_Unit0",

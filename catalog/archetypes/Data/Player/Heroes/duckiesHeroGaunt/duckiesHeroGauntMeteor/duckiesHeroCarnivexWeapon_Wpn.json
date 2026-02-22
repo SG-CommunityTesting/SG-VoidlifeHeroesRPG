@@ -15,7 +15,7 @@
     "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Kri_KriWeapon.UI_Icons_Weapons_Celestials_Kri_KriWeapon'",
     "id": "duckiesHeroCarnivexWeapon_Wpn",
     "name": "pegasus_core|WeaponData_name_Carnivex_Weapon",
-    "period": 1.3,
+    "period": 1.1,
     "range_maximum": 0.25,
     "swing": 0.1,
     "weapon_fire": "duckiesHeroCarnivexWeapon_Switch",

@@ -12,7 +12,20 @@
         "unit": "duckiesHeroCarnivex_Unit"
       }
     ],
-    "id": "duckiesHeroKriEvolve_Abil"
+    "flags": {
+      "approach": false,
+      "best_unit": false,
+      "builds": false,
+      "cancelable": false,
+      "disable_abilities": true,
+      "orient_like_structure": false,
+      "perform_height_transition": false,
+      "placement": false,
+      "unload_cargo": false,
+      "upgrade": false
+    },
+    "id": "duckiesHeroKriEvolve_Abil",
+    "morph_finish_effect": "duckiesHeroKriEvolve_EvolveFinishSet"
   },
   "meta": {}
 }

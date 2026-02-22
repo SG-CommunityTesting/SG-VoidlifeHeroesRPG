@@ -8,10 +8,10 @@
           {
             "expressions": [
               {
-                "guid": "D7C4A4464969FB8D2D4F80AF46CE4563",
+                "guid": "DF6745434F0A4C5C1D89CFA0A609386C",
                 "type": "Value",
                 "value": {
-                  "guid": "391C38284A6D3A2672D97D8E8BB19AA9",
+                  "guid": "EE0E244842652C254E0939AB69D7EB8B",
                   "type": {
                     "directive": "FunctionType",
                     "implements": "",
@@ -20,7 +20,7 @@
                     "sub_directive": "None",
                     "type": "Vector"
                   },
-                  "value": "X=-96.000 Y=-96.000"
+                  "value": "X=-104.000 Y=-96.000"
                 }
               }
             ],
@@ -72,10 +72,10 @@
           {
             "expressions": [
               {
-                "guid": "621240C34A9BEFB7549690B27EB33C8A",
+                "guid": "6D12264C4363E82EF76D51B00994DE08",
                 "type": "Value",
                 "value": {
-                  "guid": "9FC364B24F55DB11F05960B1D16990A7",
+                  "guid": "A109130945CC616D57A251A88CDCAA1B",
                   "type": {
                     "directive": "FunctionType",
                     "implements": "",
@@ -84,7 +84,7 @@
                     "sub_directive": "None",
                     "type": "Vector"
                   },
-                  "value": "X=-80.000 Y=-88.000"
+                  "value": "X=-88.000 Y=-88.000"
                 }
               }
             ],

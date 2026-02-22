@@ -6,7 +6,7 @@
       "dispel_technological"
     ],
     "buff_visuals": "BP_FX_PreservationProtocol",
-    "duration": 10.0,
+    "duration": 16.0,
     "flags": {
       "hidden": false,
       "hide_timer": false,

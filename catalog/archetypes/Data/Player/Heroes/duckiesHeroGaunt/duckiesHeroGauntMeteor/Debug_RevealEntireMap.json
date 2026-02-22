@@ -99,6 +99,7 @@
     {
       "function_id": "Map_SetPlayableBounds",
       "guid": "DAF6A11347AE1615420EB2BA995D99A2",
+      "is_enabled": false,
       "parameters": [
         {
           "expressions": [
@@ -149,6 +150,7 @@
     {
       "function_id": "Camera_SetCameraBounds",
       "guid": "BCB147184DE678B2FE711EB86E9C2C54",
+      "is_enabled": false,
       "parameters": [
         {
           "expressions": [

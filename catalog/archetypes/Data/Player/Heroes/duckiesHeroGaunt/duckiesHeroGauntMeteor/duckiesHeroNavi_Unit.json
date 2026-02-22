@@ -207,9 +207,9 @@
       "starting": 300.0
     },
     "vital_health": {
-      "maximum": 800.0,
+      "maximum": 1320.0,
       "regen": 3.0,
-      "starting": 800.0
+      "starting": 1320.0
     },
     "vital_shroud_bonus_shield_flat": 0.0,
     "weaponList": [

@@ -2,6 +2,107 @@
   "data": {
     "actions": [
       {
+        "function_id": "UnitGroup_ForEachUnitInGroup",
+        "guid": "1E31096E45578D544F19ADB2B166285D",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "UnitGroup_GetUnitsOfPlayer",
+                  "guid": "0BE83E9F496242A3F0C8DD9E89B6AB76",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "guid": "A530638047436213B592FE9A6A776D13",
+                          "type": "Value",
+                          "value": {
+                            "guid": "F2503A6D43C24A03484BC49A258BF16F",
+                            "type": {
+                              "directive": "FunctionType",
+                              "implements": "",
+                              "inner_type": "",
+                              "param_id": "",
+                              "sub_directive": "None",
+                              "type": "Player"
+                            },
+                            "value": "31"
+                          }
+                        }
+                      ],
+                      "guid": "4D61CE3F4B4D869F7C8651978D2C7B98",
+                      "id": "player"
+                    }
+                  ]
+                },
+                "guid": "3556D4D34FC06E2535A8EA89AC90F18C",
+                "type": "Function"
+              }
+            ],
+            "guid": "4469493E4E603702C4DF9F98FBD2D6DC",
+            "id": "units"
+          }
+        ],
+        "sub_functions": [
+          {
+            "functions": [
+              {
+                "function_id": "Unit_ChangeOwner",
+                "guid": "47A2761F4C71B3E465E6A98C63458167",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "UnitGroup_GetCurrentUnit",
+                          "guid": "262C724E41DB56AEAAED76812944F366"
+                        },
+                        "guid": "E63501E24AD9BEED4407ECAA359F92A6",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "FC92A0AE46FEA9544CAB49BCE2CA28A4",
+                    "id": "unit"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "E836BB6849CBB933C344508E63F0894B",
+                        "type": "Variable",
+                        "variable": {
+                          "guid": "C5E1B2E14FC9B5CB00C9DD96C261B87F",
+                          "variable_id": "HOSTILE_PLAYER"
+                        }
+                      }
+                    ],
+                    "guid": "7D3BAEEF4102EAF276565D93600797F1",
+                    "id": "new_owner"
+                  },
+                  {
+                    "expressions": [
+                      {
+                        "guid": "E5CC3D8B40A6A07FB07A4F9426F52B85",
+                        "preset": {
+                          "guid": "386ABAAB49804E576085108AA1CF4C13",
+                          "preset_id": "Unit_ClearDontClearOrders",
+                          "value_id": "noclear"
+                        },
+                        "type": "Preset"
+                      }
+                    ],
+                    "guid": "74D3A89E4C729FE4CF604AB51D47BDD9",
+                    "id": "clear_orders"
+                  }
+                ]
+              }
+            ],
+            "guid": "4BDE996D44E113940D0BD1BAD59C3CB2",
+            "id": "actions"
+          }
+        ]
+      },
+      {
         "function_id": "Camera_SetCameraZoomLimits",
         "guid": "A32B0DC847D3724E2A23B5AD71826480",
         "parameters": [
@@ -2427,6 +2528,231 @@
             ],
             "guid": "C7B7FC5E4187A4F3614D60B85A8C9537",
             "id": "duration"
+          }
+        ]
+      },
+      {
+        "function_id": "Unit_Remove",
+        "guid": "152923D848956B6DFD301E89E98B6284",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "UnitGroup_GetFirstUnit",
+                  "guid": "CAF4998445FA1CBE70A46597BA849EBE",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "UnitGroup_GetUnitsOfType",
+                            "guid": "DDD9F3294034AC431BA0A6A642F71C9C",
+                            "parameters": [
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "924199684F7709F4EA0FCE8EAB1DBCD9",
+                                    "preset": {
+                                      "guid": "CDE433044624D3DBFB6454BBE3E51AC2",
+                                      "preset_id": "Player_AnyPlayer",
+                                      "value_id": "any"
+                                    },
+                                    "type": "Preset"
+                                  }
+                                ],
+                                "guid": "1B11C838431322B96780188665A74B14",
+                                "id": "player"
+                              },
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "310B2B6C495A0DB015FF4F8CFE560D6F",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "9E6F483B499A55FED4BC12BAD42F135C",
+                                      "type": {
+                                        "directive": "TypeRef",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "type": "UnitData"
+                                      },
+                                      "value": "duckiesDifficultySelectorEasy_Unit"
+                                    }
+                                  }
+                                ],
+                                "guid": "901D30EB4902F23C95DD518C6E780235",
+                                "id": "unit_type"
+                              }
+                            ]
+                          },
+                          "guid": "6189F7C94843A468A454B2A4DE6AA7CC",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "3E6E4C0D48F1EC4B8C8BCDAEBF9CD8DA",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "EF9DE0F84783EF80E41C6583647653D4",
+                "type": "Function"
+              }
+            ],
+            "guid": "2F29C6A647025BCFFABF73A5EEDFDFE2",
+            "id": "unit"
+          }
+        ]
+      },
+      {
+        "function_id": "Unit_Remove",
+        "guid": "6CBE62044E32C628FCBA729785F37580",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "UnitGroup_GetFirstUnit",
+                  "guid": "266A7EA64CBFB83ACCC6028C53147093",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "UnitGroup_GetUnitsOfType",
+                            "guid": "A25F8CD948814D17C2AF4EB4C6493BD7",
+                            "parameters": [
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "242B8E844B70EEF0658466A229D6D3E4",
+                                    "preset": {
+                                      "guid": "37274B8644FA6A3A409EE0BB70A755D0",
+                                      "preset_id": "Player_AnyPlayer",
+                                      "value_id": "any"
+                                    },
+                                    "type": "Preset"
+                                  }
+                                ],
+                                "guid": "501E456244D27EAF4F387EB1B669DB6A",
+                                "id": "player"
+                              },
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "4625716C4AB09ED989C2DDA297EE3C77",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "680E33784BDBB0AC11828EB3B834A744",
+                                      "type": {
+                                        "directive": "TypeRef",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "type": "UnitData"
+                                      },
+                                      "value": "duckiesDifficultySelectorNormal_Unit"
+                                    }
+                                  }
+                                ],
+                                "guid": "D301132B40CFF818B23ACD9ED35BEBE5",
+                                "id": "unit_type"
+                              }
+                            ]
+                          },
+                          "guid": "5D95FB92431FFA87EE8587A168EA4691",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "0F81356E4F3278EB61D806B401FC8823",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "7D4A6AFB4F1758178B13C4854D4F5E5F",
+                "type": "Function"
+              }
+            ],
+            "guid": "44E7A71F4FFB15DA736FD3B84AF3F967",
+            "id": "unit"
+          }
+        ]
+      },
+      {
+        "function_id": "Unit_Remove",
+        "guid": "1F2039264489F8684DE33F9E3DDCCDFE",
+        "parameters": [
+          {
+            "expressions": [
+              {
+                "function": {
+                  "function_id": "UnitGroup_GetFirstUnit",
+                  "guid": "C15BC6EA49C05697F65F099E33CD47AB",
+                  "parameters": [
+                    {
+                      "expressions": [
+                        {
+                          "function": {
+                            "function_id": "UnitGroup_GetUnitsOfType",
+                            "guid": "952A1E734658A75D1FA330A36370BD80",
+                            "parameters": [
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "36EE1A8F48390D44F42A86B394D0CA92",
+                                    "preset": {
+                                      "guid": "F7C1654B4D942D4A4ED469B5CEA36302",
+                                      "preset_id": "Player_AnyPlayer",
+                                      "value_id": "any"
+                                    },
+                                    "type": "Preset"
+                                  }
+                                ],
+                                "guid": "19C1862440556951D8169682D2BE7802",
+                                "id": "player"
+                              },
+                              {
+                                "expressions": [
+                                  {
+                                    "guid": "5DE30B3848328DE526EF91859B89BDBF",
+                                    "type": "Value",
+                                    "value": {
+                                      "guid": "AA9A509B430D524481088AB632E68A68",
+                                      "type": {
+                                        "directive": "TypeRef",
+                                        "implements": "",
+                                        "inner_type": "",
+                                        "param_id": "",
+                                        "sub_directive": "None",
+                                        "type": "UnitData"
+                                      },
+                                      "value": "duckiesDifficultySelectorHard_Unit"
+                                    }
+                                  }
+                                ],
+                                "guid": "C428EAC242B96CC1678AA093644BB8B9",
+                                "id": "unit_type"
+                              }
+                            ]
+                          },
+                          "guid": "A2B92D3C40BBFBF6DE4CB5B263C406EF",
+                          "type": "Function"
+                        }
+                      ],
+                      "guid": "14CFA1CD46DD698B76C987B7FF4FFD43",
+                      "id": "group"
+                    }
+                  ]
+                },
+                "guid": "33B5A27642E4B1D54AACBDADF2772BB8",
+                "type": "Function"
+              }
+            ],
+            "guid": "5085C0AE46B022CB5057FA925E63B7A4",
+            "id": "unit"
           }
         ]
       },

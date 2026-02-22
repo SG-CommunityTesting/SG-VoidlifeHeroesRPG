@@ -149,6 +149,58 @@
           "value": 0
         }
       }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 5
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 5
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 5
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 6
+        }
+      }
     }
   ],
   "tileset": "TerrainTileset_CustomRPG",

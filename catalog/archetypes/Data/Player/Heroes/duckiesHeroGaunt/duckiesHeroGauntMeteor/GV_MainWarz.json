@@ -18,12 +18,13 @@
                       {
                         "expressions": [
                           {
-                            "guid": "ADFAF1284FF44D6CE87B3CA56E1B3249",
-                            "type": "Variable",
-                            "variable": {
-                              "guid": "ADEF0FFD48644BBAF318DBB9346C5F7E",
-                              "variable_id": "HOSTILE_PLAYER"
-                            }
+                            "guid": "5CE1CC934F68AA1C54AE058D4C09B5F6",
+                            "preset": {
+                              "guid": "7C0C467748A63D4D8E879F8222E01480",
+                              "preset_id": "Player_AnyPlayer",
+                              "value_id": "any"
+                            },
+                            "type": "Preset"
                           }
                         ],
                         "guid": "8EBD41B146AAD795658562A3A013378F",

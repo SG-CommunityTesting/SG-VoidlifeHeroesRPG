@@ -318,6 +318,238 @@
       ]
     },
     {
+      "function_id": "General_IfThenElse",
+      "guid": "402E02314C6642CB642724AFC3D2E5E3",
+      "sub_functions": [
+        {
+          "functions": [
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "57D78C5D41CE3606D2ED6EA3FD288D96",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_IsType",
+                        "guid": "034BEA274967F6CFC739A2A534EAFEB1",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "Unit_GetTriggeringUnit",
+                                  "guid": "B76343914EF98F4F93E5D08FE6EA3EF9"
+                                },
+                                "guid": "FCD54964453358703D82E3B4B0ADBE1D",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "9DAB92FE4C19E44B2455AA975DFF2D5F",
+                            "id": "unit"
+                          },
+                          {
+                            "expressions": [
+                              {
+                                "guid": "96C07647414F79A72F49709E001CF3A0",
+                                "type": "Value",
+                                "value": {
+                                  "guid": "0526FF3449DA6EC08D00E3ADB59A3FC8",
+                                  "type": {
+                                    "directive": "TypeRef",
+                                    "implements": "",
+                                    "inner_type": "",
+                                    "param_id": "",
+                                    "sub_directive": "None",
+                                    "type": "UnitData"
+                                  },
+                                  "value": "duckiesHeroCarnivex_Unit"
+                                }
+                              }
+                            ],
+                            "guid": "F346F4B14B58714BAEC8198F8EE3668C",
+                            "id": "type"
+                          }
+                        ]
+                      },
+                      "guid": "3A263D7F47DD4D844285818973710100",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "05FE54AB42A07AECB3271A8B02B74682",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "30A5383D43EE31BD30810E9B3BE6E00D",
+                      "preset": {
+                        "guid": "A695A5E5495726355E28AE8A9A1257B9",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "3ED83DA0474467AEAACF1FA63D94CE19",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "488D525D424C1E9568EDC88D5F86C792",
+                      "type": "Value",
+                      "value": {
+                        "guid": "128AD4D944722279A04146A9DFD0596A",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Boolean"
+                        },
+                        "value": "true"
+                      }
+                    }
+                  ],
+                  "guid": "C58EE2494BEC399380FA218B18B8D619",
+                  "id": "value2"
+                }
+              ]
+            },
+            {
+              "function_id": "Logic_Comparison",
+              "guid": "946F1E58409AC38F3DA73C96ADDB3788",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetVeterancyTier",
+                        "guid": "3F34316345D63DC3FC763BA2065DD116",
+                        "parameters": [
+                          {
+                            "expressions": [
+                              {
+                                "function": {
+                                  "function_id": "Unit_GetTriggeringUnit",
+                                  "guid": "5ACDCBF046F9AA86AA6585854F913960"
+                                },
+                                "guid": "C636E6344286733C08C6EBA77A2C2E1B",
+                                "type": "Function"
+                              }
+                            ],
+                            "guid": "C334D74F441FC56721C078A2A5106F51",
+                            "id": "unit"
+                          }
+                        ]
+                      },
+                      "guid": "0FF09A8E48B28C395FD0D3B8556FC37A",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "597CF64F49479C28785AF1997EB22403",
+                  "id": "value1"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "CC940E3048A2A3DCB3FC0E812D81C951",
+                      "preset": {
+                        "guid": "4D998FF841E416010EF8139C5DE4E7A8",
+                        "preset_id": "Logic_ComparisonOperator",
+                        "value_id": "eq"
+                      },
+                      "type": "Preset"
+                    }
+                  ],
+                  "guid": "9209A630481ACEDFF4E2168A51556E94",
+                  "id": "op"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "CF37AF0F4E573262708D6B8BF43CC37D",
+                      "type": "Value",
+                      "value": {
+                        "guid": "50790D734AF9CCD4B34087817B1ACB1E",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Player"
+                        },
+                        "value": "0"
+                      }
+                    }
+                  ],
+                  "guid": "62D84CB84BB534A1CFAD91B655AAC7B6",
+                  "id": "value2"
+                }
+              ]
+            }
+          ],
+          "guid": "61AE2A5B40FC0960EDDAFFB950DCCCF3",
+          "id": "if"
+        },
+        {
+          "functions": [
+            {
+              "function_id": "Variable_SetVariable",
+              "guid": "25ADD48F4E9BA427CB4DFD9F16D6248A",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "C35A1E634CA6F7B4C89B92B94C6E89E1",
+                      "type": "Variable",
+                      "variable": {
+                        "guid": "4584D5E24CEE81E3249CB9991D46337F",
+                        "variable_id": "LV_ReviveTime"
+                      }
+                    }
+                  ],
+                  "guid": "32306EED4B88FFA52E8929B05D2E2BF4",
+                  "id": "variable"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "2435F9CF40CD4BB0C7CBEF8D3A1621F2",
+                      "type": "Value",
+                      "value": {
+                        "guid": "5825382B45767FD8B22C25A72F0BBC5D",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Value"
+                        },
+                        "value": "1.0"
+                      }
+                    }
+                  ],
+                  "guid": "254A1E5A454374537DA93C8D4226C896",
+                  "id": "value"
+                }
+              ]
+            }
+          ],
+          "guid": "B0EC461840D87C1776CEA993D4415AF5",
+          "id": "then"
+        },
+        {
+          "guid": "B7A5400E4C60DFD68CD9C0B524426FC3",
+          "id": "else"
+        }
+      ]
+    },
+    {
       "function_id": "UI_SendChatMessage",
       "guid": "45ED7D6F4ED4D8539DAD4E8FB2D33E85",
       "parameters": [
@@ -1817,6 +2049,84 @@
                   ],
                   "guid": "A8BC2C694D94B61CC3BF67B81F754AF7",
                   "id": "unit"
+                }
+              ]
+            },
+            {
+              "function_id": "Actor_ApplyBuff",
+              "guid": "C5BBC857465DCBC3DEC4C08E4CF52760",
+              "parameters": [
+                {
+                  "expressions": [
+                    {
+                      "guid": "268BCF3746E637788E9AAE88CFFE598A",
+                      "type": "Value",
+                      "value": {
+                        "guid": "BF41C3D848790CC5D2D6B3919C1E490B",
+                        "type": {
+                          "directive": "TypeRef",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Buff"
+                        },
+                        "value": "duckiesVoidheartShrineHeroRevive_InvulnBuff"
+                      }
+                    }
+                  ],
+                  "guid": "8DF3BE594407833677F1E786D885E0D2",
+                  "id": "buff"
+                },
+                {
+                  "expressions": [
+                    {
+                      "guid": "E727C820493121A9F0B3889BD1D9EDB1",
+                      "type": "Value",
+                      "value": {
+                        "guid": "A668801C4C5130D5FAA880BFF8F31D90",
+                        "type": {
+                          "directive": "FunctionType",
+                          "implements": "",
+                          "inner_type": "",
+                          "param_id": "",
+                          "sub_directive": "None",
+                          "type": "Integer"
+                        },
+                        "value": "1"
+                      }
+                    }
+                  ],
+                  "guid": "0BA50F794EDD293D62FA41A764F3F7D0",
+                  "id": "stacks"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit",
+                        "guid": "C4BF97C147E20FCCB286DD898991CACC"
+                      },
+                      "guid": "3BFFDD2C4616010A3BFB3B99A92EA8D4",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "1CB4E8FC435E5E7C9E8319BC4323F3C2",
+                  "id": "target"
+                },
+                {
+                  "expressions": [
+                    {
+                      "function": {
+                        "function_id": "Unit_GetTriggeringUnit",
+                        "guid": "054FDE9D4E0EBB7E99DBA78161EFB54C"
+                      },
+                      "guid": "C2D6411A490F39CF76626290C8F0D63E",
+                      "type": "Function"
+                    }
+                  ],
+                  "guid": "5B8CEB0347F34A8D29EB41BA651785B0",
+                  "id": "source"
                 }
               ]
             },
