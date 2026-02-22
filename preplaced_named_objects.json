@@ -84,12 +84,12 @@
     "data": {
       "seed": 29381
     },
-    "facing": 536870852,
+    "facing": 1786063989,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1458176,
-      1294336
+      -1522574,
+      1373266
     ]
   },
   "0151B297-402B-14A0-F0E0-6C8C523FE38A": {
@@ -186,6 +186,18 @@
     "position": [
       1726635,
       -1311501
+    ]
+  },
+  "03FE1E53-465D-3FD4-FC08-9DA873BD5DC1": {
+    "data": {
+      "seed": 28686
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -736476,
+      1127661
     ]
   },
   "0409327D-4D03-0D7B-54E4-A681893A627B": {
@@ -429,12 +441,12 @@
     ]
   },
   "080E3E8C-4545-69C5-C406-0A9A09A465F2": {
-    "facing": 536870882,
+    "facing": 536870837,
     "kind": "duckiesItemsRandom_Unit",
     "player": 0,
     "position": [
-      -1451717,
-      1339492
+      -1516355,
+      1336565
     ]
   },
   "0815AF54-4170-FDC2-E601-E0B297CF3C55": {
@@ -477,12 +489,12 @@
     ]
   },
   "08E29366-46C7-2FD9-835D-8F94379B38CA": {
-    "facing": 536870852,
+    "facing": 536870822,
     "kind": "duckiesHostileHellScribe_Unit",
     "player": 31,
     "position": [
-      1806780,
-      -773278
+      1847124,
+      -778529
     ]
   },
   "09F2F2CD-497B-41DA-2BC5-30AC962687D2": {
@@ -554,6 +566,18 @@
       743648
     ]
   },
+  "0B333D67-4948-1DFE-1285-FB95481656C4": {
+    "data": {
+      "seed": 1852
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1998848,
+      -737280
+    ]
+  },
   "0B89D455-4E3C-B0AF-B1A2-78BF92C5973F": {
     "facing": 536870852,
     "kind": "duckiesHostileBrute_Unit",
@@ -563,13 +587,16 @@
       734406
     ]
   },
-  "0C767D79-4A5C-1C5B-AB9E-2FA72CBD1B7A": {
+  "0C40F568-4708-A336-B6A1-EA8A0877CC8F": {
+    "data": {
+      "seed": 27096
+    },
     "facing": 536870882,
-    "kind": "duckiesHostileHellScribe_Unit",
+    "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1339292,
-      1721524
+      -1523712,
+      1769472
     ]
   },
   "0CB544D0-4FE8-BCF4-4CD4-E29E2962E88F": {
@@ -698,15 +725,6 @@
       1755097
     ]
   },
-  "1046BDF5-4B37-8352-C662-13B925820CF9": {
-    "facing": 536870882,
-    "kind": "duckiesHostileBrute_Unit",
-    "player": 31,
-    "position": [
-      -1034020,
-      1284796
-    ]
-  },
   "1047C007-4C4D-85FE-70B6-308B841DB243": {
     "data": {
       "seed": 7339
@@ -798,7 +816,7 @@
     ]
   },
   "11CF0B6D-4861-072A-B362-769A34D69BE2": {
-    "facing": 360540247,
+    "facing": 360540236,
     "kind": "duckiesVoidheartShrine",
     "player": 1,
     "position": [
@@ -816,23 +834,23 @@
     ]
   },
   "12CFFBFB-4081-CD28-DB11-608BB6E2E4B0": {
-    "facing": 536870747,
+    "facing": 536870717,
     "kind": "duckiesHostileBrute_Unit",
     "player": 31,
     "position": [
-      1031173,
-      908704
+      1032793,
+      951067
     ]
   },
   "12DE8881-4AC8-2706-34E8-41904FDCBF6F": {
     "data": {
       "seed": 16624
     },
-    "facing": 536870882,
+    "facing": 536870852,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1409024,
+      -1458176,
       1310720
     ]
   },
@@ -849,12 +867,12 @@
     ]
   },
   "1315C607-44EF-FCB5-7FFC-24A0C64DF502": {
-    "facing": 536870852,
+    "facing": 1242857918,
     "kind": "duckiesSpawnerPyre",
     "player": 31,
     "position": [
-      -1327104,
-      1310720
+      -1605632,
+      1458176
     ]
   },
   "13302A9B-4299-C3ED-CC3F-C3AE85683EBA": {
@@ -941,7 +959,7 @@
   "14BBBBCF-405E-B631-0234-8EAA3631AFD6": {
     "facing": 1392485501,
     "kind": "duckiesDifficultySelectorEasy_Unit",
-    "player": 0,
+    "player": 1,
     "position": [
       1970038,
       1807419
@@ -1307,15 +1325,6 @@
       688128
     ]
   },
-  "1BD3782F-48C8-4727-21B6-B8877E52E6D6": {
-    "facing": 1765659274,
-    "kind": "Habitat",
-    "player": 0,
-    "position": [
-      -1851392,
-      786432
-    ]
-  },
   "1BF0956C-4892-508A-9073-7691E94D4E16": {
     "facing": 515853460,
     "kind": "duckiesSpawnerLesserShrine_UnitB",
@@ -1598,6 +1607,15 @@
       1844069
     ]
   },
+  "20FD6DDB-4DE9-F0B6-F848-C1B8609DA48B": {
+    "facing": 7849711,
+    "kind": "duckiesHostileMagmadon_Unit",
+    "player": 31,
+    "position": [
+      -940007,
+      1483317
+    ]
+  },
   "2138C975-46EB-776F-68AA-D5BF53387CF7": {
     "data": {
       "seed": 25967
@@ -1662,6 +1680,18 @@
     "position": [
       695869,
       -219612
+    ]
+  },
+  "221E4C61-43D7-CDC9-A23F-E4AB232929EA": {
+    "data": {
+      "seed": 10513
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -1026561,
+      1186511
     ]
   },
   "22D9851D-4CB3-42B0-2495-63B1BF3AA220": {
@@ -1788,12 +1818,12 @@
     ]
   },
   "25881258-475F-2513-25A1-478FEABE258A": {
-    "facing": 536870777,
+    "facing": 784141343,
     "kind": "duckiesSpawnerRitualChamber_Unit",
     "player": 31,
     "position": [
-      -1261568,
-      1818624
+      -1418254,
+      1520113
     ]
   },
   "25B627E5-449D-0E0C-28C1-DAB7624F7443": {
@@ -1847,6 +1877,18 @@
       -470201
     ]
   },
+  "266AC56F-4FA5-4D4C-8375-188552DA4F26": {
+    "data": {
+      "seed": 26119
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1687552,
+      1523712
+    ]
+  },
   "26E06E25-4BE8-B2F0-3563-08BA21763C04": {
     "data": {
       "seed": 9854
@@ -1857,18 +1899,6 @@
     "position": [
       1441792,
       1736704
-    ]
-  },
-  "2799AD8E-46C6-6F16-02F3-E9921B46B404": {
-    "data": {
-      "seed": 30205
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1409024,
-      1376256
     ]
   },
   "27BEF336-4DCB-42DC-FEE7-528A34F81CCB": {
@@ -1995,18 +2025,6 @@
     "position": [
       790723,
       53970
-    ]
-  },
-  "2A8D3304-4DC3-018D-39F6-C492C0C77D06": {
-    "data": {
-      "seed": 22982
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1425408,
-      1540096
     ]
   },
   "2A9D6774-4FEB-26FD-084F-7DA69A3F6382": {
@@ -2669,6 +2687,18 @@
       1565144
     ]
   },
+  "391C7832-42B6-9AD8-1CF9-549A4E5CCE7D": {
+    "data": {
+      "seed": 23421
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1376256,
+      1343488
+    ]
+  },
   "39BFF8D6-49E9-8E1F-1CF2-069F93BE5D40": {
     "data": {
       "seed": 27706
@@ -2751,6 +2781,18 @@
     "position": [
       -1877005,
       925665
+    ]
+  },
+  "3BA2EBB0-44F2-6183-56DD-44859D95313A": {
+    "data": {
+      "seed": 25737
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1982464,
+      -802816
     ]
   },
   "3BD9F05E-45D2-6C90-63F8-018BCD7E6D70": {
@@ -2933,6 +2975,18 @@
       1872597
     ]
   },
+  "42860964-401D-05EC-C7D8-15BF19285423": {
+    "data": {
+      "seed": 11626
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -933245,
+      1231169
+    ]
+  },
   "42A7DB42-4354-61BB-7B9A-ADA7E3B6A144": {
     "data": {
       "seed": 27391
@@ -2955,18 +3009,6 @@
     "position": [
       1998848,
       638976
-    ]
-  },
-  "4365DDC6-454E-D0C2-8ABB-39A7072085F2": {
-    "data": {
-      "seed": 15838
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1441792,
-      1409024
     ]
   },
   "43A298C2-4F03-77A2-2BF6-B997DF19FD0B": {
@@ -3125,6 +3167,18 @@
       -49152
     ]
   },
+  "472003F6-4AE2-3171-C3EA-AF83DBE57778": {
+    "data": {
+      "seed": 13103
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1572864,
+      1687552
+    ]
+  },
   "47210C59-46E6-F432-EC32-6B97D688EB57": {
     "facing": 2086141681,
     "kind": "duckiesSpawnerPyre",
@@ -3156,6 +3210,18 @@
     "position": [
       1588747,
       1218554
+    ]
+  },
+  "4775F97A-4BDC-9276-BF04-5DBFC26DF255": {
+    "data": {
+      "seed": 13719
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1523712,
+      -802816
     ]
   },
   "4832E819-45FB-286E-1C65-38AA072C31A8": {
@@ -3225,6 +3291,18 @@
     "position": [
       1802240,
       327680
+    ]
+  },
+  "4A0F446F-4BDF-10ED-5936-768DD81CB802": {
+    "data": {
+      "seed": 3977
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1425408,
+      1376256
     ]
   },
   "4A35BEC9-4E8A-FE3F-EC0F-6087C2F18F4A": {
@@ -3420,12 +3498,12 @@
     "data": {
       "seed": 29390
     },
-    "facing": 536870882,
+    "facing": 536870852,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1392640,
-      1277952
+      -1474560,
+      1343488
     ]
   },
   "4D6C6486-4222-29BF-7EB2-25ABEF0BA6DE": {
@@ -3638,7 +3716,7 @@
   "51B44A37-433A-2DBB-373B-519155AAAFD9": {
     "facing": 1997971412,
     "kind": "duckiesDifficultySelectorNormal_Unit",
-    "player": 0,
+    "player": 1,
     "position": [
       1770709,
       1947562
@@ -3663,6 +3741,15 @@
     "position": [
       -655360,
       2015232
+    ]
+  },
+  "52896516-4932-E791-4FC8-DD96DC310FFF": {
+    "facing": 48012536,
+    "kind": "duckiesHostileMagmadon_Unit",
+    "player": 31,
+    "position": [
+      -988674,
+      1563447
     ]
   },
   "528B859D-4892-0463-2DF3-8CB3FBFC5B12": {
@@ -3710,6 +3797,18 @@
       922778
     ]
   },
+  "532F74F7-484F-4A4F-9C88-32AF5FF7E136": {
+    "data": {
+      "seed": 26188
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1589248,
+      -933888
+    ]
+  },
   "533334BF-4211-E2B5-E082-829F3DC78520": {
     "data": {
       "seed": 25574
@@ -3750,18 +3849,6 @@
     "position": [
       1650527,
       1664721
-    ]
-  },
-  "542F1868-4975-C3CA-FB35-86B99586D861": {
-    "data": {
-      "seed": 11113
-    },
-    "facing": 536870837,
-    "kind": "duckiesDestructibleTree_Unit",
-    "player": 0,
-    "position": [
-      -1386786,
-      1765584
     ]
   },
   "5455170B-4E64-5E37-7AC7-A599B8E906DA": {
@@ -4166,13 +4253,16 @@
       1110163
     ]
   },
-  "5D7AC58C-4FE4-1AFC-64BE-B199EB816C8B": {
-    "facing": 2045572058,
-    "kind": "Scrapyard",
-    "player": 0,
+  "5D7E0984-498E-6398-F724-C2975E195839": {
+    "data": {
+      "seed": 12927
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
     "position": [
-      -1949696,
-      557056
+      1507328,
+      -835584
     ]
   },
   "5D9B0CC1-4979-825E-E8A3-E498C726E263": {
@@ -4454,6 +4544,18 @@
       -98304
     ]
   },
+  "636B461F-4C46-A490-C021-53866E46662F": {
+    "data": {
+      "seed": 16636
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1114112,
+      1605632
+    ]
+  },
   "639BC66F-4D72-E835-4758-D6958935B390": {
     "data": {
       "seed": 15209
@@ -4626,7 +4728,7 @@
     "data": {
       "seed": 10657
     },
-    "facing": 536870882,
+    "facing": 536870867,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
@@ -4835,15 +4937,6 @@
       -1359872
     ]
   },
-  "6AA704DE-4BC0-074C-A6BC-579B47828475": {
-    "facing": 1305320343,
-    "kind": "HQTier1",
-    "player": 0,
-    "position": [
-      -1933312,
-      671744
-    ]
-  },
   "6ABDF29F-47D4-1EE8-976F-2587043BC87B": {
     "facing": 13276750,
     "kind": "duckiesSpawnerPyre",
@@ -5004,12 +5097,12 @@
     ]
   },
   "6EE8F3FD-414D-24ED-24DA-13976925218F": {
-    "facing": 536870882,
+    "facing": 536870822,
     "kind": "duckiesHostileHellScribe_Unit",
     "player": 31,
     "position": [
-      1669577,
-      -776751
+      1679447,
+      -760168
     ]
   },
   "6EFEFF03-46F9-6F3E-4ADD-F7AEBB216C68": {
@@ -5064,6 +5157,18 @@
     "position": [
       -558253,
       123897
+    ]
+  },
+  "70F36297-4784-A2E6-A681-11BA63F686B9": {
+    "data": {
+      "seed": 30477
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1687552,
+      1589248
     ]
   },
   "70F5102F-4504-7B64-ECDA-C3BC014ABACA": {
@@ -5237,13 +5342,25 @@
       560305
     ]
   },
-  "7331E06E-4291-8816-559F-6BA1195394C0": {
-    "facing": 1996025332,
-    "kind": "SentryPost",
-    "player": 0,
+  "7358777B-4815-2F72-D316-2DB43668AD0B": {
+    "data": {
+      "seed": 16615
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
     "position": [
-      -1867776,
-      540672
+      -1474560,
+      1392640
+    ]
+  },
+  "738596FB-42D2-3288-4B10-B0B2ADEC6453": {
+    "facing": 303245549,
+    "kind": "duckiesHostileFireGiantBoss_Unit",
+    "player": 31,
+    "position": [
+      -1343716,
+      1515641
     ]
   },
   "739FFA51-49FD-8DB4-F187-F4B9A5D6620B": {
@@ -5382,12 +5499,12 @@
     ]
   },
   "78141266-4144-346D-5A9F-2299CFDEE0A3": {
-    "facing": 536870852,
+    "facing": 536870822,
     "kind": "duckiesHostileBrute_Unit",
     "player": 31,
     "position": [
-      -1248722,
-      1060613
+      -1225261,
+      1035562
     ]
   },
   "7819BD0A-4197-9BAA-9631-D59E6B7F4828": {
@@ -5580,6 +5697,15 @@
     "position": [
       -1155917,
       660057
+    ]
+  },
+  "7C35D3EA-40E3-039F-A2BF-36A239AA3E80": {
+    "facing": 1967742044,
+    "kind": "duckiesHostileMagmadon_Unit",
+    "player": 31,
+    "position": [
+      -449732,
+      1540620
     ]
   },
   "7C5B7A99-40AE-2F8B-E603-91AB5E919826": {
@@ -5871,12 +5997,12 @@
     "data": {
       "seed": 15975
     },
-    "facing": 536870882,
+    "facing": 536870837,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1261568,
-      1441792
+      -1310720,
+      1736704
     ]
   },
   "80F82AAB-4046-A58C-8B0A-9D84E743E26D": {
@@ -5889,15 +6015,6 @@
     "position": [
       499543,
       1875644
-    ]
-  },
-  "8138900E-4A39-B2BF-1F8D-F6B090071BB8": {
-    "facing": 50791934,
-    "kind": "Barracks",
-    "player": 0,
-    "position": [
-      -1933312,
-      802816
     ]
   },
   "8141E8AA-45C5-5700-F55E-EAAE51A0EFC4": {
@@ -6002,6 +6119,18 @@
       1294336
     ]
   },
+  "82A8F9A2-4763-924B-067F-00A399AD0362": {
+    "data": {
+      "seed": 15996
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      2015232,
+      -802816
+    ]
+  },
   "833D869D-485C-8AEF-BA95-9BB51D2446D5": {
     "data": {
       "seed": 26028
@@ -6099,12 +6228,12 @@
     ]
   },
   "853748E8-4A0F-8F35-0027-CCB2583F4690": {
-    "facing": 536870882,
+    "facing": 1778587795,
     "kind": "duckiesHostileHellScribe_Unit",
     "player": 31,
     "position": [
-      -1321137,
-      1765866
+      -1316339,
+      1713079
     ]
   },
   "855CE201-4247-6274-1928-F3A7D88805E9": {
@@ -6116,16 +6245,16 @@
       -1135488
     ]
   },
-  "860B4B08-4EDF-12E0-0D02-5A93EC9C2F68": {
+  "858047E9-496D-550A-A241-C88B10304BCE": {
     "data": {
-      "seed": 2916
+      "seed": 29529
     },
     "facing": 536870882,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1425408,
-      1572864
+      -1163264,
+      1622016
     ]
   },
   "864CDA71-4E68-87E8-CE67-29A595D6C090": {
@@ -6288,6 +6417,18 @@
     "position": [
       -929339,
       797300
+    ]
+  },
+  "88D6F17F-4118-F182-C717-0FA9A37D8180": {
+    "data": {
+      "seed": 7378
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -757566,
+      1154421
     ]
   },
   "88EADE44-4724-368C-A52F-9DAA8023C49D": {
@@ -6623,6 +6764,18 @@
       -483381
     ]
   },
+  "8E42D6C7-4CF1-7681-5564-949F368EF82E": {
+    "data": {
+      "seed": 9785
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1540096,
+      -835584
+    ]
+  },
   "8E67E8BE-419D-A9AE-23E4-45872DD1ECC4": {
     "facing": 94505853,
     "kind": "Hoplite",
@@ -6632,13 +6785,16 @@
       1000600
     ]
   },
-  "8E6B77D9-43F0-55CC-0A64-76AF8FCC8A98": {
+  "8E6A9CDA-40C3-310D-960D-CA9236729A48": {
+    "data": {
+      "seed": 3212
+    },
     "facing": 536870882,
-    "kind": "duckiesHostileBrute_Unit",
+    "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -993358,
-      1493543
+      2015232,
+      -835584
     ]
   },
   "8F0CBA42-4815-F38D-72CE-C2B4A79FF9AB": {
@@ -6768,12 +6924,12 @@
     ]
   },
   "902C5E48-49F1-3CD7-6892-F7A2B1558D58": {
-    "facing": 1739869550,
+    "facing": 1739869594,
     "kind": "duckiesHostileHellScribe_Unit",
     "player": 31,
     "position": [
-      1522829,
-      -840798
+      1600661,
+      -831041
     ]
   },
   "90788800-4E50-EDEF-737E-6AA8CA21D4B3": {
@@ -7043,6 +7199,15 @@
       1717392
     ]
   },
+  "965CFDC6-46FD-E76F-CAAF-258D7400EFE5": {
+    "facing": 536870882,
+    "kind": "duckiesSpawnerPyre",
+    "player": 31,
+    "position": [
+      -1622016,
+      1671168
+    ]
+  },
   "968FBF67-4C5E-4AE8-A74B-03952C813285": {
     "facing": 536870882,
     "kind": "duckiesHostileBrute_Unit",
@@ -7059,6 +7224,18 @@
     "position": [
       -629189,
       1835482
+    ]
+  },
+  "97CA3ED4-4837-3335-FFFF-42BC55082FD6": {
+    "data": {
+      "seed": 18469
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1687552,
+      1556480
     ]
   },
   "980335B4-4D65-CEF1-E45C-EB995A92CBCE": {
@@ -7104,6 +7281,18 @@
     "position": [
       -174134,
       1817923
+    ]
+  },
+  "99273BD3-4447-6569-0147-F2A263DFE8DD": {
+    "data": {
+      "seed": 11983
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1343488,
+      1310720
     ]
   },
   "994029D3-46DC-037B-7AA7-698683C78E6B": {
@@ -7325,18 +7514,6 @@
       1844342
     ]
   },
-  "9CFF8F73-49F9-C194-BA5C-31968742F772": {
-    "data": {
-      "seed": 8945
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1212416,
-      1343488
-    ]
-  },
   "9D37DE39-4590-604D-3A11-6E899BFFB806": {
     "facing": 536870852,
     "kind": "duckiesHostileBrute_Unit",
@@ -7395,6 +7572,18 @@
     "position": [
       -709945,
       930557
+    ]
+  },
+  "9E490E0C-43A4-3FC4-3F13-238EBB76FF35": {
+    "data": {
+      "seed": 5025
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -1015512,
+      1220243
     ]
   },
   "9EA9F364-4368-158F-9FF1-268D2ACC9F66": {
@@ -7583,6 +7772,18 @@
       -32768
     ]
   },
+  "A22AAB8F-40BF-306D-644D-DFA766618387": {
+    "data": {
+      "seed": 17864
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1982464,
+      -770048
+    ]
+  },
   "A2B73A3E-46C6-1F8D-6495-2994E5F43D5E": {
     "data": {
       "seed": 30670
@@ -7641,6 +7842,18 @@
     "position": [
       1357392,
       1628333
+    ]
+  },
+  "A3820378-4BD4-33A1-F214-EEA2D84CEE2C": {
+    "data": {
+      "seed": 16036
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1605632,
+      -917504
     ]
   },
   "A3967B3D-4557-A3BD-AD32-F9A6ABF40DA6": {
@@ -7859,28 +8072,16 @@
       638976
     ]
   },
-  "A6DFAC1C-4D11-3B31-E19C-C7B5DDCD0156": {
-    "data": {
-      "seed": 14631
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1392640,
-      1589248
-    ]
-  },
   "A71AAE78-4110-64C6-435E-98B13CA4257B": {
     "data": {
       "seed": 614
     },
-    "facing": 536870882,
+    "facing": 1592332523,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1425408,
-      1277952
+      -1539148,
+      1309555
     ]
   },
   "A7C0C69F-4D46-B68C-D777-15939C14A97D": {
@@ -7911,6 +8112,15 @@
     "position": [
       -1472348,
       1868965
+    ]
+  },
+  "A86F7963-47DB-F219-34E4-72AAB58C9D3A": {
+    "facing": 2112575478,
+    "kind": "duckiesHostileMagmadon_Unit",
+    "player": 31,
+    "position": [
+      -779284,
+      1578208
     ]
   },
   "A8A6B43E-4566-29D3-8837-6AA34E7C3FE2": {
@@ -8183,6 +8393,18 @@
       1286993
     ]
   },
+  "AD06805B-47A5-E492-AF1D-D1B06694258E": {
+    "data": {
+      "seed": 31723
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1572864,
+      -917504
+    ]
+  },
   "AD60ABAF-4071-0B16-ABB0-CF8717031CDC": {
     "data": {
       "seed": 12839
@@ -8258,6 +8480,18 @@
       120223
     ]
   },
+  "AE775E5B-4C5D-F969-7853-9F9A24355BDE": {
+    "data": {
+      "seed": 2616
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -966786,
+      1205385
+    ]
+  },
   "AEDCA538-4BBB-06E7-CABE-77AC79A81081": {
     "data": {
       "seed": 24935
@@ -8286,12 +8520,12 @@
     "data": {
       "seed": 1753
     },
-    "facing": 536870852,
+    "facing": 536870807,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
-      -1245184,
-      1376256
+      -1359872,
+      1753088
     ]
   },
   "AF3F098A-4C3F-36AA-58C6-A6BDA4773DC7": {
@@ -8657,6 +8891,18 @@
       649802
     ]
   },
+  "B6B54DBE-428B-D8C5-C96B-048D5FD6D4AA": {
+    "data": {
+      "seed": 14198
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      2015232,
+      -770048
+    ]
+  },
   "B70F2F3F-400D-DAEE-2D2B-6C9D4C5B61A5": {
     "data": {
       "seed": 27342
@@ -8765,6 +9011,18 @@
       1294336
     ]
   },
+  "B994029E-46B6-223C-90D3-5FA333FFB062": {
+    "data": {
+      "seed": 7448
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1540096,
+      -868352
+    ]
+  },
   "B994CAA0-4633-F20F-367A-7DA98F87664A": {
     "data": {
       "seed": 17100
@@ -8825,6 +9083,18 @@
       1305166
     ]
   },
+  "BA6BD825-41E8-0518-4498-C48784332ABD": {
+    "data": {
+      "seed": 14009
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1589248,
+      -884736
+    ]
+  },
   "BA733539-4AA7-EB15-FD06-51847A089378": {
     "facing": 536870852,
     "kind": "duckiesSpawnerPyre",
@@ -8862,6 +9132,15 @@
     "position": [
       258403,
       -1250112
+    ]
+  },
+  "BB198A47-4FAD-58CE-9D1C-5595756B616D": {
+    "facing": 536870882,
+    "kind": "duckiesHostileHellScribe_Unit",
+    "player": 31,
+    "position": [
+      -1368781,
+      1697077
     ]
   },
   "BB5757B3-44F2-1A9F-0482-2682745ED715": {
@@ -8994,6 +9273,24 @@
     "position": [
       1815375,
       -364279
+    ]
+  },
+  "BDED3845-4BEF-4969-C62B-FC829E5DE08A": {
+    "facing": 536870852,
+    "kind": "duckiesHostileObelisk_Unit",
+    "player": 31,
+    "position": [
+      -819200,
+      1392640
+    ]
+  },
+  "BE1C20F2-420A-8B90-74B8-6AA7692ADD7A": {
+    "facing": 689136114,
+    "kind": "duckiesSpawnerPyre",
+    "player": 31,
+    "position": [
+      1638335,
+      -917157
     ]
   },
   "BE27D890-401F-2F11-E729-D28BB7BADEAB": {
@@ -9182,6 +9479,18 @@
       183195
     ]
   },
+  "C25B2DBB-41CC-B592-94FC-44BD5881849F": {
+    "data": {
+      "seed": 11615
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1687552,
+      1490944
+    ]
+  },
   "C2956B64-43DB-F77F-D223-EE9DB56BD318": {
     "facing": 1363449195,
     "kind": "duckiesHostileBrute_Unit",
@@ -9200,6 +9509,15 @@
       221276
     ]
   },
+  "C30E8C0F-4442-5988-98A8-6FA28737AE1B": {
+    "facing": 536870822,
+    "kind": "duckiesHostileObelisk_Unit",
+    "player": 31,
+    "position": [
+      -1048576,
+      1671168
+    ]
+  },
   "C33339B6-4330-FB08-60FA-8AB8DE72F3ED": {
     "facing": 1741016993,
     "kind": "duckiesItemsRandom_Unit",
@@ -9209,13 +9527,13 @@
       994019
     ]
   },
-  "C3D2BF12-4D97-6BBA-B61A-088AAB91FFC4": {
-    "facing": 2041508830,
-    "kind": "duckiesHostileHellScribe_Unit",
+  "C39E9581-4BCC-4EA4-D2E1-A980FD2FF2BB": {
+    "facing": 536870807,
+    "kind": "duckiesHostileObelisk_Unit",
     "player": 31,
     "position": [
-      -1296883,
-      1695536
+      -1048576,
+      1392640
     ]
   },
   "C3F5FC90-4AEB-ABD0-F933-34946398196B": {
@@ -9422,15 +9740,6 @@
       2015232
     ]
   },
-  "C716741C-42CA-E37E-80D4-03B4B20859BE": {
-    "facing": 536870882,
-    "kind": "duckiesHostileBrute_Unit",
-    "player": 31,
-    "position": [
-      -974420,
-      1608044
-    ]
-  },
   "C71B83AB-4F92-A6BF-B915-229312A41666": {
     "data": {
       "seed": 9110
@@ -9504,6 +9813,18 @@
     "position": [
       -1392640,
       884736
+    ]
+  },
+  "C89412D9-4E14-B4CF-9228-09A90FE56124": {
+    "data": {
+      "seed": 21326
+    },
+    "facing": 536870852,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1523712,
+      1441792
     ]
   },
   "C96533EA-482F-760A-6622-6DAE7870D010": {
@@ -9722,18 +10043,6 @@
       49152
     ]
   },
-  "CDEB7FBD-475D-E1BA-800C-A79653C8246D": {
-    "data": {
-      "seed": 30599
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1392640,
-      1409024
-    ]
-  },
   "CEBAD9E3-4FEA-8BBE-A993-82BF552FFEB7": {
     "data": {
       "seed": 2491
@@ -9836,6 +10145,18 @@
       -589824
     ]
   },
+  "D0E9190B-4668-2D6E-EBC5-6382D98BFBF4": {
+    "data": {
+      "seed": 5477
+    },
+    "facing": 536870852,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1523712,
+      1474560
+    ]
+  },
   "D1A3B3B0-4303-1F4A-C13B-BAB0866B94F6": {
     "facing": 536870837,
     "kind": "duckiesHostileBrute_Unit",
@@ -9888,18 +10209,6 @@
     "position": [
       -622592,
       1933312
-    ]
-  },
-  "D24B5A76-451A-8047-4987-6A9586556094": {
-    "data": {
-      "seed": 10471
-    },
-    "facing": 485357371,
-    "kind": "duckiesDestructibleDeadTree_Unit",
-    "player": 0,
-    "position": [
-      1721648,
-      -769134
     ]
   },
   "D2532635-4C01-0E02-DC47-DEAA1C779483": {
@@ -10019,6 +10328,18 @@
       932163
     ]
   },
+  "D4062710-4E92-1CA9-88F5-DF9741A9E0C1": {
+    "data": {
+      "seed": 25729
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1490944,
+      1425408
+    ]
+  },
   "D41C5578-4372-DD29-409B-F5AF2FC6690B": {
     "data": {
       "seed": 16592
@@ -10136,6 +10457,27 @@
       45033
     ]
   },
+  "D70E51FA-4B15-5496-6709-3F81DE91C5E4": {
+    "data": {
+      "seed": 19436
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -987141,
+      1201475
+    ]
+  },
+  "D71A66C8-42C6-D668-CF40-49BF79A54216": {
+    "facing": 103899107,
+    "kind": "duckiesSpawnerPyre",
+    "player": 31,
+    "position": [
+      -1445098,
+      1783648
+    ]
+  },
   "D758D06B-45D2-9F2A-038E-BCBE369348C4": {
     "facing": 536870807,
     "kind": "duckiesHostileMagmadon_Unit",
@@ -10239,6 +10581,18 @@
     "position": [
       -1248137,
       -202330
+    ]
+  },
+  "D9CCA98F-4535-430F-BDB6-80BBEFC9093C": {
+    "data": {
+      "seed": 21790
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1458176,
+      1703936
     ]
   },
   "D9DC3F6A-43A5-6DCB-13EF-6E8BC12650B2": {
@@ -10379,7 +10733,7 @@
   "DD3E796C-4712-82A6-B5D0-0F8867B4BC68": {
     "facing": 1336739360,
     "kind": "duckiesDifficultySelectorHard_Unit",
-    "player": 0,
+    "player": 1,
     "position": [
       1975378,
       1936080
@@ -10421,6 +10775,18 @@
       1259288
     ]
   },
+  "DDB040AA-41B7-2126-F460-51B0F400EBBB": {
+    "data": {
+      "seed": 14699
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1179648,
+      1376256
+    ]
+  },
   "DDC4013A-41B6-FF9F-3B15-BF955F7C16FC": {
     "facing": 536870852,
     "kind": "duckiesHostileHellScribe_Unit",
@@ -10428,18 +10794,6 @@
     "position": [
       -998517,
       -1150111
-    ]
-  },
-  "DE0524CF-478B-D736-0A4F-A1B393AC4B68": {
-    "data": {
-      "seed": 715
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1474560,
-      1376256
     ]
   },
   "DE394D15-4509-2E06-F603-DA855DE33DEB": {
@@ -10464,6 +10818,18 @@
     "position": [
       2007865,
       -509182
+    ]
+  },
+  "DE89B68D-427F-5268-C7D2-0D89F705534E": {
+    "data": {
+      "seed": 20240
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1146880,
+      1392640
     ]
   },
   "DEBAA06C-4AE8-7A53-C2BE-A1A56E5FBD1F": {
@@ -10544,18 +10910,6 @@
       -1245184
     ]
   },
-  "E040AA37-4807-1780-1EC9-B083D7ACCA76": {
-    "data": {
-      "seed": 692
-    },
-    "facing": 536870792,
-    "kind": "duckiesDestructibleDeadTree_Unit",
-    "player": 0,
-    "position": [
-      1724947,
-      -836124
-    ]
-  },
   "E110CF32-44BA-304C-2B24-A69D004D3CF9": {
     "data": {
       "seed": 1952
@@ -10566,18 +10920,6 @@
     "position": [
       810272,
       1591342
-    ]
-  },
-  "E16701FC-4A50-4332-69B8-4892407558CC": {
-    "data": {
-      "seed": 3676
-    },
-    "facing": 536870882,
-    "kind": "DestructibleDeadTree",
-    "player": 31,
-    "position": [
-      -1392640,
-      1343488
     ]
   },
   "E2B20A89-4BF1-3D67-F5F6-04B07D6B629C": {
@@ -10673,6 +11015,18 @@
       1597277
     ]
   },
+  "E4CFE43A-4C74-3D56-7647-BFA834824B36": {
+    "data": {
+      "seed": 7422
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -762074,
+      1131969
+    ]
+  },
   "E4DE726C-4A11-582F-C7FB-9EB736F76CF1": {
     "facing": 536870882,
     "kind": "duckiesAlliedObelisk",
@@ -10691,6 +11045,18 @@
       1566332
     ]
   },
+  "E511E8E9-4F95-973B-260A-079689B336AD": {
+    "data": {
+      "seed": 6896
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1572864,
+      1720320
+    ]
+  },
   "E546A869-4091-0E9E-4C94-0BAD3858C270": {
     "data": {
       "seed": 2863
@@ -10701,6 +11067,18 @@
     "position": [
       -947523,
       767824
+    ]
+  },
+  "E56EA4D3-40F5-E6B8-B8D8-3BAED2F39BAE": {
+    "data": {
+      "seed": 15145
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1540096,
+      1736704
     ]
   },
   "E573BCB1-4B4B-83B3-3798-C185815159E7": {
@@ -10716,12 +11094,12 @@
     ]
   },
   "E57C0F77-42C2-E306-D455-638E6F85DEDE": {
-    "facing": 536870852,
+    "facing": 536870747,
     "kind": "duckiesHostileHellScribe_Unit",
     "player": 31,
     "position": [
-      1669626,
-      -822713
+      1665324,
+      -855219
     ]
   },
   "E583CD7B-4FC7-DE2A-0758-73A66507B49A": {
@@ -11201,6 +11579,18 @@
       294912
     ]
   },
+  "EDFE0644-4469-B612-1C35-DA97CA309A99": {
+    "data": {
+      "seed": 28291
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      1572864,
+      -868352
+    ]
+  },
   "EE25A680-4768-6267-0CCB-A7B73605A400": {
     "data": {
       "seed": 14490
@@ -11327,6 +11717,18 @@
       1163264
     ]
   },
+  "F1212AE1-4682-DB1B-A566-B38A91EC6CC9": {
+    "data": {
+      "seed": 5134
+    },
+    "facing": 536870882,
+    "kind": "DestructibleDeadTree",
+    "player": 31,
+    "position": [
+      -1507328,
+      1523712
+    ]
+  },
   "F18574EA-4A27-79A4-620E-41932DDF0FB4": {
     "facing": 2134572662,
     "kind": "Worker",
@@ -11421,6 +11823,18 @@
     "position": [
       993703,
       1569768
+    ]
+  },
+  "F38BD0D0-4BE8-BA50-4736-D984525EF2D6": {
+    "data": {
+      "seed": 16683
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -902242,
+      1252401
     ]
   },
   "F394435B-48A0-5E85-72B4-4B9D84086FA2": {
@@ -11588,15 +12002,6 @@
       946099
     ]
   },
-  "F81A8196-4891-FB45-481A-FA95D5CB9EE1": {
-    "facing": 536870882,
-    "kind": "duckiesHostileBrute_Unit",
-    "player": 31,
-    "position": [
-      -1072608,
-      1366348
-    ]
-  },
   "F8C5C6C5-4F91-56E3-582C-A093549295C5": {
     "data": {
       "seed": 5575
@@ -11694,12 +12099,12 @@
     "data": {
       "seed": 24484
     },
-    "facing": 536870882,
+    "facing": 536870852,
     "kind": "DestructibleDeadTree",
     "player": 31,
     "position": [
       -1409024,
-      1245184
+      1261568
     ]
   },
   "FBEE0B81-424B-8DD0-49E3-CBA3D888BC04": {
@@ -11769,6 +12174,18 @@
     "position": [
       137929,
       84370
+    ]
+  },
+  "FD1564DF-4DE5-E302-CF68-D78BB669B35E": {
+    "data": {
+      "seed": 11906
+    },
+    "facing": 536870882,
+    "kind": "duckiesDestructibleTree_Unit",
+    "player": 0,
+    "position": [
+      -933263,
+      1274214
     ]
   },
   "FD1E7CB9-42A1-94E7-63B6-62BAB010D778": {

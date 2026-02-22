@@ -4,7 +4,19 @@ Voidlife Heores RPG is a custom 5 player cooperative hero map for Stormgate wher
 
 "The infernal sorcerrer Warz seeks to claim Voidheart powers by destroying the Voidheart Shrine. The shrine has summoned you to defend it."
 
-The game supports AI players (activated either in lobby or with override setting during hero select) and 2 difficulty modes.
+The game supports AI players (activated either in lobby or with override setting during hero select) and 3 difficulty modes.
+
+
+PATCH NOTES 0.3.2
+
+GENERAL:
+
+- Normalized life and speed of some heroes;
+- Added 2 second invulnerability upon revial;
+- Changed some terrain;
+- Kri hero now dies on evolution to prevent a bug;
+- Changed ID of hostile player so color doesn’t overlap with present player colors;
+
 
 PATCH NOTES 0.3.1
 

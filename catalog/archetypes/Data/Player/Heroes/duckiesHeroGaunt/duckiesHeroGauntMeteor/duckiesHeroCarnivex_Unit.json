@@ -170,9 +170,9 @@
       "starting": 200.0
     },
     "vital_health": {
-      "maximum": 400.0,
+      "maximum": 660.0,
       "regen": 0.0,
-      "starting": 400.0
+      "starting": 660.0
     },
     "weaponList": [
       "duckiesHeroCarnivexWeapon_Wpn",

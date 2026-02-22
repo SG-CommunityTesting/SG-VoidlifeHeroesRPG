@@ -1,0 +1,43 @@
+﻿{
+  "data": {
+    "amount": 100.0,
+    "areas": [
+      {
+        "damage_fraction": 1.0,
+        "radius": 1.5
+      }
+    ],
+    "based_on": "GameEffectDamageRadius",
+    "damage_tags": [
+      "damage_splash",
+      "damage_ranged"
+    ],
+    "friendly_fire_percentage": 0.0,
+    "id": "duckiesHostileFireGiantBossWeaponAir_DamageRadius",
+    "location_impact_fx": "BP_FX_Chimera_Impact",
+    "search_filter": {
+      "alliance": {
+        "ally": false,
+        "enemy": true,
+        "neutral": true,
+        "player": false,
+        "self": false
+      },
+      "tags": {
+        "excluded": [
+          "status_invulnerable",
+          "heightplane_ground"
+        ],
+        "required": [
+          "entity_unit"
+        ]
+      }
+    },
+    "search_location": {
+      "effect_parent": "none",
+      "entity_or_point": "Point",
+      "target": "Target"
+    }
+  },
+  "meta": {}
+}

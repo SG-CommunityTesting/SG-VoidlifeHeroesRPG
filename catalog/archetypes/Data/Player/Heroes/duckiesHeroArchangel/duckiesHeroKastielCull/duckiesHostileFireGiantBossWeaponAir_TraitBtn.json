@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "based_on": "Chimera_Weapon_ButtonTrait",
+    "id": "duckiesHostileFireGiantBossWeaponAir_TraitBtn",
+    "tooltip": "This unit's attack against air enemies fires 8 projectiles that explode at random locations around the target."
+  },
+  "meta": {}
+}

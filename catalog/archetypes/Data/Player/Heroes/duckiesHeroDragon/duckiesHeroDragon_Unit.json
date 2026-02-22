@@ -137,7 +137,7 @@
       "pathing_mode": "Flying",
       "push_priority": 2,
       "push_priority_same_team": 2,
-      "speed": 7.0,
+      "speed": 5.0,
       "stationary_turn_period": 0.45,
       "turn_radius": 2.0,
       "turn_without_slowing": false,

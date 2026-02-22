@@ -4048,6 +4048,299 @@
                             "id": "source"
                           }
                         ]
+                      },
+                      {
+                        "function_id": "General_IfThenElse",
+                        "guid": "BD94B04B46AEC9D8FE2B6EBF7A2496DB",
+                        "sub_functions": [
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Logic_Comparison",
+                                "guid": "B1B2CDAE4783F8203710A59CDC8367B4",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "A720A1004A39AC02A248908238CA5150",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "B9365C6A4BEE08C2FDCE39A3C76AD1ED",
+                                          "variable_id": "GV_SYS_MODE"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "BD0B4598454156F1C6BA29AAA8E96F35",
+                                    "id": "value1"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "23FAA8A8412C1CA788600D93AF711314",
+                                        "preset": {
+                                          "guid": "54E1931247A121974F312DAFCCBF5DCA",
+                                          "preset_id": "Logic_ComparisonOperator",
+                                          "value_id": "gre"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "428D7F0641E33CC6F62059A4D0386641",
+                                    "id": "op"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "30D72E1E442EEC429CC005AF294CB5F2",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "CAD5C0A847601A0276C6C6ACFC4F8D5E",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Player"
+                                          },
+                                          "value": "2"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "6AB09C834A8E1F06CB2334AE11D20CE2",
+                                    "id": "value2"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "ED6891DA4EE2E222861975B804353174",
+                            "id": "if"
+                          },
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Blackboard_SetValue_Integer",
+                                "guid": "D40E15FD47056BB2927F348B5CA5D09C",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "045435684FC0119C4C1A8A879AB3064E",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "2FB04F914A122270533BC49F421D0217",
+                                          "variable_id": "LV_Blackboard"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "92F6E0B740F14AE0F5FE839277B6F3A1",
+                                    "id": "blackboard"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "String_Concat",
+                                          "guid": "A666E2A74B26D5693DA11688CBBC8BCF",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "function": {
+                                                    "function_id": "String_ToString",
+                                                    "guid": "103CC1F6408C5B4EB68444987074755F",
+                                                    "parameters": [
+                                                      {
+                                                        "expressions": [
+                                                          {
+                                                            "guid": "C86C048942DE5385764E449B8B683D76",
+                                                            "type": "Variable",
+                                                            "variable": {
+                                                              "guid": "127669EE49BDED772154988BA6409113",
+                                                              "variable_id": "LV_Count"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "guid": "E2C174D24E9BA500E70788B94B980024",
+                                                        "id": "value"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "guid": "A99843694A8816F81CD6DEBC670D37B4",
+                                                  "type": "Function"
+                                                },
+                                                {
+                                                  "guid": "A99B388449316F4C0A9FB4902B5E3AB6",
+                                                  "type": "Value",
+                                                  "value": {
+                                                    "guid": "D7A55C0F4F78F080B28644B50301F5B9",
+                                                    "type": {
+                                                      "directive": "FunctionType",
+                                                      "implements": "",
+                                                      "inner_type": "",
+                                                      "param_id": "",
+                                                      "sub_directive": "None",
+                                                      "tags": [
+                                                        "to_string"
+                                                      ],
+                                                      "type": "String"
+                                                    },
+                                                    "value": "A"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "4C9FCBF94251EFB0D3FEDA977365CD7C",
+                                              "id": "strings"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "24D8FF214C31B473EF7DA48339B904C9",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "29FFBA4B4F277DA5C1003DA93A3F9925",
+                                    "id": "key"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "E58EF4674780573AB1EEB3BE8365A4E0",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "27BA40C9438135506FFFA9B83D10424F",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Integer"
+                                          },
+                                          "value": "10"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "1E1E063945415A482F7C2E8D3125DF1E",
+                                    "id": "value"
+                                  }
+                                ]
+                              },
+                              {
+                                "function_id": "Blackboard_SetValue_Archetype",
+                                "guid": "2CE1D7864C901ED8B8628CA8EF6184AF",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "4B67670644DB759831C843A825653CA8",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "5616CDF24D0188277021229723EF3293",
+                                          "variable_id": "LV_Blackboard"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "D264420842F2D72A274F90B5BA0883B4",
+                                    "id": "blackboard"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "String_Concat",
+                                          "guid": "B1DD25AB45CACBE5B2FD07B55147EA78",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "function": {
+                                                    "function_id": "String_ToString",
+                                                    "guid": "E61948A045175A3AE910E6B1A267BC3E",
+                                                    "parameters": [
+                                                      {
+                                                        "expressions": [
+                                                          {
+                                                            "guid": "BE0DBC524FE3CF3C24C6F78286508CFF",
+                                                            "type": "Variable",
+                                                            "variable": {
+                                                              "guid": "26C460A0429DFE4B75C18CBE89673AAD",
+                                                              "variable_id": "LV_Count"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "guid": "8F6FA22948E76D677C3FB784330B972C",
+                                                        "id": "value"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "guid": "00D0A73C47C759E683B723A81601730B",
+                                                  "type": "Function"
+                                                },
+                                                {
+                                                  "guid": "AD7E950E4A70BF7B057DACBA998F9F50",
+                                                  "type": "Value",
+                                                  "value": {
+                                                    "guid": "EB8059894D9ECB8BB148DF886EED10D9",
+                                                    "type": {
+                                                      "directive": "FunctionType",
+                                                      "implements": "",
+                                                      "inner_type": "",
+                                                      "param_id": "",
+                                                      "sub_directive": "None",
+                                                      "tags": [
+                                                        "to_string"
+                                                      ],
+                                                      "type": "String"
+                                                    },
+                                                    "value": "B"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "E86DA81E4569207F1696A4BE4387459B",
+                                              "id": "strings"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "043B02354B2D8AFF49FC799744224CB1",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "436BBCB045D82FEBB8E550AA722E134E",
+                                    "id": "key"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "E0806ABC40FF5F4C38371FB79C4D733B",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "4F7A273F47E554B78D0D44BE8982AD4B",
+                                          "type": {
+                                            "directive": "TypeRef",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": ""
+                                          },
+                                          "value": "duckiesHostileMagmadon_Unit"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "97845D0942F508D7744738B7A65628D7",
+                                    "id": "value"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "B4F22B114A5869BBDCB6999E4412F64F",
+                            "id": "then"
+                          },
+                          {
+                            "guid": "B321D25D4A168B632F1433BDCC43F928",
+                            "id": "else"
+                          }
+                        ]
                       }
                     ],
                     "guid": "B3A9F6D24536F0AFE84168A2F2971D18",
@@ -4904,6 +5197,299 @@
                             ],
                             "guid": "740EB0234F38ACB7B32D218ACEF93DDC",
                             "id": "source"
+                          }
+                        ]
+                      },
+                      {
+                        "function_id": "General_IfThenElse",
+                        "guid": "AFF45DEF48BB5C8A60B816AE8345F8DA",
+                        "sub_functions": [
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Logic_Comparison",
+                                "guid": "C1AAAAAA45710635528FFFB4755C875B",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "B2B72AEE445DF0B5672102BA6EA8EA4A",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "2C74D1B14937C32AF9B806AF22ED7EA9",
+                                          "variable_id": "GV_SYS_MODE"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "F48450F3423CBCF24BE49AB777EF8994",
+                                    "id": "value1"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "AF58935F47AAA6E74607FEA35372AE1A",
+                                        "preset": {
+                                          "guid": "0514FC5245CA9A80F0B18FB2B0465850",
+                                          "preset_id": "Logic_ComparisonOperator",
+                                          "value_id": "gre"
+                                        },
+                                        "type": "Preset"
+                                      }
+                                    ],
+                                    "guid": "B1C9396240AE43AECD3391A71649280E",
+                                    "id": "op"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "55378DC34D8EC434EC639C889466A563",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "E2EDCC4E46CC9A82253812BC1A759B0E",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Player"
+                                          },
+                                          "value": "2"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "837283074E205534804BFF86CBCB2563",
+                                    "id": "value2"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "B72AB0114AAB6DEADB11DFA767FEA7E9",
+                            "id": "if"
+                          },
+                          {
+                            "functions": [
+                              {
+                                "function_id": "Blackboard_SetValue_Integer",
+                                "guid": "50D325A2490776DECBF5F3B4A61ABEE2",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "ADE447944C33A89A2EC2A3A97369FEF6",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "DA319CDB4B94FC855C7E15B79E89BE21",
+                                          "variable_id": "LV_Blackboard"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "8476097441AC48856CFD0D926774B07D",
+                                    "id": "blackboard"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "String_Concat",
+                                          "guid": "4CB76ECF480178FBE0A25DBA9CE854CC",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "function": {
+                                                    "function_id": "String_ToString",
+                                                    "guid": "F1AD7154449884D25E3561BC35F691FC",
+                                                    "parameters": [
+                                                      {
+                                                        "expressions": [
+                                                          {
+                                                            "guid": "7EA37464463686FE8B86E7AA55A85EFA",
+                                                            "type": "Variable",
+                                                            "variable": {
+                                                              "guid": "C11AA3724E3E4C015CB2769253D1371A",
+                                                              "variable_id": "LV_Count"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "guid": "3E4BC3D34520D43B901291BB67F8486C",
+                                                        "id": "value"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "guid": "F7BFFB134A5046BA4E5530B51851B22C",
+                                                  "type": "Function"
+                                                },
+                                                {
+                                                  "guid": "803959604B36FF46E4D6CFA70EC3E8AD",
+                                                  "type": "Value",
+                                                  "value": {
+                                                    "guid": "D6673E5C40907E2C9A73D1B4FA7F0E43",
+                                                    "type": {
+                                                      "directive": "FunctionType",
+                                                      "implements": "",
+                                                      "inner_type": "",
+                                                      "param_id": "",
+                                                      "sub_directive": "None",
+                                                      "tags": [
+                                                        "to_string"
+                                                      ],
+                                                      "type": "String"
+                                                    },
+                                                    "value": "A"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "A6872D434358B124D5F8A09BAFADE617",
+                                              "id": "strings"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "A677278A433D30B47B78B1A329DC6786",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "BEC39FEF496195BF75F848905887297F",
+                                    "id": "key"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "3EDA073643E0088B343311A725364DB7",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "1A0FAFAB47238FB6151B9FBBEF68544F",
+                                          "type": {
+                                            "directive": "FunctionType",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": "Integer"
+                                          },
+                                          "value": "10"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "9A601AAB45F17368444912BEEADA1B79",
+                                    "id": "value"
+                                  }
+                                ]
+                              },
+                              {
+                                "function_id": "Blackboard_SetValue_Archetype",
+                                "guid": "9A03B6DF4C32329AD1EA7B890099B332",
+                                "parameters": [
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "D60FDDAC4A936B95281D76AFF7A63006",
+                                        "type": "Variable",
+                                        "variable": {
+                                          "guid": "EEC85CDE475E130FE6A59892E4C55036",
+                                          "variable_id": "LV_Blackboard"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "53E73E7843980547173DFD9D1F73B429",
+                                    "id": "blackboard"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "function": {
+                                          "function_id": "String_Concat",
+                                          "guid": "FE860FEA40C046F01C52858E4680C399",
+                                          "parameters": [
+                                            {
+                                              "expressions": [
+                                                {
+                                                  "function": {
+                                                    "function_id": "String_ToString",
+                                                    "guid": "D50A0D974BE3D9C4C1BD248F1BA08C29",
+                                                    "parameters": [
+                                                      {
+                                                        "expressions": [
+                                                          {
+                                                            "guid": "0455D8B04414DCD481C2DAA254632856",
+                                                            "type": "Variable",
+                                                            "variable": {
+                                                              "guid": "BB47E2734A958875CB067DB860E819DA",
+                                                              "variable_id": "LV_Count"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "guid": "25AA35094331C2768F036FA367594F70",
+                                                        "id": "value"
+                                                      }
+                                                    ]
+                                                  },
+                                                  "guid": "124EC99848751477C57B38A25ADFE695",
+                                                  "type": "Function"
+                                                },
+                                                {
+                                                  "guid": "5DA2F3B24557455262E30AAD4382E7D7",
+                                                  "type": "Value",
+                                                  "value": {
+                                                    "guid": "A52B3D274D2D949E2EDEABAEBA9732CD",
+                                                    "type": {
+                                                      "directive": "FunctionType",
+                                                      "implements": "",
+                                                      "inner_type": "",
+                                                      "param_id": "",
+                                                      "sub_directive": "None",
+                                                      "tags": [
+                                                        "to_string"
+                                                      ],
+                                                      "type": "String"
+                                                    },
+                                                    "value": "B"
+                                                  }
+                                                }
+                                              ],
+                                              "guid": "28B5C48646E1006758AFE0B81467852D",
+                                              "id": "strings"
+                                            }
+                                          ]
+                                        },
+                                        "guid": "121F59154009F8420DCB48A7F13FF1AF",
+                                        "type": "Function"
+                                      }
+                                    ],
+                                    "guid": "4DAFE46E4CCC7959079D8C8C66EABC1C",
+                                    "id": "key"
+                                  },
+                                  {
+                                    "expressions": [
+                                      {
+                                        "guid": "C74D84254CDDD5EECD7430B4B1EE6DE6",
+                                        "type": "Value",
+                                        "value": {
+                                          "guid": "FE565A6349A4B72153BE038F466DD3EA",
+                                          "type": {
+                                            "directive": "TypeRef",
+                                            "implements": "",
+                                            "inner_type": "",
+                                            "param_id": "",
+                                            "sub_directive": "None",
+                                            "type": ""
+                                          },
+                                          "value": "duckiesPitFiend"
+                                        }
+                                      }
+                                    ],
+                                    "guid": "01A92E314CC151076D65FC8121A6887A",
+                                    "id": "value"
+                                  }
+                                ]
+                              }
+                            ],
+                            "guid": "5A52F4E646E167221CE81C94192237E3",
+                            "id": "then"
+                          },
+                          {
+                            "guid": "F79347454FEED405B493819BEFA0D81E",
+                            "id": "else"
                           }
                         ]
                       }

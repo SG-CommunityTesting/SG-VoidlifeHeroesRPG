@@ -8,9 +8,9 @@
     },
     "id": "duckiesSpawnerRitualChamberPassive_Behavior",
     "spawn_leash_radius": 8.0,
-    "spawn_max_count": 20,
-    "spawn_period": 4.0,
-    "spawn_unit": "duckiesHostileGremlin_Unit",
+    "spawn_max_count": 4,
+    "spawn_period": 11.0,
+    "spawn_unit": "duckiesHostileHellScribe_Unit",
     "validator": "Valid_CasterNotDisabled"
   },
   "meta": {}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "amount": 350.0,
+    "based_on": "GameEffectDamage",
+    "damage_tags": [
+      "damage_splash",
+      "damage_ranged"
+    ],
+    "id": "duckiesHostileFireGiantBossWeapon_Damage"
+  },
+  "meta": {}
+}

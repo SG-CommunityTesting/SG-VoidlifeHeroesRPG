@@ -3,10 +3,10 @@
   "id": "HOSTILE_PLAYER",
   "initial_values": [
     {
-      "guid": "4005E78542A1B3F719894D9591AA9F10",
+      "guid": "4DBA63F34BABD3EF9EBAA996BF83D5FA",
       "type": "Value",
       "value": {
-        "guid": "21C35AD24D4A1A3978E37681928BA1E3",
+        "guid": "8C1C73DD407E9A52E5F68C91C538A353",
         "type": {
           "directive": "FunctionType",
           "implements": "",
@@ -15,7 +15,7 @@
           "sub_directive": "None",
           "type": "Integer"
         },
-        "value": "31"
+        "value": "8"
       }
     }
   ],

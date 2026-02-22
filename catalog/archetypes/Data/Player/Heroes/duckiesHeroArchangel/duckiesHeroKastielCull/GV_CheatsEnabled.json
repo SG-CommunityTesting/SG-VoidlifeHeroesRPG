@@ -3,10 +3,10 @@
   "id": "GV_CheatsEnabled",
   "initial_values": [
     {
-      "guid": "03BB831442479220E17581A0A4BEFE00",
+      "guid": "7FFE1DA641A704D57E02E7A90237DE39",
       "type": "Value",
       "value": {
-        "guid": "474CB9404624DA35963290A46955D715",
+        "guid": "E73B429541DAF28245E8E2A43775D9CE",
         "type": {
           "directive": "FunctionType",
           "implements": "",

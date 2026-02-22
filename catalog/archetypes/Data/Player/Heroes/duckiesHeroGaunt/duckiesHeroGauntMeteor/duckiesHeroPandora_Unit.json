@@ -149,7 +149,7 @@
       "pathing_mode": "Ground",
       "push_priority": 0,
       "push_priority_same_team": 0,
-      "speed": 6.5,
+      "speed": 5.0,
       "stationary_turn_period": 0.3,
       "turn_radius": 0.25,
       "turn_without_slowing": false,
@@ -169,12 +169,12 @@
     "unreal_actor": "BP_UD_Pandora",
     "vital_energy": {
       "maximum": 400.0,
-      "regen": 4.0,
+      "regen": 3.0,
       "starting": 400.0
     },
     "vital_health": {
       "maximum": 600.0,
-      "regen": 10.0,
+      "regen": 3.0,
       "starting": 600.0
     },
     "weaponList": [

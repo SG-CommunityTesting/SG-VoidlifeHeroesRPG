@@ -125,7 +125,7 @@
       "pathing_mode": "Ground",
       "push_priority": 0,
       "push_priority_same_team": 0,
-      "speed": 5.5,
+      "speed": 5.0,
       "stationary_turn_period": 0.18,
       "turn_radius": 0.0,
       "turn_without_slowing": false,

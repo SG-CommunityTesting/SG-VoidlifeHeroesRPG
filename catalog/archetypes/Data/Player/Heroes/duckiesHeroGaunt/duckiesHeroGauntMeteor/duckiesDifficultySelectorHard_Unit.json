@@ -32,7 +32,8 @@
     ],
     "unit_button": "duckiesDifficultySelectorHard_UnitBtn",
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Default_BloodScribe.UI_Portrait_Default_BloodScribe'",
-    "unreal_actor": "BP_UD_BloodScribe_00"
+    "unreal_actor": "BP_UD_BloodScribe_00",
+    "vision_radius": 0.0
   },
   "meta": {}
 }

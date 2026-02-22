@@ -250,6 +250,7 @@
         ]
       }
     ],
+    "enabled": false,
     "events": [
       {
         "function_id": "Player_OnPlayerSendsChatMessage",

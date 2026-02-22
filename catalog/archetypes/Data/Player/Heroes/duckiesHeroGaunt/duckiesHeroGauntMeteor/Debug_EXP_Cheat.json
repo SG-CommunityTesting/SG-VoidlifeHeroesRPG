@@ -99,6 +99,7 @@
               {
                 "function_id": "Item_CreateItemForUnit",
                 "guid": "828127704537A6F1D903DF82B87D4F25",
+                "is_enabled": false,
                 "parameters": [
                   {
                     "expressions": [
@@ -163,6 +164,7 @@
               {
                 "function_id": "Item_CreateItemForUnit",
                 "guid": "DC4E3D2D450B25244227A69C1F77F226",
+                "is_enabled": false,
                 "parameters": [
                   {
                     "expressions": [
@@ -227,6 +229,7 @@
               {
                 "function_id": "Item_CreateItemForUnit",
                 "guid": "073D23744E4E37F2EDE3F8A38A3E6E15",
+                "is_enabled": false,
                 "parameters": [
                   {
                     "expressions": [

@@ -6,7 +6,7 @@
     "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Celestials_Auralanna_PulseLight.UI_Icons_Weapons_Celestials_Auralanna_PulseLight'",
     "id": "duckiesHeroNaviWeapon_Wpn",
     "name": "pegasus_heroes|WeaponData_name_Auralanna_Weapon",
-    "period": 2.0,
+    "period": 1.1,
     "range_acquire": 12.0,
     "range_maximum": 8.0,
     "swing": 0.0,

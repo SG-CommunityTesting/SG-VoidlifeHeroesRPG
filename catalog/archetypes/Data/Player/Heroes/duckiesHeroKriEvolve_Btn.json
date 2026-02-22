@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Ascend.UI_Icons_Abilities_Ascend'",
+    "id": "duckiesHeroKriEvolve_Btn",
+    "name": "Evolve",
+    "tooltip": "Transform this hero into a stronger form.\n\n<Red>Only for Carnivex evolution - this evolution kills the hero when activated in order to prevent a bug. Sorry about that. To offset this, revive time for level 0 Carnivex is set to 1 second.</>"
+  },
+  "meta": {}
+}

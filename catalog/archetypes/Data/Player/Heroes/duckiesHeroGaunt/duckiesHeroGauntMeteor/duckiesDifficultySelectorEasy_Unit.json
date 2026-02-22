@@ -34,6 +34,7 @@
     "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Imp.UI_Portrait_Demon_Default_Imp'",
     "unreal_actor": "BP_UD_Imp_00",
     "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+    "vision_radius": 0.0,
     "vitals_force_hide": false
   },
   "meta": {}

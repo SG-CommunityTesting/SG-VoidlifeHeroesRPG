@@ -80,10 +80,10 @@
                                   {
                                     "expressions": [
                                       {
-                                        "guid": "6F16340946F45B3C6C7A3A99D9544670",
+                                        "guid": "9BA09407400FEFD2A5DB8E92429C6C47",
                                         "type": "Value",
                                         "value": {
-                                          "guid": "6B74B7F6442E29B1844DDFBB281B207E",
+                                          "guid": "4371B1294F3D9C8F4E631BA6C4F8F1B5",
                                           "type": {
                                             "directive": "FunctionType",
                                             "implements": "",
@@ -95,7 +95,7 @@
                                             ],
                                             "type": "String"
                                           },
-                                          "value": "Voidlife Heroes RPG v0.3.1 (EASY)"
+                                          "value": "Voidlife Heroes RPG v0.3.2 (EASY)"
                                         }
                                       }
                                     ],
@@ -177,10 +177,10 @@
                                   {
                                     "expressions": [
                                       {
-                                        "guid": "A56F42B34D990EA3FACD118390CAD82D",
+                                        "guid": "946A7F5B4C69F024AFE7C792150B0475",
                                         "type": "Value",
                                         "value": {
-                                          "guid": "14EFA6EC40BC1F2237275C904524A558",
+                                          "guid": "B771D1F440F845951B2103976AE85175",
                                           "type": {
                                             "directive": "FunctionType",
                                             "implements": "",
@@ -192,7 +192,7 @@
                                             ],
                                             "type": "String"
                                           },
-                                          "value": "Voidlife Heroes RPG v0.3.1 (NORMAL)"
+                                          "value": "Voidlife Heroes RPG v0.3.2 (NORMAL)"
                                         }
                                       }
                                     ],
@@ -274,10 +274,10 @@
                                   {
                                     "expressions": [
                                       {
-                                        "guid": "CC70542043F07A3EE76524971AFC738E",
+                                        "guid": "926CE9A24936AE0BEBC8EA8ED9EBE422",
                                         "type": "Value",
                                         "value": {
-                                          "guid": "6B14533C44A4B5428B71D382542B1D77",
+                                          "guid": "4FE450B6433BC109AACD8BBFB401BFAE",
                                           "type": {
                                             "directive": "FunctionType",
                                             "implements": "",
@@ -289,7 +289,7 @@
                                             ],
                                             "type": "String"
                                           },
-                                          "value": "Voidlife Heroes RPG v0.3.1 (HARD)"
+                                          "value": "Voidlife Heroes RPG v0.3.2 (HARD)"
                                         }
                                       }
                                     ],

@@ -10,6 +10,7 @@
       "duckiesHeroArchangelCull_Abil",
       "duckiesHeroNaviRadiantMantle_Abil"
     ],
+    "armor": 20.0,
     "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Celestial_BioSynth_Heavy.UI_Icons_Armor_Celestial_BioSynth_Heavy'",
     "based_on": "duckiesHeroBase_TIER4",
     "buffs": [],
@@ -167,9 +168,9 @@
     "unreal_actor": "BP_UA_Archangel_00",
     "vision_radius": 14.0,
     "vital_health": {
-      "maximum": 1600.0,
+      "maximum": 2640.0,
       "regen": 4.0,
-      "starting": 1600.0
+      "starting": 2640.0
     },
     "weaponList": [
       "duckiesHeroArchangelWeapon_Wpn",
